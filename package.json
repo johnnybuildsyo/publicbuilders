@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "go": "git add . && aicommits && git push origin main",
     "lint": "next lint"
   },
   "dependencies": {
