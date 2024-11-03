@@ -5,7 +5,7 @@ export default function Home() {
         JohnnyBuilds Next.js Starter
       </h1>
       <p style={{ textWrap: "balance" }}>
-        Basic Next.js starter with ESList and VSCode settings for automatic code formatting, theme provider for light/dark mode, Rethink Sans font, default layout component and ShadCN/UI components
+        Minimal Next.js starter with ESList and VSCode settings for automatic code formatting, theme provider for light/dark mode, Rethink Sans font, default layout component and shadcn/ui components
         support.
       </p>
     </div>
