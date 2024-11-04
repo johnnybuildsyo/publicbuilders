@@ -24,8 +24,8 @@ const geistMono = localFont({
 const shareImage = "https://johnnybuilds.com/screenshot.png"
 
 export const metadata: Metadata = {
-  title: "Johnny Builds Starter",
-  description: "Johnny builds web stuff for people in public. This is his Next.js Starter.",
+  title: "Public Builders",
+  description: "A directory of who is who in #buildinpublic. Indie hackers, startup founders, and ambitious makers.",
   openGraph: {
     images: shareImage,
   },
@@ -42,9 +42,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} ${displayFont.variable} antialiased font-display`}>
-        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
+        <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
           <div className="min-h-screen flex flex-col font-display">
-            <main className="flex flex-col grow gap-4 row-start-2 justify-center items-center font-display py-12">{children}</main>
+            <main className="flex flex-col grow gap-4 row-start-2 justify-center items-center font-display">{children}</main>
           </div>
         </ThemeProvider>
       </body>
