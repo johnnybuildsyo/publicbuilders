@@ -32,6 +32,9 @@ export const metadata: Metadata = {
   twitter: {
     images: shareImage,
   },
+  icons: {
+    icon: "/icon.svg",
+  },
 }
 
 export default function RootLayout({
