@@ -12,7 +12,7 @@ export default function Header() {
         <nav>
           <ul className="flex space-x-8">
             <li>
-              <Link href="#directory" className="transition-all ease-in-out duration-500 hover:border-b border-foreground/30 border-dotted">
+              <Link href="/" className="transition-all ease-in-out duration-500 hover:border-b border-foreground/30 border-dotted">
                 Directory
               </Link>
             </li>
