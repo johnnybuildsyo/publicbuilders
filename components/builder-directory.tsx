@@ -22,7 +22,7 @@ export function BuilderDirectory({ builders }: { builders: Builder[] }) {
   return (
     <section id="directory" className="py-16">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-8">Builder Directory</h2>
+        <h2 className="text-5xl tracking-wide font-black text-center mb-8">Builder Directory</h2>
         <div className="max-w-md mx-auto mb-8">
           <div className="relative">
             <Search className="absolute left-2 top-1/2 transform -translate-y-1/2 text-gray-400" />
@@ -33,7 +33,7 @@ export function BuilderDirectory({ builders }: { builders: Builder[] }) {
           {filteredBuilders.map((builder) => (
             <Card key={builder.name} className="flex flex-col">
               <CardHeader>
-                <div className="-mx-6 -mt-6 mb-6 h-48 bg-gray-200 rounded-t-lg overflow-hidden">
+                <div className="-mx-6 -mt-6 mb-4 h-48 bg-gray-200 rounded-t-lg overflow-hidden">
                   <div className="w-full h-full flex items-center justify-center text-4xl font-bold text-gray-500">
                     {builder.name
                       .split(" ")
@@ -41,7 +41,7 @@ export function BuilderDirectory({ builders }: { builders: Builder[] }) {
                       .join("")}
                   </div>
                 </div>
-                <CardTitle className="text-center">{builder.name}</CardTitle>
+                <CardTitle className="text-center font-extrabold text-2xl mb-4 tracking-wide">{builder.name}</CardTitle>
                 <CardDescription className="text-center">{builder.knownFor}</CardDescription>
               </CardHeader>
               <CardContent className="space-y-4 flex-grow flex flex-col">

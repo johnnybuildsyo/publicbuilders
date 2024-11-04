@@ -3,6 +3,7 @@ export type Builder = {
   knownFor: string
   twitter: string
   github: string
+  bluesky: string
   website: string
   description: string
   tags: string[]
