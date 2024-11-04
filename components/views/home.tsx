@@ -10,7 +10,7 @@ export default function Home({ builders }: { builders: Builder[] }) {
         <section className="bg-gradient-to-r from-purple-500 to-pink-500 text-white py-20">
           <div className="container mx-auto px-4 text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-4 text-balance">Discover Who’s Building in Public</h1>
-            <p className="text-xl md:text-2xl mb-8 text-balance">Connect with indie hackers, startup starters and ambitious makers of all kinds.</p>
+            <p className="text-xl md:text-2xl mb-8 text-balance">Find indie hackers, startup starters and ambitious makers of all kinds.</p>
             <Button size="lg" asChild>
               <Link href="/join">Join the Directory</Link>
             </Button>
