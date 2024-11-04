@@ -44,12 +44,12 @@ export function BuilderDirectory({ builders }: { builders: Builder[] }) {
                       .join("")}
                   </div>
                 </div>
-                <CardTitle className="text-center font-extrabold text-2xl mb-4 tracking-wide">{builder.name}</CardTitle>
-                <CardDescription className="text-center">{builder.knownFor}</CardDescription>
+                <CardTitle className="text-center font-extrabold text-2xl mb-4 tracking-wide text-balance">{builder.name}</CardTitle>
+                <CardDescription className="text-center text-balance">{builder.knownFor}</CardDescription>
               </CardHeader>
               <CardContent className="space-y-4 flex-grow flex flex-col">
                 <div className="flex-grow flex flex-col justify-start">
-                  <p className="text-sm text-center">{builder.description}</p>
+                  <p className="text-sm text-center text-balance">{builder.description}</p>
                   <div className="flex flex-wrap justify-center gap-2 mt-4">
                     {builder.tags.map((tag) => (
                       <Badge key={tag} variant="secondary">

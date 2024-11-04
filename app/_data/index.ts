@@ -25,7 +25,7 @@ export const builders: Builder[] = [
     knownFor:
       "Founder of Nomad List and Remote OK; building bootstrapped startups in public.",
     twitter: "https://twitter.com/levelsio",
-    bluesky: "https://bsky.app/profile/levelsio.bsky.social",
+    bluesky: "https://bsky.app/profile/levels.io",
     github: "https://github.com/levelsio",
     website: "https://levels.io",
     description:
@@ -40,53 +40,11 @@ export const builders: Builder[] = [
     },
   },
   {
-    name: "Rui Nunes",
-    knownFor:
-      "Founder of Social Digest; shares his product development journey in public.",
-    twitter: "https://twitter.com/ruiter",
-    github: "https://github.com/ruien",
-    website: "https://socialdigest.co",
-    description:
-      "Founder of Social Digest, sharing his product development process.",
-    tags: ["buildinpublic", "product development", "startup"],
-    currentProject: {
-      name: "Social Digest",
-      description:
-        "Tool that curates top content from your social media feeds.",
-      link: "https://socialdigest.co",
-      tags: ["social media", "curation", "product development"],
-    },
-  },
-  {
-    name: "Brittany Chiang",
-    knownFor:
-      "Software engineer sharing projects and open-source contributions in public.",
-    twitter: "https://twitter.com/bchiang7",
-    bluesky: "https://bsky.app/profile/bchiang7.bsky.social",
-    github: "https://github.com/bchiang7",
-    website: "https://brittanychiang.com",
-    description:
-      "Software engineer building in public, sharing projects and open-source contributions.",
-    tags: ["buildinpublic", "software engineer", "open-source"],
-  },
-  {
-    name: "Ali Spittel",
-    knownFor:
-      "Developer advocate and educator; sharing coding tutorials and projects publicly.",
-    twitter: "https://twitter.com/ASpittel",
-    bluesky: "https://bsky.app/profile/aspittel.bsky.social",
-    github: "https://github.com/aspittel",
-    website: "https://alispit.tel",
-    description:
-      "Developer advocate and educator, sharing coding tutorials and projects.",
-    tags: ["buildinpublic", "developer advocate", "educator"],
-  },
-  {
     name: "Kent C. Dodds",
     knownFor:
       "Educator and open-source contributor; builds in public via workshops and courses.",
     twitter: "https://twitter.com/kentcdodds",
-    bluesky: "https://bsky.app/profile/kentcdodds.bsky.social",
+    bluesky: "https://bsky.app/profile/kentcdodds.com",
     github: "https://github.com/kentcdodds",
     website: "https://kentcdodds.com",
     description:
@@ -98,18 +56,6 @@ export const builders: Builder[] = [
       link: "https://epicreact.dev",
       tags: ["React", "education", "web development"],
     },
-  },
-  {
-    name: "Monica Powell",
-    knownFor:
-      "Software engineer and community builder; shares projects and resources publicly.",
-    twitter: "https://twitter.com/waterproofheart",
-    bluesky: "https://bsky.app/profile/monicapowell.bsky.social",
-    github: "https://github.com/M0nica",
-    website: "https://aboutmonica.com",
-    description:
-      "Software engineer and community builder, sharing projects and resources.",
-    tags: ["buildinpublic", "software engineer", "community builder"],
   },
   {
     name: "Eddie Jaoude",
@@ -129,18 +75,6 @@ export const builders: Builder[] = [
       link: "https://eddiehub.org",
       tags: ["open-source", "community", "collaboration"],
     },
-  },
-  {
-    name: "Sara Vieira",
-    knownFor:
-      "Developer and speaker; shares projects and talks in the open.",
-    twitter: "https://twitter.com/NikkitaFTW",
-    bluesky: "https://bsky.app/profile/saravieira.bsky.social",
-    github: "https://github.com/SaraVieira",
-    website: "https://iamsaravieira.com",
-    description:
-      "Developer and speaker, sharing projects and talks in the open.",
-    tags: ["buildinpublic", "developer", "speaker"],
   },
   {
     name: "Brian Douglas",
@@ -508,5 +442,41 @@ export const builders: Builder[] = [
       link: "https://jimo.so",
       tags: ["SaaS", "documentation", "productivity"],
     },
+  },
+  {
+    name: "Sara Vieira",
+    knownFor:
+      "Developer and speaker; shares projects and talks in the open.",
+    twitter: "https://twitter.com/NikkitaFTW",
+    bluesky: "",
+    github: "https://github.com/SaraVieira",
+    website: "https://iamsaravieira.com",
+    description:
+      "Developer and speaker, sharing projects and talks in the open.",
+    tags: ["buildinpublic", "developer", "speaker"],
+  },
+  {
+    name: "Brittany Chiang",
+    knownFor:
+      "Software engineer sharing projects and open-source contributions in public.",
+    twitter: "https://twitter.com/bchiang7",
+    bluesky: "",
+    github: "https://github.com/bchiang7",
+    website: "https://brittanychiang.com",
+    description:
+      "Software engineer building in public, sharing projects and open-source contributions.",
+    tags: ["buildinpublic", "software engineer", "open-source"],
+  },
+  {
+    name: "Monica Powell",
+    knownFor:
+      "Software engineer and community builder; shares projects and resources publicly.",
+    twitter: "https://twitter.com/waterproofheart",
+    bluesky: "https://bsky.app/profile/monicapowell.bsky.social",
+    github: "https://github.com/M0nica",
+    website: "https://aboutmonica.com",
+    description:
+      "Software engineer and community builder, sharing projects and resources.",
+    tags: ["buildinpublic", "software engineer", "community builder"],
   }
 ];
