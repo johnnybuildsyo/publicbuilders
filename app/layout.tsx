@@ -3,6 +3,7 @@ import type { Metadata } from "next"
 import localFont from "next/font/local"
 import { Rethink_Sans } from "next/font/google"
 import "./globals.css"
+import Header from "@/components/layout/home"
 
 const displayFont = Rethink_Sans({
   subsets: ["latin"],
@@ -47,6 +48,7 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable} ${displayFont.variable} antialiased font-display`}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
           <div className="min-h-screen flex flex-col font-display">
+            <Header />
             <main className="flex flex-col grow gap-4 row-start-2 justify-center items-center font-display">{children}</main>
           </div>
         </ThemeProvider>
