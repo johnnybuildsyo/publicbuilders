@@ -3,7 +3,7 @@ import type { Metadata } from "next"
 import localFont from "next/font/local"
 import { Rethink_Sans } from "next/font/google"
 import "./globals.css"
-import Header from "@/components/layout/home"
+import Header from "@/components/layout/header"
 
 const displayFont = Rethink_Sans({
   subsets: ["latin"],
