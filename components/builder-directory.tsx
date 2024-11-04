@@ -5,9 +5,12 @@ import { Input } from "@/components/ui/input"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
-import { Search, Github, X, ExternalLink } from "lucide-react"
+import { Search, ExternalLink } from "lucide-react"
 import Link from "next/link"
 import { Builder } from "@/app/_types"
+import { GithubIcon } from "./icons/github"
+import { TwitterXIcon } from "./icons/x"
+import { BlueskyIcon } from "./icons/bluesky"
 
 export function BuilderDirectory({ builders }: { builders: Builder[] }) {
   const [searchTerm, setSearchTerm] = useState("")
@@ -59,18 +62,30 @@ export function BuilderDirectory({ builders }: { builders: Builder[] }) {
                       {new URL(builder.website).hostname}
                     </Link>
                     <div className="flex gap-2">
-                      <Link href={`https://x.com/${builder.twitter}`} target="_blank" rel="noopener noreferrer">
-                        <Button variant="outline" size="sm">
-                          <X className="h-4 w-4" />
-                          <span className="sr-only">X (formerly Twitter)</span>
-                        </Button>
-                      </Link>
-                      <Link href={`https://github.com/${builder.github}`} target="_blank" rel="noopener noreferrer">
-                        <Button variant="outline" size="sm">
-                          <Github className="h-4 w-4" />
-                          <span className="sr-only">GitHub</span>
-                        </Button>
-                      </Link>
+                      {builder.twitter && (
+                        <Link href={`https://x.com/${builder.twitter}`} target="_blank" rel="noopener noreferrer">
+                          <Button variant="outline" size="sm">
+                            <TwitterXIcon className="scale-75" />
+                            <span className="sr-only">X (formerly Twitter)</span>
+                          </Button>
+                        </Link>
+                      )}
+                      {builder.github && (
+                        <Link href={`https://github.com/${builder.github}`} target="_blank" rel="noopener noreferrer">
+                          <Button variant="outline" size="sm">
+                            <GithubIcon />
+                            <span className="sr-only">GitHub</span>
+                          </Button>
+                        </Link>
+                      )}
+                      {builder.bluesky && (
+                        <Link href={`https://github.com/${builder.bluesky}`} target="_blank" rel="noopener noreferrer">
+                          <Button variant="outline" size="sm">
+                            <BlueskyIcon />
+                            <span className="sr-only">Bluesky</span>
+                          </Button>
+                        </Link>
+                      )}
                     </div>
                   </div>
                 </div>
