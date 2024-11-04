@@ -1,42 +1,16 @@
-Minimal [Next.js](https://nextjs.org) starter with ESList and VSCode settings for automatic code formatting, theme provider for light/dark mode, Rethink Sans font, default layout component and shadcn/ui components support.
+# PUBLICBUILDERS
 
-I’ve created this starter for my #buildinpublic projects. Find out more at [johnnybuilds.com](https://johnnybuilds.com).
+A directory of who is who in #buildinpublic. Indie hackers, startup founders and ambitious makers.
 
-## Getting Started
+----
 
-1. **Clone the Repository**
+## TODO
 
-```bash
-git clone https://github.com/johnnybuildsyo/johnnybuilds-nextjs-starter
-```
-
-2. **Rename the Project**
-
-```bash
-mv johnnybuilds-nextjs-starter your-new-project-name
-```
-
-3. **Install Dependencies**
-
-```bash
-cd your-new-project-name
-npm install
-# or
-yarn install
-# or
-pnpm install
-```
-
-4. **Run the Development Server**
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Get a good list of builders
+2. Allow applications
+3. Set up API that pulls Github Stars and Twitter Followers
+4. Show avatar pics
+5. Show a list of projects
+6. Show a list of tweets
+7. Show a list of repos
+8. Use AI to analyze Bing Search API and provide insights
