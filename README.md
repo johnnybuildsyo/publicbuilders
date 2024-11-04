@@ -7,7 +7,7 @@ I’ve created this starter for my #buildinpublic projects. Find out more at [jo
 1. **Clone the Repository**
 
 ```bash
-https://github.com/johnnybuildsyo/johnnybuilds-nextjs-starter
+git clone https://github.com/johnnybuildsyo/johnnybuilds-nextjs-starter
 ```
 
 2. **Rename the Project**
@@ -39,6 +39,4 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file. 
-
-
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
