@@ -22,7 +22,7 @@ const geistMono = localFont({
   weight: "100 900",
 })
 
-const shareImage = "https://johnnybuilds.com/screenshot.png"
+const shareImage = "https://publicbuilders.org/screenshot.png"
 
 export const metadata: Metadata = {
   title: "Public Builders",
