@@ -63,7 +63,7 @@ export function BuilderDirectory({ builders }: { builders: Builder[] }) {
                     </Link>
                     <div className="flex gap-2">
                       {builder.twitter && (
-                        <Link href={`https://x.com/${builder.twitter}`} target="_blank" rel="noopener noreferrer">
+                        <Link href={builder.twitter} target="_blank" rel="noopener noreferrer">
                           <Button variant="outline" size="sm">
                             <TwitterXIcon className="scale-75" />
                             <span className="sr-only">X (formerly Twitter)</span>
@@ -71,7 +71,7 @@ export function BuilderDirectory({ builders }: { builders: Builder[] }) {
                         </Link>
                       )}
                       {builder.github && (
-                        <Link href={`https://github.com/${builder.github}`} target="_blank" rel="noopener noreferrer">
+                        <Link href={builder.github} target="_blank" rel="noopener noreferrer">
                           <Button variant="outline" size="sm">
                             <GithubIcon />
                             <span className="sr-only">GitHub</span>
@@ -79,7 +79,7 @@ export function BuilderDirectory({ builders }: { builders: Builder[] }) {
                         </Link>
                       )}
                       {builder.bluesky && (
-                        <Link href={`https://github.com/${builder.bluesky}`} target="_blank" rel="noopener noreferrer">
+                        <Link href={builder.bluesky} target="_blank" rel="noopener noreferrer">
                           <Button variant="outline" size="sm">
                             <BlueskyIcon />
                             <span className="sr-only">Bluesky</span>
