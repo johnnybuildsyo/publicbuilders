@@ -2,6 +2,7 @@ export type Builder = {
   name: string
   description: string
   image?: string
+  imageOffset?: string
   twitter?: string
   twitterFollowers?: number
   youtube?: string

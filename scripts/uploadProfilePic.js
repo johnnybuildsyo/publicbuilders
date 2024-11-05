@@ -2,6 +2,7 @@
 require('dotenv').config({ path: '.env.local' });
 const { S3Client, PutObjectCommand } = require('@aws-sdk/client-s3');
 const axios = require('axios');
+const clipboard = require('node-clipboard');
 
 // Configure S3 Client with AWS SDK v3
 const s3Client = new S3Client({
@@ -32,7 +33,6 @@ async function uploadToS3(buffer, filename) {
     Body: buffer,
     ContentType: 'image/jpeg',
   };
-
   const command = new PutObjectCommand(params);
   await s3Client.send(command);
   return `https://${bucketName}.s3.${process.env.AWS_REGION}.amazonaws.com/profile-pics/${filename}`;
@@ -43,12 +43,12 @@ async function main(twitterUsername) {
   try {
     console.log(`Fetching profile image for Twitter user: ${twitterUsername}`);
     const imageBuffer = await fetchTwitterProfileImage(twitterUsername);
-
     const filename = `${twitterUsername}.jpg`;
     console.log(`Uploading ${filename} to S3...`);
     const imageUrl = await uploadToS3(imageBuffer, filename);
-
     console.log(`Image uploaded successfully: ${imageUrl}`);
+    clipboard(imageUrl);
+    console.log(`Image URL copied to clipboard: ${imageUrl}`);
     return imageUrl;
   } catch (error) {
     console.error('Error fetching or uploading image:', error);

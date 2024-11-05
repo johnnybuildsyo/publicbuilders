@@ -1,6 +1,6 @@
 "use client"
-
 import { useState } from "react"
+import Image from "next/image"
 import { Input } from "@/components/ui/input"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
@@ -49,13 +49,17 @@ export function BuilderDirectory({ builders }: { builders: Builder[] }) {
           {filteredBuilders.map((builder) => (
             <Card key={builder.name} className="flex flex-col">
               <CardHeader className="pb-2">
-                <div className="-mx-6 -mt-6 mb-4 h-48 bg-gray-200 rounded-t-lg overflow-hidden">
-                  <div className="w-full h-full flex items-center justify-center text-4xl font-bold text-gray-500">
-                    {builder.name
-                      .split(" ")
-                      .map((n) => n[0])
-                      .join("")}
-                  </div>
+                <div className="relative -mx-6 -mt-6 mb-4 h-48 bg-gray-200 rounded-t-lg overflow-hidden">
+                  {builder.image ? (
+                    <Image fill={true} src={builder.image} alt={builder.name} className="w-full h-full object-cover" style={{ objectPosition: `center ${builder.imageOffset || "50%"}` }} />
+                  ) : (
+                    <div className="w-full h-full flex items-center justify-center text-4xl font-bold text-gray-500">
+                      {builder.name
+                        .split(" ")
+                        .map((n) => n[0])
+                        .join("")}
+                    </div>
+                  )}
                 </div>
                 <CardTitle className="text-center font-extrabold text-2xl mb-4 tracking-wide text-balance">{builder.name}</CardTitle>
               </CardHeader>
