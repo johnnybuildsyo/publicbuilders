@@ -1,11 +1,18 @@
 export type Builder = {
   name: string
-  knownFor: string
-  twitter: string
-  github: string
-  bluesky: string
-  website: string
   description: string
+  image?: string
+  twitter?: string
+  twitterFollowers?: number
+  youtube?: string
+  youtubeSubscribers?: number
+  twitch?: string
+  twitchSubscribers?: number
+  github?: string
+  githubFollowers?: number
+  bluesky?: string
+  blueskyFollowers?: number
+  website: string
   tags: string[]
   currentProject?: Project
 }

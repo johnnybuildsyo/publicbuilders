@@ -3,49 +3,54 @@ import { Builder } from "../_types";
 export const builders: Builder[] = [
   {
     name: "Arvid Kahl",
-    knownFor:
-      "Author of 'Zero to Sold'; sharing insights on bootstrapping and audience-building.",
+    image: "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/arvidkahl.jpg",
     twitter: "https://twitter.com/arvidkahl",
+    twitterFollowers: 155567,
     bluesky: "https://bsky.app/profile/arvidkahl.bsky.social",
+    blueskyFollowers: 1200,
     github: "https://github.com/arvidkahl",
+    githubFollowers: 738,
     website: "https://thebootstrappedfounder.com",
     description:
       "Author and entrepreneur, sharing insights on audience-driven startups.",
     tags: ["buildinpublic", "author", "entrepreneur"],
     currentProject: {
-      name: "The Bootstrapped Founder",
+      name: "podscan.fm",
       description:
-        "Platform offering resources and courses for bootstrapped entrepreneurs.",
-      link: "https://thebootstrappedfounder.com",
-      tags: ["bootstrapping", "entrepreneurship", "education"],
+        "Building podscan.fm so that people and brands can track their mentions on podcasts. ",
+      link: "https://podScan.fm",
+      tags: ["marketing", "tracking", "podcast"],
     },
   },
   {
     name: "Pieter Levels",
-    knownFor:
-      "Founder of Nomad List and Remote OK; building bootstrapped startups in public.",
+    image: "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/levelsio.jpg",
     twitter: "https://twitter.com/levelsio",
+    twitterFollowers: 569587,
     bluesky: "https://bsky.app/profile/levels.io",
-    github: "https://github.com/levelsio",
+    blueskyFollowers: 1500,
+    youtube: "https://www.youtube.com/levelsio",
+    youtubeSubscribers: 26200,
     website: "https://levels.io",
     description:
       "Founder of Nomad List and Remote OK, openly building bootstrapped startups.",
     tags: ["buildinpublic", "nomad", "bootstrapping"],
     currentProject: {
-      name: "Nomad List",
+      name: "Photo AI",
       description:
-        "Platform for digital nomads to find the best places to live and work remotely.",
-      link: "https://nomadlist.com",
-      tags: ["digital nomad", "remote work", "travel"],
+        "Photo AI lets you upload selfies, create AI models and then generate AI photos with them.",
+      link: "https://photoai.com",
+      tags: ["ai", "remote work", "travel"],
     },
   },
   {
     name: "Kent C. Dodds",
-    knownFor:
-      "Educator and open-source contributor; builds in public via workshops and courses.",
     twitter: "https://twitter.com/kentcdodds",
+    twitterFollowers: 273144,
     bluesky: "https://bsky.app/profile/kentcdodds.com",
+    blueskyFollowers: 7500,
     github: "https://github.com/kentcdodds",
+    githubFollowers: 33300,
     website: "https://kentcdodds.com",
     description:
       "Educator and open-source contributor, building in public through workshops and courses.",
@@ -58,12 +63,37 @@ export const builders: Builder[] = [
     },
   },
   {
+    name: "Cassidy Williams",
+    twitter: "https://twitter.com/cassidoo",
+    twitterFollowers: 182908,
+    twitch: "https://www.twitch.tv/cassidoo",
+    twitchSubscribers: 16003,
+    youtube: "https://www.youtube.com/@cassidoo",
+    youtubeSubscribers: 1540,
+    bluesky: "https://bsky.app/profile/cassidoo.co",
+    blueskyFollowers: 10100,
+    github: "https://github.com/cassidoo",
+    githubFollowers: 13400,
+    website: "https://cassidoo.co",
+    description: "Startup advisor and investor, developer experience expert, open source-er, and meme-maker on the internet",
+    tags: ["Github", "web development", "devrel"],
+    currentProject: {
+      name: "rendezvous with cassidoo",
+      description: "A weekly newsletter sharing what's new and cool in the world of web development, with content for everyone, from beginners to pros.",
+      link: "https://cassidoo.co/newsletter/",
+      tags: ["newsletter", "web development", "community"],
+    }
+  },
+  {
     name: "Eddie Jaoude",
-    knownFor:
-      "Open-source advocate; fosters inclusive communities and builds in public.",
     twitter: "https://twitter.com/eddiejaoude",
+    twitterFollowers: 182211,
     bluesky: "https://bsky.app/profile/eddiejaoude.bsky.social",
+    blueskyFollowers: 264,
     github: "https://github.com/eddiejaoude",
+    githubFollowers: 8300,
+    youtube: "https://www.youtube.com/eddiejaoude",
+    youtubeSubscribers: 46100,
     website: "https://eddiehub.org",
     description:
       "Open-source advocate, building in public and fostering inclusive communities.",
@@ -78,11 +108,12 @@ export const builders: Builder[] = [
   },
   {
     name: "Brian Douglas",
-    knownFor:
-      "Developer advocate; builds open-source tools and shares knowledge publicly.",
     twitter: "https://twitter.com/bdougieyo",
-    bluesky: "https://bsky.app/profile/bdougie.bsky.social",
+    twitterFollowers: 14016,
+    bluesky: "https://bsky.app/profile/bizza.pizza",
+    blueskyFollowers: 1000,
     github: "https://github.com/bdougie",
+    githubFollowers: 2340,
     website: "https://b.dougie.dev",
     description:
       "Developer advocate, building open-source tools and sharing knowledge.",
@@ -96,32 +127,14 @@ export const builders: Builder[] = [
     },
   },
   {
-    name: "Daniel Vassallo",
-    knownFor:
-      "Entrepreneur sharing his journey of building 'small bets' in public.",
-    twitter: "https://twitter.com/dvassallo",
-    bluesky: "https://bsky.app/profile/dvassallo.bsky.social",
-    github: "https://github.com/dvassallo",
-    website: "https://dvassallo.com",
-    description:
-      "Entrepreneur sharing his journey of building small bets in public.",
-    tags: ["buildinpublic", "entrepreneur", "small bets"],
-    currentProject: {
-      name: "The Small Bets Community",
-      description:
-        "Community for entrepreneurs focusing on building small, manageable projects.",
-      link: "https://smallbets.co",
-      tags: ["entrepreneurship", "community", "small bets"],
-    },
-  },
-  {
     name: "Jon Yongfook",
-    knownFor: "Founder of Bannerbear; building a SaaS product in public.",
     twitter: "https://twitter.com/yongfook",
-    bluesky: "https://bsky.app/profile/yongfook.bsky.social",
+    twitterFollowers: 114094,
+    bluesky: "",
     github: "https://github.com/yongfook",
-    website: "https://jonathanjonathan.com",
-    description: "Founder of Bannerbear, building a SaaS in public.",
+    githubFollowers: 291,
+    website: "https://www.zoosaas.com/",
+    description: "Founder of Bannerbear, Clipcat and Roborabbit building SaaS in public.",
     tags: ["buildinpublic", "SaaS", "founder"],
     currentProject: {
       name: "Bannerbear",
@@ -132,11 +145,10 @@ export const builders: Builder[] = [
   },
   {
     name: "Justin Jackson",
-    knownFor:
-      "Co-founder of Transistor.fm; shares journey of building a podcast platform.",
     twitter: "https://twitter.com/mijustin",
+    twitterFollowers: 40528,
     bluesky: "https://bsky.app/profile/mijustin.bsky.social",
-    github: "https://github.com/mijustin",
+    blueskyFollowers: 2000,
     website: "https://justinjackson.ca",
     description:
       "Co-founder of Transistor.fm, sharing his journey building a podcasting platform.",
@@ -150,11 +162,10 @@ export const builders: Builder[] = [
   },
   {
     name: "Sahil Lavingia",
-    knownFor:
-      "Founder of Gumroad; openly shares company metrics and startup learnings.",
     twitter: "https://twitter.com/shl",
+    twitterFollowers: 343500,
     bluesky: "https://bsky.app/profile/shl.bsky.social",
-    github: "https://github.com/sahilm",
+    blueskyFollowers: 222,
     website: "https://sahillavingia.com",
     description:
       "Founder of Gumroad, openly sharing company metrics and learnings.",
@@ -169,11 +180,9 @@ export const builders: Builder[] = [
   },
   {
     name: "Marc Köhlbrugge",
-    knownFor:
-      "Founder of WIP.co; builds tools for makers and shares progress publicly.",
     twitter: "https://twitter.com/marckohlbrugge",
+    twitterFollowers: 63091,
     bluesky: "",
-    github: "https://github.com/marckohlbrugge",
     website: "https://wip.co",
     description:
       "Founder of WIP.co, building tools for makers and sharing progress.",
@@ -187,31 +196,11 @@ export const builders: Builder[] = [
     },
   },
   {
-    name: "Corey Haines",
-    knownFor:
-      "Founder of Swipe Files; shares marketing insights and journey publicly.",
-    twitter: "https://twitter.com/coreyhainesco",
-    bluesky: "https://bsky.app/profile/coreyhaines.bsky.social",
-    github: "",
-    website: "https://coreyhaines.co",
-    description:
-      "Founder of Swipe Files, sharing his marketing journey in public.",
-    tags: ["buildinpublic", "marketing", "founder"],
-    currentProject: {
-      name: "Swipe Files",
-      description:
-        "Community and resource hub for marketers to learn and share strategies.",
-      link: "https://swipefiles.com",
-      tags: ["marketing", "community", "resources"],
-    },
-  },
-  {
     name: "Rosie Sherry",
-    knownFor:
-      "Community builder; shares work and insights on building communities.",
     twitter: "https://twitter.com/rosiesherry",
-    bluesky: "https://bsky.app/profile/rosiesherry.bsky.social",
-    github: "https://github.com/rosiesherry",
+    twitterFollowers: 25251,
+    bluesky: "https://bsky.app/profile/rosiesherry.com",
+    blueskyFollowers: 1100,
     website: "https://rosie.land",
     description:
       "Community builder sharing her work and insights in public.",
@@ -226,11 +215,11 @@ export const builders: Builder[] = [
   },
   {
     name: "Ben Tossell",
-    knownFor:
-      "Founder of Makerpad; advocates no-code solutions and shares journey.",
     twitter: "https://twitter.com/bentossell",
-    bluesky: "https://bsky.app/profile/bentossell.bsky.social",
-    github: "https://github.com/bentossell",
+    twitterFollowers: 146281,
+    youtube: "https://www.youtube.com/@bentossell694",
+    youtubeSubscribers: 1290,
+    bluesky: "",
     website: "https://bentossell.com",
     description:
       "Founder of Makerpad, sharing projects and journey in public.",
@@ -245,10 +234,10 @@ export const builders: Builder[] = [
   },
   {
     name: "Josh Pigford",
-    knownFor:
-      "Founder of Baremetrics; shares insights and startup experiences openly.",
     twitter: "https://twitter.com/Shpigford",
+    twitterFollowers: 46939,
     bluesky: "https://bsky.app/profile/joshpigford.com",
+    blueskyFollowers: 158,
     github: "https://github.com/shpigford",
     website: "https://joshpigford.com",
     description:
@@ -264,11 +253,9 @@ export const builders: Builder[] = [
   },
   {
     name: "Courtland Allen",
-    knownFor:
-      "Founder of Indie Hackers; fosters transparency among indie makers.",
     twitter: "https://twitter.com/csallen",
-    bluesky: "https://bsky.app/profile/csallen.bsky.social",
-    github: "https://github.com/csallen",
+    twitterFollowers: 63507,
+    bluesky: "",
     website: "https://courtlandallen.com",
     description:
       "Founder of Indie Hackers, promoting transparency among indie makers.",
@@ -282,64 +269,46 @@ export const builders: Builder[] = [
     },
   },
   {
-    name: "Rob Walling",
-    knownFor: "Entrepreneur and podcaster; shares startup building experiences.",
-    twitter: "https://twitter.com/robwalling",
-    bluesky: "https://bsky.app/profile/robwalling.bsky.social",
-    github: "",
-    website: "https://robwalling.com",
-    description:
-      "Entrepreneur and podcaster, sharing experiences building startups.",
-    tags: ["buildinpublic", "entrepreneur", "podcaster"],
-    currentProject: {
-      name: "TinySeed",
-      description:
-        "Startup accelerator designed for bootstrapped SaaS companies.",
-      link: "https://tinyseed.com",
-      tags: ["accelerator", "SaaS", "startup funding"],
-    },
-  },
-  {
     name: "Julian Shapiro",
-    knownFor: "Entrepreneur and writer; shares marketing and startup knowledge.",
     twitter: "https://twitter.com/Julian",
+    twitterFollowers: 277263,
     github: "https://github.com/julianshapiro",
+    githubFollowers: 796,
     bluesky: "",
     website: "https://julian.com",
     description:
       "Entrepreneur and writer, sharing knowledge on marketing and startups.",
     tags: ["buildinpublic", "marketing", "entrepreneur"],
     currentProject: {
-      name: "Demand Curve",
-      description: "Growth marketing training and agency for startups.",
-      link: "https://demandcurve.com",
-      tags: ["marketing", "education", "startup growth"],
+      name: "Julian Capital",
+      description: "Seed VC fund and accelerator focused on early-stage startups.",
+      link: "https://www.julian.capital/",
+      tags: ["marketing", "accelerator", "startup growth"],
     },
   },
   {
     name: "Peter Suhm",
-    knownFor: "Co-founder of Branch; openly shares his startup journey.",
     twitter: "https://twitter.com/petersuhm",
-    github: "https://github.com/petersuhm",
+    twitterFollowers: 4694,
     bluesky: "https://bsky.app/profile/petersuhm.com",
+    blueskyFollowers: 351,
     website: "https://petersuhm.com",
     description:
-      "Co-founder of Branch, sharing his startup journey openly.",
+      "Co-founder of Branch and Founder of Reform.",
     tags: ["buildinpublic", "founder", "startup"],
     currentProject: {
-      name: "Reform",
+      name: "Writing Habit",
       description:
-        "Form builder for creating simple, beautiful forms without code.",
-      link: "https://reform.app",
-      tags: ["no-code", "forms", "SaaS"],
+        "Framework for building a writing habit.",
+      link: "https://writinghabit.com/",
+      tags: ["writing", "learning", "ebook"],
     },
   },
   {
     name: "Marie Poulin",
-    knownFor:
-      "Digital strategist; shares experiences in building online businesses.",
     twitter: "https://twitter.com/MariePoulin",
-    bluesky: "https://bsky.app/profile/mariepoulin.bsky.social",
+    twitterFollowers: 40091,
+    bluesky: "",
     github: "",
     website: "https://mariepoulin.com",
     description:
@@ -355,9 +324,9 @@ export const builders: Builder[] = [
   },
   {
     name: "Harry Dry",
-    knownFor: "Founder of Marketing Examples; shares practical marketing tips.",
     twitter: "https://twitter.com/harrydry",
-    bluesky: "https://bsky.app/profile/harrydry.bsky.social",
+    twitterFollowers: 42799,
+    bluesky: "",
     github: "",
     website: "https://marketingexamples.com",
     description:
@@ -373,30 +342,28 @@ export const builders: Builder[] = [
   },
   {
     name: "Nathan Barry",
-    knownFor:
-      "Founder of ConvertKit; shares insights on building a SaaS company.",
     twitter: "https://twitter.com/nathanbarry",
-    github: "https://github.com/nathanbarry",
+    twitterFollowers: 136273,
     bluesky: "",
     website: "https://nathanbarry.com",
     description:
-      "Founder of ConvertKit, sharing insights on building a SaaS company.",
+      "Founder of Kit (formerly ConvertKit), sharing insights on building a SaaS company.",
     tags: ["buildinpublic", "founder", "SaaS"],
     currentProject: {
-      name: "ConvertKit",
+      name: "Kit",
       description: "Email marketing platform for creators.",
-      link: "https://convertkit.com",
+      link: "https://kit.com",
       tags: ["email marketing", "creators", "SaaS"],
     },
   },
   {
     name: "Jack Butcher",
-    knownFor:
-      "Founder of Visualize Value; shares insights via visual storytelling.",
     twitter: "https://twitter.com/jackbutcher",
+    twitterFollowers: 297860,
     github: "",
     bluesky: "https://bsky.app/profile/jackiebutcher.bsky.social",
-    website: "https://visualizevalue.com",
+    blueskyFollowers: 26,
+    website: "https://jack.art",
     description:
       "Founder of Visualize Value, sharing insights through visual storytelling.",
     tags: ["buildinpublic", "visualization", "founder"],
@@ -407,76 +374,5 @@ export const builders: Builder[] = [
       link: "https://visualizevalue.com",
       tags: ["visualization", "education", "design"],
     },
-  },
-  {
-    name: "Samantha Ming",
-    knownFor:
-      "Frontend developer; shares code tidbits and tutorials publicly.",
-    twitter: "https://twitter.com/samanthaming",
-    bluesky: "https://bsky.app/profile/samanthaming.bsky.social",
-    github: "https://github.com/samanthaming",
-    website: "https://samanthaming.com",
-    description: "Frontend developer sharing code tidbits and tutorials.",
-    tags: ["buildinpublic", "developer", "educator"],
-    currentProject: {
-      name: "Code Tidbits",
-      description: "Platform sharing useful code snippets and programming tips.",
-      link: "https://samanthaming.com",
-      tags: ["frontend development", "education", "code snippets"],
-    },
-  },
-  {
-    name: "Helen Tran",
-    knownFor:
-      "Designer and entrepreneur; shares product-building process openly.",
-    twitter: "https://twitter.com/helenvtran",
-    bluesky: "https://bsky.app/profile/tranhelen.bsky.social",
-    github: "https://github.com/helenvtran",
-    website: "https://helenvtran.com",
-    description:
-      "Designer and entrepreneur, building products and sharing the process openly.",
-    tags: ["buildinpublic", "designer", "entrepreneur"],
-    currentProject: {
-      name: "Jimo",
-      description: "Platform for building interactive product documentation.",
-      link: "https://jimo.so",
-      tags: ["SaaS", "documentation", "productivity"],
-    },
-  },
-  {
-    name: "Sara Vieira",
-    knownFor:
-      "Developer and speaker; shares projects and talks in the open.",
-    twitter: "https://twitter.com/NikkitaFTW",
-    bluesky: "",
-    github: "https://github.com/SaraVieira",
-    website: "https://iamsaravieira.com",
-    description:
-      "Developer and speaker, sharing projects and talks in the open.",
-    tags: ["buildinpublic", "developer", "speaker"],
-  },
-  {
-    name: "Brittany Chiang",
-    knownFor:
-      "Software engineer sharing projects and open-source contributions in public.",
-    twitter: "https://twitter.com/bchiang7",
-    bluesky: "",
-    github: "https://github.com/bchiang7",
-    website: "https://brittanychiang.com",
-    description:
-      "Software engineer building in public, sharing projects and open-source contributions.",
-    tags: ["buildinpublic", "software engineer", "open-source"],
-  },
-  {
-    name: "Monica Powell",
-    knownFor:
-      "Software engineer and community builder; shares projects and resources publicly.",
-    twitter: "https://twitter.com/waterproofheart",
-    bluesky: "https://bsky.app/profile/monicapowell.bsky.social",
-    github: "https://github.com/M0nica",
-    website: "https://aboutmonica.com",
-    description:
-      "Software engineer and community builder, sharing projects and resources.",
-    tags: ["buildinpublic", "software engineer", "community builder"],
   }
 ];
