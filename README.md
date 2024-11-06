@@ -15,11 +15,14 @@ A directory of who is who in #buildinpublic. Indie hackers, startup founders and
 4. Add feedback form
 5. Add google analytics
 6. Add favorite button with google event tracking and local storage
-7. Set up API that pulls Github Stars and Twitter Followers
-8. Show a list of projects
-9. Show a list of posts
-10. Show a list of repos
-11. Use AI to analyze Bing Search API and provide insights
+7. Profile view
+8. Set up API that pulls stats
+9. Show a list of projects
+10. Show a list of posts
+11. Show a list of repos
+12. Show random button
+13. Use AI to analyze Bing Search API and provide insights
+14. Automated Newsletter
 
 ----
 

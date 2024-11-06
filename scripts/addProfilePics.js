@@ -62,7 +62,13 @@ async function main() {
           console.warn(`No Twitter URL for ${builder.name}, skipping.`);
           continue;
         }
-        const twitterUsername = builder.twitter.split('https://twitter.com/')[1];
+        // Extract Twitter username for both twitter.com and x.com domains
+        const twitterUsername = builder.twitter.includes('twitter.com')
+          ? builder.twitter.split('https://twitter.com/')[1]
+          : builder.twitter.includes('x.com')
+          ? builder.twitter.split('https://x.com/')[1]
+          : null;
+          
         if (!twitterUsername) {
           console.warn(`Invalid Twitter URL for ${builder.name}, skipping.`);
           continue;

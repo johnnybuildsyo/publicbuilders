@@ -1,5 +1,661 @@
 [
   {
+    "name": "Chris Coyier",
+    "description": "Co-founder of CodePen. Podcast host of ShopTalk Show. Founder of CSS-Tricks",
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/chriscoyier.jpg",
+    "imageOffset": "",
+    "twitter": "https://x.com/chriscoyier",
+    "twitterFollowers": 245222,
+    "bluesky": "https://bsky.app/profile/chriscoyier.net",
+    "blueskyFollowers": 6900,
+    "website": "https://chriscoyier.net/",
+    "tags": [
+      "frontend",
+      "podcast",
+      "web development"
+    ],
+    "currentProject": {
+      "name": "CodePen",
+      "description": "Online code editor and front end web developer community",
+      "link": "https://codepen.io/",
+      "tags": [
+        "community",
+        "web development",
+        "dev tools"
+      ]
+    }
+  },
+  {
+    "name": "Anil Dash",
+    "description": "Tech entrepreneur and writer trying to make the technology world more thoughtful, creative and humane.",
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/anildash.jpg",
+    "imageOffset": "",
+    "twitter": "https://x.com/anildash",
+    "twitterFollowers": 553043,
+    "bluesky": "https://bsky.app/profile/anildash.com",
+    "blueskyFollowers": 26300,
+    "website": "https://www.anildash.com/",
+    "tags": [
+      "community",
+      "founder",
+      "entrepreneur"
+    ],
+    "currentProject": {
+      "name": "Glitch",
+      "description": "Community and platform for building and sharing websites, apps and links pages.",
+      "link": "https://glitch.com/",
+      "tags": [
+        "platform",
+        "community",
+        "dev tools"
+      ]
+    }
+  },
+  {
+    "name": "Emily Freeman",
+    "description": "Bestselling author of DevOps for Dummies and international keynote speaker. Community, DevRel and Product Marketing at AWS, MSFT, and startups.",
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/editingemily.jpg",
+    "imageOffset": "30%",
+    "twitter": "https://x.com/editingemily",
+    "twitterFollowers": 85527,
+    "bluesky": "https://bsky.app/profile/emilyfreeman.bsky.social",
+    "blueskyFollowers": 5800,
+    "website": "https://emilyfreeman.io/",
+    "tags": [
+      "speaker",
+      "devops",
+      "devrel"
+    ],
+    "currentProject": {
+      "name": "Giving a Tech Talk",
+      "description": "eBook that teaches you how to speak with confidence, tell compelling stories and entertain.",
+      "link": "https://givingatechtalk.com/",
+      "tags": [
+        "ebook",
+        "speaking",
+        "learning"
+      ]
+    }
+  },
+  {
+    "name": "Amy Hoy",
+    "description": "User interface nerd-designer-writer-educator-programmer-photographer-hyphenator extraordinaire",
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/amyhoy.jpg",
+    "imageOffset": "40%",
+    "twitter": "https://x.com/amyhoy",
+    "twitterFollowers": 24938,
+    "bluesky": "https://bsky.app/profile/amyhoy.bsky.social",
+    "blueskyFollowers": 5400,
+    "website": "https://shorts.stackingthebricks.com/author/amy/",
+    "tags": [
+      "author",
+      "marketing",
+      "content"
+    ],
+    "currentProject": {
+      "name": "Stacking the Bricks",
+      "description": "Newsletter, podcasts, articles, books, courses and workshops on building products and marketing them.",
+      "link": "https://stackingthebricks.com/",
+      "tags": [
+        "newsletter",
+        "learning",
+        "marketing"
+      ]
+    }
+  },
+  {
+    "name": "Ian Landsman",
+    "description": "Bootstrapper and software developer.",
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/ianlandsman.jpg",
+    "imageOffset": "",
+    "twitter": "https://x.com/ianlandsman",
+    "twitterFollowers": 10838,
+    "bluesky": "https://bsky.app/profile/ianlandsman.com",
+    "blueskyFollowers": 1100,
+    "website": "https://ianlandsman.com/",
+    "tags": [
+      "bootstrapping",
+      "podcast",
+      "founder"
+    ],
+    "currentProject": {
+      "name": "Helpspot",
+      "description": "Customer support platform for scaling customer service.",
+      "link": "https://www.helpspot.com/",
+      "tags": [
+        "support",
+        "linkedin",
+        "analytics"
+      ]
+    }
+  },
+  {
+    "name": "Mac Martine",
+    "description": "Runs the SaaS bootstrapper newsletter with behind-the-scenes from his journey to 7 figures",
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/saasmakermac.jpg",
+    "imageOffset": "",
+    "twitter": "https://twitter.com/saasmakermac",
+    "twitterFollowers": 5382,
+    "bluesky": "https://bsky.app/profile/saasmakermac.bsky.social",
+    "blueskyFollowers": 2,
+    "website": "https://macmartine.com/",
+    "tags": [
+      "bootstrapping",
+      "podcast",
+      "founder"
+    ],
+    "currentProject": {
+      "name": "Aware",
+      "description": "LinkedIn engagement & analytics tool for the next generation of creators.",
+      "link": "https://useaware.com",
+      "tags": [
+        "creators",
+        "linkedin",
+        "analytics"
+      ]
+    }
+  },
+  {
+    "name": "Thomas Sanlis",
+    "description": "Entrepreneur, Teacher. Building the new Product Hunt.",
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/T_Zahil.jpg",
+    "imageOffset": "",
+    "twitter": "https://x.com/T_Zahil",
+    "twitterFollowers": 12434,
+    "bluesky": "https://bsky.app/profile/tsanlis.bsky.social",
+    "blueskyFollowers": 282,
+    "website": "https://www.thomas-sanlis.com/",
+    "tags": [
+      "builder",
+      "apps",
+      "founder"
+    ],
+    "currentProject": {
+      "name": "Uneed",
+      "description": "A launch platform for your products.",
+      "link": "https://www.uneed.best/",
+      "tags": [
+        "launch",
+        "product",
+        "platform"
+      ]
+    }
+  },
+  {
+    "name": "Marie Ng",
+    "description": "Founder of Llama Life for ADHD Tasks & Routines. Co-host of the Weekly Build",
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/threehourcoffee.jpg",
+    "imageOffset": "25%",
+    "twitter": "https://x.com/threehourcoffee",
+    "twitterFollowers": 16885,
+    "bluesky": "https://bsky.app/profile/threehourcoffee.bsky.social",
+    "blueskyFollowers": 359,
+    "website": "https://www.theweeklybuild.com/",
+    "tags": [
+      "podcast",
+      "apps",
+      "founder"
+    ],
+    "currentProject": {
+      "name": "Llama Life",
+      "description": "Productivity app that helps users manage their time and focus on one task at a time",
+      "link": "https://llama.co",
+      "tags": [
+        "productivity",
+        "focus",
+        "task management"
+      ]
+    }
+  },
+  {
+    "name": "Amar Ghose",
+    "description": "Location independent CEO of Zenmaid. SaaS marketing enthusiast",
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/itsjustamar.jpg",
+    "imageOffset": "20%",
+    "twitter": "https://x.com/itsjustamar",
+    "twitterFollowers": 3692,
+    "bluesky": "https://bsky.app/profile/itsjustamar.bsky.social",
+    "blueskyFollowers": 127,
+    "website": "https://www.theamaricandream.com",
+    "tags": [
+      "saas",
+      "nomad",
+      "founder"
+    ],
+    "currentProject": {
+      "name": "ZenMaid",
+      "description": "Automate, simplify, and grow your maid service",
+      "link": "https://get.zenmaid.com/",
+      "tags": [
+        "saas",
+        "automate",
+        "service"
+      ]
+    }
+  },
+  {
+    "name": "Robert Lin",
+    "description": "Currently building filmbot & learning ATProto in public. Believes in an open web.",
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/robert_gpt3.jpg",
+    "imageOffset": "",
+    "twitter": "https://x.com/robert_gpt3",
+    "twitterFollowers": 244,
+    "bluesky": "https://bsky.app/profile/robertlin.bsky.social",
+    "blueskyFollowers": 301,
+    "github": "https://github.com/r002",
+    "githubFollowers": 133,
+    "website": "https://r002.github.io/xna/",
+    "tags": [
+      "web development",
+      "podcast",
+      "founder"
+    ],
+    "currentProject": {
+      "name": "filmbot",
+      "description": "Everyday, I post a scene from the greatest films of all time. Try to guess the film!.",
+      "link": "https://r002.github.io/filmbot/",
+      "tags": [
+        "bluesky",
+        "atproto",
+        "film"
+      ]
+    }
+  },
+  {
+    "name": "Chris Oliver",
+    "description": "Founder of GoRails, a company focused on helping Ruby on Rails developers learn, build, and deploy their ideas.",
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/excid3.jpg",
+    "imageOffset": "30%",
+    "twitter": "https://x.com/excid3",
+    "twitterFollowers": 19467,
+    "bluesky": "https://bsky.app/profile/excid3.bsky.social",
+    "blueskyFollowers": 999,
+    "website": "https://excid3.com/",
+    "tags": [
+      "web development",
+      "podcast",
+      "founder"
+    ],
+    "currentProject": {
+      "name": "Go Rails",
+      "description": "Ruby on Rails screencasts for intermediate developers.",
+      "link": "https://gorails.com/",
+      "tags": [
+        "learning",
+        "rails",
+        "developers"
+      ]
+    }
+  },
+  {
+    "name": "Joel Gascoigne",
+    "description": "Founder CEO  of Buffer. Building a long term, independent, profitable business with big ambitions.",
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/joelgascoigne.jpg",
+    "imageOffset": "",
+    "twitter": "https://x.com/joelgascoigne",
+    "twitterFollowers": 71607,
+    "bluesky": "https://bsky.app/profile/joel.is",
+    "blueskyFollowers": 526,
+    "website": "https://joel.is/",
+    "tags": [
+      "founder",
+      "ceo",
+      "social"
+    ],
+    "currentProject": {
+      "name": "Course Builder",
+      "description": "Exploration of a next-gen CMS for researching, designing, producing, and delivering educational content.",
+      "link": "https://www.coursebuilder.dev/",
+      "tags": [
+        "ai",
+        "saas",
+        "startup"
+      ]
+    }
+  },
+  {
+    "name": "Joel Hooks",
+    "description": "Crafting useful education products and working on Course Builder, a boutique CMS",
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/jhooks.jpg",
+    "imageOffset": "30%",
+    "twitter": "https://x.com/jhooks",
+    "twitterFollowers": 22068,
+    "bluesky": "https://bsky.app/profile/joelhooks.com",
+    "blueskyFollowers": 4000,
+    "website": "https://joelhooks.com/",
+    "tags": [
+      "education",
+      "web development",
+      "cms"
+    ],
+    "currentProject": {
+      "name": "Course Builder",
+      "description": "Exploration of a next-gen CMS for researching, designing, producing, and delivering educational content.",
+      "link": "https://www.coursebuilder.dev/",
+      "tags": [
+        "education",
+        "cms"
+      ]
+    }
+  },
+  {
+    "name": "James Ivings",
+    "description": "Bootstrapping products while travelling around the world",
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/JamesIvings.jpg",
+    "imageOffset": "",
+    "twitter": "https://x.com/JamesIvings",
+    "twitterFollowers": 22068,
+    "bluesky": "https://bsky.app/profile/jivings.bsky.social",
+    "blueskyFollowers": 169,
+    "website": "https://leavemealone.com/",
+    "tags": [
+      "bootstrapping",
+      "nomad",
+      "ai"
+    ],
+    "currentProject": {
+      "name": "StartKit.AI",
+      "description": "Everything you need to ship your next SaaS or AI Wrapper and get to market fast",
+      "link": "https://startkit.ai/",
+      "tags": [
+        "ai",
+        "saas",
+        "startup"
+      ]
+    }
+  },
+  {
+    "name": "Ryan Hoover",
+    "description": "Founder of Product Hunt. Investor at Weekend Fund",
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/rrhoover.jpg",
+    "imageOffset": "60%",
+    "twitter": "https://x.com/rrhoover",
+    "twitterFollowers": 24336,
+    "bluesky": "https://bsky.app/profile/rrhoover.bsky.social",
+    "blueskyFollowers": 671,
+    "website": "https://www.ryanhoover.me/",
+    "tags": [
+      "product",
+      "investing",
+      "games"
+    ],
+    "currentProject": {
+      "name": "Product Hunt",
+      "description": "Platform to share and explore new products",
+      "link": "https://producthunt.com",
+      "tags": [
+        "saas",
+        "community",
+        "technology"
+      ]
+    }
+  },
+  {
+    "name": "Danielle Baskin",
+    "description": "Making interactive art, companies, and delightfully weird events. Tarot technology, interactive performances, and pixel art. Prev built Dialup, Maskalike, & Branded Fruit",
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/djbaskin.jpg",
+    "imageOffset": "40%",
+    "twitter": "https://x.com/djbaskin",
+    "twitterFollowers": 24336,
+    "bluesky": "https://bsky.app/profile/danielle.bsky.social",
+    "blueskyFollowers": 1200,
+    "website": "https://daniellebaskin.com/",
+    "tags": [
+      "art",
+      "events",
+      "games"
+    ],
+    "currentProject": {
+      "name": "Moonlight",
+      "description": "Interactive online tarot card platform",
+      "link": "https://moonlight.world/",
+      "tags": [
+        "tarot",
+        "virtual",
+        "platform"
+      ]
+    }
+  },
+  {
+    "name": "Dan Rowden",
+    "description": "Building ilo.so to track your socials and sales, plus other projects",
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/dr.jpg",
+    "imageOffset": "",
+    "twitter": "https://x.com/dr",
+    "twitterFollowers": 55404,
+    "bluesky": "https://bsky.app/profile/did:plc:jqj3rcaj6evlyjk5dao5dwm7",
+    "blueskyFollowers": 459,
+    "website": "https://danrowden.com/",
+    "tags": [
+      "analytics",
+      "web development",
+      "design"
+    ],
+    "currentProject": {
+      "name": "ilo",
+      "description": "Your personal, dynamic homepage. All of your internet stats.",
+      "link": "https://ilo.so/",
+      "tags": [
+        "social",
+        "analytics",
+        "links"
+      ]
+    }
+  },
+  {
+    "name": "Wes Bos",
+    "description": "Full Stack JavaScript developer from Canada with free + premium courses and a tri-weekly podcast called Syntax.",
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/wesbos.jpg",
+    "imageOffset": "",
+    "twitter": "https://x.com/wesbos",
+    "twitterFollowers": 393822,
+    "bluesky": "https://bsky.app/profile/wesbos.com",
+    "blueskyFollowers": 11000,
+    "github": "https://github.com/wesbos",
+    "githubFollowers": 33600,
+    "youtube": "https://www.youtube.com/@WesBos",
+    "youtubeSubscribers": 195000,
+    "website": "https://wesbos.com/",
+    "tags": [
+      "learning",
+      "web development",
+      "podcast"
+    ],
+    "currentProject": {
+      "name": "SyntaxFM Podcast",
+      "description": "Full Stack Web Developers Wes Bos and Scott Tolinski dive deep into web development, CSS, JavaScript, Frameworks, Typescript, Servers and more.",
+      "link": "https://syntax.fm/",
+      "tags": [
+        "podcast",
+        "web development",
+        "javascript"
+      ]
+    }
+  },
+  {
+    "name": "Pete Codes",
+    "description": "Indie founder of High Signal, bootstrapper news, interviews with founders and build in public updates",
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/petecodes.jpg",
+    "imageOffset": "",
+    "twitter": "https://x.com/petecodes",
+    "twitterFollowers": 9390,
+    "bluesky": "https://bsky.app/profile/petecodes.bsky.social",
+    "blueskyFollowers": 413,
+    "github": "https://github.com/benrobertsonio",
+    "githubFollowers": 47,
+    "website": "https://ben.robertson.is/",
+    "tags": [
+      "ai",
+      "web development",
+      "buildinpublic"
+    ],
+    "currentProject": {
+      "name": "ColorBliss",
+      "description": "Create printable custom coloring sheets in seconds.",
+      "link": "https://colorbliss.com",
+      "tags": [
+        "ai",
+        "art"
+      ]
+    }
+  },
+  {
+    "name": "Ben Robertson",
+    "description": "Making thousands of coloring pages and hundreds of dollars a week with colorbliss",
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/benrobertsonio.jpg",
+    "imageOffset": "",
+    "twitter": "https://x.com/benrobertsonio",
+    "twitterFollowers": 721,
+    "bluesky": "https://bsky.app/profile/ben.robertson.is",
+    "blueskyFollowers": 206,
+    "github": "https://github.com/benrobertsonio",
+    "githubFollowers": 47,
+    "website": "https://ben.robertson.is/",
+    "tags": [
+      "ai",
+      "web development",
+      "buildinpublic"
+    ],
+    "currentProject": {
+      "name": "ColorBliss",
+      "description": "Create printable custom coloring sheets in seconds.",
+      "link": "https://colorbliss.com",
+      "tags": [
+        "ai",
+        "art"
+      ]
+    }
+  },
+  {
+    "name": "Kirsten Pomales",
+    "description": "Builder & self-taught dev shipping revyou.me in public, 10x web3 hackathon winner",
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/kirstenrpomales.jpg",
+    "imageOffset": "",
+    "twitter": "https://x.com/kirstenrpomales",
+    "twitterFollowers": 0,
+    "website": "https://www.kirstenpomales.com/",
+    "tags": [
+      "freelance",
+      "web3",
+      "entrepreneur"
+    ],
+    "currentProject": {
+      "name": "Revyou",
+      "description": "App that helps freelancers show off their work history and reviews to get discovered and hired",
+      "link": "https://revyou.me",
+      "tags": [
+        "freelance",
+        "hiring",
+        "Customer Relationship Management"
+      ]
+    }
+  },
+  {
+    "name": "Lynne Tye",
+    "description": "Founder and software engineer focused on connecting tech professionals with meaningful careers.",
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/lynnetye.jpg",
+    "imageOffset": "20%",
+    "twitter": "https://twitter.com/lynnetye",
+    "twitterFollowers": 5105,
+    "website": "https://lynnetye.com",
+    "tags": [
+      "Career Development",
+      "Entrepreneurship",
+      "Tech Hiring"
+    ],
+    "currentProject": {
+      "name": "Key Values",
+      "description": "A platform to help tech professionals find jobs at companies that align with their values.",
+      "link": "https://www.keyvalues.com",
+      "tags": [
+        "Company Culture",
+        "Job Matching",
+        "Tech Careers"
+      ]
+    }
+  },
+  {
+    "name": "Ali Spittel",
+    "description": "Software engineer, educator, and writer focused on making coding accessible to everyone.",
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/aspittel.jpg",
+    "imageOffset": "",
+    "twitter": "https://twitter.com/aspittel",
+    "twitterFollowers": 119698,
+    "bluesky": "https://bsky.app/profile/alispit.tel",
+    "blueskyFollowers": 4700,
+    "github": "https://github.com/aspittel",
+    "githubFollowers": 3000,
+    "website": "https://welearncode.com/",
+    "tags": [
+      "Education",
+      "Web Development",
+      "Accessibility"
+    ],
+    "currentProject": {
+      "name": "We Learn Code",
+      "description": "A platform providing resources, courses, and tutorials for learning to code.",
+      "link": "https://welearncode.com/",
+      "tags": [
+        "Coding Education",
+        "Beginner Friendly",
+        "Programming Tutorials"
+      ]
+    }
+  },
+  {
+    "name": "Tracy Chou",
+    "description": "Engineer, entrepreneur, and diversity advocate with a focus on building technology for social impact.",
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/triketora.jpg",
+    "imageOffset": "30%",
+    "twitter": "https://twitter.com/triketora",
+    "twitterFollowers": 114185,
+    "github": "https://github.com/triketora",
+    "githubFollowers": 597,
+    "bluesky": "https://bsky.app/profile/triketora.bsky.social",
+    "blueskyFollowers": 3700,
+    "website": "https://tracychou.com",
+    "tags": [
+      "diversity",
+      "social",
+      "Entrepreneurship"
+    ],
+    "currentProject": {
+      "name": "Block Party",
+      "description": "A tool for people to protect themselves from online harassment and abuse on social media.",
+      "link": "https://www.blockpartyapp.com",
+      "tags": [
+        "Online Safety",
+        "Social Media",
+        "Harassment Prevention"
+      ]
+    }
+  },
+  {
+    "name": "Steph Smith",
+    "twitter": "https://twitter.com/stephsmithio",
+    "twitterFollowers": 151426,
+    "bluesky": "",
+    "website": "https://stephsmith.io/",
+    "description": "Founder of Intenet Pipes. Pod host of A16z. Led Trends at The Hustle acquired by HubSpot.",
+    "tags": [
+      "podcast",
+      "data",
+      "author"
+    ],
+    "currentProject": {
+      "name": "Internet Pipes",
+      "description": "Toolkit to find good ideas, accelerate side projects and connect with fellow builders",
+      "link": "https://internetpipes.com",
+      "tags": [
+        "data",
+        "community",
+        "platform"
+      ]
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/stephsmithio.jpg",
+    "imageOffset": "40%"
+  },
+  {
     "name": "Arvid Kahl",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/arvidkahl.jpg",
     "twitter": "https://twitter.com/arvidkahl",
@@ -164,7 +820,7 @@
       "link": "https://opensauced.pizza",
       "tags": [
         "open-source",
-        "developer tools",
+        "dev tools",
         "community"
       ]
     }
@@ -320,7 +976,8 @@
         "automation"
       ]
     },
-    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/bentossell.jpg"
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/bentossell.jpg",
+    "imageOffset": "90%"
   },
   {
     "name": "Josh Pigford",
@@ -422,7 +1079,8 @@
         "ebook"
       ]
     },
-    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/petersuhm.jpg"
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/petersuhm.jpg",
+    "imageOffset": "70%"
   },
   {
     "name": "Marie Poulin",
