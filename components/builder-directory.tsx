@@ -20,13 +20,22 @@ export function BuilderDirectory({ builders }: { builders: Builder[] }) {
   const [searchTerm, setSearchTerm] = useState("")
   const [sortBy, setSortBy] = useState("name")
 
-  const filteredBuilders = builders.filter(
-    (builder) => builder.name.toLowerCase().includes(searchTerm.toLowerCase()) || builder.tags.some((tag) => tag.toLowerCase().includes(searchTerm.toLowerCase()))
-  )
+  const filteredBuilders = builders.filter((builder) => {
+    const fullNameIncludes = builder.name.toLowerCase().includes(searchTerm.toLowerCase())
+    const tagIncludes = builder.tags.some((tag) => tag.toLowerCase().includes(searchTerm.toLowerCase()))
+    const projectIncludes =
+      builder.currentProject && (builder.currentProject.name.toLowerCase().includes(searchTerm.toLowerCase()) || builder.currentProject.description.toLowerCase().includes(searchTerm.toLowerCase()))
+    const websiteIncludes = builder.website && builder.website.toLowerCase().includes(searchTerm.toLowerCase())
+    return fullNameIncludes || tagIncludes || projectIncludes || websiteIncludes
+  })
 
   const sortedBuilders = [...filteredBuilders].sort((a, b) => {
     if (sortBy === "name") {
       return a.name.localeCompare(b.name)
+    } else if (sortBy === "lastName") {
+      const aLastName = a.name.split(" ").slice(-1)[0]
+      const bLastName = b.name.split(" ").slice(-1)[0]
+      return aLastName.localeCompare(bLastName)
     } else if (sortBy === "twitterFollowers") {
       return (b.twitterFollowers || 0) - (a.twitterFollowers || 0)
     } else if (sortBy === "githubFollowers") {
@@ -46,10 +55,10 @@ export function BuilderDirectory({ builders }: { builders: Builder[] }) {
     <section id="directory" className="py-16">
       <div className="container mx-auto px-4">
         <h2 className="text-5xl tracking-wide font-black text-center mb-8">Builder Directory</h2>
-        <div className="flex justify-center items-center gap-2 mb-12">
-          <div className="relative w-[360px]">
+        <div className="flex flex-col sm:flex-row justify-center items-end sm:items-center gap-2 mb-12">
+          <div className="relative w-full sm:w-[480px]">
             <Search className="absolute left-2 top-1/2 transform -translate-y-1/2 text-gray-400" />
-            <Input type="text" placeholder="Search builders by name, expertise, or tags..." value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} className="pl-10" />
+            <Input type="text" placeholder="Search builders by name, expertise, tags, project, or website..." value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} className="pl-10" />
           </div>
           <div className="flex justify-end">
             <Select value={sortBy} onValueChange={setSortBy}>
@@ -57,7 +66,8 @@ export function BuilderDirectory({ builders }: { builders: Builder[] }) {
                 <SelectValue placeholder="Sort by" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="name">Sort by Name</SelectItem>
+                <SelectItem value="name">Sort by First Name</SelectItem>
+                <SelectItem value="lastName">Sort by Last Name</SelectItem>
                 <SelectItem value="twitterFollowers">Sort by Twitter</SelectItem>
                 <SelectItem value="githubFollowers">Sort by GitHub</SelectItem>
                 <SelectItem value="youtubeSubscribers">Sort by YouTube</SelectItem>

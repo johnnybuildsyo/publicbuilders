@@ -30,7 +30,9 @@ A directory of who is who in #buildinpublic. Indie hackers, startup founders and
 
 2024-11-05
 🛠️ Grinding on creating initial list of builders
-⏫ Improved CLI tool to batch upload profile images to my S3
+⏫ Improved CLI command to auto batch upload missing profile images to my S3
+🔍 Added sorting and searching
+
 
 2024-11-04
 🤘 Went from empty project directory to initial prototype.
