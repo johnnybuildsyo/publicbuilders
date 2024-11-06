@@ -24,6 +24,24 @@ export function BuilderDirectory({ builders }: { builders: Builder[] }) {
     (builder) => builder.name.toLowerCase().includes(searchTerm.toLowerCase()) || builder.tags.some((tag) => tag.toLowerCase().includes(searchTerm.toLowerCase()))
   )
 
+  const sortedBuilders = [...filteredBuilders].sort((a, b) => {
+    if (sortBy === "name") {
+      return a.name.localeCompare(b.name)
+    } else if (sortBy === "twitterFollowers") {
+      return (b.twitterFollowers || 0) - (a.twitterFollowers || 0)
+    } else if (sortBy === "githubFollowers") {
+      return (b.githubFollowers || 0) - (a.githubFollowers || 0)
+    } else if (sortBy === "youtubeSubscribers") {
+      return (b.youtubeSubscribers || 0) - (a.youtubeSubscribers || 0)
+    } else if (sortBy === "twitchSubscribers") {
+      return (b.twitchSubscribers || 0) - (a.twitchSubscribers || 0)
+    } else if (sortBy === "blueskyFollowers") {
+      return (b.blueskyFollowers || 0) - (a.blueskyFollowers || 0)
+    } else {
+      return 0
+    }
+  })
+
   return (
     <section id="directory" className="py-16">
       <div className="container mx-auto px-4">
@@ -35,23 +53,35 @@ export function BuilderDirectory({ builders }: { builders: Builder[] }) {
           </div>
           <div className="flex justify-end">
             <Select value={sortBy} onValueChange={setSortBy}>
-              <SelectTrigger className="w-[180px]">
+              <SelectTrigger className="w-[200px]">
                 <SelectValue placeholder="Sort by" />
               </SelectTrigger>
               <SelectContent>
                 <SelectItem value="name">Sort by Name</SelectItem>
-                <SelectItem value="followers">Sort by Followers</SelectItem>
+                <SelectItem value="twitterFollowers">Sort by Twitter</SelectItem>
+                <SelectItem value="githubFollowers">Sort by GitHub</SelectItem>
+                <SelectItem value="youtubeSubscribers">Sort by YouTube</SelectItem>
+                <SelectItem value="twitchSubscribers">Sort by Twitch</SelectItem>
+                <SelectItem value="blueskyFollowers">Sort by Bluesky</SelectItem>
               </SelectContent>
             </Select>
           </div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {filteredBuilders.map((builder) => (
+          {sortedBuilders.map((builder) => (
             <Card key={builder.name} className="flex flex-col">
               <CardHeader className="pb-2">
                 <div className="relative -mx-6 -mt-6 mb-4 h-48 bg-gray-200 rounded-t-lg overflow-hidden">
                   {builder.image ? (
-                    <Image fill={true} src={builder.image} alt={builder.name} className="w-full h-full object-cover" style={{ objectPosition: `center ${builder.imageOffset || "50%"}` }} />
+                    <Image
+                      fill={true}
+                      src={builder.image}
+                      alt={builder.name}
+                      className="w-full h-full object-cover"
+                      style={{
+                        objectPosition: `center ${builder.imageOffset || "50%"}`,
+                      }}
+                    />
                   ) : (
                     <div className="w-full h-full flex items-center justify-center text-4xl font-bold text-gray-500">
                       {builder.name
@@ -78,6 +108,7 @@ export function BuilderDirectory({ builders }: { builders: Builder[] }) {
                       {new URL(builder.website).hostname}
                     </Link>
                     <div className="flex gap-2 flex-wrap justify-center">
+                      {/* Social Media Links with Follower Counts */}
                       {builder.twitter && (
                         <Link href={builder.twitter} target="_blank" rel="noopener noreferrer">
                           <Button variant="outline" size="sm">

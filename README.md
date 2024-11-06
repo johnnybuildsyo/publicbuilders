@@ -29,12 +29,15 @@ A directory of who is who in #buildinpublic. Indie hackers, startup founders and
 ## BUILD LOG
 
 2024-11-05
-Added CLI tool to automatically grab social profile image and add to my S3
+🛠️ Grinding on creating initial list of builders
+⏫ Improved CLI tool to batch upload profile images to my S3
 
 2024-11-04
-Creating initial list of builders
-Made script for getting profile images and uploading to my S3 bucket
-Investigated options for automatically pulling social media data and didn't find any all-in-one solutions that weren't overly expensive
+🤘 Went from empty project directory to initial prototype.
+🚀 Bought publicbuilders.org and deployed
+🛠️ Creating initial list of builders
+👤 Made script for uploading profile images
+🚫 Tried/failed to find social media data solution
 
 2024-11-03
 Bought domain name and pushed initial build with placeholder content.
