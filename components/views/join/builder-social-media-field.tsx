@@ -55,7 +55,7 @@ export default function BuilderSocialMediaField({ field, icon, label, register, 
       <div>
         <Label htmlFor={handleField}>{label}</Label>
         {isEditing ? (
-          <Input id={handleField} {...register(handleField as keyof FormData)} placeholder={`Enter ${field} handle`} className="mt-1" onBlur={handleBlur} autoFocus />
+          <Input id={handleField} {...register(handleField as keyof FormData)} placeholder={`Enter ${field} handle or url`} className="mt-1" onBlur={handleBlur} autoFocus />
         ) : (
           <div className="flex items-center mt-1 px-2 py-0.5 bg-gray-100 rounded">
             {icon}
