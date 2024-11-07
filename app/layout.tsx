@@ -4,6 +4,7 @@ import localFont from "next/font/local"
 import { Rethink_Sans } from "next/font/google"
 import "./globals.css"
 import Header from "@/components/layout/header"
+import Footer from "@/components/layout/footer"
 
 const displayFont = Rethink_Sans({
   subsets: ["latin"],
@@ -50,6 +51,7 @@ export default function RootLayout({
           <div className="min-h-screen flex flex-col font-display">
             <Header />
             <main className="flex flex-col grow gap-4 row-start-2 justify-center items-center font-display">{children}</main>
+            <Footer />
           </div>
         </ThemeProvider>
       </body>

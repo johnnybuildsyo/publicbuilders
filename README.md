@@ -28,12 +28,13 @@ A directory of who is who in #buildinpublic. Indie hackers, startup founders and
 2024-11-06
 🪪 Added missing builder data
 😩 Been locked out of my X account for 2 days
+🔁 Used ChatGPT to normalize tagging in my json data
+🤚 Added UI for the builder join request form
 
 2024-11-05
 🛠️ Grinding on creating initial list of builders
 ⏫ Improved CLI command to auto batch upload missing profile images to my S3
 🔍 Added sorting and searching
-
 
 2024-11-04
 🤘 Went from empty project directory to initial prototype.
