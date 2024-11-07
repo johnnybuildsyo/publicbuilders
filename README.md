@@ -6,8 +6,8 @@ A directory of who is who in #buildinpublic. Indie hackers, startup founders and
 
 ## TODO
 
-☑️ Get initial list of builders
-☑️ Add pictures
+1. Get initial list of builders ✅
+2. Add pictures ✅
 3. Add application form
 4. Add feedback form
 5. Add google analytics
@@ -26,8 +26,8 @@ A directory of who is who in #buildinpublic. Indie hackers, startup founders and
 ## BUILD LOG
 
 2024-11-06
-😩 Been locked out of my X account for 2 days
 🪪 Added missing builder data
+😩 Been locked out of my X account for 2 days
 
 2024-11-05
 🛠️ Grinding on creating initial list of builders

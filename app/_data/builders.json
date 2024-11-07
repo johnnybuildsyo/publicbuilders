@@ -14,7 +14,7 @@
     "tags": [
       "frontend",
       "podcast",
-      "web development"
+      "webdev"
     ],
     "currentProject": {
       "name": "CodePen",
@@ -22,7 +22,7 @@
       "link": "https://codepen.io/",
       "tags": [
         "community",
-        "web development",
+        "webdev",
         "dev tools"
       ]
     }
@@ -75,7 +75,7 @@
       "tags": [
         "ebook",
         "speaking",
-        "learning"
+        "education"
       ]
     }
   },
@@ -90,7 +90,7 @@
     "blueskyFollowers": 5400,
     "website": "https://shorts.stackingthebricks.com/author/amy/",
     "tags": [
-      "author",
+      "writing",
       "marketing",
       "content"
     ],
@@ -100,7 +100,7 @@
       "link": "https://stackingthebricks.com/",
       "tags": [
         "newsletter",
-        "learning",
+        "education",
         "marketing"
       ]
     }
@@ -237,7 +237,7 @@
       "tags": [
         "saas",
         "automate",
-        "service"
+        "support"
       ]
     }
   },
@@ -254,7 +254,7 @@
     "githubFollowers": 133,
     "website": "https://r002.github.io/xna/",
     "tags": [
-      "web development",
+      "webdev",
       "podcast",
       "founder"
     ],
@@ -284,7 +284,7 @@
     "blueskyFollowers": 999,
     "website": "https://excid3.com/",
     "tags": [
-      "web development",
+      "webdev",
       "podcast",
       "founder"
     ],
@@ -293,7 +293,7 @@
       "description": "Ruby on Rails screencasts for intermediate developers.",
       "link": "https://gorails.com/",
       "tags": [
-        "learning",
+        "education",
         "rails",
         "developers"
       ]
@@ -314,7 +314,7 @@
     "tags": [
       "founder",
       "ceo",
-      "social"
+      "social media"
     ],
     "currentProject": {
       "name": "Course Builder",
@@ -343,7 +343,7 @@
     "website": "https://joelhooks.com/",
     "tags": [
       "education",
-      "web development",
+      "webdev",
       "cms"
     ],
     "currentProject": {
@@ -452,7 +452,7 @@
     "website": "https://danrowden.com/",
     "tags": [
       "analytics",
-      "web development",
+      "webdev",
       "design"
     ],
     "currentProject": {
@@ -460,7 +460,7 @@
       "description": "Your personal, dynamic homepage. All of your internet stats.",
       "link": "https://ilo.so/",
       "tags": [
-        "social",
+        "social media",
         "analytics",
         "links"
       ]
@@ -481,8 +481,8 @@
     "youtubeSubscribers": 195000,
     "website": "https://wesbos.com/",
     "tags": [
-      "learning",
-      "web development",
+      "education",
+      "webdev",
       "podcast"
     ],
     "currentProject": {
@@ -491,7 +491,7 @@
       "link": "https://syntax.fm/",
       "tags": [
         "podcast",
-        "web development",
+        "webdev",
         "javascript"
       ]
     }
@@ -512,7 +512,7 @@
     "website": "https://ben.robertson.is/",
     "tags": [
       "ai",
-      "web development",
+      "webdev",
       "buildinpublic"
     ],
     "currentProject": {
@@ -539,7 +539,7 @@
     "website": "https://ben.robertson.is/",
     "tags": [
       "ai",
-      "web development",
+      "webdev",
       "buildinpublic"
     ],
     "currentProject": {
@@ -574,7 +574,7 @@
       "tags": [
         "freelance",
         "hiring",
-        "Customer Relationship Management"
+        "crm"
       ]
     }
   },
@@ -587,18 +587,18 @@
     "twitterFollowers": 5105,
     "website": "https://lynnetye.com",
     "tags": [
-      "Career Development",
-      "Entrepreneurship",
-      "Tech Hiring"
+      "career development",
+      "entrepreneur",
+      "hiring"
     ],
     "currentProject": {
       "name": "Key Values",
       "description": "A platform to help tech professionals find jobs at companies that align with their values.",
       "link": "https://www.keyvalues.com",
       "tags": [
-        "Company Culture",
-        "Job Matching",
-        "Tech Careers"
+        "company culture",
+        "job matching",
+        "tech careers"
       ]
     }
   },
@@ -617,18 +617,18 @@
     "githubFollowers": 3000,
     "website": "https://welearncode.com/",
     "tags": [
-      "Education",
-      "Web Development",
-      "Accessibility"
+      "education",
+      "webdev",
+      "accessibility"
     ],
     "currentProject": {
       "name": "We Learn Code",
       "description": "A platform providing resources, courses, and tutorials for learning to code.",
       "link": "https://welearncode.com/",
       "tags": [
-        "Coding Education",
-        "Beginner Friendly",
-        "Programming Tutorials"
+        "coding education",
+        "beginner friendly",
+        "programming tutorials"
       ]
     }
   },
@@ -646,17 +646,17 @@
     "website": "https://tracychou.com",
     "tags": [
       "diversity",
-      "social",
-      "Entrepreneurship"
+      "social media",
+      "entrepreneur"
     ],
     "currentProject": {
       "name": "Block Party",
       "description": "A tool for people to protect themselves from online harassment and abuse on social media.",
       "link": "https://www.blockpartyapp.com",
       "tags": [
-        "Online Safety",
-        "Social Media",
-        "Harassment Prevention"
+        "online safety",
+        "social media",
+        "harassment prevention"
       ]
     }
   },
@@ -666,11 +666,11 @@
     "twitterFollowers": 151426,
     "bluesky": "",
     "website": "https://stephsmith.io/",
-    "description": "Founder of Intenet Pipes. Pod host of A16z. Led Trends at The Hustle acquired by HubSpot.",
+    "description": "Founder of Internet Pipes. Pod host of A16z. Led Trends at The Hustle acquired by HubSpot.",
     "tags": [
       "podcast",
       "data",
-      "author"
+      "writing"
     ],
     "currentProject": {
       "name": "Internet Pipes",
@@ -700,12 +700,12 @@
     "description": "Author and entrepreneur, sharing insights on audience-driven startups.",
     "tags": [
       "buildinpublic",
-      "author",
+      "writing",
       "entrepreneur"
     ],
     "currentProject": {
       "name": "podscan.fm",
-      "description": "Building podscan.fm so that people and brands can track their mentions on podcasts. ",
+      "description": "Building podscan.fm so that people and brands can track their mentions on podcasts.",
       "link": "https://podScan.fm",
       "tags": [
         "marketing",
@@ -756,17 +756,17 @@
     "description": "Educator and open-source contributor, building in public through workshops and courses.",
     "tags": [
       "buildinpublic",
-      "educator",
-      "open-source"
+      "education",
+      "open source"
     ],
     "currentProject": {
       "name": "EpicReact.dev",
       "description": "Comprehensive React training for developers.",
       "link": "https://epicreact.dev",
       "tags": [
-        "React",
+        "react",
         "education",
-        "web development"
+        "webdev"
       ]
     }
   },
@@ -787,8 +787,8 @@
     "website": "https://cassidoo.co",
     "description": "Startup advisor and investor, developer experience expert, open source-er, and meme-maker on the internet",
     "tags": [
-      "Github",
-      "web development",
+      "github",
+      "webdev",
       "devrel"
     ],
     "currentProject": {
@@ -797,7 +797,7 @@
       "link": "https://cassidoo.co/newsletter/",
       "tags": [
         "newsletter",
-        "web development",
+        "webdev",
         "community"
       ]
     }
@@ -818,7 +818,7 @@
     "description": "Open-source advocate, building in public and fostering inclusive communities.",
     "tags": [
       "buildinpublic",
-      "open-source",
+      "open source",
       "community"
     ],
     "currentProject": {
@@ -826,7 +826,7 @@
       "description": "Community aimed at promoting open-source collaboration and inclusivity.",
       "link": "https://eddiehub.org",
       "tags": [
-        "open-source",
+        "open source",
         "community",
         "collaboration"
       ]
@@ -845,15 +845,15 @@
     "description": "Developer advocate, building open-source tools and sharing knowledge.",
     "tags": [
       "buildinpublic",
-      "developer advocate",
-      "open-source"
+      "devrel",
+      "open source"
     ],
     "currentProject": {
       "name": "Open Sauced",
       "description": "Platform to help developers find their next open-source contribution.",
       "link": "https://opensauced.pizza",
       "tags": [
-        "open-source",
+        "open source",
         "dev tools",
         "community"
       ]
@@ -871,7 +871,7 @@
     "description": "Founder of Bannerbear, Clipcat and Roborabbit building SaaS in public.",
     "tags": [
       "buildinpublic",
-      "SaaS",
+      "saas",
       "founder"
     ],
     "currentProject": {
@@ -879,9 +879,9 @@
       "description": "Automated image and video generation API for developers.",
       "link": "https://www.bannerbear.com",
       "tags": [
-        "SaaS",
+        "saas",
         "automation",
-        "API"
+        "api"
       ]
     }
   },
@@ -898,16 +898,16 @@
     "description": "Co-founder of Transistor.fm, sharing his journey building a podcasting platform.",
     "tags": [
       "buildinpublic",
-      "SaaS",
-      "podcasting"
+      "saas",
+      "podcast"
     ],
     "currentProject": {
       "name": "Transistor.fm",
       "description": "Podcast hosting and analytics platform.",
       "link": "https://transistor.fm",
       "tags": [
-        "podcasting",
-        "SaaS",
+        "podcast",
+        "saas",
         "analytics"
       ]
     }
@@ -989,7 +989,7 @@
       "description": "Newsletter and community focused on community-building strategies.",
       "link": "https://rosie.land",
       "tags": [
-        "community building",
+        "community",
         "newsletter",
         "education"
       ]
@@ -1118,7 +1118,7 @@
       "link": "https://writinghabit.com/",
       "tags": [
         "writing",
-        "learning",
+        "education",
         "ebook"
       ]
     },
@@ -1136,14 +1136,14 @@
     "tags": [
       "buildinpublic",
       "digital strategy",
-      "educator"
+      "education"
     ],
     "currentProject": {
       "name": "Notion Mastery",
       "description": "Course teaching advanced use of Notion for personal and business productivity.",
       "link": "https://notionmastery.com",
       "tags": [
-        "Notion",
+        "notion",
         "productivity",
         "education"
       ]
@@ -1185,7 +1185,7 @@
     "tags": [
       "buildinpublic",
       "founder",
-      "SaaS"
+      "saas"
     ],
     "currentProject": {
       "name": "Kit",
@@ -1194,7 +1194,7 @@
       "tags": [
         "email marketing",
         "creators",
-        "SaaS"
+        "saas"
       ]
     },
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/nathanbarry.jpg"
@@ -1210,7 +1210,7 @@
     "description": "Founder of Visualize Value, sharing insights through visual storytelling.",
     "tags": [
       "buildinpublic",
-      "visualization",
+      "design",
       "founder"
     ],
     "currentProject": {
@@ -1218,9 +1218,9 @@
       "description": "Platform offering visual explanations of complex concepts and training.",
       "link": "https://visualizevalue.com",
       "tags": [
-        "visualization",
+        "design",
         "education",
-        "design"
+        "visualization"
       ]
     },
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/jackbutcher.jpg"
