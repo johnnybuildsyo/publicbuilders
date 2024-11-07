@@ -6,11 +6,8 @@ A directory of who is who in #buildinpublic. Indie hackers, startup founders and
 
 ## TODO
 
-1. Get a good list of builders
-    https://bsky.app/starter-pack-short/T3kv9A8
-    https://bsky.app/profile/did:plc:oio4hkxaop4ao4wz2pp3f4cr/feed/build
-    https://github.com/arvidkahl/awesome-indie    
-2. Add pictures
+☑️ Get initial list of builders
+☑️ Add pictures
 3. Add application form
 4. Add feedback form
 5. Add google analytics
@@ -27,6 +24,10 @@ A directory of who is who in #buildinpublic. Indie hackers, startup founders and
 ----
 
 ## BUILD LOG
+
+2024-11-06
+😩 Been locked out of my X account for 2 days
+🪪 Added missing builder data
 
 2024-11-05
 🛠️ Grinding on creating initial list of builders
