@@ -4,12 +4,18 @@
     "description": "Co-founder of CodePen. Podcast host of ShopTalk Show. Founder of CSS-Tricks",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/chriscoyier.jpg",
     "imageOffset": "",
-    "twitter": "https://x.com/chriscoyier",
-    "twitterFollowers": 245222,
-    "bluesky": "https://bsky.app/profile/chriscoyier.net",
-    "blueskyFollowers": 6900,
-    "github": "https://github.com/chriscoyier",
-    "githubFollowers": 10900,
+    "twitter": {
+      "url": "https://x.com/chriscoyier",
+      "followers": 245222
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/chriscoyier.net",
+      "followers": 6900
+    },
+    "github": {
+      "url": "https://github.com/chriscoyier",
+      "followers": 10900
+    },
     "website": "https://chriscoyier.net/",
     "tags": [
       "frontend",
@@ -32,10 +38,14 @@
     "description": "Tech entrepreneur and writer trying to make the technology world more thoughtful, creative and humane.",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/anildash.jpg",
     "imageOffset": "",
-    "twitter": "https://x.com/anildash",
-    "twitterFollowers": 553043,
-    "bluesky": "https://bsky.app/profile/anildash.com",
-    "blueskyFollowers": 26300,
+    "twitter": {
+      "url": "https://x.com/anildash",
+      "followers": 553043
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/anildash.com",
+      "followers": 26300
+    },
     "website": "https://www.anildash.com/",
     "tags": [
       "community",
@@ -58,10 +68,14 @@
     "description": "Bestselling author of DevOps for Dummies and international keynote speaker. Community, DevRel and Product Marketing at AWS, MSFT, and startups.",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/editingemily.jpg",
     "imageOffset": "30%",
-    "twitter": "https://x.com/editingemily",
-    "twitterFollowers": 85527,
-    "bluesky": "https://bsky.app/profile/emilyfreeman.bsky.social",
-    "blueskyFollowers": 5800,
+    "twitter": {
+      "url": "https://x.com/editingemily",
+      "followers": 85527
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/emilyfreeman.bsky.social",
+      "followers": 5800
+    },
     "website": "https://emilyfreeman.io/",
     "tags": [
       "speaker",
@@ -84,10 +98,14 @@
     "description": "User interface nerd-designer-writer-educator-programmer-photographer-hyphenator extraordinaire",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/amyhoy.jpg",
     "imageOffset": "40%",
-    "twitter": "https://x.com/amyhoy",
-    "twitterFollowers": 24938,
-    "bluesky": "https://bsky.app/profile/amyhoy.bsky.social",
-    "blueskyFollowers": 5400,
+    "twitter": {
+      "url": "https://x.com/amyhoy",
+      "followers": 24938
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/amyhoy.bsky.social",
+      "followers": 5400
+    },
     "website": "https://shorts.stackingthebricks.com/author/amy/",
     "tags": [
       "writing",
@@ -110,12 +128,18 @@
     "description": "Bootstrapper and software developer.",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/ianlandsman.jpg",
     "imageOffset": "",
-    "twitter": "https://x.com/ianlandsman",
-    "twitterFollowers": 10838,
-    "bluesky": "https://bsky.app/profile/ianlandsman.com",
-    "blueskyFollowers": 1100,
-    "github": "https://github.com/ianlandsman",
-    "githubFollowers": 95,
+    "twitter": {
+      "url": "https://x.com/ianlandsman",
+      "followers": 10838
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/ianlandsman.com",
+      "followers": 1100
+    },
+    "github": {
+      "url": "https://github.com/ianlandsman",
+      "followers": 95
+    },
     "website": "https://ianlandsman.com/",
     "tags": [
       "bootstrapping",
@@ -138,12 +162,18 @@
     "description": "Runs the SaaS bootstrapper newsletter with behind-the-scenes from his journey to 7 figures",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/saasmakermac.jpg",
     "imageOffset": "",
-    "twitter": "https://twitter.com/saasmakermac",
-    "twitterFollowers": 5382,
-    "youtube": "https://www.youtube.com/channel/UCev8FsgvXmK8kvTVivAcGsQ",
+    "twitter": {
+      "url": "https://twitter.com/saasmakermac",
+      "followers": 5382
+    },
+    "youtube": {
+      "url": "https://www.youtube.com/channel/UCev8FsgvXmK8kvTVivAcGsQ"
+    },
     "youtubeFollowers": 34,
-    "bluesky": "https://bsky.app/profile/saasmakermac.bsky.social",
-    "blueskyFollowers": 2,
+    "bluesky": {
+      "url": "https://bsky.app/profile/saasmakermac.bsky.social",
+      "followers": 2
+    },
     "website": "https://macmartine.com/",
     "tags": [
       "bootstrapping",
@@ -166,10 +196,14 @@
     "description": "Entrepreneur, Teacher. Building the new Product Hunt.",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/T_Zahil.jpg",
     "imageOffset": "",
-    "twitter": "https://x.com/T_Zahil",
-    "twitterFollowers": 12434,
-    "bluesky": "https://bsky.app/profile/tsanlis.bsky.social",
-    "blueskyFollowers": 282,
+    "twitter": {
+      "url": "https://x.com/T_Zahil",
+      "followers": 12434
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/tsanlis.bsky.social",
+      "followers": 282
+    },
     "website": "https://www.thomas-sanlis.com/",
     "tags": [
       "builder",
@@ -192,10 +226,14 @@
     "description": "Founder of Llama Life for ADHD Tasks & Routines. Co-host of the Weekly Build",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/threehourcoffee.jpg",
     "imageOffset": "25%",
-    "twitter": "https://x.com/threehourcoffee",
-    "twitterFollowers": 16885,
-    "bluesky": "https://bsky.app/profile/threehourcoffee.bsky.social",
-    "blueskyFollowers": 359,
+    "twitter": {
+      "url": "https://x.com/threehourcoffee",
+      "followers": 16885
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/threehourcoffee.bsky.social",
+      "followers": 359
+    },
     "website": "https://www.theweeklybuild.com/",
     "tags": [
       "podcast",
@@ -218,12 +256,18 @@
     "description": "Location independent CEO of Zenmaid. SaaS marketing enthusiast",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/itsjustamar.jpg",
     "imageOffset": "20%",
-    "twitter": "https://x.com/itsjustamar",
-    "twitterFollowers": 3692,
-    "youtube": "https://www.youtube.com/channel/UCCNtG-C5IADz-WZF5kSyRMw",
+    "twitter": {
+      "url": "https://x.com/itsjustamar",
+      "followers": 3692
+    },
+    "youtube": {
+      "url": "https://www.youtube.com/channel/UCCNtG-C5IADz-WZF5kSyRMw"
+    },
     "youtubeFollowers": 190,
-    "bluesky": "https://bsky.app/profile/itsjustamar.bsky.social",
-    "blueskyFollowers": 127,
+    "bluesky": {
+      "url": "https://bsky.app/profile/itsjustamar.bsky.social",
+      "followers": 127
+    },
     "website": "https://www.theamaricandream.com",
     "tags": [
       "saas",
@@ -246,12 +290,18 @@
     "description": "Currently building filmbot & learning ATProto in public. Believes in an open web.",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/robert_gpt3.jpg",
     "imageOffset": "",
-    "twitter": "https://x.com/robert_gpt3",
-    "twitterFollowers": 244,
-    "bluesky": "https://bsky.app/profile/robertlin.bsky.social",
-    "blueskyFollowers": 301,
-    "github": "https://github.com/r002",
-    "githubFollowers": 133,
+    "twitter": {
+      "url": "https://x.com/robert_gpt3",
+      "followers": 244
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/robertlin.bsky.social",
+      "followers": 301
+    },
+    "github": {
+      "url": "https://github.com/r002",
+      "followers": 133
+    },
     "website": "https://r002.github.io/xna/",
     "tags": [
       "webdev",
@@ -274,14 +324,22 @@
     "description": "Founder of GoRails, a company focused on helping Ruby on Rails developers learn, build, and deploy their ideas.",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/excid3.jpg",
     "imageOffset": "30%",
-    "twitter": "https://x.com/excid3",
-    "twitterFollowers": 19467,
-    "youtube": "https://www.youtube.com/@excid3/videos",
+    "twitter": {
+      "url": "https://x.com/excid3",
+      "followers": 19467
+    },
+    "youtube": {
+      "url": "https://www.youtube.com/@excid3/videos"
+    },
     "youtubeFollowers": 1150,
-    "github": "https://github.com/excid3",
-    "githubFollowers": 3300,
-    "bluesky": "https://bsky.app/profile/excid3.bsky.social",
-    "blueskyFollowers": 999,
+    "github": {
+      "url": "https://github.com/excid3",
+      "followers": 3300
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/excid3.bsky.social",
+      "followers": 999
+    },
     "website": "https://excid3.com/",
     "tags": [
       "webdev",
@@ -304,12 +362,18 @@
     "description": "Founder CEO  of Buffer. Building a long term, independent, profitable business with big ambitions.",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/joelgascoigne.jpg",
     "imageOffset": "",
-    "twitter": "https://x.com/joelgascoigne",
-    "twitterFollowers": 71607,
-    "github": "https://github.com/joelg",
-    "githubFollowers": 93,
-    "bluesky": "https://bsky.app/profile/joel.is",
-    "blueskyFollowers": 526,
+    "twitter": {
+      "url": "https://x.com/joelgascoigne",
+      "followers": 71607
+    },
+    "github": {
+      "url": "https://github.com/joelg",
+      "followers": 93
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/joel.is",
+      "followers": 526
+    },
     "website": "https://joel.is/",
     "tags": [
       "founder",
@@ -332,14 +396,22 @@
     "description": "Crafting useful education products and working on Course Builder, a boutique CMS",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/jhooks.jpg",
     "imageOffset": "30%",
-    "twitter": "https://x.com/jhooks",
-    "twitterFollowers": 22068,
-    "github": "https://github.com/joelhooks",
-    "githubFollowers": 1000,
-    "youtube": "https://www.youtube.com/c/JoelHooks",
+    "twitter": {
+      "url": "https://x.com/jhooks",
+      "followers": 22068
+    },
+    "github": {
+      "url": "https://github.com/joelhooks",
+      "followers": 1000
+    },
+    "youtube": {
+      "url": "https://www.youtube.com/c/JoelHooks"
+    },
     "youtubeFollowers": 28,
-    "bluesky": "https://bsky.app/profile/joelhooks.com",
-    "blueskyFollowers": 4000,
+    "bluesky": {
+      "url": "https://bsky.app/profile/joelhooks.com",
+      "followers": 4000
+    },
     "website": "https://joelhooks.com/",
     "tags": [
       "education",
@@ -361,12 +433,18 @@
     "description": "Bootstrapping products while travelling around the world",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/JamesIvings.jpg",
     "imageOffset": "",
-    "twitter": "https://x.com/JamesIvings",
-    "twitterFollowers": 22068,
-    "github": "https://github.com/jivings",
-    "githubFollowers": 86,
-    "bluesky": "https://bsky.app/profile/jivings.bsky.social",
-    "blueskyFollowers": 169,
+    "twitter": {
+      "url": "https://x.com/JamesIvings",
+      "followers": 22068
+    },
+    "github": {
+      "url": "https://github.com/jivings",
+      "followers": 86
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/jivings.bsky.social",
+      "followers": 169
+    },
     "website": "https://leavemealone.com/",
     "tags": [
       "bootstrapping",
@@ -389,10 +467,14 @@
     "description": "Founder of Product Hunt. Investor at Weekend Fund",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/rrhoover.jpg",
     "imageOffset": "60%",
-    "twitter": "https://x.com/rrhoover",
-    "twitterFollowers": 24336,
-    "bluesky": "https://bsky.app/profile/rrhoover.bsky.social",
-    "blueskyFollowers": 671,
+    "twitter": {
+      "url": "https://x.com/rrhoover",
+      "followers": 24336
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/rrhoover.bsky.social",
+      "followers": 671
+    },
     "website": "https://www.ryanhoover.me/",
     "tags": [
       "product",
@@ -415,10 +497,14 @@
     "description": "Making interactive art, companies, and delightfully weird events. Tarot technology, interactive performances, and pixel art. Prev built Dialup, Maskalike, & Branded Fruit",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/djbaskin.jpg",
     "imageOffset": "40%",
-    "twitter": "https://x.com/djbaskin",
-    "twitterFollowers": 24336,
-    "bluesky": "https://bsky.app/profile/danielle.bsky.social",
-    "blueskyFollowers": 1200,
+    "twitter": {
+      "url": "https://x.com/djbaskin",
+      "followers": 24336
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/danielle.bsky.social",
+      "followers": 1200
+    },
     "website": "https://daniellebaskin.com/",
     "tags": [
       "art",
@@ -441,14 +527,22 @@
     "description": "Building ilo.so to track your socials and sales, plus other projects",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/dr.jpg",
     "imageOffset": "",
-    "twitter": "https://x.com/dr",
-    "twitterFollowers": 55404,
-    "youtube": "https://www.youtube.com/c/danrowden",
+    "twitter": {
+      "url": "https://x.com/dr",
+      "followers": 55404
+    },
+    "youtube": {
+      "url": "https://www.youtube.com/c/danrowden"
+    },
     "youtubeFollowers": 616,
-    "github": "https://github.com/danrowden",
-    "githubFollowers": 35,
-    "bluesky": "https://bsky.app/profile/did:plc:jqj3rcaj6evlyjk5dao5dwm7",
-    "blueskyFollowers": 459,
+    "github": {
+      "url": "https://github.com/danrowden",
+      "followers": 35
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/did:plc:jqj3rcaj6evlyjk5dao5dwm7",
+      "followers": 459
+    },
     "website": "https://danrowden.com/",
     "tags": [
       "analytics",
@@ -471,14 +565,22 @@
     "description": "Full Stack JavaScript developer from Canada with free + premium courses and a tri-weekly podcast called Syntax.",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/wesbos.jpg",
     "imageOffset": "",
-    "twitter": "https://x.com/wesbos",
-    "twitterFollowers": 393822,
-    "bluesky": "https://bsky.app/profile/wesbos.com",
-    "blueskyFollowers": 11000,
-    "github": "https://github.com/wesbos",
-    "githubFollowers": 33600,
-    "youtube": "https://www.youtube.com/@WesBos",
-    "youtubeSubscribers": 195000,
+    "twitter": {
+      "url": "https://x.com/wesbos",
+      "followers": 393822
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/wesbos.com",
+      "followers": 11000
+    },
+    "github": {
+      "url": "https://github.com/wesbos",
+      "followers": 33600
+    },
+    "youtube": {
+      "url": "https://www.youtube.com/@WesBos",
+      "followers": 195000
+    },
     "website": "https://wesbos.com/",
     "tags": [
       "education",
@@ -501,14 +603,22 @@
     "description": "Indie founder of High Signal, bootstrapper news, interviews with founders and build in public updates",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/petecodes.jpg",
     "imageOffset": "",
-    "twitter": "https://x.com/petecodes",
-    "twitterFollowers": 9390,
-    "bluesky": "https://bsky.app/profile/petecodes.bsky.social",
-    "blueskyFollowers": 413,
-    "youtube": "https://www.youtube.com/channel/UCofmuxnMWDBDcDkHN8P2GsQ",
+    "twitter": {
+      "url": "https://x.com/petecodes",
+      "followers": 9390
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/petecodes.bsky.social",
+      "followers": 413
+    },
+    "youtube": {
+      "url": "https://www.youtube.com/channel/UCofmuxnMWDBDcDkHN8P2GsQ"
+    },
     "youtubeFollowers": 485,
-    "github": "https://github.com/benrobertsonio",
-    "githubFollowers": 47,
+    "github": {
+      "url": "https://github.com/benrobertsonio",
+      "followers": 47
+    },
     "website": "https://ben.robertson.is/",
     "tags": [
       "ai",
@@ -530,12 +640,18 @@
     "description": "Making thousands of coloring pages and hundreds of dollars a week with colorbliss",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/benrobertsonio.jpg",
     "imageOffset": "",
-    "twitter": "https://x.com/benrobertsonio",
-    "twitterFollowers": 721,
-    "bluesky": "https://bsky.app/profile/ben.robertson.is",
-    "blueskyFollowers": 206,
-    "github": "https://github.com/benrobertsonio",
-    "githubFollowers": 47,
+    "twitter": {
+      "url": "https://x.com/benrobertsonio",
+      "followers": 721
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/ben.robertson.is",
+      "followers": 206
+    },
+    "github": {
+      "url": "https://github.com/benrobertsonio",
+      "followers": 47
+    },
     "website": "https://ben.robertson.is/",
     "tags": [
       "ai",
@@ -557,9 +673,13 @@
     "description": "Builder & self-taught dev shipping revyou.me in public, 10x web3 hackathon winner",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/kirstenrpomales.jpg",
     "imageOffset": "",
-    "twitter": "https://x.com/kirstenrpomales",
-    "twitterFollowers": 0,
-    "youtube": "https://www.youtube.com/channel/UCgyT_7we6YGDVQJDKZD6EBA",
+    "twitter": {
+      "url": "https://x.com/kirstenrpomales",
+      "followers": 0
+    },
+    "youtube": {
+      "url": "https://www.youtube.com/channel/UCgyT_7we6YGDVQJDKZD6EBA"
+    },
     "youtubeFollowers": 27,
     "website": "https://www.kirstenpomales.com/",
     "tags": [
@@ -583,8 +703,10 @@
     "description": "Founder and software engineer focused on connecting tech professionals with meaningful careers.",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/lynnetye.jpg",
     "imageOffset": "20%",
-    "twitter": "https://twitter.com/lynnetye",
-    "twitterFollowers": 5105,
+    "twitter": {
+      "url": "https://twitter.com/lynnetye",
+      "followers": 5105
+    },
     "website": "https://lynnetye.com",
     "tags": [
       "career development",
@@ -607,14 +729,22 @@
     "description": "Software engineer, educator, and writer focused on making coding accessible to everyone.",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/aspittel.jpg",
     "imageOffset": "",
-    "twitter": "https://twitter.com/aspittel",
-    "twitterFollowers": 119698,
-    "bluesky": "https://bsky.app/profile/alispit.tel",
-    "blueskyFollowers": 4700,
-    "youtube": "https://www.youtube.com/channel/UCOxxRhCHDqgtKplU_Ecu4BA",
+    "twitter": {
+      "url": "https://twitter.com/aspittel",
+      "followers": 119698
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/alispit.tel",
+      "followers": 4700
+    },
+    "youtube": {
+      "url": "https://www.youtube.com/channel/UCOxxRhCHDqgtKplU_Ecu4BA"
+    },
     "youtubeFollowers": 6620,
-    "github": "https://github.com/aspittel",
-    "githubFollowers": 3000,
+    "github": {
+      "url": "https://github.com/aspittel",
+      "followers": 3000
+    },
     "website": "https://welearncode.com/",
     "tags": [
       "education",
@@ -637,12 +767,18 @@
     "description": "Engineer, entrepreneur, and diversity advocate with a focus on building technology for social impact.",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/triketora.jpg",
     "imageOffset": "30%",
-    "twitter": "https://twitter.com/triketora",
-    "twitterFollowers": 114185,
-    "github": "https://github.com/triketora",
-    "githubFollowers": 597,
-    "bluesky": "https://bsky.app/profile/triketora.bsky.social",
-    "blueskyFollowers": 3700,
+    "twitter": {
+      "url": "https://twitter.com/triketora",
+      "followers": 114185
+    },
+    "github": {
+      "url": "https://github.com/triketora",
+      "followers": 597
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/triketora.bsky.social",
+      "followers": 3700
+    },
     "website": "https://tracychou.com",
     "tags": [
       "diversity",
@@ -662,9 +798,10 @@
   },
   {
     "name": "Steph Smith",
-    "twitter": "https://twitter.com/stephsmithio",
-    "twitterFollowers": 151426,
-    "bluesky": "",
+    "twitter": {
+      "url": "https://twitter.com/stephsmithio",
+      "followers": 151426
+    },
     "website": "https://stephsmith.io/",
     "description": "Founder of Internet Pipes. Pod host of A16z. Led Trends at The Hustle acquired by HubSpot.",
     "tags": [
@@ -688,14 +825,22 @@
   {
     "name": "Arvid Kahl",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/arvidkahl.jpg",
-    "twitter": "https://twitter.com/arvidkahl",
-    "twitterFollowers": 155567,
-    "bluesky": "https://bsky.app/profile/arvidkahl.bsky.social",
-    "blueskyFollowers": 1200,
-    "youtube": "https://www.youtube.com/@TheBootstrappedFounder",
+    "twitter": {
+      "url": "https://twitter.com/arvidkahl",
+      "followers": 155567
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/arvidkahl.bsky.social",
+      "followers": 1200
+    },
+    "youtube": {
+      "url": "https://www.youtube.com/@TheBootstrappedFounder"
+    },
     "youtubeFollowers": 9880,
-    "github": "https://github.com/arvidkahl",
-    "githubFollowers": 738,
+    "github": {
+      "url": "https://github.com/arvidkahl",
+      "followers": 738
+    },
     "website": "https://thebootstrappedfounder.com",
     "description": "Author and entrepreneur, sharing insights on audience-driven startups.",
     "tags": [
@@ -717,12 +862,18 @@
   {
     "name": "Pieter Levels",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/levelsio.jpg",
-    "twitter": "https://twitter.com/levelsio",
-    "twitterFollowers": 569587,
-    "bluesky": "https://bsky.app/profile/levels.io",
-    "blueskyFollowers": 1500,
-    "youtube": "https://www.youtube.com/levelsio",
-    "youtubeSubscribers": 26200,
+    "twitter": {
+      "url": "https://twitter.com/levelsio",
+      "followers": 569587
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/levels.io",
+      "followers": 1500
+    },
+    "youtube": {
+      "url": "https://www.youtube.com/levelsio",
+      "followers": 26200
+    },
     "website": "https://levels.io",
     "description": "Founder of Nomad List and Remote OK, openly building bootstrapped startups.",
     "tags": [
@@ -744,14 +895,22 @@
   {
     "name": "Kent C. Dodds",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/kentcdodds.jpg",
-    "twitter": "https://twitter.com/kentcdodds",
-    "twitterFollowers": 273144,
-    "bluesky": "https://bsky.app/profile/kentcdodds.com",
-    "blueskyFollowers": 7500,
-    "github": "https://github.com/kentcdodds",
-    "githubFollowers": 33300,
-    "youtube": "https://www.youtube.com/c/kentcdodds-vids",
-    "youtubeSubscribers": 56000,
+    "twitter": {
+      "url": "https://twitter.com/kentcdodds",
+      "followers": 273144
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/kentcdodds.com",
+      "followers": 7500
+    },
+    "github": {
+      "url": "https://github.com/kentcdodds",
+      "followers": 33300
+    },
+    "youtube": {
+      "url": "https://www.youtube.com/c/kentcdodds-vids",
+      "followers": 56000
+    },
     "website": "https://kentcdodds.com",
     "description": "Educator and open-source contributor, building in public through workshops and courses.",
     "tags": [
@@ -774,16 +933,26 @@
     "name": "Cassidy Williams",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/cassidoo.jpg",
     "imageOffset": "20%",
-    "twitter": "https://twitter.com/cassidoo",
-    "twitterFollowers": 182908,
-    "twitch": "https://www.twitch.tv/cassidoo",
-    "twitchSubscribers": 16003,
-    "youtube": "https://www.youtube.com/@cassidoo",
-    "youtubeSubscribers": 1540,
-    "bluesky": "https://bsky.app/profile/cassidoo.co",
-    "blueskyFollowers": 10100,
-    "github": "https://github.com/cassidoo",
-    "githubFollowers": 13400,
+    "twitter": {
+      "url": "https://twitter.com/cassidoo",
+      "followers": 182908
+    },
+    "twitch": {
+      "url": "https://www.twitch.tv/cassidoo",
+      "followers": 16003
+    },
+    "youtube": {
+      "url": "https://www.youtube.com/@cassidoo",
+      "followers": 1540
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/cassidoo.co",
+      "followers": 10100
+    },
+    "github": {
+      "url": "https://github.com/cassidoo",
+      "followers": 13400
+    },
     "website": "https://cassidoo.co",
     "description": "Startup advisor and investor, developer experience expert, open source-er, and meme-maker on the internet",
     "tags": [
@@ -806,14 +975,22 @@
     "name": "Eddie Jaoude",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/eddiejaoude.jpg",
     "imageOffset": "10%",
-    "twitter": "https://twitter.com/eddiejaoude",
-    "twitterFollowers": 182211,
-    "bluesky": "https://bsky.app/profile/eddiejaoude.bsky.social",
-    "blueskyFollowers": 264,
-    "github": "https://github.com/eddiejaoude",
-    "githubFollowers": 8300,
-    "youtube": "https://www.youtube.com/eddiejaoude",
-    "youtubeSubscribers": 46100,
+    "twitter": {
+      "url": "https://twitter.com/eddiejaoude",
+      "followers": 182211
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/eddiejaoude.bsky.social",
+      "followers": 264
+    },
+    "github": {
+      "url": "https://github.com/eddiejaoude",
+      "followers": 8300
+    },
+    "youtube": {
+      "url": "https://www.youtube.com/eddiejaoude",
+      "followers": 46100
+    },
     "website": "https://eddiehub.org",
     "description": "Open-source advocate, building in public and fostering inclusive communities.",
     "tags": [
@@ -835,12 +1012,18 @@
   {
     "name": "Brian Douglas",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/bdougieyo.jpg",
-    "twitter": "https://twitter.com/bdougieyo",
-    "twitterFollowers": 14016,
-    "bluesky": "https://bsky.app/profile/bizza.pizza",
-    "blueskyFollowers": 1000,
-    "github": "https://github.com/bdougie",
-    "githubFollowers": 2340,
+    "twitter": {
+      "url": "https://twitter.com/bdougieyo",
+      "followers": 14016
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/bizza.pizza",
+      "followers": 1000
+    },
+    "github": {
+      "url": "https://github.com/bdougie",
+      "followers": 2340
+    },
     "website": "https://b.dougie.dev",
     "description": "Developer advocate, building open-source tools and sharing knowledge.",
     "tags": [
@@ -862,11 +1045,14 @@
   {
     "name": "Jon Yongfook",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/yongfook.jpg",
-    "twitter": "https://twitter.com/yongfook",
-    "twitterFollowers": 114094,
-    "bluesky": "",
-    "github": "https://github.com/yongfook",
-    "githubFollowers": 291,
+    "twitter": {
+      "url": "https://twitter.com/yongfook",
+      "followers": 114094
+    },
+    "github": {
+      "url": "https://github.com/yongfook",
+      "followers": 291
+    },
     "website": "https://www.zoosaas.com/",
     "description": "Founder of Bannerbear, Clipcat and Roborabbit building SaaS in public.",
     "tags": [
@@ -888,12 +1074,18 @@
   {
     "name": "Justin Jackson",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/mijustin.jpg",
-    "twitter": "https://twitter.com/mijustin",
-    "twitterFollowers": 40528,
-    "bluesky": "https://bsky.app/profile/mijustin.bsky.social",
-    "blueskyFollowers": 2000,
-    "youtube": "https://www.youtube.com/justinjackson",
-    "youtubeSubscribers": 8270,
+    "twitter": {
+      "url": "https://twitter.com/mijustin",
+      "followers": 40528
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/mijustin.bsky.social",
+      "followers": 2000
+    },
+    "youtube": {
+      "url": "https://www.youtube.com/justinjackson",
+      "followers": 8270
+    },
     "website": "https://justinjackson.ca",
     "description": "Co-founder of Transistor.fm, sharing his journey building a podcasting platform.",
     "tags": [
@@ -916,14 +1108,22 @@
     "name": "Sahil Lavingia",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/shl.jpg",
     "imageOffset": "80%",
-    "twitter": "https://twitter.com/shl",
-    "twitterFollowers": 343500,
-    "bluesky": "https://bsky.app/profile/shl.bsky.social",
-    "blueskyFollowers": 222,
-    "youtube": "https://www.youtube.com/@sahil_lavingia",
-    "youtubeSubscribers": 12100,
-    "github": "https://github.com/slavingia",
-    "githubFollowers": 491,
+    "twitter": {
+      "url": "https://twitter.com/shl",
+      "followers": 343500
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/shl.bsky.social",
+      "followers": 222
+    },
+    "youtube": {
+      "url": "https://www.youtube.com/@sahil_lavingia",
+      "followers": 12100
+    },
+    "github": {
+      "url": "https://github.com/slavingia",
+      "followers": 491
+    },
     "website": "https://sahillavingia.com",
     "description": "Founder of Gumroad, openly sharing company metrics and learnings.",
     "tags": [
@@ -945,12 +1145,18 @@
   {
     "name": "Marc Köhlbrugge",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/marckohlbrugge.jpg",
-    "twitter": "https://twitter.com/marckohlbrugge",
-    "twitterFollowers": 63091,
-    "youtube": "https://www.youtube.com/channel/UCr6ik9NmYllrfPPQRf8v9yg",
+    "twitter": {
+      "url": "https://twitter.com/marckohlbrugge",
+      "followers": 63091
+    },
+    "youtube": {
+      "url": "https://www.youtube.com/channel/UCr6ik9NmYllrfPPQRf8v9yg"
+    },
     "youtubeFollowers": 35,
-    "github": "https://github.com/marckohlbrugge",
-    "githubFollowers": 11,
+    "github": {
+      "url": "https://github.com/marckohlbrugge",
+      "followers": 11
+    },
     "website": "https://wip.co",
     "description": "Founder of WIP.co, building tools for makers and sharing progress.",
     "tags": [
@@ -973,10 +1179,14 @@
     "name": "Rosie Sherry",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/rosiesherry.jpg",
     "imageOffset": "0%",
-    "twitter": "https://twitter.com/rosiesherry",
-    "twitterFollowers": 25251,
-    "bluesky": "https://bsky.app/profile/rosiesherry.com",
-    "blueskyFollowers": 1100,
+    "twitter": {
+      "url": "https://twitter.com/rosiesherry",
+      "followers": 25251
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/rosiesherry.com",
+      "followers": 1100
+    },
     "website": "https://rosie.land",
     "description": "Community builder sharing her work and insights in public.",
     "tags": [
@@ -997,11 +1207,14 @@
   },
   {
     "name": "Ben Tossell",
-    "twitter": "https://twitter.com/bentossell",
-    "twitterFollowers": 146281,
-    "youtube": "https://www.youtube.com/@bentossell694",
-    "youtubeSubscribers": 1290,
-    "bluesky": "",
+    "twitter": {
+      "url": "https://twitter.com/bentossell",
+      "followers": 146281
+    },
+    "youtube": {
+      "url": "https://www.youtube.com/@bentossell694",
+      "followers": 1290
+    },
     "website": "https://bentossell.com",
     "description": "Founder of Makerpad, sharing projects and journey in public.",
     "tags": [
@@ -1024,12 +1237,18 @@
   },
   {
     "name": "Josh Pigford",
-    "twitter": "https://twitter.com/Shpigford",
-    "twitterFollowers": 46939,
-    "bluesky": "https://bsky.app/profile/joshpigford.com",
-    "blueskyFollowers": 158,
-    "github": "https://github.com/shpigford",
-    "githubFollowers": 417,
+    "twitter": {
+      "url": "https://twitter.com/Shpigford",
+      "followers": 46939
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/joshpigford.com",
+      "followers": 158
+    },
+    "github": {
+      "url": "https://github.com/shpigford",
+      "followers": 417
+    },
     "website": "https://joshpigford.com",
     "description": "Founder of Baremetrics and Cedar, sharing insights and experiences openly.",
     "tags": [
@@ -1051,9 +1270,10 @@
   },
   {
     "name": "Courtland Allen",
-    "twitter": "https://twitter.com/csallen",
-    "twitterFollowers": 63507,
-    "bluesky": "",
+    "twitter": {
+      "url": "https://twitter.com/csallen",
+      "followers": 63507
+    },
     "website": "https://courtlandallen.com",
     "description": "Founder of Indie Hackers, promoting transparency among indie makers.",
     "tags": [
@@ -1075,11 +1295,14 @@
   },
   {
     "name": "Julian Shapiro",
-    "twitter": "https://twitter.com/Julian",
-    "twitterFollowers": 277263,
-    "github": "https://github.com/julianshapiro",
-    "githubFollowers": 796,
-    "bluesky": "",
+    "twitter": {
+      "url": "https://twitter.com/Julian",
+      "followers": 277263
+    },
+    "github": {
+      "url": "https://github.com/julianshapiro",
+      "followers": 796
+    },
     "website": "https://julian.com",
     "description": "Entrepreneur and writer, sharing knowledge on marketing and startups.",
     "tags": [
@@ -1101,10 +1324,14 @@
   },
   {
     "name": "Peter Suhm",
-    "twitter": "https://twitter.com/petersuhm",
-    "twitterFollowers": 4694,
-    "bluesky": "https://bsky.app/profile/petersuhm.com",
-    "blueskyFollowers": 351,
+    "twitter": {
+      "url": "https://twitter.com/petersuhm",
+      "followers": 4694
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/petersuhm.com",
+      "followers": 351
+    },
     "website": "https://petersuhm.com",
     "description": "Co-founder of Branch and Founder of Reform.",
     "tags": [
@@ -1127,10 +1354,10 @@
   },
   {
     "name": "Marie Poulin",
-    "twitter": "https://twitter.com/MariePoulin",
-    "twitterFollowers": 40091,
-    "bluesky": "",
-    "github": "",
+    "twitter": {
+      "url": "https://twitter.com/MariePoulin",
+      "followers": 40091
+    },
     "website": "https://mariepoulin.com",
     "description": "Digital strategist sharing her experiences in building online businesses.",
     "tags": [
@@ -1152,10 +1379,10 @@
   },
   {
     "name": "Harry Dry",
-    "twitter": "https://twitter.com/harrydry",
-    "twitterFollowers": 42799,
-    "bluesky": "",
-    "github": "",
+    "twitter": {
+      "url": "https://twitter.com/harrydry",
+      "followers": 42799
+    },
     "website": "https://marketingexamples.com",
     "description": "Founder of Marketing Examples, sharing practical marketing tips and building in public.",
     "tags": [
@@ -1177,9 +1404,10 @@
   },
   {
     "name": "Nathan Barry",
-    "twitter": "https://twitter.com/nathanbarry",
-    "twitterFollowers": 136273,
-    "bluesky": "",
+    "twitter": {
+      "url": "https://twitter.com/nathanbarry",
+      "followers": 136273
+    },
     "website": "https://nathanbarry.com",
     "description": "Founder of Kit (formerly ConvertKit), sharing insights on building a SaaS company.",
     "tags": [
@@ -1201,11 +1429,14 @@
   },
   {
     "name": "Jack Butcher",
-    "twitter": "https://twitter.com/jackbutcher",
-    "twitterFollowers": 297860,
-    "github": "",
-    "bluesky": "https://bsky.app/profile/jackiebutcher.bsky.social",
-    "blueskyFollowers": 26,
+    "twitter": {
+      "url": "https://twitter.com/jackbutcher",
+      "followers": 297860
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/jackiebutcher.bsky.social",
+      "followers": 26
+    },
     "website": "https://jack.art",
     "description": "Founder of Visualize Value, sharing insights through visual storytelling.",
     "tags": [
