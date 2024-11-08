@@ -22,6 +22,7 @@ import { YoutubeIcon } from "@/components/icons/youtube"
 import { GithubIcon } from "@/components/icons/github"
 
 export default function BuilderProfileForm(): JSX.Element {
+  const [submittedWithoutCaptcha, setSubmittedWithoutCaptcha] = useState<boolean>(false)
   const [isSubmitted, setIsSubmitted] = useState<boolean>(false)
   const [captchaToken, setCaptchaToken] = useState<string | null>(null)
   const {
@@ -43,6 +44,11 @@ export default function BuilderProfileForm(): JSX.Element {
   type SocialMediaUrls = Pick<FormData, SocialMediaPlatform>
 
   const onSubmit = (data: FormData) => {
+    if (!captchaToken) {
+      setSubmittedWithoutCaptcha(true)
+      return
+    }
+
     // Compute social media URLs based on handles
     const socialPlatforms: SocialMediaPlatform[] = ["twitter", "twitch", "youtube", "github", "bluesky"]
 
@@ -150,6 +156,7 @@ export default function BuilderProfileForm(): JSX.Element {
               {errors.currentProject?.tags && <p className="text-red-500 text-sm mt-1">{errors.currentProject.tags.message}</p>}
             </div>
           </div>
+          {submittedWithoutCaptcha && !captchaToken && <p className="text-red-500 text-sm w-full text-right">Please complete the captcha to submit the form.</p>}
           <div className="w-full flex justify-end">
             <ReCAPTCHA sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || ""} theme="light" onChange={(value) => setCaptchaToken(value)} />
           </div>
@@ -157,7 +164,7 @@ export default function BuilderProfileForm(): JSX.Element {
             <Link className="px-2" href="/">
               Cancel
             </Link>
-            <Button className="disabled:opacity-30 px-8 transition-all ease-in-out duration-500" disabled={Boolean(!captchaToken)} type="submit">
+            <Button className="px-8 disabled:opacity-30 transition-all ease-in-out duration-500" disabled={submittedWithoutCaptcha && !captchaToken} type="submit">
               Submit
             </Button>
           </div>
