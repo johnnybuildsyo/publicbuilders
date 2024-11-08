@@ -12,7 +12,6 @@ import { Label } from "@/components/ui/label"
 import { CheckCircle2, CircleOff } from "lucide-react"
 import { TwitterXIcon } from "@/components/icons/x"
 import BuilderSocialMediaField from "./builder-social-media-field"
-import { HandleField } from "./builder-social-media-field"
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 import ReCAPTCHA from "react-google-recaptcha"
 import { formSchema, FormData, SocialMediaPlatform } from "@/app/_types"
@@ -41,39 +40,31 @@ export default function BuilderProfileForm(): JSX.Element {
     },
   })
 
-  type SocialMediaUrls = Pick<FormData, SocialMediaPlatform>
-
   const onSubmit = (data: FormData) => {
     if (!captchaToken) {
       setSubmittedWithoutCaptcha(true)
       return
     }
 
-    // Compute social media URLs based on handles
-    const socialPlatforms: SocialMediaPlatform[] = ["twitter", "twitch", "youtube", "github", "bluesky"]
+    // Define social media URL mappings
+    const socialPlatforms: { platform: SocialMediaPlatform; urlPrefix: string }[] = [
+      { platform: "twitter", urlPrefix: "https://twitter.com/" },
+      { platform: "twitch", urlPrefix: "https://twitch.tv/" },
+      { platform: "youtube", urlPrefix: "https://youtube.com/@" },
+      { platform: "github", urlPrefix: "https://github.com/" },
+      { platform: "bluesky", urlPrefix: "https://bsky.app/profile/" },
+    ]
 
-    socialPlatforms.forEach((platform) => {
-      const handleField = `${platform}Handle` as HandleField
-      const urlField = platform as keyof SocialMediaUrls
-      const handleValue = data[handleField]
-
-      if (handleValue?.startsWith("http")) {
-        ;(data as SocialMediaUrls)[urlField] = handleValue
-      } else if (handleValue) {
-        if (platform === "bluesky") {
-          ;(data as SocialMediaUrls)[urlField] = `https://bsky.app/profile/${handleValue}`
-        } else if (platform === "twitch") {
-          ;(data as SocialMediaUrls)[urlField] = `https://twitch.tv/${handleValue}`
-        } else if (platform === "youtube") {
-          ;(data as SocialMediaUrls)[urlField] = `https://youtube.com/@${handleValue}`
-        } else {
-          ;(data as SocialMediaUrls)[urlField] = `https://${platform}.com/${handleValue}`
-        }
+    // Loop through each platform and construct URLs if handle exists
+    socialPlatforms.forEach(({ platform, urlPrefix }) => {
+      const handle = data[platform]?.handle
+      if (handle) {
+        // Use the handle to construct the URL
+        data[platform]!.url = handle.startsWith("http") ? handle : `${urlPrefix}${handle}`
       }
     })
 
     console.log("onSubmit", { ...data, captchaToken })
-    console.log(JSON.stringify(data, null, 2))
     setIsSubmitted(true)
   }
 

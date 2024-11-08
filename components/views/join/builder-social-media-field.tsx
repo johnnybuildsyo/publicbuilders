@@ -6,8 +6,8 @@ import { Button } from "@/components/ui/button"
 import { Edit2 } from "lucide-react"
 import { FormData, SocialMediaPlatform } from "@/app/_types"
 
-export type HandleField = `${SocialMediaPlatform}Handle`
-export type FollowerField = `${SocialMediaPlatform}${"Followers" | "Subscribers"}`
+type HandleField = `${SocialMediaPlatform}.handle`
+type FollowerField = `${SocialMediaPlatform}.followers`
 
 const followerSuffixMap: Record<SocialMediaPlatform, "Followers" | "Subscribers"> = {
   twitter: "Followers",
