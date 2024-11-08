@@ -9,7 +9,7 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 import { Label } from "@/components/ui/label"
-import { CheckCircle2, CircleOff } from "lucide-react"
+import { CircleOff } from "lucide-react"
 import { TwitterXIcon } from "@/components/icons/x"
 import BuilderSocialMediaField from "./builder-social-media-field"
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
@@ -19,10 +19,13 @@ import { BlueskyIcon } from "@/components/icons/bluesky"
 import { TwitchIcon } from "@/components/icons/twitch"
 import { YoutubeIcon } from "@/components/icons/youtube"
 import { GithubIcon } from "@/components/icons/github"
+import BuilderProfileFormSuccess from "./builder-profile-form-success"
+import { Spinner } from "@/components/ui/spinner"
 
 export default function BuilderProfileForm(): JSX.Element {
-  const [submittedWithoutCaptcha, setSubmittedWithoutCaptcha] = useState<boolean>(false)
-  const [isSubmitted, setIsSubmitted] = useState<boolean>(false)
+  const [submittedWithoutCaptcha, setSubmittedWithoutCaptcha] = useState(false)
+  const [isLoading, setIsLoading] = useState(false)
+  const [hasSubmitted, setHasSubmitted] = useState(false)
   const [captchaToken, setCaptchaToken] = useState<string | null>(null)
   const {
     register,
@@ -40,11 +43,13 @@ export default function BuilderProfileForm(): JSX.Element {
     },
   })
 
-  const onSubmit = (data: FormData) => {
+  const onSubmit = async (data: FormData) => {
     if (!captchaToken) {
       setSubmittedWithoutCaptcha(true)
       return
     }
+
+    setIsLoading(true)
 
     // Define social media URL mappings
     const socialPlatforms: { platform: SocialMediaPlatform; urlPrefix: string }[] = [
@@ -59,13 +64,43 @@ export default function BuilderProfileForm(): JSX.Element {
     socialPlatforms.forEach(({ platform, urlPrefix }) => {
       const handle = data[platform]?.handle
       if (handle) {
-        // Use the handle to construct the URL
+        // Use the handle to construct the URL unless it is the URL
         data[platform]!.url = handle.startsWith("http") ? handle : `${urlPrefix}${handle}`
       }
     })
 
-    console.log("onSubmit", { ...data, captchaToken })
-    setIsSubmitted(true)
+    try {
+      const response = await fetch("/api/join", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          ...data,
+          captchaToken,
+        }),
+      })
+
+      if (!response.ok) {
+        const errorData = await response.json()
+        console.error("Error submitting form:", errorData.error)
+        alert(`Error: ${errorData.error}`)
+        return
+      }
+
+      const result = await response.json()
+      console.log("Submission result:", result)
+
+      setHasSubmitted(true)
+      setCaptchaToken(null)
+    } catch (error) {
+      console.error("Submission error:", error)
+      alert("There was an error submitting the form.")
+    } finally {
+      setIsLoading(false)
+    }
+  }
+
+  if (hasSubmitted) {
+    return <BuilderProfileFormSuccess />
   }
 
   return (
@@ -152,21 +187,24 @@ export default function BuilderProfileForm(): JSX.Element {
             <ReCAPTCHA sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || ""} theme="light" onChange={(value) => setCaptchaToken(value)} />
           </div>
           <div className="flex justify-end items-center gap-8">
-            <Link className="px-2" href="/">
-              Cancel
-            </Link>
-            <Button className="px-8 disabled:opacity-30 transition-all ease-in-out duration-500" disabled={submittedWithoutCaptcha && !captchaToken} type="submit">
-              Submit
-            </Button>
+            {isLoading ? (
+              <Spinner containerClassName="pr-2" className="fill-fuchsia-600" />
+            ) : (
+              <>
+                <Link className="px-2" href="/">
+                  Cancel
+                </Link>
+                <Button
+                  className="disabled:opacity-30 transition-all ease-in-out duration-500 text-lg py-2 px-12 h-auto bg-fuchsia-600 hover:bg-fuchsia-600 hover:scale-105"
+                  disabled={submittedWithoutCaptcha && !captchaToken}
+                  type="submit"
+                >
+                  Submit
+                </Button>
+              </>
+            )}
           </div>
         </form>
-
-        {isSubmitted && (
-          <div className="mt-4 p-4 bg-green-100 text-green-800 rounded-md flex items-center">
-            <CheckCircle2 className="mr-2" />
-            Form submitted successfully! Check the console for the submitted data.
-          </div>
-        )}
       </CardContent>
     </Card>
   )

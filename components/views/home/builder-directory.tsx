@@ -9,12 +9,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Search, ExternalLink } from "lucide-react"
 import { Builder } from "@/app/_types"
-import { GithubIcon } from "@/components/icons/github"
-import { TwitterXIcon } from "@/components/icons/x"
-import { BlueskyIcon } from "@/components/icons/bluesky"
-import { TwitchIcon } from "@/components/icons/twitch"
-import { YoutubeIcon } from "@/components/icons/youtube"
-import { formatNum } from "@/lib/utils"
+import SocialMediaLinks from "./social-media-links"
 
 export function BuilderDirectory({ builders }: { builders: Builder[] }) {
   const [searchTerm, setSearchTerm] = useState("")
@@ -37,15 +32,15 @@ export function BuilderDirectory({ builders }: { builders: Builder[] }) {
       const bLastName = b.name.split(" ").slice(-1)[0]
       return aLastName.localeCompare(bLastName)
     } else if (sortBy === "twitterFollowers") {
-      return (b.twitterFollowers || 0) - (a.twitterFollowers || 0)
+      return (b.twitter?.followers || 0) - (a.twitter?.followers || 0)
     } else if (sortBy === "githubFollowers") {
-      return (b.githubFollowers || 0) - (a.githubFollowers || 0)
+      return (b.github?.followers || 0) - (a.github?.followers || 0)
     } else if (sortBy === "youtubeSubscribers") {
-      return (b.youtubeSubscribers || 0) - (a.youtubeSubscribers || 0)
+      return (b.youtube?.followers || 0) - (a.youtube?.followers || 0)
     } else if (sortBy === "twitchSubscribers") {
-      return (b.twitchSubscribers || 0) - (a.twitchSubscribers || 0)
+      return (b.twitch?.followers || 0) - (a.twitch?.followers || 0)
     } else if (sortBy === "blueskyFollowers") {
-      return (b.blueskyFollowers || 0) - (a.blueskyFollowers || 0)
+      return (b.bluesky?.followers || 0) - (a.bluesky?.followers || 0)
     } else {
       return 0
     }
@@ -113,59 +108,7 @@ export function BuilderDirectory({ builders }: { builders: Builder[] }) {
                       </Badge>
                     ))}
                   </div>
-                  <div className="flex flex-col items-center gap-2 mt-4">
-                    <Link href={builder.website} target="_blank" rel="noopener noreferrer" className="text-lg font-medium text-blue-600 hover:underline mb-2">
-                      {new URL(builder.website).hostname}
-                    </Link>
-                    <div className="flex gap-2 flex-wrap justify-center">
-                      {/* Social Media Links with Follower Counts */}
-                      {builder.twitter && (
-                        <Link href={builder.twitter} target="_blank" rel="noopener noreferrer">
-                          <Button variant="outline" size="sm">
-                            <TwitterXIcon className="scale-75" />
-                            <span className="sr-only">X (formerly Twitter)</span>
-                            {builder.twitterFollowers && <span>{formatNum(builder.twitterFollowers)}</span>}
-                          </Button>
-                        </Link>
-                      )}
-                      {builder.youtube && (
-                        <Link href={builder.youtube} target="_blank" rel="noopener noreferrer">
-                          <Button variant="outline" size="sm">
-                            <YoutubeIcon />
-                            <span className="sr-only">YouTube</span>
-                            {builder.youtubeSubscribers && <span>{formatNum(builder.youtubeSubscribers)}</span>}
-                          </Button>
-                        </Link>
-                      )}
-                      {builder.twitch && (
-                        <Link href={builder.twitch} target="_blank" rel="noopener noreferrer">
-                          <Button variant="outline" size="sm">
-                            <TwitchIcon />
-                            <span className="sr-only">Twitch</span>
-                            {builder.twitchSubscribers && <span>{formatNum(builder.twitchSubscribers)}</span>}
-                          </Button>
-                        </Link>
-                      )}
-                      {builder.github && (
-                        <Link href={builder.github} target="_blank" rel="noopener noreferrer">
-                          <Button variant="outline" size="sm">
-                            <GithubIcon />
-                            <span className="sr-only">GitHub</span>
-                            {builder.githubFollowers && <span>{formatNum(builder.githubFollowers)}</span>}
-                          </Button>
-                        </Link>
-                      )}
-                      {builder.bluesky && (
-                        <Link href={builder.bluesky} target="_blank" rel="noopener noreferrer">
-                          <Button variant="outline" size="sm">
-                            <BlueskyIcon />
-                            <span className="sr-only">Bluesky</span>
-                            {builder.blueskyFollowers && <span>{formatNum(builder.blueskyFollowers)}</span>}
-                          </Button>
-                        </Link>
-                      )}
-                    </div>
-                  </div>
+                  <SocialMediaLinks builder={builder} />
                 </div>
                 {builder.currentProject && (
                   <Link href={builder.currentProject.link} target="_blank" rel="noopener noreferrer" className="w-full mt-4 p-4 bg-gray-100 rounded-lg">
