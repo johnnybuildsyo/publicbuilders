@@ -14,6 +14,7 @@ import { CheckCircle2, Twitter, Twitch, Youtube, Github, CircleOff } from "lucid
 import BuilderSocialMediaField from "./builder-social-media-field"
 import { HandleField, SocialMediaPlatform } from "./builder-social-media-field"
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
+import ReCAPTCHA from "react-google-recaptcha"
 
 const formSchema = z
   .object({
@@ -72,6 +73,7 @@ export type FormData = z.infer<typeof formSchema>
 
 export default function BuilderProfileForm(): JSX.Element {
   const [isSubmitted, setIsSubmitted] = useState<boolean>(false)
+  const [captchaToken, setCaptchaToken] = useState<string | null>(null)
   const {
     register,
     handleSubmit,
@@ -99,12 +101,23 @@ export default function BuilderProfileForm(): JSX.Element {
       const urlField = platform as keyof SocialMediaUrls
       const handleValue = data[handleField]
 
-      if (handleValue && handleValue.trim() !== "") {
-        ;(data as SocialMediaUrls)[urlField] = `https://${platform}.com/${handleValue}`
+      if (handleValue?.startsWith("http")) {
+        ;(data as SocialMediaUrls)[urlField] = handleValue
+      } else if (handleValue) {
+        if (platform === "bluesky") {
+          ;(data as SocialMediaUrls)[urlField] = `https://bsky.app/profile/${handleValue}`
+        } else if (platform === "twitch") {
+          ;(data as SocialMediaUrls)[urlField] = `https://twitch.tv/${handleValue}`
+        } else if (platform === "youtube") {
+          ;(data as SocialMediaUrls)[urlField] = `https://youtube.com/@${handleValue}`
+        } else {
+          ;(data as SocialMediaUrls)[urlField] = `https://${platform}.com/${handleValue}`
+        }
       }
     })
 
-    console.log("onSubmit", data)
+    console.log("onSubmit", { ...data, captchaToken })
+    console.log(JSON.stringify(data, null, 2))
     setIsSubmitted(true)
   }
 
@@ -142,7 +155,9 @@ export default function BuilderProfileForm(): JSX.Element {
           </div>
 
           <div>
-            <Label htmlFor="tags">Tags (comma-separated)</Label>
+            <Label htmlFor="tags">
+              Tags <span className="text-xs font-normal">(comma-separated)</span>
+            </Label>
             <Input id="tags" {...register("tags")} className="mt-1" />
             {errors.tags && <p className="text-red-500 text-sm mt-1">{errors.tags.message}</p>}
           </div>
@@ -150,7 +165,7 @@ export default function BuilderProfileForm(): JSX.Element {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold">Social Media Accounts</h3>
             <div className="space-y-6">
-              <BuilderSocialMediaField field="twitter" icon={<Twitter size={20} />} label="Twitter Account" register={register} errors={errors} setValue={setValue} watch={watch} />
+              <BuilderSocialMediaField field="twitter" icon={<Twitter size={20} />} label="X / Twitter Account" register={register} errors={errors} setValue={setValue} watch={watch} />
               <BuilderSocialMediaField field="bluesky" icon={<Twitter size={20} />} label="Bluesky Account" register={register} errors={errors} setValue={setValue} watch={watch} />
               <BuilderSocialMediaField field="twitch" icon={<Twitch size={20} />} label="Twitch Account" register={register} errors={errors} setValue={setValue} watch={watch} />
               <BuilderSocialMediaField field="youtube" icon={<Youtube size={20} />} label="YouTube Account" register={register} errors={errors} setValue={setValue} watch={watch} />
@@ -178,10 +193,15 @@ export default function BuilderProfileForm(): JSX.Element {
               {errors.currentProject?.description && <p className="text-red-500 text-sm mt-1">{errors.currentProject.description.message}</p>}
             </div>
             <div>
-              <Label htmlFor="currentProjectTags">Tags (comma-separated)</Label>
+              <Label htmlFor="currentProjectTags">
+                Tags <span className="text-xs font-normal">(comma-separated)</span>
+              </Label>
               <Input id="currentProjectTags" {...register("currentProject.tags")} className="mt-1" />
               {errors.currentProject?.tags && <p className="text-red-500 text-sm mt-1">{errors.currentProject.tags.message}</p>}
             </div>
+          </div>
+          <div className="w-full flex justify-end">
+            <ReCAPTCHA sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || ""} theme="light" onChange={(value) => setCaptchaToken(value)} />
           </div>
           <div className="flex justify-end items-center gap-8">
             <Link href="/">Cancel</Link>
