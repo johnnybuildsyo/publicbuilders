@@ -26,52 +26,50 @@ A directory of who is who in #buildinpublic. Indie hackers, startup founders and
 
 ## BUILD LOG
 
-2024-11-07
-🪪 Added ReCAPTCHA to join form
-🤚 UI Improvements builder join request form
-😩 Signed up to new X account after mystery lockout
-🔁 Made CLI tool to generate commit stats + added Build Log to README 
+**2024-11-07**  
+🪪 Added ReCAPTCHA to join form  
+🤚 UI Improvements builder join request form  
+😩 Signed up to new X account after mystery lockout  
+🔁 Made CLI tool to generate commit stats + added Build Log to README   
 ⏫ Files changed: 24, Lines added: 1895, Lines deleted: 203
 
-[git-daily-summary.sh](https://gist.github.com/johnnybuildsyo/16a77a2f20970cc054a07b53b7f900f1)
+[git-daily-summary.sh](https://gist.github.com/johnnybuildsyo/16a77a2f20970cc054a07b53b7f900f1)  
 [x/johnnybuilds_](https://x.com/johnnybuilds_)
 
 --
 
-2024-11-06
-🪪 Added missing builder data
-😩 Been locked out of my X account for 2 days
-🔁 Used ChatGPT to normalize tagging in my json data
-🤚 Added UI for the builder join request form
-⏫ Files changed: 13, Lines added: 860, Lines deleted: 1035
+**2024-11-06**  
+🪪 Added missing builder data  
+😩 Been locked out of my X account for 2 days  
+🔁 Used ChatGPT to normalize tagging in my json data  
+🤚 Added UI for the builder join request form  
+⏫ Files changed: 13, Lines added: 860, Lines deleted: 1035  
 
 [chatgpt.com/share/..](https://chatgpt.com/share/672c1f20-db90-8009-af3b-3d5a81d35aae)
 
 --
 
-2024-11-05
-
-🛠️ Grinding on creating initial list of builders
-👤 Improved CLI command to auto batch upload missing profile images to my S3
-🔍 Added sorting and searching
-⏫ Files changed: 11, Lines added: 1197, Lines deleted: 390
+**2024-11-05**
+🛠️ Grinding on creating initial list of builders  
+👤 Improved CLI command to auto batch upload missing profile images to my S3  
+🔍 Added sorting and searching  
+⏫ Files changed: 11, Lines added: 1197, Lines deleted: 390  
 
 --
 
-2024-11-04
-
-🤘 Went from empty project directory to initial prototype.
-🛠️ Creating initial list of builders
-👤 Made script for uploading profile images
-🚫 Tried/failed to find social media data solution
+**2024-11-04**
+🤘 Went from empty project directory to initial prototype.  
+🛠️ Creating initial list of builders  
+👤 Made script for uploading profile images  
+🚫 Tried/failed to find social media data solution  
 ⏫ Files changed: 12, Lines added: 2498, Lines deleted: 269
 
 --
 
-2024-11-03
-
+**2024-11-03**  
 🚀 Bought [publicbuilders.org](https://publicbuilders.org) 
-🚀 Generated a prototype on v0
-🚀 Deployed, shared on [Bluesky](https://bsky.app/profile/johnnybuilds.bsky.social/post/3la3eqi7lun2c) and updated [JohnnyBuilds.com](https://johnnybuilds.com) project status
+🚀 Generated a [prototype on v0](https://v0.dev/chat/wQ2wK1qyHMB?b=b_bbroDnKtltd)  
+🦋 Deployed, shared on [Bluesky](https://bsky.app/profile/johnnybuilds.bsky.social/post/3la3eqi7lun2c)  
+😎 Updated [JohnnyBuilds.com](https://johnnybuilds.com) project status  
 ⏫ Files changed: 86, Lines added: 12129, Lines deleted: 697
 
