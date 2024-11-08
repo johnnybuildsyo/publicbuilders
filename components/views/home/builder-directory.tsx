@@ -101,7 +101,7 @@ export function BuilderDirectory({ builders }: { builders: Builder[] }) {
               <CardContent className="space-y-4 flex-grow flex flex-col">
                 <div className="flex-grow flex flex-col justify-start">
                   <p className="text-sm text-center text-balance">{builder.description}</p>
-                  <div className="flex flex-wrap justify-center gap-2 mt-4">
+                  <div className="flex flex-wrap justify-center gap-2 mt-4 mb-2">
                     {builder.tags.map((tag) => (
                       <Badge key={tag} variant="secondary">
                         {tag}
