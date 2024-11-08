@@ -13,7 +13,7 @@ import SocialMediaLinks from "./social-media-links"
 
 export function BuilderDirectory({ builders }: { builders: Builder[] }) {
   const [searchTerm, setSearchTerm] = useState("")
-  const [sortBy, setSortBy] = useState("name")
+  const [sortBy, setSortBy] = useState("blueskyFollowers")
 
   const filteredBuilders = builders.filter((builder) => {
     const fullNameIncludes = builder.name.toLowerCase().includes(searchTerm.toLowerCase())

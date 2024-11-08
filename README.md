@@ -27,6 +27,16 @@ A directory of who is who in #buildinpublic. Indie hackers, startup founders and
 ## BUILD LOG
 
 **2024-11-07**  
+😸 Setup Github commit flow for join requests  
+👮 Refactored typings to infer from zod  
+🦋 Default sort builders by number of Bluesky followers  
+🎉 First successful form submission
+⏫ Files changed: ??
+
+
+--
+
+**2024-11-07**  
 🪪 Added ReCAPTCHA to join form  
 🤚 UI Improvements builder join request form  
 😩 Signed up to new X account after mystery lockout  
