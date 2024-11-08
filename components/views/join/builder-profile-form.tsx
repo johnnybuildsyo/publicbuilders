@@ -4,72 +4,22 @@ import Link from "next/link"
 import { useState } from "react"
 import { useForm } from "react-hook-form"
 import { zodResolver } from "@hookform/resolvers/zod"
-import * as z from "zod"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 import { Label } from "@/components/ui/label"
-import { CheckCircle2, Twitter, Twitch, Youtube, Github, CircleOff } from "lucide-react"
+import { CheckCircle2, CircleOff } from "lucide-react"
+import { TwitterXIcon } from "@/components/icons/x"
 import BuilderSocialMediaField from "./builder-social-media-field"
-import { HandleField, SocialMediaPlatform } from "./builder-social-media-field"
+import { HandleField } from "./builder-social-media-field"
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 import ReCAPTCHA from "react-google-recaptcha"
-
-const formSchema = z
-  .object({
-    name: z.string().min(1, "Name is required"),
-    twitterHandle: z.string().optional(),
-    twitter: z.string().url("Invalid URL").optional(),
-    twitterFollowers: z.number().optional(),
-    twitchHandle: z.string().optional(),
-    twitch: z.string().url("Invalid URL").optional(),
-    twitchSubscribers: z.number().optional(),
-    youtubeHandle: z.string().optional(),
-    youtube: z.string().url("Invalid URL").optional(),
-    youtubeSubscribers: z.number().optional(),
-    githubHandle: z.string().optional(),
-    github: z.string().url("Invalid URL").optional(),
-    githubFollowers: z.number().optional(),
-    blueskyHandle: z.string().optional(),
-    bluesky: z.string().url("Invalid URL").optional(),
-    blueskyFollowers: z.number().optional(),
-    website: z.preprocess((value) => {
-      if (typeof value === "string" && !value.startsWith("http")) {
-        return `https://${value}`
-      }
-      return value
-    }, z.string().url("Invalid URL")),
-    description: z.string().min(1, "Description is required"),
-    tags: z.preprocess((value) => (typeof value === "string" ? value.split(",").map((tag) => tag.trim()) : value), z.array(z.string()).min(1, "At least one tag is required")),
-    currentProject: z.object({
-      name: z.string().min(1, "Name is required"),
-      description: z.string().min(1, "Description is required"),
-      link: z.preprocess((value) => {
-        if (typeof value === "string" && !value.startsWith("http")) {
-          return `https://${value}`
-        }
-        return value
-      }, z.string().url("Invalid URL")),
-      tags: z.preprocess((value) => (typeof value === "string" ? value.split(",").map((tag) => tag.trim()) : value), z.array(z.string()).min(1, "At least one tag is required")),
-    }),
-  })
-  .refine(
-    (data) => {
-      if (data.twitterHandle && !data.twitterFollowers) return false
-      if (data.twitchHandle && !data.twitchSubscribers) return false
-      if (data.youtubeHandle && !data.youtubeSubscribers) return false
-      if (data.githubHandle && !data.githubFollowers) return false
-      if (data.blueskyHandle && !data.blueskyFollowers) return false
-      return true
-    },
-    {
-      message: "Follower/subscriber count is required when social media account is provided",
-      path: ["twitterFollowers"],
-    }
-  )
-
-export type FormData = z.infer<typeof formSchema>
+import { formSchema, FormData, SocialMediaPlatform } from "@/app/_types"
+import { BlueskyIcon } from "@/components/icons/bluesky"
+import { TwitchIcon } from "@/components/icons/twitch"
+import { YoutubeIcon } from "@/components/icons/youtube"
+import { GithubIcon } from "@/components/icons/github"
 
 export default function BuilderProfileForm(): JSX.Element {
   const [isSubmitted, setIsSubmitted] = useState<boolean>(false)
@@ -165,11 +115,11 @@ export default function BuilderProfileForm(): JSX.Element {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold">Social Media Accounts</h3>
             <div className="space-y-6">
-              <BuilderSocialMediaField field="twitter" icon={<Twitter size={20} />} label="X / Twitter Account" register={register} errors={errors} setValue={setValue} watch={watch} />
-              <BuilderSocialMediaField field="bluesky" icon={<Twitter size={20} />} label="Bluesky Account" register={register} errors={errors} setValue={setValue} watch={watch} />
-              <BuilderSocialMediaField field="twitch" icon={<Twitch size={20} />} label="Twitch Account" register={register} errors={errors} setValue={setValue} watch={watch} />
-              <BuilderSocialMediaField field="youtube" icon={<Youtube size={20} />} label="YouTube Account" register={register} errors={errors} setValue={setValue} watch={watch} />
-              <BuilderSocialMediaField field="github" icon={<Github size={20} />} label="GitHub Account" register={register} errors={errors} setValue={setValue} watch={watch} />
+              <BuilderSocialMediaField field="twitter" icon={<TwitterXIcon />} label="X / Twitter Account" register={register} errors={errors} setValue={setValue} watch={watch} />
+              <BuilderSocialMediaField field="bluesky" icon={<BlueskyIcon />} label="Bluesky Account" register={register} errors={errors} setValue={setValue} watch={watch} />
+              <BuilderSocialMediaField field="twitch" icon={<TwitchIcon />} label="Twitch Account" register={register} errors={errors} setValue={setValue} watch={watch} />
+              <BuilderSocialMediaField field="youtube" icon={<YoutubeIcon />} label="YouTube Account" register={register} errors={errors} setValue={setValue} watch={watch} />
+              <BuilderSocialMediaField field="github" icon={<GithubIcon />} label="GitHub Account" register={register} errors={errors} setValue={setValue} watch={watch} />
             </div>
           </div>
 
@@ -204,8 +154,12 @@ export default function BuilderProfileForm(): JSX.Element {
             <ReCAPTCHA sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || ""} theme="light" onChange={(value) => setCaptchaToken(value)} />
           </div>
           <div className="flex justify-end items-center gap-8">
-            <Link href="/">Cancel</Link>
-            <Button type="submit">Submit</Button>
+            <Link className="px-2" href="/">
+              Cancel
+            </Link>
+            <Button className="disabled:opacity-30 px-8 transition-all ease-in-out duration-500" disabled={Boolean(!captchaToken)} type="submit">
+              Submit
+            </Button>
           </div>
         </form>
 

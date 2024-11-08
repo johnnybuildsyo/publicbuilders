@@ -4,9 +4,8 @@ import { Label } from "@/components/ui/label"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { Edit2 } from "lucide-react"
-import { FormData } from "./builder-profile-form"
+import { FormData, SocialMediaPlatform } from "@/app/_types"
 
-export type SocialMediaPlatform = "twitter" | "twitch" | "youtube" | "github" | "bluesky"
 export type HandleField = `${SocialMediaPlatform}Handle`
 export type FollowerField = `${SocialMediaPlatform}${"Followers" | "Subscribers"}`
 
