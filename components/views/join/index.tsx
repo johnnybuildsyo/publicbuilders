@@ -1,4 +1,4 @@
-import BuilderProfileForm from "./builder-profile-form"
+import BuilderProfileCard from "./builder-profile-card"
 
 export default function Join() {
   return (
@@ -9,7 +9,7 @@ export default function Join() {
             <h1 className="text-4xl md:text-6xl font-bold mb-4 text-balance">Join Public Builders</h1>
             <p className="text-lg mb-12 text-balance">Apply to be included in our list of indie hackers, startup starters and ambitious makers of all kinds.</p>
             <div className="text-left">
-              <BuilderProfileForm />
+              <BuilderProfileCard />
             </div>
           </div>
         </section>

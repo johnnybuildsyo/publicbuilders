@@ -9,6 +9,13 @@ export const socialMediaSchema = z.object({
 
 export type SocialMedia = z.infer<typeof socialMediaSchema>;
 
+export type SocialMediaHandles = {
+  [key in SocialMediaPlatform]?: {
+    handle: string
+    url: string
+  }
+}
+
 // Define projectSchema and infer the type
 export const projectSchema = z.object({
   name: z.string().min(1, "Name is required"),

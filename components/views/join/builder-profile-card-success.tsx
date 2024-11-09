@@ -2,7 +2,7 @@ import Link from "next/link"
 import { Card } from "@/components/ui/card"
 import { CheckCircle2 } from "lucide-react"
 
-export default function BuilderProfileFormSuccess() {
+export default function BuilderProfileCardSuccess() {
   return (
     <div className="flex flex-col items-center justify-start h-[75vh] pt-12">
       <Card className="w-full max-w-lg mx-auto flex flex-col items-center justify-center p-8">

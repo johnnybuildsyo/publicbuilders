@@ -6,8 +6,8 @@ export default function ApproveBuilderPage() {
   }
 
   return (
-    <div>
-      <h1>Approve Builder Submission</h1>
+    <div className="flex flex-col items-center justify-center min-h-screen py-12">
+      <h1 className="font-extrabold text-4xl">Review Submissions</h1>
       <ApproveBuilderForm />
     </div>
   )
