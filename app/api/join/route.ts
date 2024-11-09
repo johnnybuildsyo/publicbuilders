@@ -33,12 +33,13 @@ export async function POST(req: NextRequest) {
     }
 
     const validatedData = builderSchema.parse(builderData);
+    console.log({ builderData, validatedData });
     const { name } = validatedData as FormData;
     if (!name) {
       return NextResponse.json({ error: "Name is required" }, { status: 400 });
     }
 
-    const timestamp = new Date().toISOString();
+    const timestamp = new Date().getTime();
     const slug = slugify(name, { lower: true });
     const filename = `data/submissions/${timestamp}-${slug}.json`;
     const fileContent = JSON.stringify(validatedData, null, 2);

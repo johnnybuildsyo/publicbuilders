@@ -21,6 +21,12 @@ import { YoutubeIcon } from "@/components/icons/youtube"
 import { GithubIcon } from "@/components/icons/github"
 import BuilderProfileFormSuccess from "./builder-profile-form-success"
 import { Spinner } from "@/components/ui/spinner"
+type SocialMediaHandles = {
+  [key in SocialMediaPlatform]?: {
+    handle: string
+    url: string
+  }
+}
 
 export default function BuilderProfileForm(): JSX.Element {
   const [submittedWithoutCaptcha, setSubmittedWithoutCaptcha] = useState(false)
@@ -44,6 +50,8 @@ export default function BuilderProfileForm(): JSX.Element {
   })
 
   const onSubmit = async (data: FormData) => {
+    console.log("Form data before processing:", data)
+
     if (!captchaToken) {
       setSubmittedWithoutCaptcha(true)
       return
@@ -60,12 +68,15 @@ export default function BuilderProfileForm(): JSX.Element {
       { platform: "bluesky", urlPrefix: "https://bsky.app/profile/" },
     ]
 
-    // Loop through each platform and construct URLs if handle exists
+    // Construct social media URLs if handles are present
+    const socialMediaData: SocialMediaHandles = {}
     socialPlatforms.forEach(({ platform, urlPrefix }) => {
       const handle = data[platform]?.handle
       if (handle) {
-        // Use the handle to construct the URL unless it is the URL
-        data[platform]!.url = handle.startsWith("http") ? handle : `${urlPrefix}${handle}`
+        socialMediaData[platform] = {
+          handle,
+          url: handle.startsWith("http") ? handle : `${urlPrefix}${handle}`,
+        }
       }
     })
 
@@ -75,6 +86,7 @@ export default function BuilderProfileForm(): JSX.Element {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           ...data,
+          socialMedia: socialMediaData,
           captchaToken,
         }),
       })

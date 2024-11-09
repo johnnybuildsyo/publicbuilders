@@ -28,12 +28,12 @@ interface BuilderSocialMediaFieldProps {
 }
 
 export default function BuilderSocialMediaField({ field, icon, label, register, errors, watch }: BuilderSocialMediaFieldProps): JSX.Element {
-  const handleField = `${field}Handle` as HandleField
+  const handleField = `${field}.handle` as HandleField // Ensure it's `field.handle`
   const followerSuffix = followerSuffixMap[field]
-  const followerField = `${field}${followerSuffix}` as FollowerField
+  const followerField = `${field}.followers` as FollowerField
   const handle = watch(handleField)
 
-  // Initialize isEditing to true if handle is empty or undefined
+  // Initialize `isEditing` based on whether the handle is empty
   const [isEditing, setIsEditing] = useState<boolean>(true)
 
   useEffect(() => {
@@ -46,7 +46,6 @@ export default function BuilderSocialMediaField({ field, icon, label, register, 
     if (handle && handle.trim() !== "") {
       setIsEditing(false)
     }
-    // If handle is empty, keep isEditing as true
   }
 
   return (
@@ -54,7 +53,7 @@ export default function BuilderSocialMediaField({ field, icon, label, register, 
       <div>
         <Label htmlFor={handleField}>{label}</Label>
         {isEditing ? (
-          <Input id={handleField} {...register(handleField as keyof FormData)} placeholder={`Enter ${field} handle or url`} className="mt-1" onBlur={handleBlur} autoFocus />
+          <Input id={handleField} {...register(handleField)} placeholder={`Enter ${field} handle or url`} className="mt-1" onBlur={handleBlur} autoFocus />
         ) : (
           <div className="flex items-center mt-1 px-2 py-0.5 bg-gray-100 rounded">
             {icon}
@@ -72,13 +71,13 @@ export default function BuilderSocialMediaField({ field, icon, label, register, 
         <Input
           id={followerField}
           type="number"
-          {...register(followerField as keyof FormData, {
+          {...register(followerField, {
             setValueAs: (value) => (value === "" ? undefined : Number(value)),
           })}
           className="mt-1"
         />
       </div>
-      {errors[followerField as keyof FormData] && <p className="text-red-500 text-sm col-span-2">{errors[followerField as keyof FormData]?.message}</p>}
+      {errors[field]?.handle && <p className="text-red-500 text-sm col-span-2">{errors[field]?.handle?.message}</p>}
     </div>
   )
 }
