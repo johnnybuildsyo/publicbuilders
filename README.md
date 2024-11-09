@@ -33,6 +33,9 @@ A directory of who is who in #buildinpublic. Indie hackers, startup founders and
 🎉 First successful form submission
 ⏫ Files changed: ??
 
+Watch me iterate with ChatGPT:
+[Refactoring schema for join request form submissions](https://chatgpt.com/share/672e9d92-5d28-8009-a2b2-d218036d322a)
+
 
 --
 
