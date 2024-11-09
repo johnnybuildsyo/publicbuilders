@@ -25,17 +25,24 @@ A directory of who is who in #buildinpublic. Indie hackers, startup founders and
 ----
 
 ## BUILD LOG
+[Generate Commit Stats](https://gist.github.com/johnnybuildsyo/16a77a2f20970cc054a07b53b7f900f1)
 
-**2024-11-07**  
+Watch me [iterate with ChatGPT](https://chatgpt.com/share/672e9d92-5d28-8009-a2b2-d218036d322a)
+
+**2024-11-09**  
+😸 Setup Admin Approval for Form Submissions
+⏫ ??
+
+--
+
+**2024-11-08**  
 😸 Setup Github commit flow for join requests  
 👮 Refactored typings to infer from zod  
 🦋 Default sort builders by number of Bluesky followers  
 🎉 First successful form submission
-⏫ Files changed: ??
+⏫ Files changed: 178, Lines added: 19836, Lines deleted: 3100
 
-Watch me iterate with ChatGPT:
-[Refactoring schema for join request form submissions](https://chatgpt.com/share/672e9d92-5d28-8009-a2b2-d218036d322a)
-
+[Public Builders Join Request Form Submissions Data](https://github.com/johnnybuildsyo/publicbuilders/tree/main/data/submissions)
 
 --
 

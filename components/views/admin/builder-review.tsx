@@ -2,8 +2,11 @@
 
 import { Builder } from "@/app/_types"
 import { useState, useEffect } from "react"
+import { Card, CardContent } from "@/components/ui/card"
+import BuilderReviewForm from "./builder-review-form"
+import { useBuilderProfileReviewSubmit } from "@/components/hooks/useBuilderProfileReviewSubmit"
 
-export default function ApproveBuilderForm() {
+export default function BuilderReview() {
   const [submissions, setSubmissions] = useState<Builder[]>([])
   const [error, setError] = useState("")
 
@@ -24,33 +27,20 @@ export default function ApproveBuilderForm() {
     loadSubmissions()
   }, [])
 
-  const handleApproveSubmission = async (submission: Builder) => {
-    try {
-      const response = await fetch("/api/submission/approve", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ submissionData: submission }),
-      })
-
-      if (!response.ok) throw new Error("Failed to approve submission.")
-    } catch (error) {
-      console.error(error)
-    }
-  }
+  const { onSubmit, isLoading } = useBuilderProfileReviewSubmit()
 
   return (
     <>
       {error && <p className="text-red-500 py-8">{error}</p>}
       {submissions.length === 0 && <p>No submissions available.</p>}
-      <p>There {submissions.length > 1 ? `are ${submissions.length} submissions` : "is 1 submission"} to review.</p>
+      <p className="pb-8">There {submissions.length > 1 ? `are ${submissions.length} submissions` : "is 1 submission"} to review.</p>
 
       {submissions.length > 0 && (
-        <div>
-          <pre>{JSON.stringify(submissions[0], null, 2)}</pre>
-          <button onClick={() => handleApproveSubmission(submissions[0])}>Approve Submission</button>
-        </div>
+        <Card className="w-full max-w-4xl mx-auto p-8">
+          <CardContent>
+            <BuilderReviewForm defaultValues={submissions[0]} {...{ isLoading, onSubmit }} />
+          </CardContent>
+        </Card>
       )}
     </>
   )
