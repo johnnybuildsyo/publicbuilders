@@ -2,13 +2,9 @@ import fs from "fs";
 import { NextRequest, NextResponse } from "next/server";
 import path from "path";
 
-export default async function handler(req: NextRequest) {
+export async function POST(req: NextRequest) {
   if (process.env.NODE_ENV !== "development") {
     return NextResponse.json({ error: "Access denied. This API is only available in a local development environment" }, { status: 403 });
-  }
-
-  if (req.method !== "POST") {
-    return NextResponse.json({ error: "Method not allowed" }, { status: 405 });
   }
 
   const { submissionData } = await req.json();
