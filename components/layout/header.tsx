@@ -1,17 +1,28 @@
+"use client"
+
 import Link from "next/link"
+import { useState } from "react"
 import { Blocks } from "lucide-react"
 import { GitHubLogoIcon } from "@radix-ui/react-icons"
+import { Menu, X } from "lucide-react" // Import icons for the mobile menu
 
 export default function Header() {
+  const [menuOpen, setMenuOpen] = useState(false)
+
   return (
     <header className="border-b">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <Link href="/" className="text-2xl font-bold">
-          <Blocks className="inline-block mr-2 text-fuchsia-600 relative -top-0.5 scale-110" />
-          Public Builders
+        <Link href="/" className="text-2xl font-bold flex items-center">
+          <Blocks className="mr-2 text-fuchsia-600 scale-110 md:scale-100" />
+          <span>Public Builders</span>
         </Link>
-        <nav>
-          <ul className="flex space-x-8">
+
+        <button onClick={() => setMenuOpen(!menuOpen)} className="md:hidden focus:outline-none">
+          {menuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+        </button>
+
+        <nav className={`${menuOpen ? "block" : "hidden"} md:block`}>
+          <ul className="flex flex-col md:flex-row md:space-x-8 mt-4 md:mt-0 space-y-2 md:space-y-0">
             <li>
               <Link href="/" className="transition-all ease-in-out duration-500 hover:border-b border-foreground/50 border-dotted">
                 Directory
