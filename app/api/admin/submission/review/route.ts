@@ -23,8 +23,6 @@ export async function POST(req: NextRequest) {
   const approvedFilePath = path.join(approvedDir, `${id}.json`);
   const rejectedFilePath = path.join(rejectedDir, `${id}.json`);
 
-  console.log("api/admin/submission/review", { action, id });
-
   if (action === "approve") {
     try {
       // Load and update builders.json
@@ -43,7 +41,7 @@ export async function POST(req: NextRequest) {
       fs.renameSync(pendingFilePath, approvedFilePath);
 
       return NextResponse.json(
-        { message: "Submission approved and moved to approved directory" },
+        { message: "Submission approved and moved to approved directory", ok: true },
         { status: 200 }
       );
     } catch (error) {
@@ -67,7 +65,7 @@ export async function POST(req: NextRequest) {
       fs.unlinkSync(pendingFilePath);
 
       return NextResponse.json(
-        { message: "Submission rejected and moved to rejected directory" },
+        { message: "Submission rejected and moved to rejected directory", ok: true },
         { status: 200 }
       );
     } catch (error) {

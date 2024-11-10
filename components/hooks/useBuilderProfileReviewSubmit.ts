@@ -21,15 +21,16 @@ export function useBuilderProfileReviewSubmit() {
         }),
       });
 
-      if (!response.ok) {
-        const errorData = await response.json();
-        console.error("Error submitting form:", errorData.error);
-        alert(`Error: ${errorData.error}`);
+      const result = await response.json();
+
+      if (!result.ok) {
+        console.error("Error submitting form:", result.error);
+        alert(`Error: ${result.error}`);
         return;
       }
 
-      const result = await response.json();
-      alert(result.success ? `${action === "approve" ? "Approved" : "Rejected"} successfully!` : "There was an error processing the request.");
+      alert(`${action === "approve" ? "Approved" : "Rejected"} successfully!`);
+      window.location.reload();
     } catch (error) {
       console.error("Submission error:", error);
       alert("There was an error processing the request.");

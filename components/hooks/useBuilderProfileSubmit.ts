@@ -6,9 +6,8 @@ export function useBuilderProfileSubmit() {
   const [submittedWithoutCaptcha, setSubmittedWithoutCaptcha] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [hasSubmitted, setHasSubmitted] = useState(false);
-  const [captchaToken, setCaptchaToken] = useState<string | null>(null);
 
-  const onSubmit = async (data: FormData) => {
+  const onSubmit = async (data: FormData, captchaToken: string) => {
     if (!captchaToken) {
       setSubmittedWithoutCaptcha(true);
       return;
@@ -35,13 +34,11 @@ export function useBuilderProfileSubmit() {
       }
 
       const result = await response.json();
-      if (result.success) {
-        alert("Form submitted successfully!");
+      if (result.url) {
         setHasSubmitted(true);
       } else {
         alert("There was an error submitting the form.");
       }
-      setCaptchaToken(null);
     } catch (error) {
       console.error("Submission error:", error);
       alert("There was an error submitting the form.");
@@ -55,7 +52,6 @@ export function useBuilderProfileSubmit() {
     isLoading,
     hasSubmitted,
     submittedWithoutCaptcha,
-    setCaptchaToken,
     setSubmittedWithoutCaptcha,
   };
 }

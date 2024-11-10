@@ -40,31 +40,48 @@ export default function BuilderReviewForm({ isLoading, onSubmit, defaultValues, 
 
   return (
     <form className="space-y-6">
-      <BuilderProfileFields {...{ register, errors, setValue, watch }} />
-
-      {rejectReason !== undefined && (
+      {rejectReason !== undefined ? (
         <div>
           <label htmlFor="rejectReason" className="block text-sm font-medium text-gray-700">
             Reason for Rejection
           </label>
-          <Textarea id="rejectReason" value={rejectReason} onChange={(e) => setRejectReason(e.target.value)} className="mt-1 block w-full" placeholder="Enter reason for rejection..." />
+          <Textarea
+            required
+            id="rejectReason"
+            value={rejectReason}
+            onChange={(e) => setRejectReason(e.target.value)}
+            className="mt-1 block w-full"
+            placeholder="Enter reason for rejection..."
+            autoFocus
+          />
+          <div className="flex justify-end items-center pt-8 gap-8">
+            <Button variant="ghost" type="button" onClick={() => setRejectReason(undefined)}>
+              Cancel
+            </Button>
+            <Button className="disabled:opacity-30 transition-all ease-in-out duration-500 text-lg py-2 px-12 h-auto bg-red-600 hover:bg-red-600 hover:scale-105" onClick={handleReject}>
+              Confirm Reject
+            </Button>
+          </div>
         </div>
+      ) : (
+        <>
+          <BuilderProfileFields {...{ register, errors, setValue, watch }} />
+          <div className="flex justify-end items-center gap-8">
+            {isLoading ? (
+              <Spinner containerClassName="pr-2" className="fill-fuchsia-600" />
+            ) : (
+              <>
+                <Button variant="ghost" type="button" className="text-red-600 hover:bg-red-50 hover:text-red-700" onClick={handleReject}>
+                  Reject
+                </Button>
+                <Button className="disabled:opacity-30 transition-all ease-in-out duration-500 text-lg py-2 px-12 h-auto bg-green-600 hover:bg-green-600 hover:scale-105" onClick={handleApprove}>
+                  Approve
+                </Button>
+              </>
+            )}
+          </div>
+        </>
       )}
-
-      <div className="flex justify-end items-center gap-8">
-        {isLoading ? (
-          <Spinner containerClassName="pr-2" className="fill-fuchsia-600" />
-        ) : (
-          <>
-            <Button variant="ghost" type="button" className="text-red-600 hover:bg-red-50 hover:text-red-700" onClick={handleReject}>
-              Reject
-            </Button>
-            <Button className="disabled:opacity-30 transition-all ease-in-out duration-500 text-lg py-2 px-12 h-auto bg-green-600 hover:bg-green-600 hover:scale-105" onClick={handleApprove}>
-              Approve
-            </Button>
-          </>
-        )}
-      </div>
     </form>
   )
 }

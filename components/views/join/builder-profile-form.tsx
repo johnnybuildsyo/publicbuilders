@@ -13,7 +13,7 @@ import BuilderProfileFields from "./builder-profile-fields"
 type BuilderProfileFormProps = {
   isLoading: boolean
   submittedWithoutCaptcha: boolean
-  onSubmit: (data: FormData) => Promise<void>
+  onSubmit: (data: FormData, captchaToken: string) => Promise<void>
 }
 
 export default function BuilderProfileForm({ isLoading, submittedWithoutCaptcha, onSubmit }: BuilderProfileFormProps): JSX.Element {
@@ -34,8 +34,16 @@ export default function BuilderProfileForm({ isLoading, submittedWithoutCaptcha,
     },
   })
 
+  const submitForm = (data: FormData) => {
+    if (!captchaToken) {
+      alert("Please complete the captcha.")
+      return
+    }
+    onSubmit(data, captchaToken)
+  }
+
   return (
-    <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
+    <form onSubmit={handleSubmit(submitForm)} className="space-y-6">
       <BuilderProfileFields {...{ register, errors, setValue, watch }} />
 
       {submittedWithoutCaptcha && !captchaToken && <p className="text-red-500 text-sm w-full text-right">Please complete the captcha to submit the form.</p>}

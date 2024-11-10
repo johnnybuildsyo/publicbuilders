@@ -13,15 +13,13 @@ export async function GET() {
 
   try {
     const submissionsDir = path.join(process.cwd(), "data/submissions/pending");
-    console.log("Checking directory:", submissionsDir);
-
+    
     if (!fs.existsSync(submissionsDir)) {
       console.error("Directory does not exist:", submissionsDir);
       return NextResponse.json({ error: "Directory not found" }, { status: 500 });
     }
 
     const files = fs.readdirSync(submissionsDir);
-    console.log("Files found:", files);
 
     if (files.length === 0) {
       console.warn("No files found in the directory");
@@ -33,7 +31,6 @@ export async function GET() {
         const filePath = path.join(submissionsDir, file);
         try {
           const data = JSON.parse(fs.readFileSync(filePath, "utf8"));
-          console.log("Data for file", file, ":", data);
           return { id: file.replace(".json", ""), ...data };
         } catch (error) {
           console.error(`Error parsing JSON file ${file}:`, error);
