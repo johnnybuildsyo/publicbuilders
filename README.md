@@ -10,8 +10,8 @@ A directory of who is who in #buildinpublic. Indie hackers, startup founders and
 2. Add pictures ✅
 3. Add application form ✅
 4. Add link to build log ✅
-5. Add google analytics 🛠️
-6. Add privacy policy and terms of use
+5. Add google analytics ✅
+6. Add privacy policy and terms of use 🛠️
 7. Add feedback form
 8. Add favorite button with google event tracking and local storage
 9. Profile view
@@ -30,8 +30,19 @@ A directory of who is who in #buildinpublic. Indie hackers, startup founders and
 
 Watch me [iterate with ChatGPT](https://chatgpt.com/share/672e9d92-5d28-8009-a2b2-d218036d322a)
 
+--
+
+**2024-11-10**  
+📄 Updated [About Page](https://publicbuilders.org/about)
+🔗 Added links to [Build Log](https://github.com/johnnybuildsyo/publicbuilders/blob/main/README.md)
+💬 Added Contact link pointing to [Github Discussions](https://github.com/johnnybuildsyo/publicbuilders/discussions)
+📈 Added Google Analytics
+⏫ ??
+
+--
+
 **2024-11-09**  
-😸 Add admin approval page
+👍 Add admin approval page (local env only)
 👮 Added backend for admin submission review
 ⏫ Files changed: 29, Lines added: 773, Lines deleted: 381
 
