@@ -1,0 +1,35 @@
+{
+  "name": "Johnny Builds1",
+  "description": "testing",
+  "twitter": {
+    "handle": "johnnybuilds_",
+    "followers": 24
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": "johnnybuildsyo",
+    "followers": 2
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "website": "https://johnnybuilds.com",
+  "tags": [
+    "webdev",
+    "open source"
+  ],
+  "currentProject": {
+    "name": "Public Builders",
+    "description": "testing",
+    "link": "https://publicbuilders.org",
+    "tags": [
+      "directory",
+      "buildinpublic"
+    ]
+  }
+}
