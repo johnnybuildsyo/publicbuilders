@@ -8,19 +8,20 @@ A directory of who is who in #buildinpublic. Indie hackers, startup founders and
 
 1. Get initial list of builders ✅
 2. Add pictures ✅
-3. Add application form 🛠️
-4. Add build log
-5. Add feedback form
-6. Add google analytics
-7. Add favorite button with google event tracking and local storage
-8. Profile view
-9. Set up API that pulls stats
-10. Show a list of projects
-11. Show a list of posts
-12. Show a list of repos
-13. Show random button
-14. Use AI to analyze Bing Search API and provide insights
-15. Automated Newsletter
+3. Add application form ✅
+4. Add link to build log ✅
+5. Add google analytics 🛠️
+6. Add privacy policy and terms of use
+7. Add feedback form
+8. Add favorite button with google event tracking and local storage
+9. Profile view
+10. Set up API that pulls stats
+11. Show a list of projects
+12. Show a list of posts
+13. Show a list of repos
+14. Show random button
+15. Use AI to analyze Bing Search API and provide insights
+16. Automated Newsletter
 
 ----
 
@@ -30,8 +31,9 @@ A directory of who is who in #buildinpublic. Indie hackers, startup founders and
 Watch me [iterate with ChatGPT](https://chatgpt.com/share/672e9d92-5d28-8009-a2b2-d218036d322a)
 
 **2024-11-09**  
-😸 Setup Admin Approval for Form Submissions
-⏫ ??
+😸 Add admin approval page
+👮 Added backend for admin submission review
+⏫ Files changed: 29, Lines added: 773, Lines deleted: 381
 
 --
 
@@ -93,3 +95,23 @@ Watch me [iterate with ChatGPT](https://chatgpt.com/share/672e9d92-5d28-8009-a2b
 😎 Updated [JohnnyBuilds.com](https://johnnybuilds.com) project status  
 ⏫ Files changed: 86, Lines added: 12129, Lines deleted: 697
 
+
+----
+
+Build log generator command:
+
+```
+git log --since="1 month ago" --date=short --pretty=format:"%cd" --shortstat | \
+awk '
+    /^20[0-9]{2}-[0-9]{2}-[0-9]{2}/ { 
+        date=$1 
+    } 
+    /files changed/ { 
+        files[date]+=$1; inserted[date]+=$4; deleted[date]+=$6 
+    } 
+    END { 
+        for (d in files) 
+            printf "%s - Files changed: %s, Lines added: %s, Lines deleted: %s\n", d, files[d], inserted[d], deleted[d] 
+    }
+' | sort
+```

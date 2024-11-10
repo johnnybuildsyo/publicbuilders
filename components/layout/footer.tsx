@@ -8,6 +8,14 @@ export default function Footer() {
           <div className="mb-4 md:mb-0">
             <h3 className="text-xl font-bold">Public Builders</h3>
             <p>Connecting the #buildinpublic community</p>
+            <p>
+              <a className="block text-sm text-fuchsia-400" href="https://github.com/johnnybuildsyo/publicbuilders">
+                View Source on Github
+              </a>
+              <a className="block text-sm text-fuchsia-400" href="https://github.com/johnnybuildsyo/publicbuilders/blob/main/README.md">
+                Read Build Log
+              </a>
+            </p>
           </div>
           <nav>
             <ul className="flex space-x-4">
@@ -22,7 +30,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:underline">
+                <Link href="https://github.com/johnnybuildsyo/publicbuilders/discussions" className="hover:underline">
                   Contact
                 </Link>
               </li>
