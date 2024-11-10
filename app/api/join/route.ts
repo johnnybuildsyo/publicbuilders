@@ -41,7 +41,7 @@ export async function POST(req: NextRequest) {
 
     const timestamp = new Date().getTime();
     const slug = slugify(name, { lower: true });
-    const filename = `data/submissions/${timestamp}-${slug}.json`;
+    const filename = `data/submissions/pending/${timestamp}-${slug}.json`;
     const fileContent = JSON.stringify(validatedData, null, 2);
 
     // Commit JSON file for submission data to GitHub directory

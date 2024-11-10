@@ -1,6 +1,5 @@
 "use client"
 
-import Link from "next/link"
 import { useForm } from "react-hook-form"
 import { zodResolver } from "@hookform/resolvers/zod"
 import { Button } from "@/components/ui/button"
@@ -10,11 +9,12 @@ import BuilderProfileFields from "../join/builder-profile-fields"
 
 type BuilderProfileFormProps = {
   isLoading: boolean
-  onSubmit: (data: FormData, action: "approve" | "reject") => Promise<void>
+  onSubmit: (data: FormData, action: "approve" | "reject", submissionId: string) => Promise<void>
   defaultValues: FormData
+  submissionId: string
 }
 
-export default function BuilderReviewForm({ isLoading, onSubmit, defaultValues }: BuilderProfileFormProps): JSX.Element {
+export default function BuilderReviewForm({ isLoading, onSubmit, defaultValues, submissionId }: BuilderProfileFormProps): JSX.Element {
   const {
     register,
     handleSubmit,
@@ -26,8 +26,8 @@ export default function BuilderReviewForm({ isLoading, onSubmit, defaultValues }
     defaultValues,
   })
 
-  const handleApprove = handleSubmit((data) => onSubmit(data, "approve"))
-  const handleReject = handleSubmit((data) => onSubmit(data, "reject"))
+  const handleApprove = handleSubmit((data) => onSubmit(data, "approve", submissionId))
+  const handleReject = handleSubmit((data) => onSubmit(data, "reject", submissionId))
 
   return (
     <form className="space-y-6">
@@ -38,7 +38,7 @@ export default function BuilderReviewForm({ isLoading, onSubmit, defaultValues }
           <Spinner containerClassName="pr-2" className="fill-fuchsia-600" />
         ) : (
           <>
-            <Button variant="outline" type="button" className="text-red-600 border border-red-400 hover:bg-red-50 hover:text-red-700" onClick={handleReject}>
+            <Button variant="ghost" type="button" className="text-red-600 hover:bg-red-50 hover:text-red-700" onClick={handleReject}>
               Reject
             </Button>
             <Button className="disabled:opacity-30 transition-all ease-in-out duration-500 text-lg py-2 px-12 h-auto bg-green-600 hover:bg-green-600 hover:scale-105" onClick={handleApprove}>

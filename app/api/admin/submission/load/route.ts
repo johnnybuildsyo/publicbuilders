@@ -1,3 +1,4 @@
+import { BuilderSubmission } from "@/app/_types";
 import fs from "fs";
 import { NextResponse } from "next/server";
 import path from "path";
@@ -11,7 +12,7 @@ export async function GET() {
   }
 
   try {
-    const submissionsDir = path.join(process.cwd(), "data/submissions");
+    const submissionsDir = path.join(process.cwd(), "data/submissions/pending");
     console.log("Checking directory:", submissionsDir);
 
     if (!fs.existsSync(submissionsDir)) {
@@ -26,7 +27,7 @@ export async function GET() {
       console.warn("No files found in the directory");
     }
 
-    const submissions = files
+    const submissions:BuilderSubmission[] = files
       .filter((file) => path.extname(file) === ".json") // Filter for JSON files only
       .map((file) => {
         const filePath = path.join(submissionsDir, file);

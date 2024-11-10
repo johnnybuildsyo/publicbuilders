@@ -66,6 +66,7 @@ export const builderSchema = z.object({
 );
 
 export type Builder = z.infer<typeof builderSchema>;
+export type BuilderSubmission = Builder & { id: string };
 
 // Use builderSchema in formSchema
 export const formSchema = builderSchema;

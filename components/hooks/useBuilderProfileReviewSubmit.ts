@@ -5,17 +5,18 @@ import { mapSocialMediaData } from "@/app/_data";
 export function useBuilderProfileReviewSubmit() {
   const [isLoading, setIsLoading] = useState(false);
 
-  const onSubmit = async (data: FormData, action: "approve" | "reject") => {
+  const onSubmit = async (data: FormData, action: "approve" | "reject", submissionId: string) => {
     setIsLoading(true);
 
     try {
-      const response = await fetch("/api/admin/review", {
+      const response = await fetch("/api/admin/submission/review", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           ...data,
           socialMedia: mapSocialMediaData(data),
           action,
+          id: submissionId,
         }),
       });
 
