@@ -1,5 +1,6 @@
 "use client"
-import { useState } from "react"
+import { useState, useEffect } from "react"
+import { shuffle } from "lodash"
 import Link from "next/link"
 import Image from "next/image"
 import { Input } from "@/components/ui/input"
@@ -13,9 +14,15 @@ import SocialMediaLinks from "./social-media-links"
 
 export function BuilderDirectory({ builders }: { builders: Builder[] }) {
   const [searchTerm, setSearchTerm] = useState("")
-  const [sortBy, setSortBy] = useState("blueskyFollowers")
+  const [sortBy, setSortBy] = useState("")
+  const [shuffledBuilders, setShuffledBuilders] = useState<Builder[]>([])
 
-  const filteredBuilders = builders.filter((builder) => {
+  useEffect(() => {
+    // Shuffle builders once when the component mounts
+    setShuffledBuilders(shuffle(builders))
+  }, [])
+
+  const filteredBuilders = shuffledBuilders.filter((builder) => {
     const fullNameIncludes = builder.name.toLowerCase().includes(searchTerm.toLowerCase())
     const tagIncludes = builder.tags.some((tag) => tag.toLowerCase().includes(searchTerm.toLowerCase()))
     const projectIncludes =

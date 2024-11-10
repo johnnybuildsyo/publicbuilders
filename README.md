@@ -51,7 +51,6 @@ Watch me [iterate with ChatGPT](https://chatgpt.com/share/672e9d92-5d28-8009-a2b
 **2024-11-08**  
 😸 Setup Github commit flow for join requests  
 👮 Refactored typings to infer from zod  
-🦋 Default sort builders by number of Bluesky followers  
 🎉 First successful form submission
 ⏫ Files changed: 178, Lines added: 19836, Lines deleted: 3100
 
