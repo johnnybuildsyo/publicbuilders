@@ -31,17 +31,23 @@ export const projectSchema = z.object({
 
 export type Project = z.infer<typeof projectSchema>;
 
+export const socialMediaFieldsSchema = z.object({
+  twitter: socialMediaSchema.optional(),
+  youtube: socialMediaSchema.optional(),
+  twitch: socialMediaSchema.optional(),
+  github: socialMediaSchema.optional(),
+  bluesky: socialMediaSchema.optional(),
+});
+
+export type SocialMediaFields = z.infer<typeof socialMediaFieldsSchema>;
+
 // Define builderSchema and infer the type
 export const builderSchema = z.object({
   name: z.string().min(1, "Name is required"),
   description: z.string().min(1, "Description is required"),
   image: z.string().optional(),
   imageOffset: z.string().optional(),
-  twitter: socialMediaSchema.optional(),
-  youtube: socialMediaSchema.optional(),
-  twitch: socialMediaSchema.optional(),
-  github: socialMediaSchema.optional(),
-  bluesky: socialMediaSchema.optional(),
+  ...socialMediaFieldsSchema.shape,
   website: z.preprocess((value) => {
     if (typeof value === "string" && !value.startsWith("http")) {
       return `https://${value}`;

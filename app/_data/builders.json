@@ -197,9 +197,9 @@
       "followers": 5382
     },
     "youtube": {
-      "url": "https://www.youtube.com/channel/UCev8FsgvXmK8kvTVivAcGsQ"
+      "url": "https://www.youtube.com/channel/UCev8FsgvXmK8kvTVivAcGsQ",
+      "followers": 34
     },
-    "youtubeFollowers": 34,
     "bluesky": {
       "url": "https://bsky.app/profile/saasmakermac.bsky.social",
       "followers": 2
@@ -291,9 +291,9 @@
       "followers": 3692
     },
     "youtube": {
-      "url": "https://www.youtube.com/channel/UCCNtG-C5IADz-WZF5kSyRMw"
+      "url": "https://www.youtube.com/channel/UCCNtG-C5IADz-WZF5kSyRMw",
+      "followers": 190
     },
-    "youtubeFollowers": 190,
     "bluesky": {
       "url": "https://bsky.app/profile/itsjustamar.bsky.social",
       "followers": 127
@@ -359,9 +359,9 @@
       "followers": 19467
     },
     "youtube": {
-      "url": "https://www.youtube.com/@excid3/videos"
+      "url": "https://www.youtube.com/@excid3/videos",
+      "followers": 1150
     },
-    "youtubeFollowers": 1150,
     "github": {
       "url": "https://github.com/excid3",
       "followers": 3300
@@ -435,9 +435,9 @@
       "followers": 1000
     },
     "youtube": {
-      "url": "https://www.youtube.com/c/JoelHooks"
+      "url": "https://www.youtube.com/c/JoelHooks",
+      "followers": 28
     },
-    "youtubeFollowers": 28,
     "bluesky": {
       "url": "https://bsky.app/profile/joelhooks.com",
       "followers": 4000
@@ -562,9 +562,9 @@
       "followers": 55404
     },
     "youtube": {
-      "url": "https://www.youtube.com/c/danrowden"
+      "url": "https://www.youtube.com/c/danrowden",
+      "followers": 616
     },
-    "youtubeFollowers": 616,
     "github": {
       "url": "https://github.com/danrowden",
       "followers": 35
@@ -642,9 +642,9 @@
       "followers": 413
     },
     "youtube": {
-      "url": "https://www.youtube.com/channel/UCofmuxnMWDBDcDkHN8P2GsQ"
+      "url": "https://www.youtube.com/channel/UCofmuxnMWDBDcDkHN8P2GsQ",
+      "followers": 485
     },
-    "youtubeFollowers": 485,
     "github": {
       "url": "https://github.com/benrobertsonio",
       "followers": 47
@@ -705,12 +705,12 @@
     "imageOffset": "",
     "twitter": {
       "url": "https://x.com/kirstenrpomales",
-      "followers": 0
+      "followers": 2767
     },
     "youtube": {
-      "url": "https://www.youtube.com/channel/UCgyT_7we6YGDVQJDKZD6EBA"
+      "url": "https://www.youtube.com/channel/UCgyT_7we6YGDVQJDKZD6EBA",
+      "followers": 27
     },
-    "youtubeFollowers": 27,
     "website": "https://www.kirstenpomales.com/",
     "tags": [
       "freelance",
@@ -768,9 +768,9 @@
       "followers": 4700
     },
     "youtube": {
-      "url": "https://www.youtube.com/channel/UCOxxRhCHDqgtKplU_Ecu4BA"
+      "url": "https://www.youtube.com/channel/UCOxxRhCHDqgtKplU_Ecu4BA",
+      "followers": 6620
     },
-    "youtubeFollowers": 6620,
     "github": {
       "url": "https://github.com/aspittel",
       "followers": 3000
@@ -1178,14 +1178,6 @@
     "twitter": {
       "url": "https://twitter.com/marckohlbrugge",
       "followers": 63091
-    },
-    "youtube": {
-      "url": "https://www.youtube.com/channel/UCr6ik9NmYllrfPPQRf8v9yg"
-    },
-    "youtubeFollowers": 35,
-    "github": {
-      "url": "https://github.com/marckohlbrugge",
-      "followers": 11
     },
     "website": "https://wip.co",
     "description": "Founder of WIP.co, building tools for makers and sharing progress.",

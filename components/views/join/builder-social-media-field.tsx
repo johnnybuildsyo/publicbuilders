@@ -48,6 +48,8 @@ export default function BuilderSocialMediaField({ field, icon, label, register, 
     }
   }
 
+  const url: string = handle ? (handle.startsWith("http") ? handle : `https://${field}${field === "twitch" ? ".tv" : ".com"}/${field === "youtube" ? "@" : ""}${handle}`) : ""
+
   return (
     <div className="grid grid-cols-[2fr,1fr] gap-4 items-end">
       <div>
@@ -77,6 +79,11 @@ export default function BuilderSocialMediaField({ field, icon, label, register, 
           className="mt-1"
         />
       </div>
+      {handle && (
+        <a href={url} target="_blank" rel="noopener noreferrer" className="text-sm -mt-2 text-blue-500 hover:underline">
+          {url}
+        </a>
+      )}
       {errors[field]?.handle && <p className="text-red-500 text-sm col-span-2">{errors[field]?.handle?.message}</p>}
     </div>
   )

@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { FormData } from "@/app/_types";
-import { mapSocialMediaData } from "@/app/_data";
 
 export function useBuilderProfileReviewSubmit() {
   const [isLoading, setIsLoading] = useState(false);
@@ -14,7 +13,6 @@ export function useBuilderProfileReviewSubmit() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           ...data,
-          socialMedia: mapSocialMediaData(data),
           action,
           id: submissionId,
           rejectReason
