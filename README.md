@@ -37,6 +37,7 @@ Watch me [iterate with ChatGPT](https://chatgpt.com/share/672e9d92-5d28-8009-a2b
 🔗 Added links to [Build Log](https://github.com/johnnybuildsyo/publicbuilders/blob/main/README.md)
 💬 Added Contact link pointing to [Github Discussions](https://github.com/johnnybuildsyo/publicbuilders/discussions)
 📈 Added Google Analytics
+📱 Fixed mobile nav layout
 ⏫ ??
 
 --
