@@ -58,15 +58,15 @@ async function main() {
       // Check if the image field is missing or empty
       if (!builder.image || builder.image.trim() === '') {
         // Extract Twitter username
-        if (!builder.twitter) {
+        if (!builder.twitter?.url) {
           console.warn(`No Twitter URL for ${builder.name}, skipping.`);
           continue;
         }
         // Extract Twitter username for both twitter.com and x.com domains
-        const twitterUsername = builder.twitter.includes('twitter.com')
-          ? builder.twitter.split('https://twitter.com/')[1]
-          : builder.twitter.includes('x.com')
-          ? builder.twitter.split('https://x.com/')[1]
+        const twitterUsername = builder.twitter.url.includes('twitter.com')
+          ? builder.twitter.url.split('https://twitter.com/')[1]
+          : builder.twitter.url.includes('x.com')
+          ? builder.twitter.url.split('https://x.com/')[1]
           : null;
           
         if (!twitterUsername) {

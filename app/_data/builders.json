@@ -1,5 +1,35 @@
 [
   {
+    "name": "John Rush",
+    "description": "Creator of MarsX (uniting AI, NoCode, and Code), running 24 multiple SaaS projects in public and King of Directories",
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/johnrushx.jpg",
+    "imageOffset": "60%",
+    "twitter": {
+      "url": "https://x.com/johnrushx",
+      "followers": 47580
+    },
+    "github": {
+      "url": "https://github.com/johnrushx",
+      "followers": 19
+    },
+    "website": "https://johnrush.me/",
+    "tags": [
+      "saas",
+      "directory",
+      "entrepreneur"
+    ],
+    "currentProject": {
+      "name": "Unicorn Platform",
+      "description": "AI website builder that helps to quickly create websites without design or development skills for SaaS, Apps, Directories, Blogs, Personal pages, and more.",
+      "link": "https://unicornplatform.com/",
+      "tags": [
+        "platform",
+        "saas",
+        "ai"
+      ]
+    }
+  },
+  {
     "name": "Chris Coyier",
     "description": "Co-founder of CodePen. Podcast host of ShopTalk Show. Founder of CSS-Tricks",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/chriscoyier.jpg",
