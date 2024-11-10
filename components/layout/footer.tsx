@@ -18,15 +18,15 @@ export default function Footer() {
             </p>
           </div>
           <nav>
-            <ul className="flex space-x-4">
+            <ul className="flex space-x-6">
               <li>
-                <Link href="#" className="hover:underline">
+                <Link href="/privacy" className="hover:underline">
                   Privacy Policy
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:underline">
-                  Terms of Service
+                <Link href="/terms" className="hover:underline">
+                  Terms of Use
                 </Link>
               </li>
               <li>

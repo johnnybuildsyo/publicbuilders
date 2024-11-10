@@ -20,7 +20,7 @@ export function BuilderDirectory({ builders }: { builders: Builder[] }) {
   useEffect(() => {
     // Shuffle builders once when the component mounts
     setShuffledBuilders(shuffle(builders))
-  }, [])
+  }, [builders])
 
   const filteredBuilders = shuffledBuilders.filter((builder) => {
     const fullNameIncludes = builder.name.toLowerCase().includes(searchTerm.toLowerCase())
