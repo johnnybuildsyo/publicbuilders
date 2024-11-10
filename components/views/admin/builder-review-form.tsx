@@ -1,7 +1,9 @@
 "use client"
 
+import { useState } from "react"
 import { useForm } from "react-hook-form"
 import { zodResolver } from "@hookform/resolvers/zod"
+import { Textarea } from "@/components/ui/textarea"
 import { Button } from "@/components/ui/button"
 import { Spinner } from "@/components/ui/spinner"
 import { formSchema, FormData } from "@/app/_types"
@@ -9,12 +11,13 @@ import BuilderProfileFields from "../join/builder-profile-fields"
 
 type BuilderProfileFormProps = {
   isLoading: boolean
-  onSubmit: (data: FormData, action: "approve" | "reject", submissionId: string) => Promise<void>
+  onSubmit: (data: FormData, action: "approve" | "reject", submissionId: string, rejectReason?: string) => Promise<void>
   defaultValues: FormData
   submissionId: string
 }
 
 export default function BuilderReviewForm({ isLoading, onSubmit, defaultValues, submissionId }: BuilderProfileFormProps): JSX.Element {
+  const [rejectReason, setRejectReason] = useState<undefined | string>(undefined)
   const {
     register,
     handleSubmit,
@@ -27,11 +30,26 @@ export default function BuilderReviewForm({ isLoading, onSubmit, defaultValues, 
   })
 
   const handleApprove = handleSubmit((data) => onSubmit(data, "approve", submissionId))
-  const handleReject = handleSubmit((data) => onSubmit(data, "reject", submissionId))
+  const handleReject = handleSubmit((data) => {
+    if (rejectReason) {
+      onSubmit(data, "reject", submissionId, rejectReason)
+    } else {
+      setRejectReason("")
+    }
+  })
 
   return (
     <form className="space-y-6">
       <BuilderProfileFields {...{ register, errors, setValue, watch }} />
+
+      {rejectReason !== undefined && (
+        <div>
+          <label htmlFor="rejectReason" className="block text-sm font-medium text-gray-700">
+            Reason for Rejection
+          </label>
+          <Textarea id="rejectReason" value={rejectReason} onChange={(e) => setRejectReason(e.target.value)} className="mt-1 block w-full" placeholder="Enter reason for rejection..." />
+        </div>
+      )}
 
       <div className="flex justify-end items-center gap-8">
         {isLoading ? (

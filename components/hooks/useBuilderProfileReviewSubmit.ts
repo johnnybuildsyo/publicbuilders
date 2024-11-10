@@ -5,7 +5,7 @@ import { mapSocialMediaData } from "@/app/_data";
 export function useBuilderProfileReviewSubmit() {
   const [isLoading, setIsLoading] = useState(false);
 
-  const onSubmit = async (data: FormData, action: "approve" | "reject", submissionId: string) => {
+  const onSubmit = async (data: FormData, action: "approve" | "reject", submissionId: string, rejectReason?: string) => { 
     setIsLoading(true);
 
     try {
@@ -17,6 +17,7 @@ export function useBuilderProfileReviewSubmit() {
           socialMedia: mapSocialMediaData(data),
           action,
           id: submissionId,
+          rejectReason
         }),
       });
 

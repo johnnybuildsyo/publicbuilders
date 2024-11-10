@@ -10,7 +10,7 @@ export async function POST(req: NextRequest) {
     );
   }
 
-  const { action, id, ...data } = await req.json();
+  const { action, rejectReason, id, ...data } = await req.json();
 
   if (!id || !data) {
     return NextResponse.json({ error: "Invalid submission data." }, { status: 400 });
@@ -57,8 +57,14 @@ export async function POST(req: NextRequest) {
         fs.mkdirSync(rejectedDir, { recursive: true });
       }
 
-      // Move the file from pending to rejected
-      fs.renameSync(pendingFilePath, rejectedFilePath);
+      // Read the original data from the pending file, add rejectReason, and save it to rejected
+      const submissionData = JSON.parse(fs.readFileSync(pendingFilePath, "utf8"));
+      const updatedData = { ...submissionData, rejectReason };
+
+      fs.writeFileSync(rejectedFilePath, JSON.stringify(updatedData, null, 2));
+
+      // Remove the original pending file
+      fs.unlinkSync(pendingFilePath);
 
       return NextResponse.json(
         { message: "Submission rejected and moved to rejected directory" },
