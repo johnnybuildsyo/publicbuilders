@@ -2,7 +2,8 @@ import Home from "@/components/views/home"
 import { SHARE_IMAGE, builders } from "../_data"
 import { getTitleCaseSocial } from "@/lib/utils"
 
-export async function generateMetadata({ params }: { params: { sort: string } }) {
+export async function generateMetadata(props: { params: Promise<{ sort: string }> }) {
+  const params = await props.params;
   return {
     title: `Public Builders – The Top Build in Public Founders and Creators on ${getTitleCaseSocial(params.sort)}`,
     description:
@@ -19,7 +20,8 @@ export async function generateMetadata({ params }: { params: { sort: string } })
   }
 }
 
-export default function HomePage({ params }: { params: { sort: string } }) {
+export default async function HomePage(props: { params: Promise<{ sort: string }> }) {
+  const params = await props.params;
   return (
     <div className="w-full text-center flex flex-col gap-8">
       <Home builders={builders} sort={params.sort} />

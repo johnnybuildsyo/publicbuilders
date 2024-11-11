@@ -1,5 +1,5 @@
 import { Builder, FormData, SocialMediaPlatform, SocialMediaFields } from "../_types";
-import buildersJSON from './builders.json' assert { type: 'json' };
+import buildersJSON from './builders.json' with { type: 'json' };
 
 export const builders: Builder[] = buildersJSON;
 
