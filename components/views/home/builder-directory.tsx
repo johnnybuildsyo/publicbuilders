@@ -1,5 +1,6 @@
 "use client"
 import { useState, useEffect } from "react"
+import { useParams, useRouter } from "next/navigation"
 import { shuffle } from "lodash"
 import Link from "next/link"
 import Image from "next/image"
@@ -13,14 +14,23 @@ import { Builder } from "@/app/_types"
 import SocialMediaLinks from "./social-media-links"
 
 export function BuilderDirectory({ builders }: { builders: Builder[] }) {
+  const params = useParams()
+
   const [searchTerm, setSearchTerm] = useState("")
-  const [sortBy, setSortBy] = useState("")
+  const [sortBy, setSortBy] = useState<string>(params.sort ? params.sort.toString() : "")
   const [shuffledBuilders, setShuffledBuilders] = useState<Builder[]>([])
+  const router = useRouter()
 
   useEffect(() => {
     // Shuffle builders once when the component mounts
     setShuffledBuilders(shuffle(builders))
   }, [builders])
+
+  // Update URL when the sort option changes
+  const handleSortChange = (sortOption: string) => {
+    setSortBy(sortOption)
+    router.push(`/${sortOption}`)
+  }
 
   const filteredBuilders = shuffledBuilders.filter((builder) => {
     const fullNameIncludes = builder.name.toLowerCase().includes(searchTerm.toLowerCase())
@@ -38,15 +48,15 @@ export function BuilderDirectory({ builders }: { builders: Builder[] }) {
       const aLastName = a.name.split(" ").slice(-1)[0]
       const bLastName = b.name.split(" ").slice(-1)[0]
       return aLastName.localeCompare(bLastName)
-    } else if (sortBy === "twitterFollowers") {
+    } else if (sortBy === "twitter") {
       return (b.twitter?.followers || 0) - (a.twitter?.followers || 0)
-    } else if (sortBy === "githubFollowers") {
+    } else if (sortBy === "github") {
       return (b.github?.followers || 0) - (a.github?.followers || 0)
-    } else if (sortBy === "youtubeSubscribers") {
+    } else if (sortBy === "youtube") {
       return (b.youtube?.followers || 0) - (a.youtube?.followers || 0)
-    } else if (sortBy === "twitchSubscribers") {
+    } else if (sortBy === "twitch") {
       return (b.twitch?.followers || 0) - (a.twitch?.followers || 0)
-    } else if (sortBy === "blueskyFollowers") {
+    } else if (sortBy === "bluesky") {
       return (b.bluesky?.followers || 0) - (a.bluesky?.followers || 0)
     } else {
       return 0
@@ -63,22 +73,23 @@ export function BuilderDirectory({ builders }: { builders: Builder[] }) {
             <Input type="text" placeholder="Search builders by name, expertise, tags, project, or website..." value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} className="pl-10" />
           </div>
           <div className="flex justify-end">
-            <Select value={sortBy} onValueChange={setSortBy}>
+            <Select value={sortBy} onValueChange={handleSortChange}>
               <SelectTrigger className="w-[200px]">
                 <SelectValue placeholder="Sort by" />
               </SelectTrigger>
               <SelectContent>
                 <SelectItem value="name">Sort by First Name</SelectItem>
                 <SelectItem value="lastName">Sort by Last Name</SelectItem>
-                <SelectItem value="twitterFollowers">Sort by Twitter</SelectItem>
-                <SelectItem value="githubFollowers">Sort by GitHub</SelectItem>
-                <SelectItem value="youtubeSubscribers">Sort by YouTube</SelectItem>
-                <SelectItem value="twitchSubscribers">Sort by Twitch</SelectItem>
-                <SelectItem value="blueskyFollowers">Sort by Bluesky</SelectItem>
+                <SelectItem value="twitter">Sort by Twitter</SelectItem>
+                <SelectItem value="github">Sort by GitHub</SelectItem>
+                <SelectItem value="youtube">Sort by YouTube</SelectItem>
+                <SelectItem value="twitch">Sort by Twitch</SelectItem>
+                <SelectItem value="bluesky">Sort by Bluesky</SelectItem>
               </SelectContent>
             </Select>
           </div>
         </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {sortedBuilders.map((builder) => (
             <Card key={builder.name} className="flex flex-col">
