@@ -1,0 +1,36 @@
+{
+  "name": "Johnny Builds",
+  "description": "test",
+  "twitter": {
+    "url": "https://twitter.com/johnnybuilds_",
+    "followers": 64
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "url": "https://github.com/johnnybuildsyo",
+    "followers": 1
+  },
+  "bluesky": {
+    "url": "https://bsky.app/profile/johnnybuilds.bsky.social",
+    "followers": 72
+  },
+  "website": "https://johnnybuilds.com",
+  "tags": [
+    "webdev",
+    "open source"
+  ],
+  "currentProject": {
+    "name": "Public Builders",
+    "description": "testing",
+    "link": "https://publicbuilders.org",
+    "tags": [
+      "directory",
+      "buildinpublic"
+    ]
+  }
+}
