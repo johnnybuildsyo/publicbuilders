@@ -3,7 +3,7 @@ import Link from "next/link"
 import { Builder } from "@/app/_types"
 import { BuilderDirectory } from "./builder-directory"
 
-export default function Home({ builders }: { builders: Builder[] }) {
+export default function Home({ builders, sort }: { builders: Builder[]; sort?: string }) {
   return (
     <div className="flex flex-col min-h-screen">
       <main className="flex-grow">
@@ -17,7 +17,7 @@ export default function Home({ builders }: { builders: Builder[] }) {
           </div>
         </section>
 
-        <BuilderDirectory builders={builders} />
+        <BuilderDirectory builders={builders} sort={sort} />
 
         <section id="join" className="py-16 bg-gray-50">
           <div className="container mx-auto px-4 text-center">

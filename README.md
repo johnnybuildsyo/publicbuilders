@@ -12,7 +12,7 @@ A directory of who is who in #buildinpublic. Indie hackers, startup founders and
 4. Add link to build log ✅
 5. Add google analytics ✅
 6. Add privacy policy and terms of use ✅
-7. Sort Pages
+7. Sort Pages ✅
 7. Individual Profile Pages
 8. Demo Video to Post to Reddit etc [see here](https://marclou.beehiiv.com/p/how-to-launch-a-startup-on-reddit)
 8. Resources Page
@@ -33,6 +33,15 @@ A directory of who is who in #buildinpublic. Indie hackers, startup founders and
 [Generate Commit Stats](https://gist.github.com/johnnybuildsyo/16a77a2f20970cc054a07b53b7f900f1)
 
 Watch me [iterate with ChatGPT](https://chatgpt.com/share/672e9d92-5d28-8009-a2b2-d218036d322a)
+
+--
+
+**2024-11-11**  
+🔎 Started working on SEO
+🔗 Added url route for each type of sort
+➕ Added pagination
+📑 Add privacy policy and terms of use
+⏫ ??
 
 --
 

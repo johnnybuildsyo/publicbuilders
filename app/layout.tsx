@@ -6,6 +6,7 @@ import { Rethink_Sans } from "next/font/google"
 import "./globals.css"
 import Header from "@/components/layout/header"
 import Footer from "@/components/layout/footer"
+import { APP_ICON, SHARE_IMAGE } from "./_data"
 
 const displayFont = Rethink_Sans({
   subsets: ["latin"],
@@ -24,19 +25,17 @@ const geistMono = localFont({
   weight: "100 900",
 })
 
-const shareImage = "https://publicbuilders.org/screenshot.png"
-
 export const metadata: Metadata = {
   title: "Public Builders – Discover Build In Public Founders and Creators",
   description: "Explore Public Builders – a directory of top build in public founders, creators, makers and indie hackers sharing their journey. Join the #buildinpublic community!",
   openGraph: {
-    images: shareImage,
+    images: SHARE_IMAGE,
   },
   twitter: {
-    images: shareImage,
+    images: SHARE_IMAGE,
   },
   icons: {
-    icon: "/icon.svg",
+    icon: APP_ICON,
   },
 }
 

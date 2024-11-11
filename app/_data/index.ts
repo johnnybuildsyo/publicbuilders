@@ -3,6 +3,9 @@ import buildersJSON from './builders.json' assert { type: 'json' };
 
 export const builders: Builder[] = buildersJSON;
 
+export const APP_ICON = "/icon.svg";
+export const SHARE_IMAGE = "https://publicbuilders.org/screenshot.png"
+
 // Social media URL mappings
 export const socialPlatforms: { platform: SocialMediaPlatform; urlPrefix: string }[] = [
     { platform: "twitter", urlPrefix: "https://twitter.com/" },
