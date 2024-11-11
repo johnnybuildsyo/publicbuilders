@@ -1518,5 +1518,67 @@
         "buildinpublic"
       ]
     }
+  },
+  {
+    "name": "Marc Lou",
+    "description": "Software Engineer and Solopreneur who built and launched 20+ websites, sharing how to find ideas, launch fast and get profitable.",
+    "image": "",
+    "twitter": {
+      "url": "https://twitter.com/marc_louvion",
+      "followers": 136755
+    },
+    "youtube": {
+      "handle": "https://www.youtube.com/@marc-lou",
+      "followers": 101000
+    },
+    "github": {
+      "url": "https://github.com/marclou",
+      "followers": 1200
+    },
+    "website": "https://marclou.com/",
+    "tags": [
+      "saas",
+      "entrepreneur",
+      "webdev"
+    ],
+    "currentProject": {
+      "name": "Just Ship It",
+      "description": "Newsletter for how to find startup ideas, launch fast, and get profitable.",
+      "link": "https://marclou.beehiiv.com/",
+      "tags": [
+        "startup",
+        "marketing",
+        "newsletter"
+      ]
+    }
+  },
+  {
+    "name": "Kyle Nolan",
+    "description": "Software engineer, founder and bootstrapper of Projection Lab",
+    "image": "",
+    "twitter": {
+      "url": "https://x.com/_knolan",
+      "followers": 4966
+    },
+    "github": {
+      "url": "https://github.com/kcnolan13",
+      "followers": 13
+    },
+    "website": "https://kylenolan.net/",
+    "tags": [
+      "saas",
+      "entrepreneur",
+      "founder"
+    ],
+    "currentProject": {
+      "name": "Projection Lab",
+      "description": "Build Financial Plans You Love. Simulate your financial future and chart a course toward your best life.",
+      "link": "https://projectionlab.com/",
+      "tags": [
+        "data",
+        "financial planning",
+        "retirement calculator"
+      ]
+    }
   }
 ]

@@ -12,7 +12,9 @@ A directory of who is who in #buildinpublic. Indie hackers, startup founders and
 4. Add link to build log ✅
 5. Add google analytics ✅
 6. Add privacy policy and terms of use ✅
-7. Profile Pages and Sort Pages for SEO
+7. Sort Pages
+7. Individual Profile Pages
+8. Demo Video to Post to Reddit etc [see here](https://marclou.beehiiv.com/p/how-to-launch-a-startup-on-reddit)
 8. Weekly News Page
 9. Newsletter
 10. Add feedback link
