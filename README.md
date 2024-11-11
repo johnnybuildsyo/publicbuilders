@@ -12,16 +12,17 @@ A directory of who is who in #buildinpublic. Indie hackers, startup founders and
 4. Add link to build log ✅
 5. Add google analytics ✅
 6. Add privacy policy and terms of use ✅
-7. Add feedback form
-8. Add favorite button with google event tracking and local storage
-9. Profile view
-10. Set up API that pulls stats
-11. Show a list of projects
-12. Show a list of posts
-13. Show a list of repos
-14. Show random button
-15. Use AI to analyze Bing Search API and provide insights
-16. Automated Newsletter
+7. Profile Pages and Sort Pages for SEO
+8. Weekly News Page
+9. Newsletter
+10. Add feedback link
+11. Add favorite button with google event tracking and local storage
+12. Set up API that pulls stats
+13. Show a list of projects
+14. Show a list of posts
+15. Show a list of repos
+16. Use AI to analyze Bing Search API and provide insights
+
 
 ----
 

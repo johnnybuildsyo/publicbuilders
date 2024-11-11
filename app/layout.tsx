@@ -27,8 +27,8 @@ const geistMono = localFont({
 const shareImage = "https://publicbuilders.org/screenshot.png"
 
 export const metadata: Metadata = {
-  title: "Public Builders",
-  description: "A directory of who is who in #buildinpublic. Indie hackers, startup founders, and ambitious makers.",
+  title: "Public Builders – Discover Build In Public Founders and Creators",
+  description: "Explore Public Builders – a directory of top build in public founders, creators, makers and indie hackers sharing their journey. Join the #buildinpublic community!",
   openGraph: {
     images: shareImage,
   },
