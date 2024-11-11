@@ -2,17 +2,12 @@
 import { useState, useEffect } from "react"
 import { useParams, useRouter } from "next/navigation"
 import { shuffle } from "lodash"
-import Link from "next/link"
-import Image from "next/image"
 import { Input } from "@/components/ui/input"
-import { Badge } from "@/components/ui/badge"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { Search, ExternalLink } from "lucide-react"
+import { ChevronsDownIcon, Search } from "lucide-react"
 import { Builder } from "@/app/_types"
-import SocialMediaLinks from "./social-media-links"
 import { BuilderCard } from "./builder-card"
+import { Button } from "@/components/ui/button"
 
 export function BuilderDirectory({ builders }: { builders: Builder[] }) {
   const params = useParams()
@@ -20,7 +15,10 @@ export function BuilderDirectory({ builders }: { builders: Builder[] }) {
   const [searchTerm, setSearchTerm] = useState("")
   const [sortBy, setSortBy] = useState<string>(params.sort ? params.sort.toString() : "")
   const [shuffledBuilders, setShuffledBuilders] = useState<Builder[]>([])
+  const [page, setPage] = useState(1) // New state for pagination
   const router = useRouter()
+
+  const PER_PAGE = 24 // Number of builders to display per page
 
   useEffect(() => {
     // Shuffle builders once when the component mounts
@@ -64,6 +62,10 @@ export function BuilderDirectory({ builders }: { builders: Builder[] }) {
     }
   })
 
+  const displayedBuilders = sortedBuilders.slice(0, page * PER_PAGE)
+
+  const showMore = () => setPage(page + 1)
+
   return (
     <section id="directory" className="py-16">
       <div className="container mx-auto px-4">
@@ -92,10 +94,19 @@ export function BuilderDirectory({ builders }: { builders: Builder[] }) {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {sortedBuilders.map((builder, index) => (
+          {displayedBuilders.map((builder, index) => (
             <BuilderCard builder={builder} key={builder.name + index} />
           ))}
         </div>
+
+        {displayedBuilders.length < sortedBuilders.length && (
+          <div className="flex justify-center mt-8">
+            <Button variant="outline" onClick={showMore} className="text-lg py-2 px-8 h-auto opacity-70 border-foreground/20 hover:scale-105 hover:opacity-100 transition-all duration-300">
+              <ChevronsDownIcon className="scale-125 opacity-50" />
+              View More
+            </Button>
+          </div>
+        )}
       </div>
     </section>
   )
