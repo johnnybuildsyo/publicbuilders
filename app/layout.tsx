@@ -1,5 +1,4 @@
 import { GoogleAnalytics } from "@next/third-parties/google"
-import { ThemeProvider } from "@/components/theme-provider"
 import type { Metadata } from "next"
 import localFont from "next/font/local"
 import { Rethink_Sans } from "next/font/google"
@@ -47,13 +46,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} ${displayFont.variable} antialiased font-display`}>
-        <ThemeProvider attribute="class" forcedTheme="light" defaultTheme="light" enableSystem disableTransitionOnChange>
-          <div className="min-h-screen flex flex-col font-display">
-            <Header />
-            <main className="flex flex-col grow gap-4 row-start-2 justify-center items-center font-display">{children}</main>
-            <Footer />
-          </div>
-        </ThemeProvider>
+        <div className="min-h-screen flex flex-col font-display">
+          <Header />
+          <main className="flex flex-col grow gap-4 row-start-2 justify-center items-center font-display">{children}</main>
+          <Footer />
+        </div>
       </body>
       {process.env.NEXT_PUBLIC_GA_ID && <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID} />}
     </html>
