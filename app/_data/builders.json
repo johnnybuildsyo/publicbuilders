@@ -1522,7 +1522,7 @@
   {
     "name": "Marc Lou",
     "description": "Software Engineer and Solopreneur who built and launched 20+ websites, sharing how to find ideas, launch fast and get profitable.",
-    "image": "",
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/marc_louvion.jpg",
     "twitter": {
       "url": "https://twitter.com/marc_louvion",
       "followers": 136755
@@ -1555,7 +1555,7 @@
   {
     "name": "Kyle Nolan",
     "description": "Software engineer, founder and bootstrapper of Projection Lab",
-    "image": "",
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/_knolan.jpg",
     "twitter": {
       "url": "https://x.com/_knolan",
       "followers": 4966
