@@ -864,9 +864,9 @@
       "followers": 1200
     },
     "youtube": {
-      "url": "https://www.youtube.com/@TheBootstrappedFounder"
+      "url": "https://www.youtube.com/@TheBootstrappedFounder",
+      "followers": 9880
     },
-    "youtubeFollowers": 9880,
     "github": {
       "url": "https://github.com/arvidkahl",
       "followers": 738
@@ -1481,9 +1481,11 @@
   {
     "name": "Johnny Builds",
     "description": "After years in web dev, I’m starting over, for fun, building in public documenting every step on the way.",
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/johnnybuilds.png",
     "twitter": {
-      "handle": "johnnybuilds_",
-      "followers": 63
+      "handle": "https://twitter.com/johnnybuilds_",
+      "url": "https://twitter.com/johnnybuilds_",
+      "followers": 64
     },
     "youtube": {
       "handle": ""
@@ -1492,17 +1494,20 @@
       "handle": ""
     },
     "github": {
-      "handle": "johnnybuildsyo",
+      "handle": "https://github.com/johnnybuildsyo",
+      "url": "https://github.com/johnnybuildsyo",
       "followers": 1
     },
     "bluesky": {
       "handle": "https://bsky.app/profile/johnnybuilds.bsky.social",
-      "followers": 68
+      "url": "https://bsky.app/profile/johnnybuilds.bsky.social",
+      "followers": 72
     },
     "website": "https://johnnybuilds.com",
     "tags": [
       "webdev",
-      "open source"
+      "open source",
+      "writing"
     ],
     "currentProject": {
       "name": "Public Builders",
@@ -1512,20 +1517,6 @@
         "directory",
         "buildinpublic"
       ]
-    },
-    "socialMedia": {
-      "twitter": {
-        "handle": "johnnybuilds_",
-        "url": "https://twitter.com/johnnybuilds_"
-      },
-      "github": {
-        "handle": "johnnybuildsyo",
-        "url": "https://github.com/johnnybuildsyo"
-      },
-      "bluesky": {
-        "handle": "https://bsky.app/profile/johnnybuilds.bsky.social",
-        "url": "https://bsky.app/profile/johnnybuilds.bsky.social"
-      }
     }
   }
 ]

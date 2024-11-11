@@ -16,16 +16,17 @@ export function useBuilderProfileSubmit() {
     setIsLoading(true);
 
     const socialMediaData = mapSocialMediaData(data);
+    const payload = {
+      ...data,
+      ...socialMediaData,
+      captchaToken,
+    }
 
     try {
       const response = await fetch("/api/join", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          ...data,
-          ...socialMediaData,
-          captchaToken,
-        }),
+        body: JSON.stringify(payload),
       });
 
       if (!response.ok) {

@@ -33,7 +33,6 @@ export async function POST(req: NextRequest) {
     }
 
     const validatedData = builderSchema.parse(builderData);
-    console.log({ builderData, validatedData });
     const { name } = validatedData as FormData;
     if (!name) {
       return NextResponse.json({ error: "Name is required" }, { status: 400 });

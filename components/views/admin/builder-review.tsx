@@ -16,7 +16,21 @@ export default function BuilderReview() {
         const response = await fetch(`/api/admin/submission/load`)
         if (!response.ok) throw new Error("Failed to load submissions.")
         const data: BuilderSubmission[] = await response.json()
-        setSubmissions(data)
+
+        const submissionsData = data.map((submission) => {
+          const socialPlatforms = ["twitter", "youtube", "twitch", "github", "bluesky"] as const
+
+          socialPlatforms.forEach((platform) => {
+            const platformData = submission[platform]
+            if (platformData?.url && !platformData.handle) {
+              platformData.handle = platformData.url
+            }
+          })
+
+          return submission
+        })
+
+        setSubmissions(submissionsData)
       } catch (error: unknown) {
         setError(error instanceof Error ? error.message : "An unknown error occurred.")
         console.error(error)

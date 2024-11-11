@@ -1,4 +1,4 @@
-import { Builder, FormData, SocialMediaPlatform, SocialMediaHandles } from "../_types";
+import { Builder, FormData, SocialMediaPlatform, SocialMediaFields } from "../_types";
 import buildersJSON from './builders.json' assert { type: 'json' };
 
 export const builders: Builder[] = buildersJSON;
@@ -12,17 +12,20 @@ export const socialPlatforms: { platform: SocialMediaPlatform; urlPrefix: string
     { platform: "bluesky", urlPrefix: "https://bsky.app/profile/" },
 ]
 
-export const mapSocialMediaData = (data: FormData) => {
-    // Construct social media URLs if handles are present
-    const socialMediaData: SocialMediaHandles = {}
-    socialPlatforms.forEach(({ platform, urlPrefix }) => {
-      const handle = data[platform]?.handle
-      if (handle) {
-        socialMediaData[platform] = {
-          handle,
-          url: handle.startsWith("http") ? handle : `${urlPrefix}${handle}`,
-        }
-      }
-    })
-    return socialMediaData;
-}
+export const mapSocialMediaData = (data: FormData): SocialMediaFields => {
+  // Initialize socialMediaData with the SocialMediaFields type
+  const socialMediaData: Partial<SocialMediaFields> = {};
+
+  socialPlatforms.forEach(({ platform, urlPrefix }) => {
+    const handle = data[platform]?.handle;
+    const followers = data[platform]?.followers || 0;
+    if (handle && followers) {
+      socialMediaData[platform] = {
+        url: handle.startsWith("http") ? handle : `${urlPrefix}${handle}`,
+        followers,
+      };
+    }
+  });
+
+  return socialMediaData as SocialMediaFields;
+};
