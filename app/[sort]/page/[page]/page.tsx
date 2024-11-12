@@ -1,5 +1,5 @@
 import Home from "@/components/views/home"
-import { SHARE_IMAGE } from "../_data"
+import { SHARE_IMAGE } from "@/app/_data"
 import { getTitleCaseSocial } from "@/lib/utils"
 
 export async function generateMetadata(props: { params: Promise<{ sort: string }> }) {
@@ -20,11 +20,13 @@ export async function generateMetadata(props: { params: Promise<{ sort: string }
   }
 }
 
-export default async function HomePage(props: { params: Promise<{ sort: string }> }) {
-  const params = await props.params
+export default async function HomePage(props: { params: Promise<{ sort: string; page: string }> }) {
+  const { sort, page } = await props.params
+  const pageNumber = parseInt(page)
+
   return (
     <div className="w-full text-center flex flex-col gap-8">
-      <Home sort={params.sort} />
+      <Home sort={sort} page={pageNumber} />
     </div>
   )
 }

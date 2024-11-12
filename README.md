@@ -40,7 +40,7 @@ Watch me [iterate with ChatGPT](https://chatgpt.com/share/672e9d92-5d28-8009-a2b
 🔎 Started working on SEO
 🔝 Added pages for [top bluesky](https://publicbuilders.org/bluesky), twitter, github and youtubers
 👤 Added [individual profile](https://publicbuilders.org/profile/Arvid-Kahl) pages
-➕ Added pagination
+➕ Added SEO friendly pagination
 🙏 Added [resources page](https://publicbuilders.org/resources)
 🕶️ Powered by new [awesome-buildinpublic list](https://github.com/johnnybuildsyo/awesome-buildinpublic) I made on Github
 📑 Added privacy policy and terms of use

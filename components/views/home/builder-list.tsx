@@ -1,16 +1,15 @@
 "use client"
 import { useState } from "react"
 import { Input } from "@/components/ui/input"
-import { ChevronsDownIcon, Search } from "lucide-react"
+import { Search } from "lucide-react"
 import { Builder } from "@/app/_types"
 import { BuilderCard } from "./builder-card"
 import { BuilderSortSelect } from "./builder-sort-select"
-import { Button } from "@/components/ui/button"
+import { Pagination, PaginationContent, PaginationItem, PaginationLink, PaginationNext, PaginationPrevious } from "@/components/ui/pagination"
 
-export function BuilderList({ builders, sort }: { builders: Builder[]; sort?: string }) {
+export function BuilderList({ builders, sort, page, numPages }: { builders: Builder[]; sort?: string; page: number; numPages: number }) {
   const [searchTerm, setSearchTerm] = useState("")
-  const [page, setPage] = useState(1) // New state for pagination
-  const PER_PAGE = 24 // Number of builders to display per page
+
   const filteredBuilders = builders.filter((builder) => {
     const fullNameIncludes = builder.name.toLowerCase().includes(searchTerm.toLowerCase())
     const tagIncludes = builder.tags.some((tag) => tag.toLowerCase().includes(searchTerm.toLowerCase()))
@@ -19,32 +18,6 @@ export function BuilderList({ builders, sort }: { builders: Builder[]; sort?: st
     const websiteIncludes = builder.website && builder.website.toLowerCase().includes(searchTerm.toLowerCase())
     return fullNameIncludes || tagIncludes || projectIncludes || websiteIncludes
   })
-
-  const sortedBuilders = [...filteredBuilders].sort((a, b) => {
-    if (sort === "name") {
-      return a.name.localeCompare(b.name)
-    } else if (sort === "lastName") {
-      const aLastName = a.name.split(" ").slice(-1)[0]
-      const bLastName = b.name.split(" ").slice(-1)[0]
-      return aLastName.localeCompare(bLastName)
-    } else if (sort === "twitter") {
-      return (b.twitter?.followers || 0) - (a.twitter?.followers || 0)
-    } else if (sort === "github") {
-      return (b.github?.followers || 0) - (a.github?.followers || 0)
-    } else if (sort === "youtube") {
-      return (b.youtube?.followers || 0) - (a.youtube?.followers || 0)
-    } else if (sort === "twitch") {
-      return (b.twitch?.followers || 0) - (a.twitch?.followers || 0)
-    } else if (sort === "bluesky") {
-      return (b.bluesky?.followers || 0) - (a.bluesky?.followers || 0)
-    } else {
-      return 0
-    }
-  })
-
-  const displayedBuilders = sortedBuilders.slice(0, page * PER_PAGE)
-
-  const showMore = () => setPage(page + 1)
 
   return (
     <>
@@ -59,17 +32,28 @@ export function BuilderList({ builders, sort }: { builders: Builder[]; sort?: st
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {displayedBuilders.map((builder, index) => (
+        {filteredBuilders.map((builder, index) => (
           <BuilderCard builder={builder} key={builder.name + index} />
         ))}
       </div>
 
-      {displayedBuilders.length < sortedBuilders.length && (
-        <div className="flex justify-center mt-8">
-          <Button variant="outline" onClick={showMore} className="text-lg py-2 px-8 h-auto opacity-70 border-foreground/20 hover:scale-105 hover:opacity-100 transition-all duration-300">
-            <ChevronsDownIcon className="scale-125 opacity-50" />
-            View More
-          </Button>
+      {numPages > 1 && (
+        <div className="py-12 sm:scale-125">
+          <Pagination>
+            <PaginationContent>
+              <PaginationItem className={page === 1 ? "opacity-0 pointer-events-none" : ""}>
+                <PaginationPrevious href={page > 1 ? `${sort ? `/${sort}` : ""}/page/${page - 1}#directory` : "#directory"} />
+              </PaginationItem>
+              {Array.from({ length: numPages }, (_, i) => (
+                <PaginationItem key={i + 1}>
+                  <PaginationLink href={`${sort ? `/${sort}` : ""}/page/${i + 1}#directory`}>{i + 1}</PaginationLink>
+                </PaginationItem>
+              ))}
+              <PaginationItem className={page === numPages ? "opacity-0 pointer-events-none" : ""}>
+                <PaginationNext href={page < numPages ? `${sort ? `/${sort}` : ""}/page/${page + 1}#directory` : "#directory"} />
+              </PaginationItem>
+            </PaginationContent>
+          </Pagination>
         </div>
       )}
     </>
