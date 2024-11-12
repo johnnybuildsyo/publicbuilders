@@ -101,6 +101,9 @@ importers:
       react-markdown:
         specifier: ^9.0.1
         version: 9.0.1(@types/react@18.3.12)(react@19.0.0-rc-02c0e824-20241028)
+      schema-dts:
+        specifier: ^1.1.2
+        version: 1.1.2(typescript@5.6.3)
       seedrandom:
         specifier: ^3.0.5
         version: 3.0.5
@@ -3150,6 +3153,11 @@ packages:
 
   scheduler@0.25.0-rc-02c0e824-20241028:
     resolution: {integrity: sha512-GysnKjmMSaWcwsKTLzeJO0IhU3EyIiC0ivJKE6yDNLqt3IMxDByx8b6lSNXRNdN+ULUY0WLLjSPaZ0LuU/GnTg==}
+
+  schema-dts@1.1.2:
+    resolution: {integrity: sha512-MpNwH0dZJHinVxk9bT8XUdjKTxMYrA5bLtrrGmFA6PTLwlOKnhi67XoRd6/ty+Djt6ZC0slR57qFhZDNMI6DhQ==}
+    peerDependencies:
+      typescript: '>=4.1.0'
 
   seedrandom@3.0.5:
     resolution: {integrity: sha512-8OwmbklUNzwezjGInmZ+2clQmExQPvomqjL7LFqOYqtmuxRgQYqOD3mHaU+MvZn5FLUeVxVfQjwLZW/n/JFuqg==}
@@ -7283,6 +7291,10 @@ snapshots:
       is-regex: 1.1.4
 
   scheduler@0.25.0-rc-02c0e824-20241028: {}
+
+  schema-dts@1.1.2(typescript@5.6.3):
+    dependencies:
+      typescript: 5.6.3
 
   seedrandom@3.0.5: {}
 

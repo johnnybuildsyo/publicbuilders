@@ -1,13 +1,16 @@
+import { WebPage, WithContext } from "schema-dts"
 import Home from "@/components/views/home"
 import { SHARE_IMAGE } from "../_data"
 import { getTitleCaseSocial } from "@/lib/utils"
+
+const description =
+  "Public Builders is a directory for finding builders who are actively and consistently building in public. Browse founders, makers, creators and entrepreneurs who #buildinpublic on Twitter, Bluesky, GitHub, YouTube, and more."
 
 export async function generateMetadata(props: { params: Promise<{ sort: string }> }) {
   const params = await props.params
   return {
     title: `Public Builders – The Top Build in Public Founders and Creators on ${getTitleCaseSocial(params.sort)}`,
-    description:
-      "Public Builders is a directory of top build in public founders, creators, makers and indie hackers sharing their journey. Discover who is doing #buildinpublic on YouTube, GitHub, Twitch, Twitter, Bluesky and more.",
+    description,
     openGraph: {
       images: SHARE_IMAGE,
     },
@@ -21,10 +24,43 @@ export async function generateMetadata(props: { params: Promise<{ sort: string }
 }
 
 export default async function HomePage(props: { params: Promise<{ sort: string }> }) {
-  const params = await props.params
+  const { sort } = await props.params
+
+  const jsonLd: WithContext<WebPage> = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: "Top Public Builders on " + getTitleCaseSocial(sort),
+    url: "https://publicbuilders.org/" + sort,
+    description,
+    breadcrumb: {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Home",
+          item: "https://publicbuilders.org",
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Resources",
+          item: "https://publicbuilders.org/resources",
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: "Join",
+          item: "https://publicbuilders.org/join",
+        },
+      ],
+    },
+  }
+
   return (
     <div className="w-full text-center flex flex-col gap-8">
-      <Home sort={params.sort} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <Home sort={sort} />
     </div>
   )
 }

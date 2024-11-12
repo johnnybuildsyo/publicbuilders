@@ -9,6 +9,12 @@ export default function Footer() {
             <h3 className="text-xl font-bold">Public Builders</h3>
             <p>Connecting the #buildinpublic community</p>
             <p>
+              <span className="block text-sm">
+                Built and maintained by{" "}
+                <a className="text-fuchsia-400" href="https://johnnybuilds.com">
+                  Johnny Builds
+                </a>
+              </span>
               <a className="block text-sm text-fuchsia-400" href="https://github.com/johnnybuildsyo/publicbuilders">
                 View Source on Github
               </a>

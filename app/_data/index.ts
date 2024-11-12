@@ -5,6 +5,7 @@ export const builders: Builder[] = buildersJSON;
 
 export const APP_ICON = "/icon.svg";
 export const SHARE_IMAGE = "https://publicbuilders.org/screenshot.png"
+export const SHARE_IMAGE_RESOURCES = "https://publicbuilders.org/screenshot-resources.png"
 
 // Social media URL mappings
 export const socialPlatforms: { platform: SocialMediaPlatform; urlPrefix: string }[] = [
