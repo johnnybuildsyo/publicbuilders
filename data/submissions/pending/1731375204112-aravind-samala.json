@@ -1,0 +1,38 @@
+{
+  "name": "Aravind Samala",
+  "description": "Created 2 awesome products - Pointron, Memotron - on the way to create more!",
+  "twitter": {
+    "url": "https://x.com/21nfellow",
+    "followers": 67
+  },
+  "youtube": {
+    "url": "https://youtube.com/@21nCompany",
+    "followers": 28000
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "url": "https://github.com/thyaravind",
+    "followers": 3
+  },
+  "bluesky": {
+    "url": "https://bsky.app/profile/aravindsamala.com",
+    "followers": 8
+  },
+  "website": "https://aravindsamala.com",
+  "tags": [
+    "Founder",
+    "Full stack developer",
+    "Bootstrapping"
+  ],
+  "currentProject": {
+    "name": "Memotron",
+    "description": "Personal knowledge management redefined",
+    "link": "https://memotron.io",
+    "tags": [
+      "Productivity",
+      "PKM"
+    ]
+  }
+}
