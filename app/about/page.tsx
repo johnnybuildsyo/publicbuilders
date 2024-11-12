@@ -12,6 +12,7 @@ export default function AboutPage() {
               About Public Builders
             </h1>
             <div className="text-lg text-left w-full max-w-3xl mx-auto flex flex-col gap-4" style={{ textShadow: "1px 1px 4px rgba(0, 0, 0, .5)" }}>
+              <p>When I was getting started building in public, I was frustrated that I couldn’t find a good list of people who were actively and consistently building in public. So I made one!</p>
               <p>
                 <Link className={linkClass} href="/">
                   PublicBuilders.org

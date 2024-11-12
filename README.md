@@ -13,7 +13,7 @@ A directory of who is who in #buildinpublic. Indie hackers, startup founders and
 5. Add google analytics ✅
 6. Add privacy policy and terms of use ✅
 7. Sort Pages ✅
-7. Individual Profile Pages
+7. Individual Profile Pages ✅
 8. Resources Page
 9. Demo Video to Post to Reddit etc [see here](https://marclou.beehiiv.com/p/how-to-launch-a-startup-on-reddit)
 10. Weekly News Page
@@ -38,8 +38,9 @@ Watch me [iterate with ChatGPT](https://chatgpt.com/share/672e9d92-5d28-8009-a2b
 
 **2024-11-11**  
 🔎 Started working on SEO
-🔗 Added url route for each type of sort
 ➕ Added pagination
+👤 Added individual profile pages
+🔗 Added url route for each type of sort
 📑 Add privacy policy and terms of use
 ⏫ ??
 
