@@ -13,3 +13,10 @@ export function formatNum(num: number) {
 export function getTitleCaseSocial(social: string) {
   return social === "youtube" ? "YouTube" : social === "github" ? "GitHub" : capitalize(social)
 }
+
+export function reverseSlugify(slug: string): string {
+  return slug
+    .split("-")
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
+}

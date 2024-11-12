@@ -58,7 +58,11 @@ export default function PrivacyPage() {
               <h2 className="text-2xl font-semibold mb-4">Your Rights</h2>
               <p className="mb-6 text-gray-700 leading-relaxed">
                 Depending on your jurisdiction, you may have the right to access, correct, or delete your personal information, as well as to restrict or object to its processing. To exercise these
-                rights, please contact us at [Contact Email].
+                rights, please contact us at{" "}
+                <strong>
+                  <a href="https://github.com/johnnybuildsyo/publicbuilders/discussions">github.com/johnnybuildsyo/publicbuilders/discussions</a>
+                </strong>
+                .
               </p>
 
               <h2 className="text-2xl font-semibold mb-4">Changes to This Privacy Policy</h2>

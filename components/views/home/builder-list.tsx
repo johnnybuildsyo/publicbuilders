@@ -81,11 +81,11 @@ export function BuilderList({ builders }: { builders: Builder[] }) {
             <SelectContent>
               <SelectItem value="name">Sort by First Name</SelectItem>
               <SelectItem value="lastName">Sort by Last Name</SelectItem>
+              <SelectItem value="bluesky">Sort by Bluesky</SelectItem>
               <SelectItem value="twitter">Sort by Twitter</SelectItem>
               <SelectItem value="github">Sort by GitHub</SelectItem>
               <SelectItem value="youtube">Sort by YouTube</SelectItem>
               <SelectItem value="twitch">Sort by Twitch</SelectItem>
-              <SelectItem value="bluesky">Sort by Bluesky</SelectItem>
             </SelectContent>
           </Select>
         </div>

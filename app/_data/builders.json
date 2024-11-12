@@ -1523,6 +1523,7 @@
     "name": "Marc Lou",
     "description": "Software Engineer and Solopreneur who built and launched 20+ websites, sharing how to find ideas, launch fast and get profitable.",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/marc_louvion.jpg",
+    "imageOffset": "60%",
     "twitter": {
       "url": "https://twitter.com/marc_louvion",
       "followers": 136755

@@ -15,11 +15,13 @@ interface SocialMediaLinksProps {
 const SocialMediaLinks: React.FC<SocialMediaLinksProps> = ({ builder }) => {
   return (
     <div className="flex gap-2 flex-wrap justify-center">
-      {builder.twitter && <SocialMediaLink url={builder.twitter.url || "#"} followers={builder.twitter.followers} label="X (formerly Twitter)" icon={<TwitterXIcon className="scale-75" />} />}
-      {builder.youtube && <SocialMediaLink url={builder.youtube.url || "#"} followers={builder.youtube.followers} label="YouTube" icon={<YoutubeIcon />} />}
-      {builder.twitch && <SocialMediaLink url={builder.twitch.url || "#"} followers={builder.twitch.followers} label="Twitch" icon={<TwitchIcon />} />}
-      {builder.github && <SocialMediaLink url={builder.github.url || "#"} followers={builder.github.followers} label="GitHub" icon={<GithubIcon />} />}
-      {builder.bluesky && <SocialMediaLink url={builder.bluesky.url || "#"} followers={builder.bluesky.followers} label="Bluesky" icon={<BlueskyIcon />} />}
+      {builder.twitter?.followers && (
+        <SocialMediaLink url={builder.twitter.url || "#"} followers={builder.twitter.followers} label="X (formerly Twitter)" icon={<TwitterXIcon className="scale-75" />} />
+      )}
+      {builder.youtube?.followers && <SocialMediaLink url={builder.youtube.url || "#"} followers={builder.youtube.followers} label="YouTube" icon={<YoutubeIcon />} />}
+      {builder.twitch?.followers && <SocialMediaLink url={builder.twitch.url || "#"} followers={builder.twitch.followers} label="Twitch" icon={<TwitchIcon />} />}
+      {builder.github?.followers && <SocialMediaLink url={builder.github.url || "#"} followers={builder.github.followers} label="GitHub" icon={<GithubIcon />} />}
+      {builder.bluesky?.followers && <SocialMediaLink url={builder.bluesky.url || "#"} followers={builder.bluesky.followers} label="Bluesky" icon={<BlueskyIcon />} />}
     </div>
   )
 }

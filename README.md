@@ -14,17 +14,17 @@ A directory of who is who in #buildinpublic. Indie hackers, startup founders and
 6. Add privacy policy and terms of use ✅
 7. Sort Pages ✅
 7. Individual Profile Pages
-8. Demo Video to Post to Reddit etc [see here](https://marclou.beehiiv.com/p/how-to-launch-a-startup-on-reddit)
 8. Resources Page
-9. Weekly News Page
-10. Newsletter
-11. Add feedback link
-12. Add favorite button with google event tracking and local storage
-13. Set up API that pulls stats
-14. Show a list of projects
-15. Show a list of posts
-16. Show a list of repos
-17. Use AI to analyze Bing Search API and provide insights
+9. Demo Video to Post to Reddit etc [see here](https://marclou.beehiiv.com/p/how-to-launch-a-startup-on-reddit)
+10. Weekly News Page
+11. Newsletter
+12. Add feedback link
+13. Add favorite button with google event tracking and local storage
+14. Set up API that pulls stats
+15. Show a list of projects
+16. Show a list of posts
+17. Show a list of repos
+18. Use AI to analyze Bing Search API and provide insights
 
 
 ----
@@ -51,7 +51,7 @@ Watch me [iterate with ChatGPT](https://chatgpt.com/share/672e9d92-5d28-8009-a2b
 💬 Added Contact link pointing to [Github Discussions](https://github.com/johnnybuildsyo/publicbuilders/discussions)
 📈 Added Google Analytics
 📱 Fixed mobile nav layout
-⏫ ??
+⏫ Files changed: 41, Lines added: 546, Lines deleted: 297
 
 --
 
