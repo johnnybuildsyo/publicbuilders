@@ -14,7 +14,7 @@ A directory of who is who in #buildinpublic. Indie hackers, startup founders and
 6. Add privacy policy and terms of use ✅
 7. Sort Pages ✅
 7. Individual Profile Pages ✅
-8. Resources Page
+8. Resources Page ✅
 9. Demo Video to Post to Reddit etc [see here](https://marclou.beehiiv.com/p/how-to-launch-a-startup-on-reddit)
 10. Weekly News Page
 11. Newsletter
@@ -38,9 +38,11 @@ Watch me [iterate with ChatGPT](https://chatgpt.com/share/672e9d92-5d28-8009-a2b
 
 **2024-11-11**  
 🔎 Started working on SEO
-➕ Added pagination
+🔝 Added pages for [top bluesky](https://publicbuilders-dev.vercel.app/bluesky), twitter, github and youtubers
 👤 Added individual profile pages
-🔗 Added url route for each type of sort
+➕ Added pagination
+🙏 Added resources page
+🕶️ Created awesome-buildinpublic list on Github
 📑 Add privacy policy and terms of use
 ⏫ ??
 

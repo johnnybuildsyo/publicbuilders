@@ -47,14 +47,14 @@ export function BuilderCard({ builder, variant = "card" }: { builder: Builder; v
           </div>
         )}
         <CardTitle className={cn("text-center tracking-wide text-balance", variant === "card" ? "text-2xl font-extrabold" : "text-6xl font-black")}>
-          {variant === "card" ? <Link href={`/profile/${slugify(builder.name)}`}>{builder.name}</Link> : builder.name}
+          {variant === "card" ? <Link href={`/profile/${slugify(builder.name, { lower: true })}`}>{builder.name}</Link> : builder.name}
         </CardTitle>
       </CardHeader>
       <CardContent className="space-y-4 flex-grow flex flex-col">
         <div className={cn("flex-grow flex flex-col justify-start", variant === "page" && "pb-8")}>
           {variant === "card" && (
             <div className="flex justify-center -mt-2 mb-2">
-              <Link href={`/profile/${slugify(builder.name)}`}>
+              <Link href={`/profile/${slugify(builder.name, { lower: true })}`}>
                 <Button size="sm" className="mb-2 h-auto py-1 scale-90 opacity-60 hover:opacity-100 transition-all ease-in-out duration-300">
                   view
                 </Button>
