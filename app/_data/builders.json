@@ -1661,5 +1661,73 @@
       ]
     },
     "created": "2024-11-12T13:21:53.622Z"
+  },
+  {
+    "name": "Fekri",
+    "description": "Solopreneur building things",
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/fekdaoui.jpg",
+    "twitter": {
+      "url": "https://x.com/fekdaoui",
+      "followers": 7347
+    },
+    "github": {
+      "url": "https://github.com/fdarkaou",
+      "followers": 47
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/fekdaoui.bsky.social",
+      "followers": 10
+    },
+    "website": "https://www.indielogs.com/fekdaoui",
+    "tags": [
+      "ai",
+      "startup",
+      "saas"
+    ],
+    "currentProject": {
+      "name": "Another Wrapper",
+      "description": "AI Starter to generate customizable AI apps. Pick from 10 different templates to launch your startup quickly and start making money.",
+      "link": "https://anotherwrapper.com/",
+      "tags": [
+        "ai",
+        "startup",
+        "launch"
+      ]
+    },
+    "created": "2024-11-12T13:21:53.622Z"
+  },
+  {
+    "name": "Mubashar “Mubs” Iqbal",
+    "description": "Entreprenuer who has built over 100 side projects.",
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/mubashariqbal.jpg",
+    "twitter": {
+      "url": "https://x.com/mubashariqbal",
+      "followers": 17497
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/mubashariqbal.com",
+      "followers": 237
+    },
+    "github": {
+      "url": "https://github.com/mubashariqbal",
+      "followers": 152
+    },
+    "website": "https://mubs.me/",
+    "tags": [
+      "newsletter",
+      "maker",
+      "developers"
+    ],
+    "currentProject": {
+      "name": "Side Project MVP",
+      "description": "A newsletter sharing tips and tricks for building side projects while working a 9-5.",
+      "link": "https://sideprojectmvp.com/",
+      "tags": [
+        "newsletter",
+        "buildinpublic",
+        "builder"
+      ]
+    },
+    "created": "2024-11-12T13:21:53.622Z"
   }
 ]
