@@ -1581,5 +1581,34 @@
         "retirement calculator"
       ]
     }
+  },
+  {
+    "name": "KP",
+    "description": "5x founder, podcast host, angel investor, advisor, coach and a leader of the #buildinpublic movement",
+    "image": "",
+    "twitter": {
+      "url": "https://x.com/thisiskp_",
+      "followers": 54739
+    },
+    "youtube": {
+      "url": "https://www.youtube.com/@buildinpublicwithkp",
+      "followers": 722
+    },
+    "website": "https://thisiskp.com/",
+    "tags": [
+      "investing",
+      "podcast",
+      "saas"
+    ],
+    "currentProject": {
+      "name": "Build in Public Podcast",
+      "description": "Interview series with world-class entrepreneurs, ambitious startup founders, creators and builders on the internet who’re boldly building the future in public.",
+      "link": "https://www.buildinpublicpodcast.com/",
+      "tags": [
+        "buildinpublic",
+        "podcast",
+        "founder"
+      ]
+    }
   }
 ]

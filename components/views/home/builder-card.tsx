@@ -62,6 +62,9 @@ export function BuilderCard({ builder, variant = "card" }: { builder: Builder; v
             </div>
           )}
           <p className={cn("text-sm text-center text-balance px-4 w-full max-w-5xl mx-auto", variant === "page" && "py-4 text-xl")}>{builder.description}</p>
+          <a href={builder.website} target="_blank" rel="noopener noreferrer" className="text-blue-700/80 hover:text-blue-600 font-light py-2 transition-all ease-in-out duration-300">
+            {builder.website.replace("https://", "").replace(/\/+$/, "")}
+          </a>
           <div className={cn("flex flex-wrap justify-center gap-2 mt-4", variant === "page" ? "mb-6" : "mb-2")}>
             {builder.tags.map((tag) => (
               <Badge className={cn("", variant === "page" && "text-lg font-normal px-4 bg-foreground/10")} key={tag} variant="secondary">
