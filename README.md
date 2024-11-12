@@ -15,16 +15,19 @@ A directory of who is who in #buildinpublic. Indie hackers, startup founders and
 7. Sort Pages ✅
 7. Individual Profile Pages ✅
 8. Resources Page ✅
-9. Demo Video to Post to Reddit etc [see here](https://marclou.beehiiv.com/p/how-to-launch-a-startup-on-reddit)
-10. Weekly News Page
-11. Newsletter
-12. Add feedback link
-13. Add favorite button with google event tracking and local storage
-14. Set up API that pulls stats
-15. Show a list of projects
-16. Show a list of posts
-17. Show a list of repos
-18. Use AI to analyze Bing Search API and provide insights
+9. Sort by most recently added
+10. Add Reddit, Product Hunt and Indie Hackers
+11. Define criteria for being accepted
+12. Demo Video to Post to Reddit etc [see here](https://marclou.beehiiv.com/p/how-to-launch-a-startup-on-reddit)
+13. Weekly News Page
+14. Newsletter
+15. Add feedback link
+16. Add favorite button with google event tracking and local storage
+17. Set up API that pulls stats
+18. Show a list of projects
+19. Show a list of posts
+20. Show a list of repos
+21. Use AI to analyze Bing Search API and provide insights
 
 
 ----

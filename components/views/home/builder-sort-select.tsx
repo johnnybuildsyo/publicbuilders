@@ -19,6 +19,7 @@ export function BuilderSortSelect({ sort }: { sort?: string }) {
         <SelectContent>
           <SelectItem value="name">Sort by First Name</SelectItem>
           <SelectItem value="lastName">Sort by Last Name</SelectItem>
+          <SelectItem value="recent">Sort by Recently Added</SelectItem>
           <SelectItem value="bluesky">Sort by Bluesky</SelectItem>
           <SelectItem value="twitter">Sort by Twitter</SelectItem>
           <SelectItem value="youtube">Sort by YouTube</SelectItem>

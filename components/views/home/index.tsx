@@ -31,6 +31,8 @@ export default function Home({ sort, page = 1 }: { sort?: string; page?: number 
         const aLastName = a.name.split(" ").slice(-1)[0]
         const bLastName = b.name.split(" ").slice(-1)[0]
         return aLastName.localeCompare(bLastName)
+      } else if (sort === "recent") {
+        return new Date(b.created || "").getTime() - new Date(a.created || "").getTime()
       } else if (sort === "twitter") {
         return (b.twitter?.followers || 0) - (a.twitter?.followers || 0)
       } else if (sort === "github") {
