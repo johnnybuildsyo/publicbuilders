@@ -1586,6 +1586,7 @@
     "name": "KP",
     "description": "5x founder, podcast host, angel investor, advisor, coach and a leader of the #buildinpublic movement",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/thisiskp_.jpg",
+    "imageOffset": "20%",
     "twitter": {
       "url": "https://x.com/thisiskp_",
       "followers": 54739
