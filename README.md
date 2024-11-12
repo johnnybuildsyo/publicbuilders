@@ -38,12 +38,12 @@ Watch me [iterate with ChatGPT](https://chatgpt.com/share/672e9d92-5d28-8009-a2b
 
 **2024-11-11**  
 🔎 Started working on SEO
-🔝 Added pages for [top bluesky](https://publicbuilders-dev.vercel.app/bluesky), twitter, github and youtubers
-👤 Added individual profile pages
+🔝 Added pages for [top bluesky](https://publicbuilders.org/bluesky), twitter, github and youtubers
+👤 Added [individual profile](https://publicbuilders.org/profile/Arvid-Kahl) pages
 ➕ Added pagination
-🙏 Added resources page
-🕶️ Created awesome-buildinpublic list on Github
-📑 Add privacy policy and terms of use
+🙏 Added [resources page](https://publicbuilders.org/resources)
+🕶️ Powered by new [awesome-buildinpublic list](https://github.com/johnnybuildsyo/awesome-buildinpublic) I made on Github
+📑 Added privacy policy and terms of use
 ⏫ ??
 
 --
