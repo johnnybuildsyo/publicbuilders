@@ -1,37 +1,17 @@
 "use client"
-import { useState, useEffect } from "react"
-import { useParams, useRouter } from "next/navigation"
-import { shuffle } from "lodash"
+import { useState } from "react"
 import { Input } from "@/components/ui/input"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { ChevronsDownIcon, Search } from "lucide-react"
 import { Builder } from "@/app/_types"
 import { BuilderCard } from "./builder-card"
+import { BuilderSortSelect } from "./builder-sort-select"
 import { Button } from "@/components/ui/button"
 
-export function BuilderList({ builders }: { builders: Builder[] }) {
-  const params = useParams()
-
+export function BuilderList({ builders, sort }: { builders: Builder[]; sort?: string }) {
   const [searchTerm, setSearchTerm] = useState("")
-  const [sortBy, setSortBy] = useState<string>(params.sort ? params.sort.toString() : "")
-  const [shuffledBuilders, setShuffledBuilders] = useState<Builder[]>([])
   const [page, setPage] = useState(1) // New state for pagination
-  const router = useRouter()
-
   const PER_PAGE = 24 // Number of builders to display per page
-
-  useEffect(() => {
-    // Shuffle builders once when the component mounts
-    setShuffledBuilders(shuffle(builders))
-  }, [builders])
-
-  // Update URL when the sort option changes
-  const handleSortChange = (sortOption: string) => {
-    setSortBy(sortOption)
-    router.push(`/${sortOption}`)
-  }
-
-  const filteredBuilders = shuffledBuilders.filter((builder) => {
+  const filteredBuilders = builders.filter((builder) => {
     const fullNameIncludes = builder.name.toLowerCase().includes(searchTerm.toLowerCase())
     const tagIncludes = builder.tags.some((tag) => tag.toLowerCase().includes(searchTerm.toLowerCase()))
     const projectIncludes =
@@ -41,21 +21,21 @@ export function BuilderList({ builders }: { builders: Builder[] }) {
   })
 
   const sortedBuilders = [...filteredBuilders].sort((a, b) => {
-    if (sortBy === "name") {
+    if (sort === "name") {
       return a.name.localeCompare(b.name)
-    } else if (sortBy === "lastName") {
+    } else if (sort === "lastName") {
       const aLastName = a.name.split(" ").slice(-1)[0]
       const bLastName = b.name.split(" ").slice(-1)[0]
       return aLastName.localeCompare(bLastName)
-    } else if (sortBy === "twitter") {
+    } else if (sort === "twitter") {
       return (b.twitter?.followers || 0) - (a.twitter?.followers || 0)
-    } else if (sortBy === "github") {
+    } else if (sort === "github") {
       return (b.github?.followers || 0) - (a.github?.followers || 0)
-    } else if (sortBy === "youtube") {
+    } else if (sort === "youtube") {
       return (b.youtube?.followers || 0) - (a.youtube?.followers || 0)
-    } else if (sortBy === "twitch") {
+    } else if (sort === "twitch") {
       return (b.twitch?.followers || 0) - (a.twitch?.followers || 0)
-    } else if (sortBy === "bluesky") {
+    } else if (sort === "bluesky") {
       return (b.bluesky?.followers || 0) - (a.bluesky?.followers || 0)
     } else {
       return 0
@@ -74,19 +54,7 @@ export function BuilderList({ builders }: { builders: Builder[] }) {
           <Input type="text" placeholder="Search builders by name, expertise, tags, project, or website..." value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} className="pl-10" />
         </div>
         <div className="flex justify-end">
-          <Select value={sortBy} onValueChange={handleSortChange}>
-            <SelectTrigger className="w-[200px]">
-              <SelectValue placeholder="Sort by" />
-            </SelectTrigger>
-            <SelectContent>
-              <SelectItem value="name">Sort by First Name</SelectItem>
-              <SelectItem value="lastName">Sort by Last Name</SelectItem>
-              <SelectItem value="bluesky">Sort by Bluesky</SelectItem>
-              <SelectItem value="twitter">Sort by Twitter</SelectItem>
-              <SelectItem value="youtube">Sort by YouTube</SelectItem>
-              <SelectItem value="github">Sort by GitHub</SelectItem>
-            </SelectContent>
-          </Select>
+          <BuilderSortSelect sort={sort} />
         </div>
       </div>
 

@@ -1,6 +1,7 @@
 import { clsx, type ClassValue } from "clsx"
 import { twMerge } from "tailwind-merge"
 import { capitalize } from "lodash"
+import seedrandom from "seedrandom"
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs))
@@ -19,4 +20,14 @@ export function reverseSlugify(slug: string): string {
     .split("-")
     .map(word => word.charAt(0).toUpperCase() + word.slice(1))
     .join(" ");
+}
+
+export function shuffleWithDateSeed<T>(array: T[]): T[] {
+  const date = new Date()
+  date.setUTCHours(0, 0, 0, 0)
+  const rng = seedrandom(date.getTime().toString())
+  return array
+    .map((value) => ({ value, sort: rng() }))
+    .sort((a, b) => a.sort - b.sort)
+    .map(({ value }) => value)
 }

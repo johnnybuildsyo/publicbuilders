@@ -28,6 +28,7 @@ export function BuilderCard({ builder, variant = "card" }: { builder: Builder; v
               style={{
                 objectPosition: `center ${builder.imageOffset || "50%"}`,
               }}
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
           ) : (
             <div className="w-full h-full flex items-center justify-center text-4xl font-bold text-foreground/50">
