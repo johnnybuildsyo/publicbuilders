@@ -27,7 +27,8 @@
         "saas",
         "ai"
       ]
-    }
+    },
+    "created": "2024-11-12T13:21:53.617Z"
   },
   {
     "name": "Chris Coyier",
@@ -61,7 +62,8 @@
         "webdev",
         "dev tools"
       ]
-    }
+    },
+    "created": "2024-11-12T13:21:53.621Z"
   },
   {
     "name": "Anil Dash",
@@ -91,7 +93,8 @@
         "community",
         "dev tools"
       ]
-    }
+    },
+    "created": "2024-11-12T13:21:53.621Z"
   },
   {
     "name": "Emily Freeman",
@@ -121,7 +124,8 @@
         "speaking",
         "education"
       ]
-    }
+    },
+    "created": "2024-11-12T13:21:53.621Z"
   },
   {
     "name": "Amy Hoy",
@@ -151,7 +155,8 @@
         "education",
         "marketing"
       ]
-    }
+    },
+    "created": "2024-11-12T13:21:53.621Z"
   },
   {
     "name": "Ian Landsman",
@@ -185,7 +190,8 @@
         "linkedin",
         "analytics"
       ]
-    }
+    },
+    "created": "2024-11-12T13:21:53.622Z"
   },
   {
     "name": "Mac Martine",
@@ -219,7 +225,8 @@
         "linkedin",
         "analytics"
       ]
-    }
+    },
+    "created": "2024-11-12T13:21:53.622Z"
   },
   {
     "name": "Thomas Sanlis",
@@ -249,7 +256,8 @@
         "product",
         "platform"
       ]
-    }
+    },
+    "created": "2024-11-12T13:21:53.622Z"
   },
   {
     "name": "Marie Ng",
@@ -279,7 +287,8 @@
         "focus",
         "task management"
       ]
-    }
+    },
+    "created": "2024-11-12T13:21:53.622Z"
   },
   {
     "name": "Amar Ghose",
@@ -313,7 +322,8 @@
         "automate",
         "support"
       ]
-    }
+    },
+    "created": "2024-11-12T13:21:53.622Z"
   },
   {
     "name": "Robert Lin",
@@ -347,7 +357,8 @@
         "atproto",
         "film"
       ]
-    }
+    },
+    "created": "2024-11-12T13:21:53.622Z"
   },
   {
     "name": "Chris Oliver",
@@ -385,7 +396,8 @@
         "rails",
         "developers"
       ]
-    }
+    },
+    "created": "2024-11-12T13:21:53.622Z"
   },
   {
     "name": "Joel Gascoigne",
@@ -419,7 +431,8 @@
         "saas",
         "startup"
       ]
-    }
+    },
+    "created": "2024-11-12T13:21:53.622Z"
   },
   {
     "name": "Joel Hooks",
@@ -456,7 +469,8 @@
         "education",
         "cms"
       ]
-    }
+    },
+    "created": "2024-11-12T13:21:53.622Z"
   },
   {
     "name": "James Ivings",
@@ -490,7 +504,8 @@
         "saas",
         "startup"
       ]
-    }
+    },
+    "created": "2024-11-12T13:21:53.622Z"
   },
   {
     "name": "Ryan Hoover",
@@ -520,7 +535,8 @@
         "community",
         "technology"
       ]
-    }
+    },
+    "created": "2024-11-12T13:21:53.622Z"
   },
   {
     "name": "Danielle Baskin",
@@ -550,7 +566,8 @@
         "virtual",
         "platform"
       ]
-    }
+    },
+    "created": "2024-11-12T13:21:53.622Z"
   },
   {
     "name": "Dan Rowden",
@@ -588,7 +605,8 @@
         "analytics",
         "links"
       ]
-    }
+    },
+    "created": "2024-11-12T13:21:53.622Z"
   },
   {
     "name": "Wes Bos",
@@ -626,7 +644,8 @@
         "webdev",
         "javascript"
       ]
-    }
+    },
+    "created": "2024-11-12T13:21:53.622Z"
   },
   {
     "name": "Pete Codes",
@@ -663,7 +682,8 @@
         "ai",
         "art"
       ]
-    }
+    },
+    "created": "2024-11-12T13:21:53.622Z"
   },
   {
     "name": "Ben Robertson",
@@ -696,7 +716,8 @@
         "ai",
         "art"
       ]
-    }
+    },
+    "created": "2024-11-12T13:21:53.622Z"
   },
   {
     "name": "Kirsten Pomales",
@@ -726,7 +747,8 @@
         "hiring",
         "crm"
       ]
-    }
+    },
+    "created": "2024-11-12T13:21:53.622Z"
   },
   {
     "name": "Lynne Tye",
@@ -752,7 +774,8 @@
         "job matching",
         "tech careers"
       ]
-    }
+    },
+    "created": "2024-11-12T13:21:53.622Z"
   },
   {
     "name": "Ali Spittel",
@@ -790,7 +813,8 @@
         "beginner friendly",
         "programming tutorials"
       ]
-    }
+    },
+    "created": "2024-11-12T13:21:53.622Z"
   },
   {
     "name": "Tracy Chou",
@@ -824,7 +848,8 @@
         "social media",
         "harassment prevention"
       ]
-    }
+    },
+    "created": "2024-11-12T13:21:53.622Z"
   },
   {
     "name": "Steph Smith",
@@ -850,7 +875,8 @@
       ]
     },
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/stephsmithio.jpg",
-    "imageOffset": "40%"
+    "imageOffset": "40%",
+    "created": "2024-11-12T13:21:53.622Z"
   },
   {
     "name": "Arvid Kahl",
@@ -887,7 +913,8 @@
         "tracking",
         "podcast"
       ]
-    }
+    },
+    "created": "2024-11-12T13:21:53.622Z"
   },
   {
     "name": "Pieter Levels",
@@ -920,7 +947,8 @@
         "remote work",
         "travel"
       ]
-    }
+    },
+    "created": "2024-11-12T13:21:53.622Z"
   },
   {
     "name": "Kent C. Dodds",
@@ -957,7 +985,8 @@
         "education",
         "webdev"
       ]
-    }
+    },
+    "created": "2024-11-12T13:21:53.622Z"
   },
   {
     "name": "Cassidy Williams",
@@ -999,7 +1028,8 @@
         "webdev",
         "community"
       ]
-    }
+    },
+    "created": "2024-11-12T13:21:53.622Z"
   },
   {
     "name": "Eddie Jaoude",
@@ -1037,7 +1067,8 @@
         "community",
         "collaboration"
       ]
-    }
+    },
+    "created": "2024-11-12T13:21:53.622Z"
   },
   {
     "name": "Brian Douglas",
@@ -1070,7 +1101,8 @@
         "dev tools",
         "community"
       ]
-    }
+    },
+    "created": "2024-11-12T13:21:53.622Z"
   },
   {
     "name": "Jon Yongfook",
@@ -1099,7 +1131,8 @@
         "automation",
         "api"
       ]
-    }
+    },
+    "created": "2024-11-12T13:21:53.622Z"
   },
   {
     "name": "Justin Jackson",
@@ -1132,7 +1165,8 @@
         "saas",
         "analytics"
       ]
-    }
+    },
+    "created": "2024-11-12T13:21:53.622Z"
   },
   {
     "name": "Sahil Lavingia",
@@ -1170,7 +1204,8 @@
         "creators",
         "platform"
       ]
-    }
+    },
+    "created": "2024-11-12T13:21:53.622Z"
   },
   {
     "name": "Marc Köhlbrugge",
@@ -1195,7 +1230,8 @@
         "productivity",
         "makers"
       ]
-    }
+    },
+    "created": "2024-11-12T13:21:53.622Z"
   },
   {
     "name": "Rosie Sherry",
@@ -1225,7 +1261,8 @@
         "newsletter",
         "education"
       ]
-    }
+    },
+    "created": "2024-11-12T13:21:53.622Z"
   },
   {
     "name": "Ben Tossell",
@@ -1255,7 +1292,8 @@
       ]
     },
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/bentossell.jpg",
-    "imageOffset": "90%"
+    "imageOffset": "90%",
+    "created": "2024-11-12T13:21:53.622Z"
   },
   {
     "name": "Josh Pigford",
@@ -1288,7 +1326,8 @@
         "furniture"
       ]
     },
-    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/Shpigford.jpg"
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/Shpigford.jpg",
+    "created": "2024-11-12T13:21:53.622Z"
   },
   {
     "name": "Courtland Allen",
@@ -1313,7 +1352,8 @@
         "developers"
       ]
     },
-    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/csallen.jpg"
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/csallen.jpg",
+    "created": "2024-11-12T13:21:53.622Z"
   },
   {
     "name": "Julian Shapiro",
@@ -1342,7 +1382,8 @@
         "startup growth"
       ]
     },
-    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/Julian.jpg"
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/Julian.jpg",
+    "created": "2024-11-12T13:21:53.622Z"
   },
   {
     "name": "Peter Suhm",
@@ -1372,7 +1413,8 @@
       ]
     },
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/petersuhm.jpg",
-    "imageOffset": "70%"
+    "imageOffset": "70%",
+    "created": "2024-11-12T13:21:53.622Z"
   },
   {
     "name": "Marie Poulin",
@@ -1397,7 +1439,8 @@
         "education"
       ]
     },
-    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/MariePoulin.jpg"
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/MariePoulin.jpg",
+    "created": "2024-11-12T13:21:53.622Z"
   },
   {
     "name": "Harry Dry",
@@ -1422,7 +1465,8 @@
         "case studies"
       ]
     },
-    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/harrydry.jpg"
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/harrydry.jpg",
+    "created": "2024-11-12T13:21:53.622Z"
   },
   {
     "name": "Nathan Barry",
@@ -1447,7 +1491,8 @@
         "saas"
       ]
     },
-    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/nathanbarry.jpg"
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/nathanbarry.jpg",
+    "created": "2024-11-12T13:21:53.622Z"
   },
   {
     "name": "Jack Butcher",
@@ -1476,7 +1521,8 @@
         "visualization"
       ]
     },
-    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/jackbutcher.jpg"
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/jackbutcher.jpg",
+    "created": "2024-11-12T13:21:53.622Z"
   },
   {
     "name": "Johnny Builds",
@@ -1517,7 +1563,8 @@
         "directory",
         "buildinpublic"
       ]
-    }
+    },
+    "created": "2024-11-12T13:21:53.622Z"
   },
   {
     "name": "Marc Lou",
@@ -1551,7 +1598,8 @@
         "marketing",
         "newsletter"
       ]
-    }
+    },
+    "created": "2024-11-12T13:21:53.622Z"
   },
   {
     "name": "Kyle Nolan",
@@ -1580,7 +1628,8 @@
         "financial planning",
         "retirement calculator"
       ]
-    }
+    },
+    "created": "2024-11-12T13:21:53.622Z"
   },
   {
     "name": "KP",
@@ -1610,6 +1659,7 @@
         "podcast",
         "founder"
       ]
-    }
+    },
+    "created": "2024-11-12T13:21:53.622Z"
   }
 ]

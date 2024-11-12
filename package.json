@@ -9,7 +9,8 @@
     "go": "git add . && aicommits && git push origin main",
     "lint": "next lint",
     "pic": "node ./scripts/uploadProfilePic.js",
-    "pics": "node ./scripts/addProfilePics.js"
+    "pics": "node ./scripts/addProfilePics.js",
+    "timestamps": "node ./scripts/addTimestamps.js"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.685.0",

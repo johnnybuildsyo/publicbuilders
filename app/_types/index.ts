@@ -56,6 +56,7 @@ export const builderSchema = z.object({
   }, z.string().url("Invalid URL")),
   tags: z.preprocess((value) => (typeof value === "string" ? value.split(",").map((tag) => tag.trim()) : value), z.array(z.string()).min(1, "At least one tag is required")),
   currentProject: projectSchema.optional(),
+  created: z.string().datetime().optional(),
 }).refine(
   (data) => {
     const socialPlatforms = ["twitter", "youtube", "twitch", "github", "bluesky"] as const;
