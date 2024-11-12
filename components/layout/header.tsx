@@ -29,6 +29,11 @@ export default function Header() {
               </Link>
             </li>
             <li>
+              <Link href="/resources" className="transition-all ease-in-out duration-500 hover:border-b border-foreground/50 border-dotted">
+                Resources
+              </Link>
+            </li>
+            <li>
               <Link href="/join" className="transition-all ease-in-out duration-500 hover:border-b border-foreground/50 border-dotted">
                 Join
               </Link>
