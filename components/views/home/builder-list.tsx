@@ -38,22 +38,24 @@ export function BuilderList({ builders, sort, page, numPages }: { builders: Buil
       </div>
 
       {numPages > 1 && (
-        <div className="py-12 sm:scale-125">
-          <Pagination>
-            <PaginationContent>
-              <PaginationItem className={page === 1 ? "opacity-0 pointer-events-none" : ""}>
-                <PaginationPrevious href={page > 1 ? `${sort ? `/${sort}` : ""}/page/${page - 1}#directory` : "#directory"} />
-              </PaginationItem>
-              {Array.from({ length: numPages }, (_, i) => (
-                <PaginationItem key={i + 1}>
-                  <PaginationLink href={`${sort ? `/${sort}` : ""}/page/${i + 1}#directory`}>{i + 1}</PaginationLink>
+        <div className="w-full max-w-full overflow-hidden">
+          <div className="py-12 scale-125 sm:scale-150">
+            <Pagination>
+              <PaginationContent>
+                <PaginationItem className={page === 1 ? "opacity-0 pointer-events-none" : ""}>
+                  <PaginationPrevious href={page > 1 ? `${sort ? `/${sort}` : ""}/page/${page - 1}#directory` : "#directory"} />
                 </PaginationItem>
-              ))}
-              <PaginationItem className={page === numPages ? "opacity-0 pointer-events-none" : ""}>
-                <PaginationNext href={page < numPages ? `${sort ? `/${sort}` : ""}/page/${page + 1}#directory` : "#directory"} />
-              </PaginationItem>
-            </PaginationContent>
-          </Pagination>
+                {Array.from({ length: numPages }, (_, i) => (
+                  <PaginationItem key={i + 1}>
+                    <PaginationLink href={`${sort ? `/${sort}` : ""}/page/${i + 1}#directory`}>{i + 1}</PaginationLink>
+                  </PaginationItem>
+                ))}
+                <PaginationItem className={page === numPages ? "opacity-0 pointer-events-none" : ""}>
+                  <PaginationNext href={page < numPages ? `${sort ? `/${sort}` : ""}/page/${page + 1}#directory` : "#directory"} />
+                </PaginationItem>
+              </PaginationContent>
+            </Pagination>
+          </div>
         </div>
       )}
     </>
