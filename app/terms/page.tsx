@@ -5,7 +5,7 @@ export default function TermsPage() {
         <section className=" py-20 w-full h-full">
           <div className="container mx-auto px-4 text-center">
             <h1 className="text-4xl md:text-6xl font-extrabold tracking-wide mb-4 text-balance">Terms of Use</h1>
-            <p className="text-sm text-gray-600 mb-4">Last updated: 10/10/2024</p>
+            <p className="text-sm text-gray-600 mb-4">Last updated: 10/12/2024</p>
             <div className="text-left px-4 w-full max-w-4xl mx-auto">
               <h2 className="text-2xl font-semibold mb-4">Introduction</h2>
               <p className="mb-6 text-gray-700 leading-relaxed">
@@ -27,7 +27,7 @@ export default function TermsPage() {
               <h2 className="text-2xl font-semibold mb-4">Account and Profile Submissions</h2>
               <p className="mb-6 text-gray-700 leading-relaxed">
                 When you submit your profile to <strong>publicbuilders.org</strong>, you are responsible for providing accurate and truthful information. We reserve the right to review, approve, or
-                reject any submissions at our discretion. If your profile is accepted, it will be publicly displayed on our site.
+                reject any submissions at our discretion. Users must agree to the Terms of Use before submitting their profile. If your profile is accepted, it will be publicly displayed on our site.
               </p>
 
               <h2 className="text-2xl font-semibold mb-4">Content Ownership</h2>
@@ -52,7 +52,8 @@ export default function TermsPage() {
               <h2 className="text-2xl font-semibold mb-4">Disclaimer of Warranties</h2>
               <p className="mb-6 text-gray-700 leading-relaxed">
                 <strong>publicbuilders.org</strong> is provided “as is” without any warranties, express or implied. We do not guarantee the accuracy, completeness, or reliability of any content on our
-                site. You use our website at your own risk.
+                site. <strong>publicbuilders.org</strong> takes reasonable steps to review submissions but does not assume liability for the accuracy of user-provided information. You use our website
+                at your own risk.
               </p>
 
               <h2 className="text-2xl font-semibold mb-4">Limitation of Liability</h2>

@@ -15,9 +15,9 @@ A directory of who is who in #buildinpublic. Indie hackers, startup founders and
 7. Sort Pages ✅
 7. Individual Profile Pages ✅
 8. Resources Page ✅
-9. Sort by most recently added
-10. Add Reddit, Product Hunt and Indie Hackers
-11. Define criteria for being accepted
+9. Sort by most recently added ✅
+10. Define criteria for being accepted ✅
+11. Add Reddit, Product Hunt and Indie Hackers ✅
 12. Demo Video to Post to Reddit etc [see here](https://marclou.beehiiv.com/p/how-to-launch-a-startup-on-reddit)
 13. Weekly News Page
 14. Newsletter

@@ -37,6 +37,9 @@ export const socialMediaFieldsSchema = z.object({
   twitch: socialMediaSchema.optional(),
   github: socialMediaSchema.optional(),
   bluesky: socialMediaSchema.optional(),
+  reddit: socialMediaSchema.optional(),
+  producthunt: socialMediaSchema.optional(),
+  indiehackers: socialMediaSchema.optional(),
 });
 
 export type SocialMediaFields = z.infer<typeof socialMediaFieldsSchema>;
@@ -54,6 +57,22 @@ export const builderSchema = z.object({
     }
     return value;
   }, z.string().url("Invalid URL")),
+  newsletter: z
+    .string()
+    .url("Please provide a valid URL for the newsletter")
+    .optional(),
+  podcast: z
+    .string()
+    .url("Please provide a valid URL for the podcast")
+    .optional(),
+  revenueData: z
+    .string()
+    .url("Please provide a valid URL for revenue data")
+    .optional(),
+  writing: z
+    .string()
+    .url("Please provide a valid URL for written content")
+    .optional(),
   tags: z.preprocess((value) => (typeof value === "string" ? value.split(",").map((tag) => tag.trim()) : value), z.array(z.string()).min(1, "At least one tag is required")),
   currentProject: projectSchema.optional(),
   created: z.string().datetime().optional(),
@@ -80,4 +99,4 @@ export const formSchema = builderSchema;
 
 // Define FormData type based on formSchema
 export type FormData = z.infer<typeof formSchema>;
-export type SocialMediaPlatform = "twitter" | "twitch" | "youtube" | "github" | "bluesky";
+export type SocialMediaPlatform = "twitter" | "twitch" | "youtube" | "github" | "bluesky" | "producthunt" | "reddit" | "indiehackers";
