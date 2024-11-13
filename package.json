@@ -10,7 +10,8 @@
     "lint": "next lint",
     "pic": "node ./scripts/uploadProfilePic.js",
     "pics": "node ./scripts/addProfilePics.js",
-    "timestamps": "node ./scripts/addTimestamps.js"
+    "timestamps": "node ./scripts/addTimestamps.js",
+    "update": "node ./scripts/addProfilePics.js && node ./scripts/addTimestamps.js"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.685.0",
