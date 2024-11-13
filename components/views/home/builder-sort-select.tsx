@@ -24,6 +24,7 @@ export function BuilderSortSelect({ sort }: { sort?: string }) {
           <SelectItem value="twitter">Sort by Twitter</SelectItem>
           <SelectItem value="youtube">Sort by YouTube</SelectItem>
           <SelectItem value="github">Sort by GitHub</SelectItem>
+          <SelectItem value="producthunt">Sort by Product Hunt</SelectItem>
         </SelectContent>
       </Select>
     </>

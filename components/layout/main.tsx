@@ -26,7 +26,10 @@ export default function Main({ children, headerClassName }: { children: ReactNod
             <Button size="lg" asChild className="text-xl h-auto py-3 bg-fuchsia-600 hover:bg-fuchsia-700 hover:scale-105 transition-all ease-in-out duration-300">
               <Link href="/join">Join the Directory</Link>
             </Button>
-            <div className="grid grid-cols-2 items-center gap-8 mt-12 mb-4 w-full max-w-2xl mx-auto">
+            <div className="grid sm:grid-cols-2 md:grid-cols-3 items-center gap-8 mt-12 mb-4 w-full max-w-2xl md:max-w-5xl mx-auto">
+              <Link href="/recent" className="border rounded-lg p-4 bg-white text-blue-600 hover:underline hover:scale-105 transition-all ease-in-out duration-300 text-lg">
+                Recently Added
+              </Link>
               <Link href="/twitter" className="border rounded-lg p-4 bg-white text-blue-600 hover:underline hover:scale-105 transition-all ease-in-out duration-300 text-lg">
                 Top Builders on Twitter
               </Link>
@@ -38,6 +41,9 @@ export default function Main({ children, headerClassName }: { children: ReactNod
               </Link>
               <Link href="/youtube" className="border rounded-lg p-4 bg-white text-blue-600 hover:underline hover:scale-105 transition-all ease-in-out duration-300 text-lg">
                 Top Builders on YouTube
+              </Link>
+              <Link href="/producthunt" className="border rounded-lg p-4 bg-white text-blue-600 hover:underline hover:scale-105 transition-all ease-in-out duration-300 text-lg">
+                Top Builders on Product Hunt
               </Link>
             </div>
           </div>

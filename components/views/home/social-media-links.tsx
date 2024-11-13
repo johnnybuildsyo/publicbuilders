@@ -3,6 +3,8 @@ import { YoutubeIcon } from "@/components/icons/youtube"
 import { TwitchIcon } from "@/components/icons/twitch"
 import { GithubIcon } from "@/components/icons/github"
 import { BlueskyIcon } from "@/components/icons/bluesky"
+import { ProductHuntIcon } from "@/components/icons/producthunt"
+import { RedditIcon } from "@/components/icons/reddit"
 import { Builder } from "@/app/_types"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
@@ -22,6 +24,8 @@ const SocialMediaLinks: React.FC<SocialMediaLinksProps> = ({ builder }) => {
       {builder.twitch?.followers && <SocialMediaLink url={builder.twitch.url || "#"} followers={builder.twitch.followers} label="Twitch" icon={<TwitchIcon />} />}
       {builder.github?.followers && <SocialMediaLink url={builder.github.url || "#"} followers={builder.github.followers} label="GitHub" icon={<GithubIcon />} />}
       {builder.bluesky?.followers && <SocialMediaLink url={builder.bluesky.url || "#"} followers={builder.bluesky.followers} label="Bluesky" icon={<BlueskyIcon />} />}
+      {builder.producthunt?.followers && <SocialMediaLink url={builder.producthunt.url || "#"} followers={builder.producthunt.followers} label="Product Hunt" icon={<ProductHuntIcon />} />}
+      {builder.reddit?.followers && <SocialMediaLink url={builder.reddit.url || "#"} followers={builder.reddit.followers} label="Product Hunt" icon={<RedditIcon />} />}
     </div>
   )
 }

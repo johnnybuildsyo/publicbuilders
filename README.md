@@ -39,34 +39,44 @@ Watch me [iterate with ChatGPT](https://chatgpt.com/share/672e9d92-5d28-8009-a2b
 
 --
 
+**2024-11-13**  
+🔎 Added criteria for joining
+🔎 Culling list of anyone not #buildinpublic 
+Added Reddit and Product Hunt to socials  
+Added links for newsletter, podcast, posts and revenue  
+⏫ ?? 
+
+--
+
 **2024-11-12**  
-🔎 SEO: Finished Keyword Research, Set up Google Search Console
-Added sitemap
-Added created timestamp to records
-Added 1 tool to awesome-buildinpublic
-⏫ ??
+PublicBuilders #buildinpublic Day 10  
+🔎 SEO: Added sitemap + structured data  
+⏰ Added builders &  create timestamps to records  
+🕶️ Added resources to awesome-buildinpublic  
+🌐 12  𝕏 40  🦋 77 (web visits + followes) 
+📄 41  ➕ 944 ➖ 444 (files changed, lines ++/--)  
 
 --
 
 **2024-11-11**  
-🔎 Started working on SEO
-🔝 Added pages for [top bluesky](https://publicbuilders.org/bluesky), twitter, github and youtubers
-👤 Added [individual profile](https://publicbuilders.org/profile/Arvid-Kahl) pages
-➕ Added SEO friendly pagination
+🔎 Started working on SEO  
+🔝 Added pages for [top bluesky](https://publicbuilders.org/bluesky), twitter, github and youtubers  
+👤 Added [individual profile](https://publicbuilders.org/profile/Arvid-Kahl) pages  
+➕ Added SEO friendly pagination  
 🙏 Added [resources page](https://publicbuilders.org/resources)
-🕶️ Powered by new [awesome-buildinpublic list](https://github.com/johnnybuildsyo/awesome-buildinpublic) I made on Github
-📑 Added privacy policy and terms of use
-⏫ Files changed: 68, Lines added: 1705, Lines deleted: 440
+🕶️ Powered by new [awesome-buildinpublic list](https://github.com/johnnybuildsyo/awesome-buildinpublic) I made on Github  
+📑 Added privacy policy and terms of use  
+⏫ Files changed: 68, Lines added: 1705, Lines deleted: 440  
 
 --
 
 **2024-11-10**  
-📄 Updated [About Page](https://publicbuilders.org/about)
-🔗 Added links to [Build Log](https://github.com/johnnybuildsyo/publicbuilders/blob/main/README.md)
-💬 Added Contact link pointing to [Github Discussions](https://github.com/johnnybuildsyo/publicbuilders/discussions)
-📈 Added Google Analytics
-📱 Fixed mobile nav layout
-⏫ Files changed: 41, Lines added: 546, Lines deleted: 297
+📄 Updated [About Page](https://publicbuilders.org/about)  
+🔗 Added links to [Build Log](https://github.com/johnnybuildsyo/publicbuilders/blob/main/README.md)  
+💬 Added Contact link pointing to [Github Discussions](https://github.com/johnnybuildsyo/publicbuilders/discussions)  
+📈 Added Google Analytics  
+📱 Fixed mobile nav layout  
+⏫ Files changed: 41, Lines added: 546, Lines deleted: 297  
 
 --
 

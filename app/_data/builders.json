@@ -115,6 +115,10 @@
       "url": "https://x.com/T_Zahil",
       "followers": 12434
     },
+    "producthunt": {
+      "url": "https://www.producthunt.com/@thomas_sanlis1",
+      "followers": 982
+    },
     "bluesky": {
       "url": "https://bsky.app/profile/tsanlis.bsky.social",
       "followers": 282
@@ -145,6 +149,10 @@
     "twitter": {
       "url": "https://x.com/threehourcoffee",
       "followers": 16885
+    },
+    "producthunt": {
+      "url": "https://www.producthunt.com/@threehourcoffee",
+      "followers": 2410
     },
     "bluesky": {
       "url": "https://bsky.app/profile/threehourcoffee.bsky.social",
@@ -224,8 +232,7 @@
     "website": "https://r002.github.io/xna/",
     "tags": [
       "webdev",
-      "podcast",
-      "founder"
+      "atproto"
     ],
     "currentProject": {
       "name": "filmbot",
@@ -244,6 +251,10 @@
     "description": "Bootstrapping products while travelling around the world",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/JamesIvings.jpg",
     "imageOffset": "",
+    "producthunt": {
+      "url": "https://www.producthunt.com/@jamesivings",
+      "followers": 1945
+    },
     "twitter": {
       "url": "https://x.com/JamesIvings",
       "followers": 22068
@@ -279,6 +290,14 @@
     "description": "Indie founder of High Signal, bootstrapper news, interviews with founders and build in public updates",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/petecodes.jpg",
     "imageOffset": "",
+    "producthunt": {
+      "url": "https://www.producthunt.com/@petecodes",
+      "followers": 2031
+    },
+    "reddit": {
+      "url": "https://www.reddit.com/user/pete_codes",
+      "followers": 4250
+    },
     "twitter": {
       "url": "https://x.com/petecodes",
       "followers": 9390
@@ -440,6 +459,10 @@
       "url": "https://bsky.app/profile/arvidkahl.bsky.social",
       "followers": 1200
     },
+    "reddit": {
+      "url": "https://www.reddit.com/user/arvidkahl/",
+      "followers": 187
+    },
     "youtube": {
       "url": "https://www.youtube.com/@TheBootstrappedFounder",
       "followers": 9880
@@ -447,6 +470,10 @@
     "github": {
       "url": "https://github.com/arvidkahl",
       "followers": 738
+    },
+    "producthunt": {
+      "url": "https://www.producthunt.com/@arvidkahl",
+      "followers": 9956
     },
     "website": "https://thebootstrappedfounder.com",
     "podcast": "https://thebootstrappedfounder.com/podcast/",
@@ -484,6 +511,10 @@
     "youtube": {
       "url": "https://www.youtube.com/levelsio",
       "followers": 26200
+    },
+    "producthunt": {
+      "url": "https://www.producthunt.com/@levelsio",
+      "followers": 43123
     },
     "website": "https://levels.io",
     "description": "Founder of Nomad List and Remote OK, openly building bootstrapped startups.",
@@ -556,6 +587,10 @@
       "url": "https://twitter.com/eddiejaoude",
       "followers": 182211
     },
+    "reddit": {
+      "url": "https://www.reddit.com/user/eddiejaoude/",
+      "followers": 646
+    },
     "bluesky": {
       "url": "https://bsky.app/profile/eddiejaoude.bsky.social",
       "followers": 264
@@ -569,6 +604,7 @@
       "followers": 46100
     },
     "website": "https://eddiehub.org",
+    "writing": "https://substack.com/@eddiejaoude",
     "description": "Open-source advocate, building in public and fostering inclusive communities.",
     "tags": [
       "buildinpublic",
@@ -665,6 +701,10 @@
       "url": "https://twitter.com/shl",
       "followers": 343500
     },
+    "producthunt": {
+      "url": "https://www.producthunt.com/@shl",
+      "followers": 33639
+    },
     "bluesky": {
       "url": "https://bsky.app/profile/shl.bsky.social",
       "followers": 222
@@ -726,6 +766,14 @@
     "name": "Rosie Sherry",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/rosiesherry.jpg",
     "imageOffset": "0%",
+    "producthunt": {
+      "url": "https://www.producthunt.com/@rosiesherry",
+      "followers": 4667
+    },
+    "reddit":{
+      "url": "https://www.reddit.com/user/rosiesherry",
+      "followers": 1054
+    },
     "twitter": {
       "url": "https://twitter.com/rosiesherry",
       "followers": 25251
@@ -795,9 +843,13 @@
       "url": "https://bsky.app/profile/joshpigford.com",
       "followers": 158
     },
+    "producthunt": {
+      "url": "https://www.producthunt.com/@shpigford",
+      "followers": 158
+    },
     "github": {
       "url": "https://github.com/shpigford",
-      "followers": 417
+      "followers": 10219
     },
     "website": "https://joshpigford.com",
     "description": "Founder of Baremetrics and Cedar, sharing insights and experiences openly.",
@@ -880,6 +932,10 @@
     "twitter": {
       "url": "https://twitter.com/petersuhm",
       "followers": 4694
+    },
+    "producthunt": {
+      "url": "https://www.producthunt.com/@petersuhm",
+      "followers": 1237
     },
     "bluesky": {
       "url": "https://bsky.app/profile/petersuhm.com",
@@ -982,36 +1038,6 @@
       ]
     },
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/nathanbarry.jpg",
-    "created": "2024-11-12T13:21:53.622Z"
-  },
-  {
-    "name": "Jack Butcher",
-    "twitter": {
-      "url": "https://twitter.com/jackbutcher",
-      "followers": 297860
-    },
-    "bluesky": {
-      "url": "https://bsky.app/profile/jackiebutcher.bsky.social",
-      "followers": 26
-    },
-    "website": "https://jack.art",
-    "description": "Founder of Visualize Value, sharing insights through visual storytelling.",
-    "tags": [
-      "buildinpublic",
-      "design",
-      "founder"
-    ],
-    "currentProject": {
-      "name": "Visualize Value",
-      "description": "Platform offering visual explanations of complex concepts and training.",
-      "link": "https://visualizevalue.com",
-      "tags": [
-        "design",
-        "education",
-        "visualization"
-      ]
-    },
-    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/jackbutcher.jpg",
     "created": "2024-11-12T13:21:53.622Z"
   },
   {
@@ -1164,6 +1190,10 @@
       "url": "https://github.com/fdarkaou",
       "followers": 47
     },
+    "producthunt": {
+      "url": "https://www.producthunt.com/@fekdaoui",
+      "followers": 190
+    },
     "bluesky": {
       "url": "https://bsky.app/profile/fekdaoui.bsky.social",
       "followers": 10
@@ -1193,6 +1223,10 @@
     "twitter": {
       "url": "https://x.com/mubashariqbal",
       "followers": 17497
+    },
+    "producthunt": {
+      "url": "https://www.producthunt.com/@mubashariqbal",
+      "followers": 6661
     },
     "bluesky": {
       "url": "https://bsky.app/profile/mubashariqbal.com",

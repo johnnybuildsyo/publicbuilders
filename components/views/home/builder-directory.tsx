@@ -3,7 +3,11 @@ import { BuilderList } from "./builder-list"
 import { getTitleCaseSocial } from "@/lib/utils"
 
 export function BuilderDirectory({ builders, sort, page, numPages }: { builders: Builder[]; sort?: string; page: number; numPages: number }) {
-  const subhead = `A list of the top people building in public${sort ? ` on ${getTitleCaseSocial(sort)}` : ""}.`
+  let subhead = `A list of the top people building in public${sort ? ` on ${getTitleCaseSocial(sort)}` : ""}.`
+
+  if (sort === "recent") {
+    subhead = "A list of the most recently added public builders."
+  }
 
   return (
     <section id="directory" className="py-16">
