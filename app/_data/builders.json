@@ -151,6 +151,7 @@
       "followers": 359
     },
     "website": "https://www.theweeklybuild.com/",
+    "podcast": "https://www.theweeklybuild.com/",
     "tags": [
       "podcast",
       "apps",
@@ -290,23 +291,21 @@
       "url": "https://www.youtube.com/channel/UCofmuxnMWDBDcDkHN8P2GsQ",
       "followers": 485
     },
-    "github": {
-      "url": "https://github.com/benrobertsonio",
-      "followers": 47
-    },
-    "website": "https://ben.robertson.is/",
+    "newsletter": "https://www.highsignal.io/",
+    "website": "https://petecodes.gumroad.com/",
     "tags": [
-      "ai",
-      "webdev",
+      "newletter",
+      "bootstrapping",
       "buildinpublic"
     ],
     "currentProject": {
-      "name": "ColorBliss",
-      "description": "Create printable custom coloring sheets in seconds.",
-      "link": "https://colorbliss.com",
+      "name": "Monetize Your Newsletter",
+      "description": "Video course with everything you need to monetize your newsletter. ",
+      "link": "https://petecodes.gumroad.com/l/GGofo",
       "tags": [
-        "ai",
-        "art"
+        "newsletter",
+        "course",
+        "video"
       ]
     },
     "created": "2024-11-12T22:52:36.467Z"
