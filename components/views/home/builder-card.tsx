@@ -3,7 +3,7 @@ import Image from "next/image"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { ChevronsLeft, ExternalLink } from "lucide-react"
+import { ChevronsLeft, ExternalLink, UserIcon } from "lucide-react"
 import { Builder } from "@/app/_types"
 import SocialMediaLinks from "./social-media-links"
 import slugify from "slugify"
@@ -56,8 +56,8 @@ export function BuilderCard({ builder, variant = "card" }: { builder: Builder; v
           {variant === "card" && (
             <div className="flex justify-center -mt-2 mb-2">
               <Link href={`/profile/${slugify(builder.name, { lower: true })}`}>
-                <Button size="sm" className="mb-2 h-auto py-1 scale-90 opacity-60 hover:opacity-100 transition-all ease-in-out duration-300">
-                  view
+                <Button size="sm" className="mb-2 h-auto py-1 pr-2 scale-90 bg-fuchsia-700 hover:bg-fuchsia-600 transition-all ease-in-out duration-300">
+                  view profile <UserIcon className="scale-75 -ml-1" />
                 </Button>
               </Link>
             </div>
