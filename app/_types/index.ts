@@ -39,7 +39,6 @@ export const socialMediaFieldsSchema = z.object({
   bluesky: socialMediaSchema.optional(),
   reddit: socialMediaSchema.optional(),
   producthunt: socialMediaSchema.optional(),
-  indiehackers: socialMediaSchema.optional(),
 });
 
 export type SocialMediaFields = z.infer<typeof socialMediaFieldsSchema>;
@@ -99,4 +98,4 @@ export const formSchema = builderSchema;
 
 // Define FormData type based on formSchema
 export type FormData = z.infer<typeof formSchema>;
-export type SocialMediaPlatform = "twitter" | "twitch" | "youtube" | "github" | "bluesky" | "producthunt" | "reddit" | "indiehackers";
+export type SocialMediaPlatform = "twitter" | "twitch" | "youtube" | "github" | "bluesky" | "producthunt" | "reddit";

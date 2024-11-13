@@ -17,7 +17,6 @@ const followerSuffixMap: Record<SocialMediaPlatform, "Followers" | "Subscribers"
   youtube: "Subscribers",
   producthunt: "Followers",
   reddit: "Followers",
-  indiehackers: "Followers",
 }
 
 interface BuilderSocialMediaFieldProps {

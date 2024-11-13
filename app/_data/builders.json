@@ -35,6 +35,10 @@
     "description": "Co-founder of CodePen. Podcast host of ShopTalk Show. Founder of CSS-Tricks",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/chriscoyier.jpg",
     "imageOffset": "",
+    "producthunt": {
+      "url": "https://www.producthunt.com/@chriscoyier",
+      "followers": 22859
+    },
     "twitter": {
       "url": "https://x.com/chriscoyier",
       "followers": 245222
@@ -47,6 +51,8 @@
       "url": "https://github.com/chriscoyier",
       "followers": 10900
     },
+    "writing": "https://chriscoyier.net/feed/",
+    "podcast": "https://shoptalkshow.com/",
     "website": "https://chriscoyier.net/",
     "tags": [
       "frontend",
@@ -61,99 +67,6 @@
         "community",
         "webdev",
         "dev tools"
-      ]
-    },
-    "created": "2024-11-12T13:21:53.621Z"
-  },
-  {
-    "name": "Anil Dash",
-    "description": "Tech entrepreneur and writer trying to make the technology world more thoughtful, creative and humane.",
-    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/anildash.jpg",
-    "imageOffset": "",
-    "twitter": {
-      "url": "https://x.com/anildash",
-      "followers": 553043
-    },
-    "bluesky": {
-      "url": "https://bsky.app/profile/anildash.com",
-      "followers": 26300
-    },
-    "website": "https://www.anildash.com/",
-    "tags": [
-      "community",
-      "founder",
-      "entrepreneur"
-    ],
-    "currentProject": {
-      "name": "Glitch",
-      "description": "Community and platform for building and sharing websites, apps and links pages.",
-      "link": "https://glitch.com/",
-      "tags": [
-        "platform",
-        "community",
-        "dev tools"
-      ]
-    },
-    "created": "2024-11-12T13:21:53.621Z"
-  },
-  {
-    "name": "Emily Freeman",
-    "description": "Bestselling author of DevOps for Dummies and international keynote speaker. Community, DevRel and Product Marketing at AWS, MSFT, and startups.",
-    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/editingemily.jpg",
-    "imageOffset": "30%",
-    "twitter": {
-      "url": "https://x.com/editingemily",
-      "followers": 85527
-    },
-    "bluesky": {
-      "url": "https://bsky.app/profile/emilyfreeman.bsky.social",
-      "followers": 5800
-    },
-    "website": "https://emilyfreeman.io/",
-    "tags": [
-      "speaker",
-      "devops",
-      "devrel"
-    ],
-    "currentProject": {
-      "name": "Giving a Tech Talk",
-      "description": "eBook that teaches you how to speak with confidence, tell compelling stories and entertain.",
-      "link": "https://givingatechtalk.com/",
-      "tags": [
-        "ebook",
-        "speaking",
-        "education"
-      ]
-    },
-    "created": "2024-11-12T13:21:53.621Z"
-  },
-  {
-    "name": "Amy Hoy",
-    "description": "User interface nerd-designer-writer-educator-programmer-photographer-hyphenator extraordinaire",
-    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/amyhoy.jpg",
-    "imageOffset": "40%",
-    "twitter": {
-      "url": "https://x.com/amyhoy",
-      "followers": 24938
-    },
-    "bluesky": {
-      "url": "https://bsky.app/profile/amyhoy.bsky.social",
-      "followers": 5400
-    },
-    "website": "https://shorts.stackingthebricks.com/author/amy/",
-    "tags": [
-      "writing",
-      "marketing",
-      "content"
-    ],
-    "currentProject": {
-      "name": "Stacking the Bricks",
-      "description": "Newsletter, podcasts, articles, books, courses and workshops on building products and marketing them.",
-      "link": "https://stackingthebricks.com/",
-      "tags": [
-        "newsletter",
-        "education",
-        "marketing"
       ]
     },
     "created": "2024-11-12T13:21:53.621Z"
@@ -435,44 +348,6 @@
     "created": "2024-11-12T13:21:53.622Z"
   },
   {
-    "name": "Joel Hooks",
-    "description": "Crafting useful education products and working on Course Builder, a boutique CMS",
-    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/jhooks.jpg",
-    "imageOffset": "30%",
-    "twitter": {
-      "url": "https://x.com/jhooks",
-      "followers": 22068
-    },
-    "github": {
-      "url": "https://github.com/joelhooks",
-      "followers": 1000
-    },
-    "youtube": {
-      "url": "https://www.youtube.com/c/JoelHooks",
-      "followers": 28
-    },
-    "bluesky": {
-      "url": "https://bsky.app/profile/joelhooks.com",
-      "followers": 4000
-    },
-    "website": "https://joelhooks.com/",
-    "tags": [
-      "education",
-      "webdev",
-      "cms"
-    ],
-    "currentProject": {
-      "name": "Course Builder",
-      "description": "Exploration of a next-gen CMS for researching, designing, producing, and delivering educational content.",
-      "link": "https://www.coursebuilder.dev/",
-      "tags": [
-        "education",
-        "cms"
-      ]
-    },
-    "created": "2024-11-12T13:21:53.622Z"
-  },
-  {
     "name": "James Ivings",
     "description": "Bootstrapping products while travelling around the world",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/JamesIvings.jpg",
@@ -539,37 +414,6 @@
     "created": "2024-11-12T13:21:53.622Z"
   },
   {
-    "name": "Danielle Baskin",
-    "description": "Making interactive art, companies, and delightfully weird events. Tarot technology, interactive performances, and pixel art. Prev built Dialup, Maskalike, & Branded Fruit",
-    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/djbaskin.jpg",
-    "imageOffset": "40%",
-    "twitter": {
-      "url": "https://x.com/djbaskin",
-      "followers": 24336
-    },
-    "bluesky": {
-      "url": "https://bsky.app/profile/danielle.bsky.social",
-      "followers": 1200
-    },
-    "website": "https://daniellebaskin.com/",
-    "tags": [
-      "art",
-      "events",
-      "games"
-    ],
-    "currentProject": {
-      "name": "Moonlight",
-      "description": "Interactive online tarot card platform",
-      "link": "https://moonlight.world/",
-      "tags": [
-        "tarot",
-        "virtual",
-        "platform"
-      ]
-    },
-    "created": "2024-11-12T13:21:53.622Z"
-  },
-  {
     "name": "Dan Rowden",
     "description": "Building ilo.so to track your socials and sales, plus other projects",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/dr.jpg",
@@ -604,45 +448,6 @@
         "social media",
         "analytics",
         "links"
-      ]
-    },
-    "created": "2024-11-12T13:21:53.622Z"
-  },
-  {
-    "name": "Wes Bos",
-    "description": "Full Stack JavaScript developer from Canada with free + premium courses and a tri-weekly podcast called Syntax.",
-    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/wesbos.jpg",
-    "imageOffset": "",
-    "twitter": {
-      "url": "https://x.com/wesbos",
-      "followers": 393822
-    },
-    "bluesky": {
-      "url": "https://bsky.app/profile/wesbos.com",
-      "followers": 11000
-    },
-    "github": {
-      "url": "https://github.com/wesbos",
-      "followers": 33600
-    },
-    "youtube": {
-      "url": "https://www.youtube.com/@WesBos",
-      "followers": 195000
-    },
-    "website": "https://wesbos.com/",
-    "tags": [
-      "education",
-      "webdev",
-      "podcast"
-    ],
-    "currentProject": {
-      "name": "SyntaxFM Podcast",
-      "description": "Full Stack Web Developers Wes Bos and Scott Tolinski dive deep into web development, CSS, JavaScript, Frameworks, Typescript, Servers and more.",
-      "link": "https://syntax.fm/",
-      "tags": [
-        "podcast",
-        "webdev",
-        "javascript"
       ]
     },
     "created": "2024-11-12T13:21:53.622Z"
@@ -778,80 +583,6 @@
     "created": "2024-11-12T13:21:53.622Z"
   },
   {
-    "name": "Ali Spittel",
-    "description": "Software engineer, educator, and writer focused on making coding accessible to everyone.",
-    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/aspittel.jpg",
-    "imageOffset": "",
-    "twitter": {
-      "url": "https://twitter.com/aspittel",
-      "followers": 119698
-    },
-    "bluesky": {
-      "url": "https://bsky.app/profile/alispit.tel",
-      "followers": 4700
-    },
-    "youtube": {
-      "url": "https://www.youtube.com/channel/UCOxxRhCHDqgtKplU_Ecu4BA",
-      "followers": 6620
-    },
-    "github": {
-      "url": "https://github.com/aspittel",
-      "followers": 3000
-    },
-    "website": "https://welearncode.com/",
-    "tags": [
-      "education",
-      "webdev",
-      "accessibility"
-    ],
-    "currentProject": {
-      "name": "We Learn Code",
-      "description": "A platform providing resources, courses, and tutorials for learning to code.",
-      "link": "https://welearncode.com/",
-      "tags": [
-        "coding education",
-        "beginner friendly",
-        "programming tutorials"
-      ]
-    },
-    "created": "2024-11-12T13:21:53.622Z"
-  },
-  {
-    "name": "Tracy Chou",
-    "description": "Engineer, entrepreneur, and diversity advocate with a focus on building technology for social impact.",
-    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/triketora.jpg",
-    "imageOffset": "30%",
-    "twitter": {
-      "url": "https://twitter.com/triketora",
-      "followers": 114185
-    },
-    "github": {
-      "url": "https://github.com/triketora",
-      "followers": 597
-    },
-    "bluesky": {
-      "url": "https://bsky.app/profile/triketora.bsky.social",
-      "followers": 3700
-    },
-    "website": "https://tracychou.com",
-    "tags": [
-      "diversity",
-      "social media",
-      "entrepreneur"
-    ],
-    "currentProject": {
-      "name": "Block Party",
-      "description": "A tool for people to protect themselves from online harassment and abuse on social media.",
-      "link": "https://www.blockpartyapp.com",
-      "tags": [
-        "online safety",
-        "social media",
-        "harassment prevention"
-      ]
-    },
-    "created": "2024-11-12T13:21:53.622Z"
-  },
-  {
     "name": "Steph Smith",
     "twitter": {
       "url": "https://twitter.com/stephsmithio",
@@ -969,7 +700,13 @@
       "url": "https://www.youtube.com/c/kentcdodds-vids",
       "followers": 56000
     },
+    "producthunt": {
+      "url": "https://www.producthunt.com/@kentcdodds",
+      "followers": 11786
+    },
     "website": "https://kentcdodds.com",
+    "writing": "https://kentcdodds.com/blog/rss.xml",
+    "newsletter": "https://kentcdodds.com/subscribe",
     "description": "Educator and open-source contributor, building in public through workshops and courses.",
     "tags": [
       "buildinpublic",
@@ -984,49 +721,6 @@
         "react",
         "education",
         "webdev"
-      ]
-    },
-    "created": "2024-11-12T13:21:53.622Z"
-  },
-  {
-    "name": "Cassidy Williams",
-    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/cassidoo.jpg",
-    "imageOffset": "20%",
-    "twitter": {
-      "url": "https://twitter.com/cassidoo",
-      "followers": 182908
-    },
-    "twitch": {
-      "url": "https://www.twitch.tv/cassidoo",
-      "followers": 16003
-    },
-    "youtube": {
-      "url": "https://www.youtube.com/@cassidoo",
-      "followers": 1540
-    },
-    "bluesky": {
-      "url": "https://bsky.app/profile/cassidoo.co",
-      "followers": 10100
-    },
-    "github": {
-      "url": "https://github.com/cassidoo",
-      "followers": 13400
-    },
-    "website": "https://cassidoo.co",
-    "description": "Startup advisor and investor, developer experience expert, open source-er, and meme-maker on the internet",
-    "tags": [
-      "github",
-      "webdev",
-      "devrel"
-    ],
-    "currentProject": {
-      "name": "rendezvous with cassidoo",
-      "description": "A weekly newsletter sharing what's new and cool in the world of web development, with content for everyone, from beginners to pros.",
-      "link": "https://cassidoo.co/newsletter/",
-      "tags": [
-        "newsletter",
-        "webdev",
-        "community"
       ]
     },
     "created": "2024-11-12T13:21:53.622Z"
@@ -1149,6 +843,12 @@
       "url": "https://www.youtube.com/justinjackson",
       "followers": 8270
     },
+    "producthunt": {
+      "url": "https://www.producthunt.com/@mijustin",
+      "followers": 13224
+    },
+    "newsletter": "https://justinjackson.ca/newsletter",
+    "podcast": "https://saas.transistor.fm/",
     "website": "https://justinjackson.ca",
     "description": "Co-founder of Transistor.fm, sharing his journey building a podcasting platform.",
     "tags": [

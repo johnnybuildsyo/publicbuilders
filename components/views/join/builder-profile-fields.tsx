@@ -10,7 +10,6 @@ import { YoutubeIcon } from "@/components/icons/youtube"
 import { GithubIcon } from "@/components/icons/github"
 import { RedditIcon } from "@/components/icons/reddit"
 import { ProductHuntIcon } from "@/components/icons/producthunt"
-import { IndieHackersIcon } from "@/components/icons/indiehackers"
 import { UseFormRegister, FieldErrors, UseFormSetValue, UseFormWatch } from "react-hook-form"
 
 interface BuilderProfileFieldsProps {
@@ -54,8 +53,14 @@ export default function BuilderProfileFields({ register, errors, setValue, watch
       </div>
 
       <div className="pt-4">
+        <Label htmlFor="writing">
+          Do you have a personal RSS feed for sharing posts and written content? <span className="text-xs font-normal">(provide url)</span>
+        </Label>
+        <Input id="writing" {...register("writing")} placeholder="Optional" className="mt-1" />
+      </div>
+      <div className="pt-4">
         <Label htmlFor="newsletter">
-          Do you have a newsletter? <span className="text-xs font-normal">(provide url)</span>
+          Do you publish a newsletter? <span className="text-xs font-normal">(provide url)</span>
         </Label>
         <Input id="newsletter" {...register("newsletter")} placeholder="Optional" className="mt-1" />
       </div>
@@ -64,12 +69,6 @@ export default function BuilderProfileFields({ register, errors, setValue, watch
           Do you host a podcast? <span className="text-xs font-normal">(provide url)</span>
         </Label>
         <Input id="podcast" {...register("podcast")} placeholder="Optional" className="mt-1" />
-      </div>
-      <div className="pt-4">
-        <Label htmlFor="writing">
-          Do you regularly publish articles or longform written content? <span className="text-xs font-normal">(provide url)</span>
-        </Label>
-        <Input id="writing" {...register("writing")} placeholder="Optional" className="mt-1" />
       </div>
       <div className="pt-4">
         <Label htmlFor="revenueData">
@@ -87,7 +86,6 @@ export default function BuilderProfileFields({ register, errors, setValue, watch
           <BuilderSocialMediaField field="github" icon={<GithubIcon />} label="GitHub Account" register={register} errors={errors} setValue={setValue} watch={watch} />
           <BuilderSocialMediaField field="reddit" icon={<RedditIcon />} label="Reddit Account" register={register} errors={errors} setValue={setValue} watch={watch} />
           <BuilderSocialMediaField field="producthunt" icon={<ProductHuntIcon />} label="Product Hunt Account" register={register} errors={errors} setValue={setValue} watch={watch} />
-          <BuilderSocialMediaField field="indiehackers" icon={<IndieHackersIcon />} label="Indie Hackers Account" register={register} errors={errors} setValue={setValue} watch={watch} />
         </div>
       </div>
 

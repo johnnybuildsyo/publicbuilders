@@ -17,17 +17,17 @@ A directory of who is who in #buildinpublic. Indie hackers, startup founders and
 8. Resources Page ✅
 9. Sort by most recently added ✅
 10. Define criteria for being accepted ✅
-11. Add Reddit, Product Hunt and Indie Hackers ✅
-12. Demo Video to Post to Reddit etc [see here](https://marclou.beehiiv.com/p/how-to-launch-a-startup-on-reddit)
-13. Weekly News Page
-14. Newsletter
-15. Add feedback link
-16. Add favorite button with google event tracking and local storage
-17. Set up API that pulls stats
-18. Show a list of projects
-19. Show a list of posts
-20. Show a list of repos
-21. Use AI to analyze Bing Search API and provide insights
+12. Add Reddit, Product Hunt and Indie Hackers ✅
+13. Refine list of builders to only #buildinpublic
+14. Weekly News Page
+15. Newsletter
+16. Add feedback link
+17. Add favorite button with google event tracking and local storage
+18. Set up API that pulls stats
+19. Show a list of projects
+20. Show a list of posts
+21. Show a list of repos
+22. Use AI to analyze Bing Search API and provide insights
 
 
 ----
