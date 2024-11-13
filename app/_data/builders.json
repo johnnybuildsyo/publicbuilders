@@ -72,41 +72,6 @@
     "created": "2024-11-12T13:21:53.621Z"
   },
   {
-    "name": "Ian Landsman",
-    "description": "Bootstrapper and software developer.",
-    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/ianlandsman.jpg",
-    "imageOffset": "",
-    "twitter": {
-      "url": "https://x.com/ianlandsman",
-      "followers": 10838
-    },
-    "bluesky": {
-      "url": "https://bsky.app/profile/ianlandsman.com",
-      "followers": 1100
-    },
-    "github": {
-      "url": "https://github.com/ianlandsman",
-      "followers": 95
-    },
-    "website": "https://ianlandsman.com/",
-    "tags": [
-      "bootstrapping",
-      "podcast",
-      "founder"
-    ],
-    "currentProject": {
-      "name": "Helpspot",
-      "description": "Customer support platform for scaling customer service.",
-      "link": "https://www.helpspot.com/",
-      "tags": [
-        "support",
-        "linkedin",
-        "analytics"
-      ]
-    },
-    "created": "2024-11-12T13:21:53.622Z"
-  },
-  {
     "name": "Mac Martine",
     "description": "Runs the SaaS bootstrapper newsletter with behind-the-scenes from his journey to 7 figures",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/saasmakermac.jpg",
@@ -274,80 +239,6 @@
     "created": "2024-11-12T13:21:53.622Z"
   },
   {
-    "name": "Chris Oliver",
-    "description": "Founder of GoRails, a company focused on helping Ruby on Rails developers learn, build, and deploy their ideas.",
-    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/excid3.jpg",
-    "imageOffset": "30%",
-    "twitter": {
-      "url": "https://x.com/excid3",
-      "followers": 19467
-    },
-    "youtube": {
-      "url": "https://www.youtube.com/@excid3/videos",
-      "followers": 1150
-    },
-    "github": {
-      "url": "https://github.com/excid3",
-      "followers": 3300
-    },
-    "bluesky": {
-      "url": "https://bsky.app/profile/excid3.bsky.social",
-      "followers": 999
-    },
-    "website": "https://excid3.com/",
-    "tags": [
-      "webdev",
-      "podcast",
-      "founder"
-    ],
-    "currentProject": {
-      "name": "Go Rails",
-      "description": "Ruby on Rails screencasts for intermediate developers.",
-      "link": "https://gorails.com/",
-      "tags": [
-        "education",
-        "rails",
-        "developers"
-      ]
-    },
-    "created": "2024-11-12T13:21:53.622Z"
-  },
-  {
-    "name": "Joel Gascoigne",
-    "description": "Founder CEO  of Buffer. Building a long term, independent, profitable business with big ambitions.",
-    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/joelgascoigne.jpg",
-    "imageOffset": "",
-    "twitter": {
-      "url": "https://x.com/joelgascoigne",
-      "followers": 71607
-    },
-    "github": {
-      "url": "https://github.com/joelg",
-      "followers": 93
-    },
-    "bluesky": {
-      "url": "https://bsky.app/profile/joel.is",
-      "followers": 526
-    },
-    "website": "https://joel.is/",
-    "tags": [
-      "founder",
-      "ceo",
-      "social media"
-    ],
-    "currentProject": {
-      "name": "Course Builder",
-      "description": "Exploration of a next-gen CMS for researching, designing, producing, and delivering educational content.",
-      "link": "https://www.coursebuilder.dev/",
-      "tags": [
-        "ai",
-        "saas",
-        "startup"
-      ]
-    },
-    "created": "2024-11-12T13:21:53.622Z"
-  },
-  {
     "name": "James Ivings",
     "description": "Bootstrapping products while travelling around the world",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/JamesIvings.jpg",
@@ -378,76 +269,6 @@
         "ai",
         "saas",
         "startup"
-      ]
-    },
-    "created": "2024-11-12T13:21:53.622Z"
-  },
-  {
-    "name": "Ryan Hoover",
-    "description": "Founder of Product Hunt. Investor at Weekend Fund",
-    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/rrhoover.jpg",
-    "imageOffset": "60%",
-    "twitter": {
-      "url": "https://x.com/rrhoover",
-      "followers": 24336
-    },
-    "bluesky": {
-      "url": "https://bsky.app/profile/rrhoover.bsky.social",
-      "followers": 671
-    },
-    "website": "https://www.ryanhoover.me/",
-    "tags": [
-      "product",
-      "investing",
-      "games"
-    ],
-    "currentProject": {
-      "name": "Product Hunt",
-      "description": "Platform to share and explore new products",
-      "link": "https://producthunt.com",
-      "tags": [
-        "saas",
-        "community",
-        "technology"
-      ]
-    },
-    "created": "2024-11-12T13:21:53.622Z"
-  },
-  {
-    "name": "Dan Rowden",
-    "description": "Building ilo.so to track your socials and sales, plus other projects",
-    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/dr.jpg",
-    "imageOffset": "",
-    "twitter": {
-      "url": "https://x.com/dr",
-      "followers": 55404
-    },
-    "youtube": {
-      "url": "https://www.youtube.com/c/danrowden",
-      "followers": 616
-    },
-    "github": {
-      "url": "https://github.com/danrowden",
-      "followers": 35
-    },
-    "bluesky": {
-      "url": "https://bsky.app/profile/did:plc:jqj3rcaj6evlyjk5dao5dwm7",
-      "followers": 459
-    },
-    "website": "https://danrowden.com/",
-    "tags": [
-      "analytics",
-      "webdev",
-      "design"
-    ],
-    "currentProject": {
-      "name": "ilo",
-      "description": "Your personal, dynamic homepage. All of your internet stats.",
-      "link": "https://ilo.so/",
-      "tags": [
-        "social media",
-        "analytics",
-        "links"
       ]
     },
     "created": "2024-11-12T13:21:53.622Z"
@@ -629,6 +450,9 @@
       "followers": 738
     },
     "website": "https://thebootstrappedfounder.com",
+    "podcast": "https://thebootstrappedfounder.com/podcast/",
+    "newsletter": "https://thebootstrappedfounder.com/newsletter/",
+    "writing": "https://thebootstrappedfounder.com/feed/",
     "description": "Author and entrepreneur, sharing insights on audience-driven startups.",
     "tags": [
       "buildinpublic",
@@ -760,40 +584,6 @@
         "open source",
         "community",
         "collaboration"
-      ]
-    },
-    "created": "2024-11-12T13:21:53.622Z"
-  },
-  {
-    "name": "Brian Douglas",
-    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/bdougieyo.jpg",
-    "twitter": {
-      "url": "https://twitter.com/bdougieyo",
-      "followers": 14016
-    },
-    "bluesky": {
-      "url": "https://bsky.app/profile/bizza.pizza",
-      "followers": 1000
-    },
-    "github": {
-      "url": "https://github.com/bdougie",
-      "followers": 2340
-    },
-    "website": "https://b.dougie.dev",
-    "description": "Developer advocate, building open-source tools and sharing knowledge.",
-    "tags": [
-      "buildinpublic",
-      "devrel",
-      "open source"
-    ],
-    "currentProject": {
-      "name": "Open Sauced",
-      "description": "Platform to help developers find their next open-source contribution.",
-      "link": "https://opensauced.pizza",
-      "tags": [
-        "open source",
-        "dev tools",
-        "community"
       ]
     },
     "created": "2024-11-12T13:21:53.622Z"
@@ -946,6 +736,7 @@
       "followers": 1100
     },
     "website": "https://rosie.land",
+    "newsletter": "https://rosie.land/tag/newsletter/",
     "description": "Community builder sharing her work and insights in public.",
     "tags": [
       "buildinpublic",
