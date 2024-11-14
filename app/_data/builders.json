@@ -1293,5 +1293,34 @@
       ]
     },
     "created": "2024-11-13T21:33:30.952Z"
+  },
+  {
+    "name": "Angus Cheng",
+    "description": "Indie hacker and game developer",
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/BallerIndustry.jpg",
+    "twitter": {
+      "url": "https://x.com/BallerIndustry",
+      "followers": 82448
+    },
+    "youtube": {
+      "url": "https://www.youtube.com/@anguruso",
+      "followers": 164
+    },
+    "website": "https://anguscheng.com/",
+    "tags": [
+      "games",
+      "apps",
+      "developers"
+    ],
+    "currentProject": {
+      "name": "Bank Statement Converter",
+      "description": "Easily convert PDF bank statements from 1000s of banks world wide into clean Excel (XLS) format.",
+      "link": "http://bankstatementconverter.com",
+      "tags": [
+        "banking",
+        "saas"
+      ]
+    },
+    "created": "2024-11-14T18:36:47.583Z"
   }
 ]

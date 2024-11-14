@@ -19,7 +19,7 @@ A directory of who is who in #buildinpublic. Indie hackers, startup founders and
 10. Define criteria for being accepted ✅
 12. Add Reddit, Product Hunt and Indie Hackers ✅
 13. Refine list of builders to only #buildinpublic ✅
-14. Make then Share Demo Video (@screenstudio, @screenrunapp, @TellaHQ)
+14. Make then Share Demo Video
 15. Weekly News Page
 16. Newsletter
 17. Add feedback link
