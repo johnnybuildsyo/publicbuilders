@@ -71,10 +71,10 @@ export default function BuilderProfileFields({ register, errors, setValue, watch
         <Input id="podcast" {...register("podcast")} placeholder="Optional" className="mt-1" />
       </div>
       <div className="pt-4">
-        <Label htmlFor="revenueData">
+        <Label htmlFor="revenue">
           Do you share revenue data? <span className="text-xs font-normal">(provide url)</span>
         </Label>
-        <Input id="revenueData" {...register("revenueData")} placeholder="Optional" className="mt-1" />
+        <Input id="revenue" {...register("revenue")} placeholder="Optional" className="mt-1" />
       </div>
       <div className="space-y-4 pt-8">
         <h3 className="text-lg font-semibold">Social Media Accounts</h3>

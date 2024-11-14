@@ -19,15 +19,16 @@ A directory of who is who in #buildinpublic. Indie hackers, startup founders and
 10. Define criteria for being accepted ✅
 12. Add Reddit, Product Hunt and Indie Hackers ✅
 13. Refine list of builders to only #buildinpublic
-14. Weekly News Page
-15. Newsletter
-16. Add feedback link
-17. Add favorite button with google event tracking and local storage
-18. Set up API that pulls stats
-19. Show a list of projects
-20. Show a list of posts
-21. Show a list of repos
-22. Use AI to analyze Bing Search API and provide insights
+14. Make then Share Demo Video (@screenstudio, @screenrunapp, @TellaHQ)
+15. Weekly News Page
+16. Newsletter
+17. Add feedback link
+18. Add favorite button with google event tracking and local storage
+19. Set up API that pulls stats
+20. Show a list of projects
+21. Show a list of posts
+22. Show a list of repos
+23. Use AI to analyze Bing Search API and provide insights
 
 
 ----

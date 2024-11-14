@@ -12,6 +12,10 @@
       "url": "https://github.com/johnrushx",
       "followers": 19
     },
+    "producthunt": {
+      "url": "https://www.producthunt.com/@johnrushx",
+      "followers": 182
+    },
     "website": "https://johnrush.me/",
     "tags": [
       "saas",
@@ -395,38 +399,13 @@
     "created": "2024-11-12T13:21:53.622Z"
   },
   {
-    "name": "Lynne Tye",
-    "description": "Founder and software engineer focused on connecting tech professionals with meaningful careers.",
-    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/lynnetye.jpg",
-    "imageOffset": "20%",
-    "twitter": {
-      "url": "https://twitter.com/lynnetye",
-      "followers": 5105
-    },
-    "website": "https://lynnetye.com",
-    "tags": [
-      "career development",
-      "entrepreneur",
-      "hiring"
-    ],
-    "currentProject": {
-      "name": "Key Values",
-      "description": "A platform to help tech professionals find jobs at companies that align with their values.",
-      "link": "https://www.keyvalues.com",
-      "tags": [
-        "company culture",
-        "job matching",
-        "tech careers"
-      ]
-    },
-    "created": "2024-11-12T13:21:53.622Z"
-  },
-  {
     "name": "Steph Smith",
     "twitter": {
       "url": "https://twitter.com/stephsmithio",
       "followers": 151426
     },
+    "podcast": "https://a16z.simplecast.com/",
+    "newsletter": "https://mailchi.mp/3e320512ed0b/stephsmith",
     "website": "https://stephsmith.io/",
     "description": "Founder of Internet Pipes. Pod host of A16z. Led Trends at The Hustle acquired by HubSpot.",
     "tags": [
@@ -634,6 +613,10 @@
       "url": "https://github.com/yongfook",
       "followers": 291
     },
+    "producthunt": {
+      "url": "https://www.producthunt.com/@yongfook",
+      "followers": 12032
+    },
     "website": "https://www.zoosaas.com/",
     "description": "Founder of Bannerbear, Clipcat and Roborabbit building SaaS in public.",
     "tags": [
@@ -743,6 +726,14 @@
       "url": "https://twitter.com/marckohlbrugge",
       "followers": 63091
     },
+    "github": {
+      "url": "https://github.com/marckohlbrugge",
+      "followers": 189
+    },
+    "producthunt": {
+      "url": "https://www.producthunt.com/@marckohlbrugge",
+      "followers": 14756
+    },
     "website": "https://wip.co",
     "description": "Founder of WIP.co, building tools for makers and sharing progress.",
     "tags": [
@@ -812,6 +803,10 @@
       "url": "https://www.youtube.com/@bentossell694",
       "followers": 1290
     },
+    "producthunt": {
+      "url": "https://www.producthunt.com/@bentossell",
+      "followers": 16703
+    },
     "website": "https://bentossell.com",
     "description": "Founder of Makerpad, sharing projects and journey in public.",
     "tags": [
@@ -877,7 +872,15 @@
       "url": "https://twitter.com/csallen",
       "followers": 63507
     },
-    "website": "https://courtlandallen.com",
+    "github": {
+      "url": "https://github.com/courthead",
+      "followers": 138
+    },
+    "website": "https://www.indiehackers.com/csallen",
+    "producthunt": {
+      "url": "https://www.producthunt.com/@csallen",
+      "followers": 14501
+    },
     "description": "Founder of Indie Hackers, promoting transparency among indie makers.",
     "tags": [
       "buildinpublic",
@@ -907,6 +910,11 @@
       "url": "https://github.com/julianshapiro",
       "followers": 796
     },
+    "producthunt": {
+      "url": "https://www.producthunt.com/@shapiro",
+      "followers": 21905
+    },
+    "newsletter": "https://www.julian.com/newsletter",
     "website": "https://julian.com",
     "description": "Entrepreneur and writer, sharing knowledge on marketing and startups.",
     "tags": [
@@ -968,6 +976,11 @@
       "url": "https://twitter.com/MariePoulin",
       "followers": 40091
     },
+    "youtube": {
+      "url": "https://www.youtube.com/channel/UCKvnOhqTeEgdNt1aJB5mVng",
+      "followers": 45300
+    },
+    "newsletter": "https://mariepoulin.com/subscribe/",
     "website": "https://mariepoulin.com",
     "description": "Digital strategist sharing her experiences in building online businesses.",
     "tags": [
@@ -989,38 +1002,21 @@
     "created": "2024-11-12T13:21:53.622Z"
   },
   {
-    "name": "Harry Dry",
-    "twitter": {
-      "url": "https://twitter.com/harrydry",
-      "followers": 42799
-    },
-    "website": "https://marketingexamples.com",
-    "description": "Founder of Marketing Examples, sharing practical marketing tips and building in public.",
-    "tags": [
-      "buildinpublic",
-      "marketing",
-      "founder"
-    ],
-    "currentProject": {
-      "name": "Marketing Examples",
-      "description": "Website showcasing real-world marketing examples and tips.",
-      "link": "https://marketingexamples.com",
-      "tags": [
-        "marketing",
-        "education",
-        "case studies"
-      ]
-    },
-    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/harrydry.jpg",
-    "created": "2024-11-12T13:21:53.622Z"
-  },
-  {
     "name": "Nathan Barry",
     "twitter": {
       "url": "https://twitter.com/nathanbarry",
       "followers": 136273
     },
+    "producthunt": {
+      "url": "https://www.producthunt.com/@nathanbarry",
+      "followers": 17399
+    },
+    "youtube": {
+      "url": "https://www.youtube.com/user/nathanpatrickbarry",
+      "followers": 3940
+    },
     "website": "https://nathanbarry.com",
+    "podcast": "https://nathanbarry.com/category/podcast/",
     "description": "Founder of Kit (formerly ConvertKit), sharing insights on building a SaaS company.",
     "tags": [
       "buildinpublic",
@@ -1091,6 +1087,10 @@
       "url": "https://twitter.com/marc_louvion",
       "followers": 136755
     },
+    "producthunt": {
+      "url": "https://www.producthunt.com/@marclou",
+      "followers": 3698
+    },
     "youtube": {
       "handle": "https://www.youtube.com/@marc-lou",
       "followers": 101000
@@ -1105,6 +1105,7 @@
       "entrepreneur",
       "webdev"
     ],
+    "revenue": "https://marclou.com/",
     "currentProject": {
       "name": "Just Ship It",
       "description": "Newsletter for how to find startup ideas, launch fast, and get profitable.",
@@ -1156,6 +1157,11 @@
       "url": "https://x.com/thisiskp_",
       "followers": 54739
     },
+    "producthunt": {
+      "url": "https://www.producthunt.com/@thisiskp_",
+      "followers": 9506
+    },
+    "podcast": "https://www.buildinpublicpodcast.com",
     "youtube": {
       "url": "https://www.youtube.com/@buildinpublicwithkp",
       "followers": 722

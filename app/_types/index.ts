@@ -64,7 +64,7 @@ export const builderSchema = z.object({
     .string()
     .url("Please provide a valid URL for the podcast")
     .optional(),
-  revenueData: z
+  revenue: z
     .string()
     .url("Please provide a valid URL for revenue data")
     .optional(),
