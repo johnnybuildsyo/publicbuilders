@@ -1,0 +1,42 @@
+{
+  "name": "Benard Ogutu",
+  "description": " Software Engineer\n Building in public - 30 day building challenge\n On a journey to build and launch my first app",
+  "twitter": {
+    "url": "https://twitter.com/bencraftscode",
+    "followers": 11
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": "lethal254ke"
+  },
+  "producthunt": {
+    "handle": "benard_ogutu"
+  },
+  "website": "https://bencrafts.online",
+  "newsletter": "https://bencrafts.online",
+  "podcast": "https://bencrafts.online",
+  "revenue": "https://bencrafts.online",
+  "writing": "https://bencrafts.online",
+  "tags": [
+    "buildinpublic"
+  ],
+  "currentProject": {
+    "name": "NoticeHub",
+    "description": "NoticeHub  is the fast, effortless way to keep your users informed with real-time notifications on your website. Seamlessly integrate, customize, and track updates—all with minimal code, so your message reaches the right audience at the right moment.",
+    "link": "https://noticehub.app",
+    "tags": [
+      ""
+    ]
+  }
+}
