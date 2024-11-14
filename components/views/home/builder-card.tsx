@@ -63,7 +63,7 @@ export function BuilderCard({ builder, variant = "card" }: { builder: Builder; v
             </div>
           )}
           <p className={cn("text-sm text-center text-balance px-4 w-full max-w-5xl mx-auto", variant === "page" && "py-4 text-xl")}>{builder.description}</p>
-          <a href={builder.website} target="_blank" rel="noopener noreferrer" className="text-blue-700/80 hover:text-blue-600 text-xl line-clamp-1 py-4 transition-all ease-in-out duration-300">
+          <a href={builder.website} target="_blank" className="text-blue-700/80 hover:text-blue-600 text-xl line-clamp-1 py-4 transition-all ease-in-out duration-300">
             {builder.website.replace("https://", "").replace(/\/+$/, "")}
           </a>
           <div className={cn("flex flex-wrap justify-center gap-2 mt-4", variant === "page" ? "mb-6" : "mb-2")}>
@@ -75,47 +75,99 @@ export function BuilderCard({ builder, variant = "card" }: { builder: Builder; v
           </div>
           <SocialMediaLinks builder={builder} />
         </div>
-        {builder.currentProject && (
-          <Link
-            href={builder.currentProject.link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={cn("w-full max-w-2xl mx-auto bg-gradient-to-t from-foreground/5 to-background border-foreground/5 border rounded-lg", variant === "page" ? "px-4 pb-8" : "p-4")}
-          >
-            {variant === "page" && (
-              <Badge
-                variant="secondary"
-                className="text-sm bg-gradient-to-t from-foreground/5 via-background to-background font-semibold relative -top-4 bg-background border-2 border-slate-200 px-6 py-1 text-foreground/80 uppercase scale-90 -mb-2"
-              >
-                Current Project
-              </Badge>
-            )}
-            <div className="flex flex-col items-center mb-2">
-              <h3 className={cn("font-semibold text-center", variant === "page" && "text-3xl tracking-wide")}>{builder.currentProject.name}</h3>
-              {variant === "card" && (
-                <Badge variant="secondary" className="text-xs font-normal mt-1 bg-foreground/10 text-foreground/70 scale-90">
+        <div className="flex flex-col gap-12">
+          {builder.currentProject && (
+            <Link
+              href={builder.currentProject.link}
+              target="_blank"
+              className={cn("w-full max-w-2xl mx-auto bg-gradient-to-t from-foreground/5 to-background border-foreground/5 border rounded-lg", variant === "page" ? "px-4 pb-8" : "p-4")}
+            >
+              {variant === "page" && (
+                <Badge
+                  variant="secondary"
+                  className="text-sm bg-gradient-to-t from-foreground/5 via-background to-background font-semibold relative -top-4 bg-background border-2 border-slate-200 px-6 py-1 text-foreground/80 uppercase scale-90 -mb-2"
+                >
                   Current Project
                 </Badge>
               )}
-            </div>
-            <p className={cn("mb-2 text-center text-balance", variant === "card" && "text-sm")}>{builder.currentProject.description}</p>
-            {variant === "page" && (
-              <div className="flex flex-wrap justify-center gap-4 py-2">
-                {builder.currentProject.tags.map((tag) => (
-                  <Badge className="text-lg font-normal px-4 bg-foreground/10" key={tag} variant="secondary">
-                    {tag}
+              <div className="flex flex-col items-center mb-2">
+                <h3 className={cn("font-semibold text-center", variant === "page" && "font-normal text-2xl text-blue-700/80 hover:text-blue-600")}>{builder.currentProject.name}</h3>
+                {variant === "card" && (
+                  <Badge variant="secondary" className="text-xs font-normal mt-1 bg-foreground/10 text-foreground/70 scale-90">
+                    Current Project
                   </Badge>
-                ))}
+                )}
               </div>
-            )}
-            <div className="flex justify-center mt-4">
-              <Button size="sm" className="px-3 py-1 text-xs">
-                View Project
-                <ExternalLink className="ml-1 h-3 w-3 opacity-50" />
-              </Button>
-            </div>
-          </Link>
-        )}
+              <p className={cn("mb-2 text-center text-balance", variant === "card" && "text-sm")}>{builder.currentProject.description}</p>
+              {variant === "page" && (
+                <div className="flex flex-wrap justify-center gap-4 py-2">
+                  {builder.currentProject.tags.map((tag) => (
+                    <Badge className="text-lg font-normal px-4 bg-foreground/10" key={tag} variant="secondary">
+                      {tag}
+                    </Badge>
+                  ))}
+                </div>
+              )}
+              <div className="flex justify-center mt-4">
+                <Button size="sm" className="px-3 py-1 text-xs">
+                  View Project
+                  <ExternalLink className="ml-1 h-3 w-3 opacity-50" />
+                </Button>
+              </div>
+            </Link>
+          )}
+          {variant === "page" && builder.newsletter && (
+            <Link
+              href={builder.newsletter}
+              target="_blank"
+              className={cn("w-full max-w-2xl mx-auto bg-gradient-to-t from-foreground/5 to-background border-foreground/5 border rounded-lg", variant === "page" ? "px-4 pb-8" : "p-4")}
+            >
+              {variant === "page" && (
+                <Badge
+                  variant="secondary"
+                  className="text-sm bg-gradient-to-t from-foreground/5 via-background to-background font-semibold relative -top-4 bg-background border-2 border-slate-200 px-6 py-1 text-foreground/80 uppercase scale-90 -mb-2"
+                >
+                  Newsletter
+                </Badge>
+              )}
+              <div className="flex flex-col items-center my-2">
+                <h3 className={cn("text-center text-xl tracking-wide text-blue-700/80 hover:text-blue-600")}>{builder.newsletter.split("//")[1].replace(/\/$/, "")}</h3>
+              </div>
+              <div className="flex justify-center mt-4">
+                <Button size="sm" className="px-3 py-1 text-xs">
+                  Subscribe
+                  <ExternalLink className="ml-1 h-3 w-3 opacity-50" />
+                </Button>
+              </div>
+            </Link>
+          )}
+
+          {variant === "page" && builder.podcast && (
+            <Link
+              href={builder.podcast}
+              target="_blank"
+              className={cn("mb-8 w-full max-w-2xl mx-auto bg-gradient-to-t from-foreground/5 to-background border-foreground/5 border rounded-lg", variant === "page" ? "px-4 pb-8" : "p-4")}
+            >
+              {variant === "page" && (
+                <Badge
+                  variant="secondary"
+                  className="text-sm bg-gradient-to-t from-foreground/5 via-background to-background font-semibold relative -top-4 bg-background border-2 border-slate-200 px-6 py-1 text-foreground/80 uppercase scale-90 -mb-2"
+                >
+                  Podcast
+                </Badge>
+              )}
+              <div className="flex flex-col items-center my-2">
+                <h3 className={cn("text-center text-xl tracking-wide text-blue-700/80 hover:text-blue-600")}>{builder.podcast.split("//")[1].replace(/\/$/, "")}</h3>
+              </div>
+              <div className="flex justify-center mt-4">
+                <Button size="sm" className="px-3 py-1 text-xs">
+                  Listen
+                  <ExternalLink className="ml-1 h-3 w-3 opacity-50" />
+                </Button>
+              </div>
+            </Link>
+          )}
+        </div>
       </CardContent>
     </Card>
   )
