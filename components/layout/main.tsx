@@ -9,7 +9,7 @@ export default function Main({ children, headerClassName }: { children: ReactNod
       <main className="flex-grow">
         <section className={cn("bg-gradient-to-r from-purple-500 to-pink-500 text-white py-20", headerClassName)}>
           <div className="container mx-auto px-4 text-center">
-            <h1 className="text-4xl md:text-6xl font-bold mb-4 text-balance">Discover Who’s Who in the Build in Public Community</h1>
+            <h1 className="text-4xl sm:pt-12 lg:pt-0 md:text-6xl font-bold mb-4 text-balance">Discover Who’s Who in the Build in Public Community</h1>
             <p className="text-xl md:text-2xl mb-8 text-balance">Find indie makers, startup founders and ambitious entrepreneurs doing #buildinpublic</p>
             <Button size="lg" asChild className="text-xl h-auto py-3 hover:scale-105 transition-all ease-in-out duration-300">
               <Link href="/join">Join the Directory</Link>

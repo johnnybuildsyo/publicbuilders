@@ -10,7 +10,7 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false)
 
   return (
-    <header className="border-b">
+    <header className="border-b fixed top-0 left-0 right-0 z-50 lg:relative bg-background">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <Link href="/" className="text-2xl font-bold flex items-center">
           <Blocks className="mr-2 text-fuchsia-600 scale-110 md:scale-100" />

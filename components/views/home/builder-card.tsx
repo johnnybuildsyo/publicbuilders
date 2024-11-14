@@ -40,7 +40,7 @@ export function BuilderCard({ builder, variant = "card" }: { builder: Builder; v
           )}
         </div>
         {variant === "page" && (
-          <div className="absolute top-24 right-8">
+          <div className="absolute top-24 right-8 hidden lg:block">
             <Link className="flex text-blue-700/80 hover:text-blue-600 font-light py-2 transition-all ease-in-out duration-300" href="/">
               <ChevronsLeft className="scale-75" />
               Back to Public Builders Directory
@@ -116,57 +116,51 @@ export function BuilderCard({ builder, variant = "card" }: { builder: Builder; v
               </div>
             </Link>
           )}
-          {variant === "page" && builder.newsletter && (
-            <Link
-              href={builder.newsletter}
-              target="_blank"
-              className={cn("w-full max-w-2xl mx-auto bg-gradient-to-t from-foreground/5 to-background border-foreground/5 border rounded-lg", variant === "page" ? "px-4 pb-8" : "p-4")}
-            >
-              {variant === "page" && (
-                <Badge
-                  variant="secondary"
-                  className="text-sm bg-gradient-to-t from-foreground/5 via-background to-background font-semibold relative -top-4 bg-background border-2 border-slate-200 px-6 py-1 text-foreground/80 uppercase scale-90 -mb-2"
-                >
-                  Newsletter
-                </Badge>
-              )}
-              <div className="flex flex-col items-center my-2">
-                <h3 className={cn("text-center text-xl tracking-wide text-blue-700/80 hover:text-blue-600")}>{builder.newsletter.split("//")[1].replace(/\/$/, "")}</h3>
-              </div>
-              <div className="flex justify-center mt-4">
-                <Button size="sm" className="px-3 py-1 text-xs">
-                  Subscribe
-                  <ExternalLink className="ml-1 h-3 w-3 opacity-50" />
-                </Button>
-              </div>
-            </Link>
-          )}
+          <div className="flex flex-col gap-6">
+            {variant === "page" && builder.newsletter && (
+              <Link href={builder.newsletter} target="_blank" className={cn("w-full max-w-2xl mx-auto border-t", variant === "page" ? "px-4 pb-8" : "p-4")}>
+                {variant === "page" && (
+                  <Badge
+                    variant="secondary"
+                    className="text-sm bg-gradient-to-t from-foreground/5 via-background to-background font-semibold relative -top-4 bg-background border-2 border-slate-200 px-6 py-1 text-foreground/80 uppercase scale-90 -mb-2"
+                  >
+                    Newsletter
+                  </Badge>
+                )}
+                <div className="flex flex-col items-center">
+                  <h3 className={cn("text-center sm:text-xl tracking-wide text-blue-700/80 hover:text-blue-600")}>{builder.newsletter.split("//")[1].replace(/\/$/, "")}</h3>
+                </div>
+                <div className="flex justify-center mt-2 scale-90">
+                  <Button size="sm" className="px-3 py-1 text-xs">
+                    Subscribe
+                    <ExternalLink className="ml-1 h-3 w-3 opacity-50" />
+                  </Button>
+                </div>
+              </Link>
+            )}
 
-          {variant === "page" && builder.podcast && (
-            <Link
-              href={builder.podcast}
-              target="_blank"
-              className={cn("mb-8 w-full max-w-2xl mx-auto bg-gradient-to-t from-foreground/5 to-background border-foreground/5 border rounded-lg", variant === "page" ? "px-4 pb-8" : "p-4")}
-            >
-              {variant === "page" && (
-                <Badge
-                  variant="secondary"
-                  className="text-sm bg-gradient-to-t from-foreground/5 via-background to-background font-semibold relative -top-4 bg-background border-2 border-slate-200 px-6 py-1 text-foreground/80 uppercase scale-90 -mb-2"
-                >
-                  Podcast
-                </Badge>
-              )}
-              <div className="flex flex-col items-center my-2">
-                <h3 className={cn("text-center text-xl tracking-wide text-blue-700/80 hover:text-blue-600")}>{builder.podcast.split("//")[1].replace(/\/$/, "")}</h3>
-              </div>
-              <div className="flex justify-center mt-4">
-                <Button size="sm" className="px-3 py-1 text-xs">
-                  Listen
-                  <ExternalLink className="ml-1 h-3 w-3 opacity-50" />
-                </Button>
-              </div>
-            </Link>
-          )}
+            {variant === "page" && builder.podcast && (
+              <Link href={builder.podcast} target="_blank" className={cn("mb-8 w-full max-w-2xl mx-auto border-t", variant === "page" ? "px-4 pb-8" : "p-4")}>
+                {variant === "page" && (
+                  <Badge
+                    variant="secondary"
+                    className="text-sm bg-gradient-to-t from-foreground/5 via-background to-background font-semibold relative -top-4 bg-background border-2 border-slate-200 px-6 py-1 text-foreground/80 uppercase scale-90 -mb-2"
+                  >
+                    Podcast
+                  </Badge>
+                )}
+                <div className="flex flex-col items-center">
+                  <h3 className={cn("text-center sm:text-xl tracking-wide text-blue-700/80 hover:text-blue-600")}>{builder.podcast.split("//")[1].replace(/\/$/, "")}</h3>
+                </div>
+                <div className="flex justify-center mt-2 scale-90">
+                  <Button size="sm" className="px-3 py-1 text-xs">
+                    Listen
+                    <ExternalLink className="ml-1 h-3 w-3 opacity-50" />
+                  </Button>
+                </div>
+              </Link>
+            )}
+          </div>
         </div>
       </CardContent>
     </Card>

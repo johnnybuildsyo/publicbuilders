@@ -48,7 +48,7 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable} ${displayFont.variable} antialiased font-display`}>
         <div className="min-h-screen flex flex-col font-display">
           <Header />
-          <main className="flex flex-col grow gap-4 row-start-2 justify-center items-center font-display">{children}</main>
+          <main className="flex flex-col grow gap-4 row-start-2 pt-16 sm:pt-0 justify-center items-center font-display">{children}</main>
           <Footer />
         </div>
       </body>
