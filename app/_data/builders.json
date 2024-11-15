@@ -1349,5 +1349,35 @@
       ]
     },
     "created": "2024-11-15T14:16:47.840Z"
+  },
+  {
+    "name": "Maya Kyler",
+    "description": "Building software while managing several businesses and open-source projects.",
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/mayakyler.jpg",
+    "twitter": {
+      "url": "https://x.com/mayakyler",
+      "followers": 3216
+    },
+    "github": {
+      "url": "https://github.com/mayakyler",
+      "followers": 15
+    },
+    "website": "https://www.mayakyler.com/",
+    "tags": [
+      "games",
+      "buildinpublic",
+      "builder"
+    ],
+    "currentProject": {
+      "name": "Waitlist",
+      "description": "Create viral loops for your product launch with waitlists. Built-in referral and email marketing, analytics, leaderboards, captcha and more.",
+      "link": "https://getwaitlist.com/",
+      "tags": [
+        "marketing",
+        "launch",
+        "email"
+      ]
+    },
+    "created": "2024-11-15T22:30:23.102Z"
   }
 ]
