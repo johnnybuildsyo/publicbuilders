@@ -1322,5 +1322,32 @@
       ]
     },
     "created": "2024-11-14T18:36:47.583Z"
+  },
+  {
+    "name": "Li Zeng",
+    "description": "Helping early stage founders launch their brands and build delightful product UX.",
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/lizengco.jpg",
+    "twitter": {
+      "url": "https://x.com/lizengco",
+      "followers": 8044
+    },
+    "newsletter": "https://news.lizeng.co/",
+    "website": "https://anguscheng.com/",
+    "tags": [
+      "design",
+      "writing",
+      "newsletter"
+    ],
+    "currentProject": {
+      "name": "Studio Salt",
+      "description": "Fractional design for early stage startups.",
+      "link": "https://studiosalt.co/",
+      "tags": [
+        "design",
+        "startup growth",
+        "ux"
+      ]
+    },
+    "created": "2024-11-15T14:16:47.840Z"
   }
 ]

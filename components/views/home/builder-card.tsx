@@ -16,7 +16,7 @@ export function BuilderCard({ builder, variant = "card" }: { builder: Builder; v
         <div
           className={cn(
             "relative -mx-6 -mt-6 mb-4 bg-gray-200 overflow-hidden",
-            variant === "page" ? "rounded-full w-72 h-72 border-8 border-background shadow-lg ring-1 ring-fuchsia-400/70" : "h-48 rounded-t-lg"
+            variant === "page" ? "rounded-full w-72 h-72 border-8 border-background shadow-lg ring-1 ring-fuchsia-400/70" : "h-48 rounded-t-lg border-b"
           )}
         >
           {builder.image ? (
