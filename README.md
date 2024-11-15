@@ -20,15 +20,22 @@ A directory of who is who in #buildinpublic. Indie hackers, startup founders and
 12. Add Reddit, Product Hunt and Indie Hackers ✅
 13. Refine list of builders to only #buildinpublic ✅
 14. Make then Share Demo Video
-15. Weekly News Page
-16. Newsletter
-17. Add feedback link
-18. Add favorite button with google event tracking and local storage
-19. Set up API that pulls stats
-20. Show a list of projects
-21. Show a list of posts
-22. Show a list of repos
-23. Use AI to analyze Bing Search API and provide insights
+
+## NEXT STEPS
+
+Add 2 builders per day and ping each on social media. Wait for traction...
+
+## Feature Ideas
+
+- Weekly News Page
+- Newsletter
+- Add feedback link
+- Add favorite button with google event tracking and local storage
+- Set up API that pulls stats
+- Show a list of projects
+- Show a list of posts
+- Show a list of repos
+- Use AI to analyze Bing Search API and provide insights
 
 
 ----
@@ -41,11 +48,12 @@ Watch me [iterate with ChatGPT](https://chatgpt.com/share/672e9d92-5d28-8009-a2b
 --
 
 **2024-11-13**  
-🔎 Added criteria for joining
-🔎 Culling list of anyone not #buildinpublic 
-Added Reddit and Product Hunt to socials  
-Added links for newsletter, podcast, posts and revenue  
-⏫ ?? 
+📋 Added criteria for joining  
+⛔ Culling list of anyone not #buildinpublic  
+📣 Added Reddit and Product Hunt to socials  
+🔗 Added links for newsletter, podcast, posts and revenue  
+🌐 3  𝕏 46  🦋 92  
+📄 20 ➕ 375➖  238  
 
 --
 
@@ -54,8 +62,8 @@ PublicBuilders #buildinpublic Day 10
 🔎 SEO: Added sitemap + structured data  
 ⏰ Added builders &  create timestamps to records  
 🕶️ Added resources to awesome-buildinpublic  
-🌐 12  𝕏 40  🦋 77 (web visits + followes) 
-📄 41  ➕ 944 ➖ 444 (files changed, lines ++/--)  
+🌐 12  𝕏 40  🦋 77 (web visits + followes)  
+📄 41  ➕ 944 ➖ 444 (files changed, lines ++/--)   
 
 --
 
@@ -64,7 +72,7 @@ PublicBuilders #buildinpublic Day 10
 🔝 Added pages for [top bluesky](https://publicbuilders.org/bluesky), twitter, github and youtubers  
 👤 Added [individual profile](https://publicbuilders.org/profile/Arvid-Kahl) pages  
 ➕ Added SEO friendly pagination  
-🙏 Added [resources page](https://publicbuilders.org/resources)
+🙏 Added [resources page](https://publicbuilders.org/resources)  
 🕶️ Powered by new [awesome-buildinpublic list](https://github.com/johnnybuildsyo/awesome-buildinpublic) I made on Github  
 📑 Added privacy policy and terms of use  
 ⏫ Files changed: 68, Lines added: 1705, Lines deleted: 440  
