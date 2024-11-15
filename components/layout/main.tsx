@@ -27,22 +27,22 @@ export default function Main({ children, headerClassName }: { children: ReactNod
               <Link href="/join">Join the Directory</Link>
             </Button>
             <div className="grid sm:grid-cols-2 md:grid-cols-3 items-center gap-8 mt-12 mb-4 w-full max-w-2xl md:max-w-5xl mx-auto">
-              <Link href="/recent" className="border rounded-lg p-4 bg-white text-blue-600 hover:underline hover:scale-105 transition-all ease-in-out duration-300 text-lg">
+              <Link href="/recent#directory" className="border rounded-lg p-4 bg-white text-blue-600 hover:underline hover:scale-105 transition-all ease-in-out duration-300 text-lg">
                 Recently Added
               </Link>
-              <Link href="/twitter" className="border rounded-lg p-4 bg-white text-blue-600 hover:underline hover:scale-105 transition-all ease-in-out duration-300 text-lg">
+              <Link href="/twitter#directory" className="border rounded-lg p-4 bg-white text-blue-600 hover:underline hover:scale-105 transition-all ease-in-out duration-300 text-lg">
                 Top Builders on Twitter
               </Link>
-              <Link href="/bluesky" className="border rounded-lg p-4 bg-white text-blue-600 hover:underline hover:scale-105 transition-all ease-in-out duration-300 text-lg">
+              <Link href="/bluesky#directory" className="border rounded-lg p-4 bg-white text-blue-600 hover:underline hover:scale-105 transition-all ease-in-out duration-300 text-lg">
                 Top Builders on Bluesky
               </Link>
-              <Link href="/github" className="border rounded-lg p-4 bg-white text-blue-600 hover:underline hover:scale-105 transition-all ease-in-out duration-300 text-lg">
+              <Link href="/github#directory" className="border rounded-lg p-4 bg-white text-blue-600 hover:underline hover:scale-105 transition-all ease-in-out duration-300 text-lg">
                 Top Builders on GitHub
               </Link>
-              <Link href="/youtube" className="border rounded-lg p-4 bg-white text-blue-600 hover:underline hover:scale-105 transition-all ease-in-out duration-300 text-lg">
+              <Link href="/youtube#directory" className="border rounded-lg p-4 bg-white text-blue-600 hover:underline hover:scale-105 transition-all ease-in-out duration-300 text-lg">
                 Top Builders on YouTube
               </Link>
-              <Link href="/producthunt" className="border rounded-lg p-4 bg-white text-blue-600 hover:underline hover:scale-105 transition-all ease-in-out duration-300 text-lg">
+              <Link href="/producthunt#directory" className="border rounded-lg p-4 bg-white text-blue-600 hover:underline hover:scale-105 transition-all ease-in-out duration-300 text-lg">
                 Top Builders on Product Hunt
               </Link>
             </div>

@@ -10,7 +10,7 @@ export function BuilderSortSelect({ sort }: { sort?: string }) {
       <Select
         value={sort}
         onValueChange={(sortOption) => {
-          router.push(`/${sortOption}`)
+          router.push(`/${sortOption}`, { scroll: false })
         }}
       >
         <SelectTrigger className="w-[200px]">

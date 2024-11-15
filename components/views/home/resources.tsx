@@ -8,7 +8,7 @@ export function Resources({ children }: { children: ReactNode }) {
           <h2 className="px-4 text-5xl tracking-wide font-black text-center text-fuchsia-600 pb-4 mb-4 border-b border-dashed border-foreground/30">Building In Public Resources</h2>
           <p className="w-full max-w-3xl text-foreground/70 pb-4">
             This page is sourced from the{" "}
-            <a className="text-fuchsia-600 underline" href="https://github.com/johnnybuildsyo/awesome-buildinpublic">
+            <a className="text-fuchsia-600 underline" href="https://github.com/johnnybuildsyo/awesome-buildinpublic/blob/main/README.md">
               awesome-buildinpublic
             </a>{" "}
             repository on Github. <br />
