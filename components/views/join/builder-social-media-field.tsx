@@ -10,14 +10,14 @@ import { formatUrlFromHandle } from "@/lib/utils"
 type HandleField = `${SocialMediaPlatform}.handle`
 type FollowerField = `${SocialMediaPlatform}.followers`
 
-const followerSuffixMap: Record<SocialMediaPlatform, "Followers" | "Subscribers"> = {
+const followerSuffixMap: Record<SocialMediaPlatform, "Followers" | "Subscribers" | "Stars" | "Karma"> = {
   twitter: "Followers",
   bluesky: "Followers",
-  github: "Followers",
+  github: "Stars",
   twitch: "Subscribers",
   youtube: "Subscribers",
   producthunt: "Followers",
-  reddit: "Followers",
+  reddit: "Karma",
 }
 
 interface BuilderSocialMediaFieldProps {
@@ -62,7 +62,7 @@ export default function BuilderSocialMediaField({ field, icon, label, register, 
         ) : (
           <div className="flex items-center mt-1 px-2 py-0.5 bg-gray-100 rounded">
             {icon}
-            <span className="ml-2">{handle}</span>
+            <span className="ml-2 line-clamp-1">{handle}</span>
             <Button type="button" variant="ghost" size="sm" onClick={() => setIsEditing(true)} className="ml-auto">
               <Edit2 size={16} />
             </Button>
@@ -84,7 +84,7 @@ export default function BuilderSocialMediaField({ field, icon, label, register, 
       </div>
       {handle && (
         <a href={url} target="_blank" rel="noopener noreferrer" className="text-sm -mt-2 text-blue-500 hover:underline">
-          {url}
+          {url.replace("https://", "")}
         </a>
       )}
       {errors[field]?.handle && <p className="text-red-500 text-sm col-span-2">{errors[field]?.handle?.message}</p>}

@@ -1414,9 +1414,9 @@
     },
     "website": "https://aravindsamala.com",
     "tags": [
-      "Founder",
-      "Full stack developer",
-      "Bootstrapping"
+      "founder",
+      "fullstack",
+      "bootstrapping"
     ],
     "currentProject": {
       "name": "Memotron",
@@ -1478,5 +1478,112 @@
     },
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/bencraftscode.jpg",
     "created": "2024-11-16T18:49:34.651Z"
+  },
+  {
+    "name": "Tanmay M",
+    "description": "Indie hacking digital things",
+    "twitter": {
+      "handle": "https://twitter.com/mtanmaym",
+      "url": "https://twitter.com/mtanmaym",
+      "followers": 980
+    },
+    "youtube": {
+      "handle": "https://www.youtube.com/channel/UCdr9NmszjQ49_f9wV-egc7A",
+      "followers": 108
+    },
+    "twitch": {
+      "handle": ""
+    },
+    "github": {
+      "handle": "https://github.com/IndieD3v",
+      "followers": 28
+    },
+    "bluesky": {
+      "handle": ""
+    },
+    "reddit": {
+      "handle": ""
+    },
+    "producthunt": {
+      "handle": "https://www.producthunt.com/@tanmaymakode",
+      "followers": 227
+    },
+    "website": "https://bento.me/tanmaym",
+    "tags": [
+      "web",
+      "design",
+      "ui"
+    ],
+    "currentProject": {
+      "name": "Filmify",
+      "description": "A web based tool to beautify your screen recordings.",
+      "link": "https://filmify.app",
+      "tags": [
+        "screenrecording",
+        "webtool"
+      ]
+    }
+  },
+  {
+    "name": "Donnell Wyche",
+    "description": "Developer @ carenote.app | prayetic.com | directee.app | mobilize.dev | Building tools for care, connection, and advocacy | Biking 🚴🏾‍♂️ | Coding 👨🏾‍💻 | Pastor | SaaS innovator",
+    "twitter": {
+      "handle": "https://twitter.com/donnell",
+      "url": "https://twitter.com/donnell",
+      "followers": 1239
+    },
+    "youtube": {
+      "handle": "https://www.youtube.com/@carenote5068",
+      "url": "https://www.youtube.com/@carenote5068",
+      "followers": 11
+    },
+    "twitch": {
+      "handle": ""
+    },
+    "github": {
+      "handle": "https://github.com/ccc-developer",
+      "url": "https://github.com/ccc-developer",
+      "followers": 247
+    },
+    "bluesky": {
+      "handle": "https://bsky.app/profile/donnell.bsky.social",
+      "url": "https://bsky.app/profile/donnell.bsky.social",
+      "followers": 827
+    },
+    "reddit": {
+      "handle": ""
+    },
+    "producthunt": {
+      "handle": ""
+    },
+    "website": "https://pinkary.com/@donnell",
+    "writing": "https://thewychefamily.com/rss/",
+    "tags": [
+      "developer",
+      "saas",
+      "database"
+    ],
+    "currentProject": {
+      "name": "CareNote",
+      "description": "CareNote transforms pastoral care into action by tracking people, tasks, notes, milestones, and care requests. It helps church leaders organize and streamline care, ensuring no one falls through the cracks, while providing insights, history, and tools to align care teams.",
+      "link": "https://carenote.app",
+      "tags": [
+        "pastoral care",
+        "church management software",
+        "care tracking",
+        "pastoral tools",
+        "congregation care",
+        "task management",
+        "milestone tracking",
+        "care coordination",
+        "team collaboration",
+        "care history",
+        "church leadership",
+        "pastoral support",
+        "care organization",
+        "ministry tools",
+        "church software"
+      ]
+    }
   }
 ]

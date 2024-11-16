@@ -21,6 +21,10 @@ interface BuilderProfileFieldsProps {
 
 export default function BuilderProfileFields({ register, errors, setValue, watch }: BuilderProfileFieldsProps) {
   const website = watch("website")
+  const newsletter = watch("newsletter")
+  const writing = watch("writing")
+  const podcast = watch("podcast")
+  const revenue = watch("revenue")
   const currentProject = watch("currentProject")
 
   return (
@@ -56,7 +60,18 @@ export default function BuilderProfileFields({ register, errors, setValue, watch
         <Label htmlFor="tags">
           Tags <span className="text-xs font-normal">(comma-separated)</span>
         </Label>
-        <Input id="tags" {...register("tags")} className="mt-1" />
+        <Input
+          id="tags"
+          {...register("tags")}
+          onBlur={(e) => {
+            const tagsArray = e.target.value
+              .split(",")
+              .map((tag) => tag.trim().toLowerCase())
+              .filter((tag) => tag) // Remove empty tags
+            setValue("tags", tagsArray) // Set as an array
+          }}
+          className="mt-1"
+        />
         {errors.tags && <p className="text-red-500 text-sm mt-1">{errors.tags.message}</p>}
       </div>
 
@@ -65,24 +80,44 @@ export default function BuilderProfileFields({ register, errors, setValue, watch
           Do you have a personal RSS feed for sharing posts and written content? <span className="text-xs font-normal">(provide url)</span>
         </Label>
         <Input id="writing" {...register("writing")} placeholder="Optional" className="mt-1" />
+        {writing && (
+          <a href={writing} target="_blank" rel="noopener noreferrer" className="text-sm pl-1 -mt-2 text-blue-500 hover:underline">
+            {writing.replace("https://", "")}
+          </a>
+        )}
       </div>
       <div className="pt-4">
         <Label htmlFor="newsletter">
           Do you publish a newsletter? <span className="text-xs font-normal">(provide url)</span>
         </Label>
         <Input id="newsletter" {...register("newsletter")} placeholder="Optional" className="mt-1" />
+        {newsletter && (
+          <a href={newsletter} target="_blank" rel="noopener noreferrer" className="text-sm pl-1 -mt-2 text-blue-500 hover:underline">
+            {newsletter.replace("https://", "")}
+          </a>
+        )}
       </div>
       <div className="pt-4">
         <Label htmlFor="podcast">
           Do you host a podcast? <span className="text-xs font-normal">(provide url)</span>
         </Label>
         <Input id="podcast" {...register("podcast")} placeholder="Optional" className="mt-1" />
+        {podcast && (
+          <a href={podcast} target="_blank" rel="noopener noreferrer" className="text-sm pl-1 -mt-2 text-blue-500 hover:underline">
+            {podcast.replace("https://", "")}
+          </a>
+        )}
       </div>
       <div className="pt-4">
         <Label htmlFor="revenue">
           Do you share revenue data? <span className="text-xs font-normal">(provide url)</span>
         </Label>
         <Input id="revenue" {...register("revenue")} placeholder="Optional" className="mt-1" />
+        {revenue && (
+          <a href={revenue} target="_blank" rel="noopener noreferrer" className="text-sm pl-1 -mt-2 text-blue-500 hover:underline">
+            {revenue.replace("https://", "")}
+          </a>
+        )}
       </div>
       <div className="space-y-4 pt-8">
         <h3 className="text-lg font-semibold">Social Media Accounts</h3>
@@ -125,7 +160,18 @@ export default function BuilderProfileFields({ register, errors, setValue, watch
           <Label htmlFor="currentProjectTags">
             Tags <span className="text-xs font-normal">(comma-separated)</span>
           </Label>
-          <Input id="currentProjectTags" {...register("currentProject.tags")} className="mt-1" />
+          <Input
+            id="currentProjectTags"
+            {...register("currentProject.tags")}
+            onBlur={(e) => {
+              const tagsArray = e.target.value
+                .split(",")
+                .map((tag) => tag.trim().toLowerCase())
+                .filter((tag) => tag) // Remove empty tags
+              setValue("currentProject.tags", tagsArray) // Set as an array
+            }}
+            className="mt-1"
+          />
           {errors.currentProject?.tags && <p className="text-red-500 text-sm mt-1">{errors.currentProject.tags.message}</p>}
         </div>
       </div>
