@@ -19,7 +19,7 @@ A directory of who is who in #buildinpublic. Indie hackers, startup founders and
 10. Define criteria for being accepted ✅
 12. Add Reddit, Product Hunt and Indie Hackers ✅
 13. Refine list of builders to only #buildinpublic ✅
-14. Make then Share Demo Video
+14. Make then Share Demo Video ✅
 
 ## NEXT STEPS
 
@@ -44,6 +44,15 @@ Add 2 builders per day and ping each on social media. Wait for traction...
 [Generate Commit Stats](https://gist.github.com/johnnybuildsyo/16a77a2f20970cc054a07b53b7f900f1)
 
 Watch me [iterate with ChatGPT](https://chatgpt.com/share/672e9d92-5d28-8009-a2b2-d218036d322a)
+
+--
+
+**2024-11-14**  
+🎥 Made demo video  
+👤 Added 2 builders  
+✨ Side adventure: add background particle animation to my website   
+🌐 8  𝕏 46  🦋 96  
+📄 8 ➕ 65➖  28 
 
 --
 
