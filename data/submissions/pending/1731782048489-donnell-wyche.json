@@ -1,0 +1,78 @@
+{
+  "name": "Donnell Wyche",
+  "description": "Developer @ carenote.app | prayetic.com | directee.app | mobilize.dev | Building tools for care, connection, and advocacy | Biking 🚴🏾‍♂️ | Coding 👨🏾‍💻 | Pastor | SaaS innovator",
+  "twitter": {
+    "url": "https://twitter.com/donnell",
+    "followers": 1239
+  },
+  "youtube": {
+    "url": "https://www.youtube.com/@carenote5068",
+    "followers": 11
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "url": "https://github.com/ccc-developer",
+    "followers": 10
+  },
+  "bluesky": {
+    "url": "https://bsky.app/profile/donnell.bsky.social",
+    "followers": 772
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://pinkary.com/@donnell",
+  "newsletter": "https://thewychefamily.com/",
+  "podcast": "https://thewychefamily.com/",
+  "revenue": "https://thewychefamily.com/",
+  "writing": "https://thewychefamily.com/rss/",
+  "tags": [
+    "developer",
+    "pastoral care",
+    "spiritual direction",
+    "prayer",
+    "SaaS",
+    "CRM",
+    "database",
+    "church leadership",
+    "coding",
+    "Laravel",
+    "FilamentPHP",
+    "biking",
+    "innovation",
+    "advocacy",
+    "church software",
+    "entrepreneur",
+    "faith-based tools",
+    "mentorship",
+    "community building",
+    "pastor"
+  ],
+  "currentProject": {
+    "name": "CareNote",
+    "description": "CareNote transforms pastoral care into action by tracking people, tasks, notes, milestones, and care requests. It helps church leaders organize and streamline care, ensuring no one falls through the cracks, while providing insights, history, and tools to align care teams.",
+    "link": "https://carenote.app",
+    "tags": [
+      "pastoral care",
+      "church management software",
+      "care tracking",
+      "pastoral tools",
+      "congregation care",
+      "task management",
+      "milestone tracking",
+      "care coordination",
+      "team collaboration",
+      "care history",
+      "church leadership",
+      "pastoral support",
+      "care organization",
+      "ministry tools",
+      "church software"
+    ]
+  }
+}
