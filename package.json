@@ -2,6 +2,7 @@
   "name": "publicbuilders",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -12,7 +13,8 @@
     "pics": "node ./scripts/addProfilePics.js",
     "timestamps": "node ./scripts/addTimestamps.js",
     "new": "node ./scripts/addProfilePics.js && node ./scripts/addTimestamps.js",
-    "news": "node ./secretsauce/scripts/getNews.js"
+    "news": "node ./secretsauce/scripts/mockFetchNews.js",
+    "fetchWeb": "node ./secretsauce/scripts/fetchWebsiteUpdates.js"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.685.0",
@@ -32,6 +34,7 @@
     "@types/seedrandom": "^3.0.8",
     "add": "^2.0.6",
     "axios": "^1.7.7",
+    "cheerio": "^1.0.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "dotenv": "^16.4.5",
@@ -56,6 +59,7 @@
     "zod": "^3.23.8"
   },
   "devDependencies": {
+    "@playwright/test": "^1.48.2",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",

@@ -20,6 +20,9 @@ interface BuilderProfileFieldsProps {
 }
 
 export default function BuilderProfileFields({ register, errors, setValue, watch }: BuilderProfileFieldsProps) {
+  const website = watch("website")
+  const currentProject = watch("currentProject")
+
   return (
     <>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -32,6 +35,11 @@ export default function BuilderProfileFields({ register, errors, setValue, watch
         <div>
           <Label htmlFor="website">Your Primary Website</Label>
           <Input id="website" {...register("website")} className="mt-1" />
+          {website && (
+            <a href={website} target="_blank" rel="noopener noreferrer" className="text-sm pl-1 -mt-2 text-blue-500 hover:underline">
+              {website.replace("https://", "")}
+            </a>
+          )}
           {errors.website && <p className="text-red-500 text-sm mt-1">{errors.website.message}</p>}
         </div>
       </div>
@@ -100,6 +108,11 @@ export default function BuilderProfileFields({ register, errors, setValue, watch
           <div>
             <Label htmlFor="currentProjectLink">Link</Label>
             <Input id="currentProjectLink" {...register("currentProject.link")} className="mt-1" />
+            {currentProject?.link && (
+              <a href={currentProject.link} target="_blank" rel="noopener noreferrer" className="text-sm pl-1 -mt-2 text-blue-500 hover:underline">
+                {currentProject.link.replace("https://", "")}
+              </a>
+            )}
             {errors.currentProject?.link && <p className="text-red-500 text-sm mt-1">{errors.currentProject.link.message}</p>}
           </div>
         </div>

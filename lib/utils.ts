@@ -31,3 +31,29 @@ export function shuffleWithDateSeed<T>(array: T[]): T[] {
     .sort((a, b) => a.sort - b.sort)
     .map(({ value }) => value)
 }
+
+export function formatUrlFromHandle(platform: string, handle: string | undefined): string {
+  if (!handle) return "";
+
+  if (handle.startsWith("http")) return handle;
+
+  let baseUrl = `https://${platform}`;
+  switch (platform) {
+    case "twitch":
+      baseUrl += ".tv/";
+      break;
+    case "reddit":
+      baseUrl += ".com/user/";
+      break;
+    case "producthunt":
+      baseUrl += ".com/@";
+      break;
+    case "youtube":
+      baseUrl += ".com/@";
+      break;
+    default:
+      baseUrl += ".com/";
+  }
+
+  return `${baseUrl}${handle}`;
+}

@@ -1,7 +1,11 @@
-/* eslint-disable @typescript-eslint/no-require-imports */
-require('dotenv').config({ path: '.env.local' });
-const fs = require('fs');
-const path = require('path');
+import 'dotenv/config'; // Load environment variables from .env.local
+import fs from 'fs';
+import { fileURLToPath } from 'url';
+import path from 'path';
+
+// Get the directory of the current module
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // Main function to process builders
 async function main() {

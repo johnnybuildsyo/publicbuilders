@@ -5,6 +5,7 @@ import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { Edit2 } from "lucide-react"
 import { FormData, SocialMediaPlatform } from "@/app/_types"
+import { formatUrlFromHandle } from "@/lib/utils"
 
 type HandleField = `${SocialMediaPlatform}.handle`
 type FollowerField = `${SocialMediaPlatform}.followers`
@@ -50,7 +51,7 @@ export default function BuilderSocialMediaField({ field, icon, label, register, 
     }
   }
 
-  const url: string = handle ? (handle.startsWith("http") ? handle : `https://${field}${field === "twitch" ? ".tv" : ".com"}/${field === "youtube" ? "@" : ""}${handle}`) : ""
+  const url: string = formatUrlFromHandle(field, handle)
 
   return (
     <div className="grid grid-cols-[2fr,1fr] gap-4 items-end">

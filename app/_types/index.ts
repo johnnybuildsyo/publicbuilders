@@ -56,22 +56,22 @@ export const builderSchema = z.object({
     }
     return value;
   }, z.string().url("Invalid URL")),
-  newsletter: z
-    .string()
-    .url("Please provide a valid URL for the newsletter")
-    .optional(),
-  podcast: z
-    .string()
-    .url("Please provide a valid URL for the podcast")
-    .optional(),
-  revenue: z
-    .string()
-    .url("Please provide a valid URL for revenue data")
-    .optional(),
-  writing: z
-    .string()
-    .url("Please provide a valid URL for written content")
-    .optional(),
+  newsletter: z.preprocess(
+    (value) => (typeof value === "string" && value.trim() === "" ? undefined : value),
+    z.string().url("Please provide a valid URL for the newsletter").optional()
+  ),
+  podcast: z.preprocess(
+    (value) => (typeof value === "string" && value.trim() === "" ? undefined : value),
+    z.string().url("Please provide a valid URL for the podcast").optional()
+  ),
+  revenue: z.preprocess(
+    (value) => (typeof value === "string" && value.trim() === "" ? undefined : value),
+    z.string().url("Please provide a valid URL for revenue data").optional()
+  ),
+  writing: z.preprocess(
+    (value) => (typeof value === "string" && value.trim() === "" ? undefined : value),
+    z.string().url("Please provide a valid URL for written content").optional()
+  ),
   tags: z.preprocess((value) => (typeof value === "string" ? value.split(",").map((tag) => tag.trim()) : value), z.array(z.string()).min(1, "At least one tag is required")),
   currentProject: projectSchema.optional(),
   created: z.string().datetime().optional(),

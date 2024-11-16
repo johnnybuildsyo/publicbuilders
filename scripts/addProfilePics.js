@@ -1,9 +1,14 @@
-/* eslint-disable @typescript-eslint/no-require-imports */
-require('dotenv').config({ path: '.env.local' });
-const fs = require('fs');
-const path = require('path');
-const { S3Client, PutObjectCommand } = require('@aws-sdk/client-s3');
-const axios = require('axios');
+import dotenv from 'dotenv';
+import fs from 'fs';
+import path from 'path';
+import { S3Client, PutObjectCommand } from '@aws-sdk/client-s3';
+import axios from 'axios';
+import { fileURLToPath } from 'url';
+
+dotenv.config({ path: '.env.local' });
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // Configure S3 Client with AWS SDK v3
 const s3Client = new S3Client({
