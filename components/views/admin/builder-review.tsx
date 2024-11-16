@@ -50,7 +50,7 @@ export default function BuilderReview() {
       {submissions.length === 0 ? (
         <>
           <p className="py-8">No submissions available.</p>
-          <Link className="text-xl py-4" href="/">
+          <Link className="text-xl py-4" href="/recent">
             <Button size="lg" className="bg-fuchsia-500 hover:bg-fuchsia-600 scale-125">
               Go to Directory
             </Button>

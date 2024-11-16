@@ -75,7 +75,7 @@ export function BuilderCard({ builder, variant = "card" }: { builder: Builder; v
           </div>
           <SocialMediaLinks builder={builder} />
         </div>
-        <div className="flex flex-col gap-12">
+        <div className={cn("flex flex-col", variant === "page" && "gap-12")}>
           {builder.currentProject && (
             <Link
               href={builder.currentProject.link}
