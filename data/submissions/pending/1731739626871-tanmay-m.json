@@ -1,0 +1,45 @@
+{
+  "name": "Tanmay M",
+  "description": "Indie hacking digital things",
+  "twitter": {
+    "url": "https://twitter.com/mtanmaym",
+    "followers": 980
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://bento.me/tanmaym",
+  "newsletter": "https://bento.me/tanmaym",
+  "podcast": "https://bento.me/tanmaym",
+  "revenue": "https://bento.me/tanmaym",
+  "writing": "https://bento.me/tanmaym",
+  "tags": [
+    "Web",
+    "design",
+    "web app",
+    "UI UX"
+  ],
+  "currentProject": {
+    "name": "Filmify",
+    "description": "A web based tool to beautify your screen recordings.",
+    "link": "https://filmify.app",
+    "tags": [
+      ""
+    ]
+  }
+}
