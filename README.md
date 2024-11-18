@@ -49,8 +49,8 @@ Watch me [iterate with ChatGPT](https://chatgpt.com/share/672e9d92-5d28-8009-a2b
 --
 
 **2024-11-17**  
-🔎 Finished playwright automation to find #buildinpublic people   
-⤴️ Finished playwright automation to extract data    
+🔎 Finished Playwright automation to find #buildinpublic people   
+⤴️ Finished Playwright automation to extract data    
 ⏩ Improved new builder approval flow   
 🌐 62 𝕏 54 🦋 117   
 
