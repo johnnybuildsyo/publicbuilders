@@ -1,3 +1,6 @@
+"use client"
+
+import { usePathname } from "next/navigation"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Label } from "@/components/ui/label"
@@ -10,16 +13,18 @@ import { YoutubeIcon } from "@/components/icons/youtube"
 import { GithubIcon } from "@/components/icons/github"
 import { RedditIcon } from "@/components/icons/reddit"
 import { ProductHuntIcon } from "@/components/icons/producthunt"
-import { UseFormRegister, FieldErrors, UseFormSetValue, UseFormWatch } from "react-hook-form"
+import { UseFormRegister, FieldErrors, UseFormSetValue, UseFormWatch, useWatch, Control } from "react-hook-form"
 
 interface BuilderProfileFieldsProps {
   register: UseFormRegister<FormData>
   errors: FieldErrors<FormData>
   setValue: UseFormSetValue<FormData>
   watch: UseFormWatch<FormData>
+  control: Control<FormData>
 }
 
-export default function BuilderProfileFields({ register, errors, setValue, watch }: BuilderProfileFieldsProps) {
+export default function BuilderProfileFields({ register, errors, setValue, watch, control }: BuilderProfileFieldsProps) {
+  const name = watch("name")
   const website = watch("website")
   const newsletter = watch("newsletter")
   const writing = watch("writing")
@@ -27,12 +32,25 @@ export default function BuilderProfileFields({ register, errors, setValue, watch
   const revenue = watch("revenue")
   const currentProject = watch("currentProject")
 
+  const pathname = usePathname()
+  const isAdmin = pathname.includes("admin/")
+
+  const bluesky = useWatch({ control, name: "bluesky" })
+  const youtube = useWatch({ control, name: "youtube" })
+  const github = useWatch({ control, name: "github" })
+  const producthunt = useWatch({ control, name: "producthunt" })
+
   return (
     <>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div>
           <Label htmlFor="name">Name</Label>
           <Input id="name" {...register("name")} className="mt-1" />
+          {isAdmin && (
+            <a target="_blank" className="text-sm pl-1 -mt-2 text-blue-500 hover:underline" href={`https://www.google.com/search?q=%22${encodeURIComponent(name)}`}>
+              Search {name} on Google
+            </a>
+          )}
           {errors.name && <p className="text-red-500 text-sm mt-1">{errors.name.message}</p>}
         </div>
 
@@ -124,11 +142,31 @@ export default function BuilderProfileFields({ register, errors, setValue, watch
         <div className="space-y-6">
           <BuilderSocialMediaField field="twitter" icon={<TwitterXIcon />} label="X / Twitter Account" register={register} errors={errors} setValue={setValue} watch={watch} />
           <BuilderSocialMediaField field="bluesky" icon={<BlueskyIcon />} label="Bluesky Account" register={register} errors={errors} setValue={setValue} watch={watch} />
+          {isAdmin && !bluesky && (
+            <a className="text-sm pl-1 -mt-2 text-blue-500 hover:underline" href={"https://bsky.app/search?q=" + name} target="_blank">
+              Search {name} on Bluesky
+            </a>
+          )}
           <BuilderSocialMediaField field="twitch" icon={<TwitchIcon />} label="Twitch Account" register={register} errors={errors} setValue={setValue} watch={watch} />
           <BuilderSocialMediaField field="youtube" icon={<YoutubeIcon />} label="YouTube Account" register={register} errors={errors} setValue={setValue} watch={watch} />
+          {isAdmin && !youtube && (
+            <a className="text-sm pl-1 -mt-2 text-blue-500 hover:underline" href={`https://www.youtube.com/results?search_query=${name}&sp=EgIQAg%253D%253D`} target="_blank">
+              Search {name} on YouTube
+            </a>
+          )}
           <BuilderSocialMediaField field="github" icon={<GithubIcon />} label="GitHub Account" register={register} errors={errors} setValue={setValue} watch={watch} />
+          {isAdmin && !github && (
+            <a className="text-sm pl-1 -mt-2 text-blue-500 hover:underline" href={`https://github.com/search?q=${name}&type=users`} target="_blank">
+              Search {name} on Github
+            </a>
+          )}
           <BuilderSocialMediaField field="reddit" icon={<RedditIcon />} label="Reddit Account" register={register} errors={errors} setValue={setValue} watch={watch} />
           <BuilderSocialMediaField field="producthunt" icon={<ProductHuntIcon />} label="Product Hunt Account" register={register} errors={errors} setValue={setValue} watch={watch} />
+          {isAdmin && !producthunt && (
+            <a className="text-sm pl-1 -mt-2 text-blue-500 hover:underline" href={`https://www.producthunt.com/search/users?q=${encodeURIComponent(name)}`} target="_blank">
+              Search {name} on Product Hunt
+            </a>
+          )}
         </div>
       </div>
 

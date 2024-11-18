@@ -4,18 +4,18 @@ import { BuilderSubmission } from "@/app/_types"
 import { useState, useEffect } from "react"
 import { Card, CardContent } from "@/components/ui/card"
 import BuilderReviewForm from "./builder-review-form"
+import { useBuilderProfileSubmissionReviewSubmit } from "@/components/hooks/useBuilderProfileSubmissionReviewSubmit"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { useBuilderProfileReviewSubmit } from "@/components/hooks/useBuilderProfileReviewSubmit"
 
-export default function BuilderReview() {
+export default function BuilderReviewSubmission() {
   const [submissions, setSubmissions] = useState<BuilderSubmission[]>([])
   const [error, setError] = useState("")
 
   useEffect(() => {
     const loadSubmissions = async () => {
       try {
-        const response = await fetch(`/api/admin/data/builders/new/load`)
+        const response = await fetch("/api/admin/submission/load")
         if (!response.ok) throw new Error("Failed to load builder.")
         const data: BuilderSubmission[] = await response.json()
 
@@ -42,7 +42,7 @@ export default function BuilderReview() {
     loadSubmissions()
   }, [])
 
-  const { onSubmit, isLoading } = useBuilderProfileReviewSubmit()
+  const { onSubmit, isLoading } = useBuilderProfileSubmissionReviewSubmit()
 
   return (
     <>

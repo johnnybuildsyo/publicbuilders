@@ -1,5 +1,4 @@
-"use client"
-
+import { usePathname } from "next/navigation"
 import { useState } from "react"
 import { useForm } from "react-hook-form"
 import { zodResolver } from "@hookform/resolvers/zod"
@@ -17,6 +16,9 @@ type BuilderProfileFormProps = {
 }
 
 export default function BuilderReviewForm({ isLoading, onSubmit, defaultValues, submissionId }: BuilderProfileFormProps): JSX.Element {
+  const pathname = usePathname()
+  const isSubmission = pathname.includes("admin/approve")
+
   const [rejectReason, setRejectReason] = useState<undefined | string>(undefined)
   const {
     register,
@@ -24,19 +26,21 @@ export default function BuilderReviewForm({ isLoading, onSubmit, defaultValues, 
     formState: { errors },
     setValue,
     watch,
+    control,
   } = useForm<FormData>({
     resolver: zodResolver(formSchema),
     defaultValues,
   })
 
   const handleApprove = handleSubmit((data) => onSubmit(data, "approve", submissionId))
-  const handleReject = handleSubmit((data) => {
-    if (rejectReason) {
-      onSubmit(data, "reject", submissionId, rejectReason)
+  const handleReject = async () => {
+    if (rejectReason || !isSubmission) {
+      // Skip validation for reject
+      await onSubmit(defaultValues, "reject", submissionId, rejectReason)
     } else {
       setRejectReason("")
     }
-  })
+  }
 
   return (
     <form className="space-y-6">
@@ -65,7 +69,7 @@ export default function BuilderReviewForm({ isLoading, onSubmit, defaultValues, 
         </div>
       ) : (
         <>
-          <BuilderProfileFields {...{ register, errors, setValue, watch }} />
+          <BuilderProfileFields {...{ register, errors, setValue, watch, control }} />
           <div className="flex justify-end items-center gap-8">
             {isLoading ? (
               <Spinner containerClassName="pr-2" className="fill-fuchsia-600" />

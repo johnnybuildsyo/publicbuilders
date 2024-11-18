@@ -1590,5 +1590,141 @@
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/donnell.jpg",
     "imageOffset": "30%",
     "created": "2024-11-16T19:21:58.061Z"
+  },
+  {
+    "name": "Romain de Wolff",
+    "description": "Digital product entrepreneur building in public and sharing the learnings, ups and downs.",
+    "twitter": {
+      "handle": "https://x.com/romaindewolff",
+      "url": "https://x.com/romaindewolff",
+      "followers": 4253
+    },
+    "youtube": {
+      "handle": ""
+    },
+    "twitch": {
+      "handle": ""
+    },
+    "github": {
+      "handle": "https://github.com/rdewolff",
+      "followers": 370
+    },
+    "bluesky": {
+      "handle": ""
+    },
+    "reddit": {
+      "handle": ""
+    },
+    "producthunt": {
+      "handle": ""
+    },
+    "website": "https://www.dewolff.co/",
+    "tags": [
+      ""
+    ],
+    "currentProject": {
+      "name": "Whisperit",
+      "description": "Law/Legal Service for secure AI dictation and editing tools",
+      "link": "https://whisperit.ch",
+      "tags": [
+        "legal",
+        "ai",
+        "dictation"
+      ]
+    },
+    "created": "2024-11-18T22:18:27.379Z",
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/romaindewolff.jpg"
+  },
+  {
+    "name": "Dom - Micro SaaS Guy",
+    "description": "Non-tech guy with 8 Micro Exits in the SaaS World as side projects.",
+    "twitter": {
+      "handle": "https://x.com/DG_9_6",
+      "url": "https://x.com/DG_9_6",
+      "followers": 3770
+    },
+    "youtube": {
+      "handle": ""
+    },
+    "twitch": {
+      "handle": ""
+    },
+    "github": {
+      "handle": ""
+    },
+    "bluesky": {
+      "handle": ""
+    },
+    "reddit": {
+      "handle": ""
+    },
+    "producthunt": {
+      "handle": ""
+    },
+    "website": "https://bio.link/domenico96",
+    "writing": "https://medium.com/feed/@gagliardidomenico",
+    "tags": [
+      "nocode",
+      "saas",
+      "seo"
+    ],
+    "currentProject": {
+      "name": "RankFaster",
+      "description": "Affordable SEO toolkit designed to improve your organic reach and drive revenue growth.",
+      "link": "https://www.rankfaster.pro",
+      "tags": [
+        "seo",
+        "tool",
+        "marketing"
+      ]
+    },
+    "created": "2024-11-18T22:18:27.383Z",
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/DG_9_6.jpg"
+  },
+  {
+    "name": "Jamie Peak",
+    "description": "Designer launching multiple projects obsessed with crafting beautiful experiences.",
+    "twitter": {
+      "handle": "https://x.com/JamiePeak",
+      "url": "https://x.com/JamiePeak",
+      "followers": 6801
+    },
+    "youtube": {
+      "handle": ""
+    },
+    "twitch": {
+      "handle": ""
+    },
+    "github": {
+      "handle": ""
+    },
+    "bluesky": {
+      "handle": ""
+    },
+    "reddit": {
+      "handle": ""
+    },
+    "producthunt": {
+      "handle": "https://www.producthunt.com/@jamiepeak",
+      "followers": 673
+    },
+    "website": "https://jamiepeak.co.uk",
+    "tags": [
+      "designer",
+      "ux"
+    ],
+    "currentProject": {
+      "name": "Startt",
+      "description": "Create a coming soon page for your startup in seconds",
+      "link": "https://www.startt.co/",
+      "tags": [
+        "startup",
+        "tool",
+        "landingpages"
+      ]
+    },
+    "created": "2024-11-18T22:18:27.383Z",
+    "imageOffset": "25%",
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/JamiePeak.jpg"
   }
 ]

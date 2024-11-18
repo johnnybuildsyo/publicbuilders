@@ -37,6 +37,7 @@ export default function BuilderProfileForm({ isLoading, onSubmit }: BuilderProfi
     formState: { errors },
     setValue,
     watch,
+    control,
   } = useForm<FormData>({
     resolver: zodResolver(formSchema),
     defaultValues: {
@@ -79,7 +80,7 @@ export default function BuilderProfileForm({ isLoading, onSubmit }: BuilderProfi
       </div>
 
       <div className={`transition-all ease-in-out duration-500 ${allInitialChecked ? "" : "opacity-30 pointer-events-none"}`}>
-        <BuilderProfileFields {...{ register, errors, setValue, watch }} />
+        <BuilderProfileFields {...{ register, errors, setValue, watch, control }} />
       </div>
 
       <div className="w-full flex justify-end">

@@ -1,4 +1,4 @@
-import BuilderReview from "@/components/views/admin/builder-review"
+import BuilderReviewSubmission from "@/components/views/admin/builder-review-submission"
 
 export default function ApproveBuilderPage() {
   if (process.env.NODE_ENV !== "development") {
@@ -8,7 +8,7 @@ export default function ApproveBuilderPage() {
   return (
     <div className="flex flex-col items-center min-h-screen py-12 w-full bg-foreground/5">
       <h1 className="font-extrabold text-4xl">Review Submissions</h1>
-      <BuilderReview />
+      <BuilderReviewSubmission />
     </div>
   )
 }

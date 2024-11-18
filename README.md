@@ -36,6 +36,7 @@ Add 2 builders per day and ping each on social media. Wait for traction...
 - Show a list of posts
 - Show a list of repos
 - Use AI to analyze Bing Search API and provide insights
+- Podcast
 
 
 ----
@@ -44,6 +45,29 @@ Add 2 builders per day and ping each on social media. Wait for traction...
 [Generate Commit Stats](https://gist.github.com/johnnybuildsyo/16a77a2f20970cc054a07b53b7f900f1)
 
 Watch me [iterate with ChatGPT](https://chatgpt.com/share/672e9d92-5d28-8009-a2b2-d218036d322a)
+
+--
+
+**2024-11-17**  
+🔎 Finished playwright automation to find #buildinpublic people   
+⤴️ Finished playwright automation to extract data    
+⏩ Improved new builder approval flow   
+🌐 62 𝕏 54 🦋 117   
+
+--
+
+**2024-11-16**  
+🎉 Approved first real applications to join (4 of them)   
+🐛 Fixed bugs in application and approval process      
+🌐 31  𝕏 54  🦋 111  
+
+--
+
+**2024-11-15**  
+👽 Promoted on Reddit  
+⚙️ Started writing automation scripts (aka secret sauce)   
+🌐 8  𝕏 52  🦋 105  
+📄 3 ➕ 33 ➖ 2 
 
 --
 
@@ -162,6 +186,15 @@ PublicBuilders #buildinpublic Day 10
 😎 Updated [JohnnyBuilds.com](https://johnnybuilds.com) project status  
 ⏫ Files changed: 86, Lines added: 12129, Lines deleted: 697
 
+----
+
+### Newsletter Plan
+
+Sections:
+- News
+- Launches
+- Featured Builder of the Week
+- New Builders
 
 ----
 

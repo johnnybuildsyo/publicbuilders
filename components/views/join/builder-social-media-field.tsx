@@ -83,7 +83,7 @@ export default function BuilderSocialMediaField({ field, icon, label, register, 
         />
       </div>
       {handle && (
-        <a href={url} target="_blank" rel="noopener noreferrer" className="text-sm -mt-2 text-blue-500 hover:underline">
+        <a href={url} target="_blank" rel="noopener noreferrer" className="text-sm ml-1 -mt-2 text-blue-500 hover:underline">
           {url.replace("https://", "")}
         </a>
       )}

@@ -1,47 +1,27 @@
 import { useState } from "react";
 import { FormData } from "@/app/_types";
 
-type ReviewAction = "approve" | "reject";
-
-interface RequestBody {
-  action: ReviewAction;
-  id: string;
-  rejectReason?: string;
-  data?: FormData;
-}
-
-export function useBuilderProfileReviewSubmit() {
+export function useBuilderProfileSubmissionReviewSubmit() {
   const [isLoading, setIsLoading] = useState(false);
 
-  const onSubmit = async (
-    data: FormData,
-    action: ReviewAction,
-    submissionId: string,
-    rejectReason?: string
-  ) => {
+  const onSubmit = async (data: FormData, action: "approve" | "reject", submissionId: string, rejectReason?: string) => { 
     setIsLoading(true);
 
     try {
-      const requestBody: RequestBody = {
-        action,
-        id: submissionId,
-        rejectReason,
-      };
-
-      if (action === "approve") {
-        // Include form data only when approving
-        requestBody.data = data;
-      }
-
-      const response = await fetch("/api/admin/data/builders/new/review", {
+      const response = await fetch("/api/admin/submission/review", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(requestBody),
+        body: JSON.stringify({
+          ...data,
+          action,
+          id: submissionId,
+          rejectReason
+        }),
       });
 
       const result = await response.json();
 
-      if (!response.ok || !result.ok) {
+      if (!result.ok) {
         console.error("Error submitting form:", result.error);
         alert(`Error: ${result.error}`);
         return;

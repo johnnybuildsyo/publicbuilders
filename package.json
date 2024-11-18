@@ -1,7 +1,7 @@
 {
   "name": "publicbuilders",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "type": "module",
   "scripts": {
     "dev": "next dev",
@@ -14,7 +14,8 @@
     "timestamps": "node ./scripts/addTimestamps.js",
     "new": "node ./scripts/addProfilePics.js && node ./scripts/addTimestamps.js",
     "news": "node ./secretsauce/scripts/mockFetchNews.js",
-    "fetchWeb": "node ./secretsauce/scripts/fetchWebsiteUpdates.js"
+    "fetchWeb": "node ./secretsauce/scripts/fetchWebsiteUpdates.js",
+    "automate": "npx playwright test --ui"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.685.0",
