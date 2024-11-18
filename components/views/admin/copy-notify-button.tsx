@@ -6,7 +6,7 @@ import { CheckIcon, CopyIcon } from "lucide-react"
 
 export default function CopyNotifyButton() {
   const [isCopied, setIsCopied] = useState(false)
-  const textToCopy = "I added you to my Public Builders Directory of #buildinpublic people — hope that's cool https://publicbuilders.org/recent"
+  const textToCopy = "I added you to my Public Builders Directory of #buildinpublic people — hope that's cool! https://publicbuilders.org/recent"
 
   const copyToClipboard = async () => {
     try {
