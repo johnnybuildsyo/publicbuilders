@@ -1,0 +1,43 @@
+{
+  "name": "Yogendra Manawat",
+  "description": "Building videoaiditor.com",
+  "twitter": {
+    "url": "https://x.com/YogendraManawat",
+    "followers": 171
+  },
+  "youtube": {
+    "url": "https://www.youtube.com/@yogendramanawat/",
+    "followers": 32
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://yogendramanawat.com",
+  "tags": [
+    "ai",
+    "saas",
+    "b2b"
+  ],
+  "currentProject": {
+    "name": "Video AIditor",
+    "description": "Video Editing API for AI Video Platforms",
+    "link": "https://videoaiditor.com",
+    "tags": [
+      "api",
+      "ai video",
+      "saas"
+    ]
+  }
+}
