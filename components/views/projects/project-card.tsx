@@ -13,11 +13,14 @@ export function ProjectCard({ builder, variant = "card" }: { builder: Builder; v
   const project = builder.currentProject
 
   return (
-    <Card key={builder.name} className={cn("flex flex-col", variant === "page" && "rounded-none border-none shadow-none mb-24")}>
+    <Card key={builder.name} className={cn("flex flex-col", variant === "page" && "rounded-none sm:rounded-lg w-full max-w-6xl mx-auto -mt-16 mb-24 py-12")}>
       {project && (
         <>
-          <CardHeader className={cn("relative pb-2", variant === "page" && "flex items-center -mt-24")}>
-            <Link href={project.link} className={cn("relative -mx-6 -mt-6 mb-4 bg-gray-200 overflow-hidden", variant === "page" ? "rounded-lg aspect-video border" : "h-48 rounded-t-lg border-b")}>
+          <CardHeader className={cn("relative pb-2", variant === "page" && "flex items-center")}>
+            <Link
+              href={project.link}
+              className={cn("relative -mx-6 -mt-6 mb-4 bg-gray-200 overflow-hidden", variant === "page" ? "w-full max-w-3xl rounded-lg aspect-video border shadow-lg" : "h-48 rounded-t-lg border-b")}
+            >
               {project.image ? (
                 <Image
                   fill={true}
@@ -69,7 +72,7 @@ export function ProjectCard({ builder, variant = "card" }: { builder: Builder; v
             </div>
 
             <div className={cn("pt-4 border-t", variant === "page" && "mt-8")}>
-              <h3 className="text-lg font-semibold text-center">Builder</h3>
+              <h3 className="text-center text-fuchsia-600">#builtinpublic by…</h3>
               <Link href={`/profile/${slugify(builder.name, { lower: true })}`}>
                 <div className="flex items-center justify-center mt-4">
                   {builder.image ? (

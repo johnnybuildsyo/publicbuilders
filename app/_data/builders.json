@@ -36,48 +36,6 @@
     "created": "2024-11-12T13:21:53.617Z"
   },
   {
-    "name": "Chris Coyier",
-    "description": "Co-founder of CodePen. Podcast host of ShopTalk Show. Founder of CSS-Tricks",
-    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/chriscoyier.jpg",
-    "imageOffset": "",
-    "producthunt": {
-      "url": "https://www.producthunt.com/@chriscoyier",
-      "followers": 22859
-    },
-    "twitter": {
-      "url": "https://x.com/chriscoyier",
-      "followers": 245222
-    },
-    "bluesky": {
-      "url": "https://bsky.app/profile/chriscoyier.net",
-      "followers": 6900
-    },
-    "github": {
-      "url": "https://github.com/chriscoyier",
-      "followers": 10900
-    },
-    "writing": "https://chriscoyier.net/feed/",
-    "podcast": "https://shoptalkshow.com/",
-    "website": "https://chriscoyier.net/",
-    "tags": [
-      "frontend",
-      "podcast",
-      "webdev"
-    ],
-    "currentProject": {
-      "name": "CodePen",
-      "description": "Online code editor and front end web developer community",
-      "link": "https://codepen.io/",
-      "tags": [
-        "community",
-        "webdev",
-        "dev tools"
-      ],
-      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/chris_coyier_project_screenshot.png"
-    },
-    "created": "2024-11-12T13:21:53.621Z"
-  },
-  {
     "name": "Mac Martine",
     "description": "Runs the SaaS bootstrapper newsletter with behind-the-scenes from his journey to 7 figures",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/saasmakermac.jpg",

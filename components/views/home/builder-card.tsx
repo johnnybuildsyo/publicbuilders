@@ -20,25 +20,27 @@ export function BuilderCard({ builder, variant = "card" }: { builder: Builder; v
             variant === "page" ? "rounded-full w-72 h-72 border-8 border-background shadow-lg ring-1 ring-fuchsia-400/70" : "h-48 rounded-t-lg border-b"
           )}
         >
-          {builder.image ? (
-            <Image
-              fill={true}
-              src={builder.image}
-              alt={`Profile picture of ${builder.name}`}
-              className="w-full h-full object-cover"
-              style={{
-                objectPosition: `center ${builder.imageOffset || "50%"}`,
-              }}
-              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-            />
-          ) : (
-            <div className="w-full h-full flex items-center justify-center text-4xl font-bold text-foreground/50">
-              {builder.name
-                .split(" ")
-                .map((n) => n[0])
-                .join("")}
-            </div>
-          )}
+          <Link href={`/profile/${slugify(builder.name, { lower: true })}`}>
+            {builder.image ? (
+              <Image
+                fill={true}
+                src={builder.image}
+                alt={`Profile picture of ${builder.name}`}
+                className="w-full h-full object-cover"
+                style={{
+                  objectPosition: `center ${builder.imageOffset || "50%"}`,
+                }}
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              />
+            ) : (
+              <div className="w-full h-full flex items-center justify-center text-4xl font-bold text-foreground/50">
+                {builder.name
+                  .split(" ")
+                  .map((n) => n[0])
+                  .join("")}
+              </div>
+            )}
+          </Link>
         </div>
         {variant === "page" && (
           <div className="absolute top-24 right-8 hidden lg:block">
@@ -58,7 +60,7 @@ export function BuilderCard({ builder, variant = "card" }: { builder: Builder; v
             <div className="flex justify-center -mt-2 mb-2">
               <Link href={`/profile/${slugify(builder.name, { lower: true })}`}>
                 <Button size="sm" className="mb-2 h-auto py-1 pr-2 scale-90 bg-fuchsia-700 hover:bg-fuchsia-600 transition-all ease-in-out duration-300">
-                  view profile <UserIcon className="scale-75 -ml-1" />
+                  view profile <UserIcon className="scale-90 -ml-1" />
                 </Button>
               </Link>
             </div>

@@ -27,9 +27,11 @@ export function ProjectList({ builders, page, numPages }: { builders: Builder[];
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="flex flex-wrap justify-center items-center">
         {filteredBuilders.map((builder, index) => (
-          <ProjectCard builder={builder} key={builder.name + index} />
+          <div key={builder.name + index} className="w-full sm:w-1/2 md:w-1/3 px-4">
+            <ProjectCard builder={builder} />
+          </div>
         ))}
       </div>
 

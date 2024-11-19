@@ -31,9 +31,11 @@ export function BuilderList({ builders, sort, page, numPages }: { builders: Buil
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="flex flex-wrap justify-center items-center">
         {filteredBuilders.map((builder, index) => (
-          <BuilderCard builder={builder} key={builder.name + index} />
+          <div key={builder.name + index} className="w-full sm:w-1/2 md:w-1/3 px-4">
+            <BuilderCard builder={builder} />
+          </div>
         ))}
       </div>
 
