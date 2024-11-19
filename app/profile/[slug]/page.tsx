@@ -3,6 +3,7 @@ import { SHARE_IMAGE, builders } from "@/app/_data"
 import Profile from "@/components/views/profile"
 import { reverseSlugify } from "@/lib/utils"
 import slugify from "slugify"
+import { breadcrumbJsonLd as breadcrumb } from "@/app/_util"
 
 export async function generateMetadata(props: { params: Promise<{ slug: string }> }) {
   const { slug } = await props.params
@@ -58,53 +59,7 @@ export default async function ProfilePage(props: { params: Promise<{ slug: strin
       name: "Build In Public | " + builder.name,
       url: "https://publicbuilders.org/resources",
       description: `Public Builder profile for ${builder.name}. PublicBuilders.org is a directory of top build in public founders, creators, makers and indie hackers sharing their journey. Discover who is doing #buildinpublic on YouTube, GitHub, Twitch, Twitter, Bluesky and more.`,
-      breadcrumb: {
-        "@type": "BreadcrumbList",
-        itemListElement: [
-          {
-            "@type": "ListItem",
-            position: 1,
-            name: "Home",
-            item: "https://publicbuilders.org",
-          },
-          {
-            "@type": "ListItem",
-            position: 2,
-            name: "Resources",
-            item: "https://publicbuilders.org/resources",
-          },
-          {
-            "@type": "ListItem",
-            position: 3,
-            name: "Join",
-            item: "https://publicbuilders.org/join",
-          },
-          {
-            "@type": "ListItem",
-            position: 4,
-            name: "Top Public Builders on Twitter",
-            item: "https://publicbuilders.org/twitter",
-          },
-          {
-            "@type": "ListItem",
-            position: 5,
-            name: "Top Public Builders on Bluesky",
-            item: "https://publicbuilders.org/bluesky",
-          },
-          {
-            "@type": "ListItem",
-            position: 6,
-            name: "Top Public Builders on GitHub",
-            item: "https://publicbuilders.org/github",
-          },
-          {
-            "@type": "ListItem",
-            position: 7,
-            name: "Top Public Builders on YouTube",
-            item: "https://publicbuilders.org/youtube",
-          },
-        ],
-      },
+      breadcrumb,
     }
   }
 

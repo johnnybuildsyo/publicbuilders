@@ -4,6 +4,7 @@ import { APP_ICON, SHARE_IMAGE_RESOURCES } from "../_data"
 import { Resources } from "@/components/views/home/resources"
 import { ReactElement } from "react"
 import ReactMarkdown from "react-markdown"
+import { breadcrumbJsonLd as breadcrumb } from "../_util"
 
 const description = "Resources for indie makers, startup founders and ambitious entrepreneurs who are building in public, including tools, articles, communities, newsletters, podcasts and more."
 
@@ -56,53 +57,7 @@ export default async function ResourcesPage(): Promise<ReactElement> {
     name: "Build In Public Resources",
     url: "https://publicbuilders.org/resources",
     description,
-    breadcrumb: {
-      "@type": "BreadcrumbList",
-      itemListElement: [
-        {
-          "@type": "ListItem",
-          position: 1,
-          name: "Home",
-          item: "https://publicbuilders.org",
-        },
-        {
-          "@type": "ListItem",
-          position: 2,
-          name: "Resources",
-          item: "https://publicbuilders.org/resources",
-        },
-        {
-          "@type": "ListItem",
-          position: 3,
-          name: "Join",
-          item: "https://publicbuilders.org/join",
-        },
-        {
-          "@type": "ListItem",
-          position: 4,
-          name: "Top Public Builders on Twitter",
-          item: "https://publicbuilders.org/twitter",
-        },
-        {
-          "@type": "ListItem",
-          position: 5,
-          name: "Top Public Builders on Bluesky",
-          item: "https://publicbuilders.org/bluesky",
-        },
-        {
-          "@type": "ListItem",
-          position: 6,
-          name: "Top Public Builders on GitHub",
-          item: "https://publicbuilders.org/github",
-        },
-        {
-          "@type": "ListItem",
-          position: 7,
-          name: "Top Public Builders on YouTube",
-          item: "https://publicbuilders.org/youtube",
-        },
-      ],
-    },
+    breadcrumb,
   }
 
   return (

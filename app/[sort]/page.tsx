@@ -2,6 +2,7 @@ import { WebPage, WithContext } from "schema-dts"
 import Home from "@/components/views/home"
 import { SHARE_IMAGE } from "../_data"
 import { getTitleCaseSocial } from "@/lib/utils"
+import { breadcrumbJsonLd as breadcrumb } from "../_util"
 
 const description =
   "Public Builders is a directory for finding builders who are actively and consistently building in public. Browse founders, makers, creators and entrepreneurs who #buildinpublic on Twitter, Bluesky, GitHub, YouTube, and more."
@@ -32,29 +33,7 @@ export default async function HomePage(props: { params: Promise<{ sort: string }
     name: "Top Public Builders on " + getTitleCaseSocial(sort),
     url: "https://publicbuilders.org/" + sort,
     description,
-    breadcrumb: {
-      "@type": "BreadcrumbList",
-      itemListElement: [
-        {
-          "@type": "ListItem",
-          position: 1,
-          name: "Home",
-          item: "https://publicbuilders.org",
-        },
-        {
-          "@type": "ListItem",
-          position: 2,
-          name: "Resources",
-          item: "https://publicbuilders.org/resources",
-        },
-        {
-          "@type": "ListItem",
-          position: 3,
-          name: "Join",
-          item: "https://publicbuilders.org/join",
-        },
-      ],
-    },
+    breadcrumb,
   }
 
   return (
