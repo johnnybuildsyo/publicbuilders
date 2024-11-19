@@ -17,7 +17,7 @@ export function ProjectCard({ builder, variant = "card" }: { builder: Builder; v
       {project && (
         <>
           <CardHeader className={cn("relative pb-2", variant === "page" && "flex items-center -mt-24")}>
-            <div className={cn("relative -mx-6 -mt-6 mb-4 bg-gray-200 overflow-hidden", variant === "page" ? "rounded-lg aspect-video border" : "h-48 rounded-t-lg border-b")}>
+            <Link href={project.link} className={cn("relative -mx-6 -mt-6 mb-4 bg-gray-200 overflow-hidden", variant === "page" ? "rounded-lg aspect-video border" : "h-48 rounded-t-lg border-b")}>
               {project.image ? (
                 <Image
                   fill={true}
@@ -37,7 +37,7 @@ export function ProjectCard({ builder, variant = "card" }: { builder: Builder; v
                     .join("")}
                 </div>
               )}
-            </div>
+            </Link>
             <CardTitle className={cn("text-center tracking-wide text-balance", variant === "card" ? "text-2xl font-extrabold" : "text-4xl font-black")}>
               {variant === "card" ? (
                 <Link href={project.link} target="_blank">
@@ -59,10 +59,12 @@ export function ProjectCard({ builder, variant = "card" }: { builder: Builder; v
                 ))}
               </div>
               <div className="flex justify-center mt-4">
-                <Button size="sm" className="px-3 py-1 text-xs">
-                  Open Project
-                  <ExternalLink className="ml-1 h-3 w-3 opacity-50" />
-                </Button>
+                <Link href={project.link} target="_blank" className="flex items-center">
+                  <Button size="sm" className="px-3 py-1 text-xs">
+                    Open Project
+                    <ExternalLink className="ml-1 h-3 w-3 opacity-50" />
+                  </Button>
+                </Link>
               </div>
             </div>
 
