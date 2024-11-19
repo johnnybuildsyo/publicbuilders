@@ -6,6 +6,7 @@ import { Builder } from "@/app/_types"
 import { BuilderCard } from "./builder-card"
 import { BuilderSortSelect } from "./builder-sort-select"
 import { Pagination, PaginationContent, PaginationItem, PaginationLink, PaginationNext, PaginationPrevious } from "@/components/ui/pagination"
+import { cn } from "@/lib/utils"
 
 export function BuilderList({ builders, sort, page, numPages }: { builders: Builder[]; sort?: string; page: number; numPages: number }) {
   const [searchTerm, setSearchTerm] = useState("")
@@ -31,11 +32,15 @@ export function BuilderList({ builders, sort, page, numPages }: { builders: Buil
         </div>
       </div>
 
-      <div className="flex flex-wrap justify-center items-center">
+      <div
+        className={cn(
+          "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8",
+          filteredBuilders.length === 1 && "md:grid-cols-1 lg:grid-cols-1 max-w-[640px] mx-auto",
+          filteredBuilders.length === 2 && "md:grid-cols-2 lg:grid-cols-2"
+        )}
+      >
         {filteredBuilders.map((builder, index) => (
-          <div key={builder.name + index} className="w-full sm:w-1/2 md:w-1/3 px-4">
-            <BuilderCard builder={builder} />
-          </div>
+          <BuilderCard builder={builder} key={builder.name + index} />
         ))}
       </div>
 

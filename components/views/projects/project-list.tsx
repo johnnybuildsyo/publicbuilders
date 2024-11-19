@@ -1,4 +1,5 @@
 "use client"
+import { cn } from "@/lib/utils"
 import { useState } from "react"
 import { Input } from "@/components/ui/input"
 import { Search } from "lucide-react"
@@ -27,11 +28,15 @@ export function ProjectList({ builders, page, numPages }: { builders: Builder[];
         </div>
       </div>
 
-      <div className="flex flex-wrap justify-center items-center">
+      <div
+        className={cn(
+          "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8",
+          filteredBuilders.length === 1 && "md:grid-cols-1 lg:grid-cols-1 max-w-[640px] mx-auto",
+          filteredBuilders.length === 2 && "md:grid-cols-2 lg:grid-cols-2"
+        )}
+      >
         {filteredBuilders.map((builder, index) => (
-          <div key={builder.name + index} className="w-full sm:w-1/2 md:w-1/3 px-4">
-            <ProjectCard builder={builder} />
-          </div>
+          <ProjectCard key={builder.name + index} builder={builder} />
         ))}
       </div>
 
