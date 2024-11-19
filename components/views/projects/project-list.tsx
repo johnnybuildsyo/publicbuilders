@@ -39,15 +39,15 @@ export function ProjectList({ builders, page, numPages }: { builders: Builder[];
             <Pagination>
               <PaginationContent>
                 <PaginationItem className={page === 1 ? "opacity-0 pointer-events-none" : ""}>
-                  <PaginationPrevious href={page > 1 ? `projects/page/${page - 1}#directory` : "#directory"} />
+                  <PaginationPrevious href={page > 1 ? `/projects/page/${page - 1}#directory` : "#directory"} />
                 </PaginationItem>
                 {Array.from({ length: numPages }, (_, i) => (
                   <PaginationItem key={i + 1}>
-                    <PaginationLink href={`projects/page/${i + 1}#directory`}>{i + 1}</PaginationLink>
+                    <PaginationLink href={`/projects/page/${i + 1}#directory`}>{i + 1}</PaginationLink>
                   </PaginationItem>
                 ))}
                 <PaginationItem className={page === numPages ? "opacity-0 pointer-events-none" : ""}>
-                  <PaginationNext href={page < numPages ? `projects/page/${page + 1}#directory` : "#directory"} />
+                  <PaginationNext href={page < numPages ? `/projects/page/${page + 1}#directory` : "#directory"} />
                 </PaginationItem>
               </PaginationContent>
             </Pagination>

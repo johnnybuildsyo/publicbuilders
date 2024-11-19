@@ -176,13 +176,13 @@
     "currentProject": {
       "name": "Llama Life",
       "description": "Productivity app that helps users manage their time and focus on one task at a time",
-      "link": "https://llama.co",
+      "link": "https://llamalife.co/",
       "tags": [
         "productivity",
         "focus",
         "task management"
       ],
-      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/marie_ng_project_screenshot.png"
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/llamalife.png"
     },
     "created": "2024-11-12T13:21:53.622Z"
   },
@@ -433,7 +433,7 @@
         "community",
         "platform"
       ],
-      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/steph_smith_project_screenshot.png"
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/internetpipes.png"
     },
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/stephsmithio.jpg",
     "imageOffset": "40%",
@@ -597,7 +597,8 @@
       "url": "https://www.youtube.com/eddiejaoude",
       "followers": 46100
     },
-    "website": "https://eddiehub.org",
+    "website": "https://www.eddiejaoude.io/",
+    "newsletter": "https://eddiejaoude.substack.com/archive",
     "writing": "https://substack.com/@eddiejaoude",
     "description": "Open-source advocate, building in public and fostering inclusive communities.",
     "tags": [
@@ -606,14 +607,15 @@
       "community"
     ],
     "currentProject": {
-      "name": "EddieHub",
-      "description": "Community aimed at promoting open-source collaboration and inclusivity.",
-      "link": "https://eddiehub.org",
+      "name": "The Open Source Expert",
+      "description": "The Open Source Expert is a reader-supported publication from an open source fullstack developer focusing on Javascript, Typescript and DevOps.",
+      "link": "https://eddiejaoude.substack.com/",
       "tags": [
         "open source",
         "community",
         "collaboration"
-      ]
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/eddie_jaoude_project_screenshot.png"
     },
     "created": "2024-11-12T13:21:53.622Z"
   },
@@ -1098,6 +1100,7 @@
       "name": "Public Builders",
       "description": "Discover Who’s Building in Public. Find indie hackers, startup starters and ambitious makers of all kinds.",
       "link": "https://publicbuilders.org",
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/publicbuilders.png",
       "tags": [
         "directory",
         "buildinpublic"
@@ -1462,7 +1465,7 @@
         "Productivity",
         "PKM"
       ],
-      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/aravind_samala_project_screenshot.png"
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/memotron.png"
     },
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/21nfellow.jpg",
     "created": "2024-11-16T18:49:34.647Z"
@@ -1560,7 +1563,7 @@
         "screenrecording",
         "webtool"
       ],
-      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/tanmay_m_project_screenshot.png"
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/filmify.png"
     },
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/mtanmaym.jpg",
     "created": "2024-11-16T19:21:58.056Z"
@@ -1659,7 +1662,7 @@
         "ai",
         "dictation"
       ],
-      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/romain_de_wolff_project_screenshot.png"
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/whisperit.png"
     },
     "created": "2024-11-18T22:18:27.379Z",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/romaindewolff.jpg"
@@ -1706,7 +1709,7 @@
         "tool",
         "marketing"
       ],
-      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/dom_-_micro_saas_guy_project_screenshot.png"
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/rankfaster.png"
     },
     "created": "2024-11-18T22:18:27.383Z",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/DG_9_6.jpg"
