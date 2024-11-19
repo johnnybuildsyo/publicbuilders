@@ -6,7 +6,7 @@ export function BuilderDirectory({ builders, sort, page, numPages }: { builders:
   let subhead = `A list of the top people building in public${sort ? ` on ${getTitleCaseSocial(sort)}` : ", including social links, follower counts, current projects and more"}.`
 
   if (sort === "recent") {
-    subhead = "A list of the most recently added public builders."
+    subhead = "A list of the most recently added public builders, including social links, follower counts, current projects and more."
   }
 
   return (

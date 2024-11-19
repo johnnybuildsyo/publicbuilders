@@ -46,6 +46,14 @@ Add 2 builders per day and ping each on social media. Wait for traction...
 
 Watch me [iterate with ChatGPT](https://chatgpt.com/share/672e9d92-5d28-8009-a2b2-d218036d322a)
 
+
+--
+
+**2024-11-18**  
+📸 Added current project website screenshots     
+📋 Added directory of projects list
+🌐 62 𝕏 54 🦋 117   
+
 --
 
 **2024-11-17**  

@@ -7,6 +7,7 @@ import { ExternalLink } from "lucide-react"
 import { Builder } from "@/app/_types"
 import SocialMediaLinks from "../home/social-media-links"
 import { cn } from "@/lib/utils"
+import slugify from "slugify"
 
 export function ProjectCard({ builder, variant = "card" }: { builder: Builder; variant?: "card" | "page" }) {
   const project = builder.currentProject
@@ -59,7 +60,7 @@ export function ProjectCard({ builder, variant = "card" }: { builder: Builder; v
               </div>
               <div className="flex justify-center mt-4">
                 <Button size="sm" className="px-3 py-1 text-xs">
-                  View Project
+                  Open Project
                   <ExternalLink className="ml-1 h-3 w-3 opacity-50" />
                 </Button>
               </div>
@@ -67,21 +68,23 @@ export function ProjectCard({ builder, variant = "card" }: { builder: Builder; v
 
             <div className={cn("pt-4 border-t", variant === "page" && "mt-8")}>
               <h3 className="text-lg font-semibold text-center">Builder</h3>
-              <div className="flex items-center justify-center mt-4">
-                {builder.image ? (
-                  <div className="relative w-24 h-24 rounded-full overflow-hidden border">
-                    <Image src={builder.image} alt={`Profile picture of ${builder.name}`} fill={true} className="object-cover" />
-                  </div>
-                ) : (
-                  <div className="w-16 h-16 rounded-full bg-gray-200 flex items-center justify-center text-xl font-bold">
-                    {builder.name
-                      .split(" ")
-                      .map((n) => n[0])
-                      .join("")}
-                  </div>
-                )}
-              </div>
-              <p className="text-center mt-2 text-base font-medium">{builder.name}</p>
+              <Link href={`/profile/${slugify(builder.name, { lower: true })}`}>
+                <div className="flex items-center justify-center mt-4">
+                  {builder.image ? (
+                    <div className="relative w-24 h-24 rounded-full overflow-hidden border">
+                      <Image src={builder.image} alt={`Profile picture of ${builder.name}`} fill={true} className="object-cover" />
+                    </div>
+                  ) : (
+                    <div className="w-16 h-16 rounded-full bg-gray-200 flex items-center justify-center text-xl font-bold">
+                      {builder.name
+                        .split(" ")
+                        .map((n) => n[0])
+                        .join("")}
+                    </div>
+                  )}
+                </div>
+                <p className="text-center mt-2 text-base font-medium">{builder.name}</p>
+              </Link>
               <p className="text-center text-sm text-gray-500 text-balance pb-4">{builder.description}</p>
               <SocialMediaLinks builder={builder} />
             </div>

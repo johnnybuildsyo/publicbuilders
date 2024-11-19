@@ -14,7 +14,7 @@ export default function ProjectsHome({ page = 1 }: { page?: number }) {
   const endIndex = startIndex + PER_PAGE
 
   return (
-    <Main>
+    <Main variant="projects">
       <ProjectDirectory builders={buildersToShow.slice(startIndex, endIndex)} page={page} numPages={numPages} />
     </Main>
   )

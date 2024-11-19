@@ -25,7 +25,12 @@ export default function Header() {
           <ul className="flex flex-col md:flex-row md:space-x-8 mt-4 md:mt-0 space-y-2 md:space-y-0">
             <li>
               <Link href="/" className="transition-all ease-in-out duration-500 hover:border-b border-foreground/50 border-dotted">
-                Directory
+                Builders
+              </Link>
+            </li>
+            <li>
+              <Link href="/projects" className="transition-all ease-in-out duration-500 hover:border-b border-foreground/50 border-dotted">
+                Projects
               </Link>
             </li>
             <li>

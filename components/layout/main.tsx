@@ -3,14 +3,25 @@ import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { cn } from "@/lib/utils"
 
-export default function Main({ children, headerClassName }: { children: ReactNode; headerClassName?: string }) {
+export default function Main({ children, headerClassName, variant }: { children: ReactNode; headerClassName?: string; variant?: "default" | "projects" }) {
+  let subhead = "Find indie makers, startup founders and ambitious entrepreneurs doing #buildinpublic"
+  if (variant === "projects") {
+    subhead = "A list of current #buildinpublic projects from indie makers, startup founders and ambitious entrepreneurs."
+  }
+  let gradient = "from-purple-500 to-pink-500"
+  if (variant === "projects") {
+    gradient = "from-fuchsia-500 to-purple-500"
+  }
+
   return (
     <div className="flex flex-col min-h-screen">
       <main className="flex-grow">
-        <section className={cn("bg-gradient-to-r from-purple-500 to-pink-500 text-white py-20", headerClassName)}>
+        <section className={cn("bg-gradient-to-r text-white py-20", gradient, headerClassName)}>
           <div className="container mx-auto px-4 text-center">
-            <h1 className="text-4xl sm:pt-12 lg:pt-0 md:text-6xl font-bold mb-4 text-balance">Discover Who’s Who in the Build in Public Community</h1>
-            <p className="text-xl md:text-2xl mb-8 text-balance">Find indie makers, startup founders and ambitious entrepreneurs doing #buildinpublic</p>
+            <h1 className="text-4xl sm:pt-12 lg:pt-0 md:text-6xl font-bold mb-4 text-balance">
+              {variant === "projects" ? "Find Projects from" : "Discover Who’s Who in"} the Build in Public Community
+            </h1>
+            <p className="text-xl md:text-2xl mb-8 text-balance">{subhead}</p>
             <Button size="lg" asChild className="text-xl h-auto py-3 hover:scale-105 transition-all ease-in-out duration-300">
               <Link href="/join">Join the Directory</Link>
             </Button>

@@ -115,7 +115,7 @@ export function BuilderCard({ builder, variant = "card" }: { builder: Builder; v
               )}
               <div className="flex justify-center mt-4">
                 <Button size="sm" className="px-3 py-1 text-xs">
-                  View Project
+                  Open Project
                   <ExternalLink className="ml-1 h-3 w-3 opacity-50" />
                 </Button>
               </div>
