@@ -91,6 +91,11 @@ export function BuilderCard({ builder, variant = "card" }: { builder: Builder; v
                 </Badge>
               )}
               <div className="flex flex-col items-center mb-2">
+                {variant === "page" && builder.currentProject.image && (
+                  <div className="relative w-3/4 my-2 aspect-video overflow-hidden rounded-lg border">
+                    <Image src={builder.currentProject.image} fill={true} alt={"Screenshot of " + builder.currentProject.name} className="w-full h-auto max-w-2xl rounded-lg" />
+                  </div>
+                )}
                 <h3 className={cn("font-semibold text-center", variant === "page" && "font-normal text-2xl text-blue-700/80 hover:text-blue-600")}>{builder.currentProject.name}</h3>
                 {variant === "card" && (
                   <Badge variant="secondary" className="text-xs font-normal mt-1 bg-foreground/10 text-foreground/70 scale-90">

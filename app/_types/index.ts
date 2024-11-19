@@ -20,6 +20,7 @@ export type SocialMediaHandles = {
 export const projectSchema = z.object({
   name: z.string().min(1, "Name is required"),
   description: z.string().min(1, "Description is required"),
+  image: z.string().optional(),
   link: z.preprocess((value) => {
     if (typeof value === "string" && !value.startsWith("http")) {
       return `https://${value}`;
