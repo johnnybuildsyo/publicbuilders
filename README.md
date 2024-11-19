@@ -52,6 +52,7 @@ Watch me [iterate with ChatGPT](https://chatgpt.com/share/672e9d92-5d28-8009-a2b
 **2024-11-18**  
 📸 Added current project website screenshots     
 📋 Added directory of projects list
+🛳️ Wrote publish script to run generator scripts, commit, push and deploy
 🌐 62 𝕏 54 🦋 117   
 
 --
@@ -199,10 +200,18 @@ PublicBuilders #buildinpublic Day 10
 ### Newsletter Plan
 
 Sections:
-- News
-- Launches
-- Featured Builder of the Week
-- New Builders
+- Tip of the Week
+    - Source and schedule
+- Builder of the Week
+    - Choose from your list
+- Launch of the Week
+    - Source and choose
+- Interview of the Week
+    - Source and choose
+- Post of the Week
+    - Source and choose
+- New This Week
+    - Auto generate
 
 ----
 

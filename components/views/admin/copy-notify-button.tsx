@@ -4,9 +4,9 @@ import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { CheckIcon, CopyIcon } from "lucide-react"
 
-export default function CopyNotifyButton() {
+export default function CopyNotifyButton({ twitterHandle }: { twitterHandle: string }) {
   const [isCopied, setIsCopied] = useState(false)
-  const textToCopy = "I added you to my Public Builders Directory of #buildinpublic people — hope that's cool! https://publicbuilders.org/recent"
+  const textToCopy = `Hey @${twitterHandle} I added you to my Public Builders Directory of #buildinpublic people — hope that's cool! https://publicbuilders.org/recent`
 
   const copyToClipboard = async () => {
     try {

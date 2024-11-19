@@ -10,7 +10,7 @@ export async function POST(req: NextRequest) {
     );
   }
 
-  const { action, id, ...data } = await req.json();
+  const { action, id, ...submissionData } = await req.json();
 
   if (!action || (action !== "approve" && action !== "reject")) {
     return NextResponse.json({ error: "Invalid action." }, { status: 400 });
@@ -19,12 +19,12 @@ export async function POST(req: NextRequest) {
   if (!id) {
     return NextResponse.json({ error: "Missing id" }, { status: 400 });
   }
-  
-  if (!data) {
+
+  if (!submissionData) {
     return NextResponse.json({ error: "Invalid submission data." }, { status: 400 });
   }
 
-  const sourceFile = path.join(process.cwd(), "secretsauce/data/builders/new", id + ".json");
+  const sourceFile = path.join(process.cwd(), "secretsauce/data/builders/new", `${id}.json`);
 
   const deleteFile = () => {
     if (fs.existsSync(sourceFile)) {
@@ -40,7 +40,9 @@ export async function POST(req: NextRequest) {
       // Load and update builders.json
       const buildersFilePath = path.join(process.cwd(), "app/_data/builders.json");
       const buildersData = JSON.parse(fs.readFileSync(buildersFilePath, "utf8"));
-      buildersData.push(...data);
+
+      // Add the submission data directly to the array without nesting
+      buildersData.push({ ...submissionData.data });
 
       fs.writeFileSync(buildersFilePath, JSON.stringify(buildersData, null, 2));
 

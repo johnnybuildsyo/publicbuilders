@@ -1760,5 +1760,150 @@
     "created": "2024-11-18T22:18:27.383Z",
     "imageOffset": "25%",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/JamiePeak.jpg"
+  },
+  {
+    "name": "Ivan Salim",
+    "description": "Creative UI & UX Designer/developer running a one-design agency and design inspiration tool side project.",
+    "twitter": {
+      "handle": "https://x.com/MiranoDesigns",
+      "url": "https://x.com/MiranoDesigns",
+      "followers": 3978
+    },
+    "youtube": {
+      "handle": "https://www.youtube.com/@MiranoDesigns",
+      "followers": 672
+    },
+    "twitch": {
+      "handle": ""
+    },
+    "github": {
+      "handle": ""
+    },
+    "bluesky": {
+      "handle": ""
+    },
+    "reddit": {
+      "handle": ""
+    },
+    "producthunt": {
+      "handle": "https://www.producthunt.com/@mirano_designs",
+      "followers": 82
+    },
+    "website": "https://www.miranodesigns.com",
+    "tags": [
+      "design",
+      "agency",
+      "ui"
+    ],
+    "currentProject": {
+      "name": "Bookmarkify",
+      "description": "Streamline your workflow and find all your design inspiration in one place.",
+      "link": "https://bookmarkify.io",
+      "tags": [
+        "design",
+        "inspiration",
+        "tool"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/ivan_salim_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/MiranoDesigns.jpg",
+    "created": "2024-11-19T13:49:01.689Z"
+  },
+  {
+    "name": "Hirvesh",
+    "description": "Solopreneur on the side of a 9-5 job building 2 Saas side projects as an indie hacker.",
+    "twitter": {
+      "handle": "https://x.com/hirvesh",
+      "url": "https://x.com/hirvesh",
+      "followers": 1200
+    },
+    "youtube": {
+      "handle": "https://www.youtube.com/@hirveshmunogee7035",
+      "followers": 1
+    },
+    "twitch": {
+      "handle": ""
+    },
+    "github": {
+      "handle": "https://github.com/Hirvesh",
+      "followers": 68
+    },
+    "bluesky": {
+      "handle": ""
+    },
+    "reddit": {
+      "handle": "https://www.reddit.com/user/hirvesh/",
+      "followers": 3
+    },
+    "producthunt": {
+      "handle": "https://www.producthunt.com/@hirvesh_munogee",
+      "followers": 22
+    },
+    "website": "https://hirve.sh",
+    "newsletter": "https://hirve.sh/newsletter",
+    "tags": [
+      "solopreneur"
+    ],
+    "currentProject": {
+      "name": "Stomod",
+      "description": "Write all your content in Notion and Stomod turns it into a fast, SEO-optimized blog. No coding, or design skills needed.",
+      "link": "https://stomod.com",
+      "tags": [
+        "notion",
+        "seo",
+        "blog"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/hirvesh_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/hirvesh.jpg",
+    "created": "2024-11-19T13:49:01.693Z"
+  },
+  {
+    "name": "Uday Agarwal",
+    "description": "Helping startups in crafting creative designs and setting up automated processes powered by AI",
+    "twitter": {
+      "handle": "https://x.com/imudayyyy",
+      "url": "https://x.com/imudayyyy",
+      "followers": 797
+    },
+    "youtube": {
+      "handle": "https://www.youtube.com/@iam_udayy",
+      "followers": 53
+    },
+    "twitch": {
+      "handle": ""
+    },
+    "github": {
+      "handle": ""
+    },
+    "bluesky": {
+      "handle": ""
+    },
+    "reddit": {
+      "handle": ""
+    },
+    "producthunt": {
+      "handle": "https://www.producthunt.com/@imudayyyy",
+      "followers": 4
+    },
+    "website": "https://www.buildfast.co.in/",
+    "tags": [
+      "ai",
+      "design",
+      "startups"
+    ],
+    "currentProject": {
+      "name": "Svalync",
+      "description": "AI automation to connect apps, process documents, analyze data and more",
+      "link": "https://svalync.com",
+      "tags": [
+        "ai",
+        "automation",
+        "data"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/uday_agarwal_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/imudayyyy.jpg",
+    "created": "2024-11-19T13:49:01.693Z"
   }
 ]

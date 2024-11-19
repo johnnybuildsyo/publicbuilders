@@ -7,6 +7,7 @@ import { ChevronsLeft, ExternalLink, UserIcon } from "lucide-react"
 import { Builder } from "@/app/_types"
 import SocialMediaLinks from "./social-media-links"
 import slugify from "slugify"
+import CopyNotifyButton from "../admin/copy-notify-button"
 import { cn } from "@/lib/utils"
 
 export function BuilderCard({ builder, variant = "card" }: { builder: Builder; variant?: "card" | "page" }) {
@@ -167,6 +168,11 @@ export function BuilderCard({ builder, variant = "card" }: { builder: Builder; v
             )}
           </div>
         </div>
+        {variant === "page" && process.env.NODE_ENV === "development" && builder.twitter?.url && (
+          <div className="flex justify-center">
+            <CopyNotifyButton twitterHandle={builder.twitter.url.split(".com/")[1]} />
+          </div>
+        )}
       </CardContent>
     </Card>
   )

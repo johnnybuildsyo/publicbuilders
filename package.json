@@ -13,10 +13,11 @@
     "pics": "node ./scripts/addProfilePics.js",
     "timestamps": "node ./scripts/addTimestamps.js",
     "screenshots": "node ./scripts/addProjectScreenshots.js",
-    "new": "node ./scripts/addProfilePics.js && node ./scripts/addTimestamps.js",
+    "process": "node ./scripts/addProfilePics.js && node ./scripts/addTimestamps.js && node ./scripts/addProjectScreenshots.js",
     "news": "node ./secretsauce/scripts/mockFetchNews.js",
     "fetchWeb": "node ./secretsauce/scripts/fetchWebsiteUpdates.js",
-    "automate": "npx playwright test --ui"
+    "automate": "npx playwright test --ui",
+    "publish": "pnpm process && pnpm go"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.685.0",

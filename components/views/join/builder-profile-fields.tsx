@@ -38,6 +38,8 @@ export default function BuilderProfileFields({ register, errors, setValue, watch
   const bluesky = useWatch({ control, name: "bluesky" })
   const youtube = useWatch({ control, name: "youtube" })
   const github = useWatch({ control, name: "github" })
+  const twitch = useWatch({ control, name: "twitch" })
+  const reddit = useWatch({ control, name: "reddit" })
   const producthunt = useWatch({ control, name: "producthunt" })
 
   return (
@@ -147,7 +149,6 @@ export default function BuilderProfileFields({ register, errors, setValue, watch
               Search {name} on Bluesky
             </a>
           )}
-          <BuilderSocialMediaField field="twitch" icon={<TwitchIcon />} label="Twitch Account" register={register} errors={errors} setValue={setValue} watch={watch} />
           <BuilderSocialMediaField field="youtube" icon={<YoutubeIcon />} label="YouTube Account" register={register} errors={errors} setValue={setValue} watch={watch} />
           {isAdmin && !youtube && (
             <a className="text-sm pl-1 -mt-2 text-blue-500 hover:underline" href={`https://www.youtube.com/results?search_query=${name}&sp=EgIQAg%253D%253D`} target="_blank">
@@ -160,11 +161,22 @@ export default function BuilderProfileFields({ register, errors, setValue, watch
               Search {name} on Github
             </a>
           )}
-          <BuilderSocialMediaField field="reddit" icon={<RedditIcon />} label="Reddit Account" register={register} errors={errors} setValue={setValue} watch={watch} />
           <BuilderSocialMediaField field="producthunt" icon={<ProductHuntIcon />} label="Product Hunt Account" register={register} errors={errors} setValue={setValue} watch={watch} />
           {isAdmin && !producthunt && (
             <a className="text-sm pl-1 -mt-2 text-blue-500 hover:underline" href={`https://www.producthunt.com/search/users?q=${encodeURIComponent(name)}`} target="_blank">
               Search {name} on Product Hunt
+            </a>
+          )}
+          <BuilderSocialMediaField field="twitch" icon={<TwitchIcon />} label="Twitch Account" register={register} errors={errors} setValue={setValue} watch={watch} />
+          {isAdmin && !twitch && (
+            <a className="text-sm pl-1 -mt-2 text-blue-500 hover:underline" href={`https://www.twitch.tv/search?term=${name}`} target="_blank">
+              Search {name} on Twitch
+            </a>
+          )}
+          <BuilderSocialMediaField field="reddit" icon={<RedditIcon />} label="Reddit Account" register={register} errors={errors} setValue={setValue} watch={watch} />
+          {isAdmin && !reddit && (
+            <a className="text-sm pl-1 -mt-2 text-blue-500 hover:underline" href={`https://www.reddit.com/search/?q=${name}&type=people`} target="_blank">
+              Search {name} on Reddit
             </a>
           )}
         </div>
