@@ -235,3 +235,22 @@ awk '
 #### Demo Video Script
 
 Let’s take a look at the Public Builders dot org website, a website directory of people known for building in public. We can search for someone or sort them by name, recently added or by number of followers on different platforms. Each profile card has a short intro, a link to their site, category tags and social media links with follower counts, along with their current project. You can click view profile to see a page with some more info, like if they have a newsletter or host a podcast. You can easily find top builders by most followers on Twitter, Bluesky, Github, YouTube or Product Hunt. We also have a collection of resources for building in public, powered by the awesome build in public list on Github which has links to a variety of build in public communities, tools and content. It is open source and anyone can contribute. If you want to be added to the public builders directory, just click join to get to the application form. Check the boxes to confirm that you are aligned with the build in public philosophy. Fill out the information and submit. Your application will be added as a commit directly to the open source public builders repository. You will be notified via x or blue sky when your profile is live.
+
+
+### Product Hunt Launch
+
+#### Description
+
+Public Builders is a directory of top #buildinpublic founders, creators, makers and indie hackers sharing their experiences, good and bad. You can browse by name, recently added and follower counts on various platforms like X, Bluesky, Github and Product Hunt.
+
+#### First Comment
+
+When I was getting started building in public, I had a hard time finding a good list of people who were actively and consistently building in public. So I made one.
+
+PublicBuilders.org exists to provide a list of people who are building their projects in public. You can search and sort by name, recently added or by most followers on Twitter, Bluesky, Github, YouTube or Product Hunt. Each profile has a short intro, a link to their site, category tags and social media links with follower counts, along with their current project. You can click view profile to see a page with some more info, like if they have a newsletter or host a podcast. 
+
+Additionally there is a resources for people interested in building in public, powered by the open source ‘awesome build in public’ list on Github which has links to a variety of build in public communities, tools and content. It is open source and anyone can contribute. 
+
+If you build in public and want to be added to the directory, just click join and fill out the application form. Even the applications are open source on the Public Builders github repository.
+
+PublicBuilders.org is itself being built in public by Johnny Builds. It started out as a reply in a BlueSky thread. The prototype was built, deployed and shared in 20 minutes. You can follow along by reading daily progress updates as they are published to the Public Build Log.
