@@ -49,6 +49,11 @@ Watch me [iterate with ChatGPT](https://chatgpt.com/share/672e9d92-5d28-8009-a2b
 
 --
 
+**2024-11-19**  
+🚀 Scheduled Product Hunt Launch
+
+--
+
 **2024-11-18**  
 📸 Added current project website screenshots  
 📋 Added new Projects Page which lists all current projects by builders in the directory  

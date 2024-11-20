@@ -47,7 +47,7 @@ export async function POST(req: NextRequest) {
       // Adjust social platform data
       socialPlatforms.forEach((platform) => {
         if (data[platform]) {
-          data[platform] = { url: data[platform].url || data[platform].handle || "" }; // Keep only "url"
+          data[platform] = { url: data[platform].url || data[platform].handle || "", followers: data[platform].followers || undefined }; // Keep only "url"
         }
       });
 

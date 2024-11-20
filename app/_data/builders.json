@@ -1029,7 +1029,6 @@
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/johnnybuilds-banner.png",
     "twitter": {
       "url": "https://twitter.com/johnnybuilds_",
-      "url": "https://twitter.com/johnnybuilds_",
       "followers": 64
     },
     "youtube": {
@@ -1040,11 +1039,9 @@
     },
     "github": {
       "url": "https://github.com/johnnybuildsyo",
-      "url": "https://github.com/johnnybuildsyo",
       "followers": 1
     },
     "bluesky": {
-      "url": "https://bsky.app/profile/johnnybuilds.bsky.social",
       "url": "https://bsky.app/profile/johnnybuilds.bsky.social",
       "followers": 72
     },
@@ -1382,11 +1379,9 @@
     "description": "Created 2 awesome products - Pointron, Memotron - on the way to create more!",
     "twitter": {
       "url": "https://x.com/21nfellow",
-      "url": "https://x.com/21nfellow",
       "followers": 67
     },
     "youtube": {
-      "url": "https://youtube.com/@21nCompany",
       "url": "https://youtube.com/@21nCompany",
       "followers": 26300
     },
@@ -1395,11 +1390,9 @@
     },
     "github": {
       "url": "https://github.com/thyaravind",
-      "url": "https://github.com/thyaravind",
       "followers": 3
     },
     "bluesky": {
-      "url": "https://bsky.app/profile/aravindsamala.com",
       "url": "https://bsky.app/profile/aravindsamala.com",
       "followers": 8
     },
@@ -1432,7 +1425,6 @@
     "name": "Benard Ogutu",
     "description": " Software Engineer building in publicon a journey to build and launch my first app",
     "twitter": {
-      "url": "https://twitter.com/bencraftscode",
       "url": "https://twitter.com/bencraftscode",
       "followers": 11
     },
@@ -1483,7 +1475,6 @@
     "description": "Indie hacking digital things",
     "twitter": {
       "url": "https://twitter.com/mtanmaym",
-      "url": "https://twitter.com/mtanmaym",
       "followers": 980
     },
     "youtube": {
@@ -1531,11 +1522,9 @@
     "description": "Developer @ carenote.app | prayetic.com | directee.app | mobilize.dev | Building tools for care, connection, and advocacy | Biking 🚴🏾‍♂️ | Coding 👨🏾‍💻 | Pastor | SaaS innovator",
     "twitter": {
       "url": "https://twitter.com/donnell",
-      "url": "https://twitter.com/donnell",
       "followers": 1239
     },
     "youtube": {
-      "url": "https://www.youtube.com/@carenote5068",
       "url": "https://www.youtube.com/@carenote5068",
       "followers": 11
     },
@@ -1544,11 +1533,9 @@
     },
     "github": {
       "url": "https://github.com/ccc-developer",
-      "url": "https://github.com/ccc-developer",
       "followers": 247
     },
     "bluesky": {
-      "url": "https://bsky.app/profile/donnell.bsky.social",
       "url": "https://bsky.app/profile/donnell.bsky.social",
       "followers": 827
     },
@@ -1584,7 +1571,6 @@
     "name": "Romain de Wolff",
     "description": "Digital product entrepreneur building in public and sharing the learnings, ups and downs.",
     "twitter": {
-      "url": "https://x.com/romaindewolff",
       "url": "https://x.com/romaindewolff",
       "followers": 4253
     },
@@ -1629,7 +1615,6 @@
     "name": "Dom - Micro SaaS Guy",
     "description": "Non-tech guy with 8 Micro Exits in the SaaS World as side projects.",
     "twitter": {
-      "url": "https://x.com/DG_9_6",
       "url": "https://x.com/DG_9_6",
       "followers": 3770
     },
@@ -1677,7 +1662,6 @@
     "description": "Designer launching multiple projects obsessed with crafting beautiful experiences.",
     "twitter": {
       "url": "https://x.com/JamiePeak",
-      "url": "https://x.com/JamiePeak",
       "followers": 6801
     },
     "youtube": {
@@ -1723,7 +1707,6 @@
     "name": "Ivan Salim",
     "description": "Creative UI & UX Designer/developer running a one-design agency and design inspiration tool side project.",
     "twitter": {
-      "url": "https://x.com/MiranoDesigns",
       "url": "https://x.com/MiranoDesigns",
       "followers": 3978
     },
@@ -1771,7 +1754,6 @@
     "name": "Hirvesh",
     "description": "Solopreneur on the side of a 9-5 job building 2 Saas side projects as an indie hacker.",
     "twitter": {
-      "url": "https://x.com/hirvesh",
       "url": "https://x.com/hirvesh",
       "followers": 1200
     },
@@ -1949,7 +1931,6 @@
     "description": "Sr. Software Engineer coding for 15+ years sharing experiences and practical insights, tutorials, case studies and thought pieces.",
     "twitter": {
       "url": "https://x.com/programmerByDay",
-      "url": "https://x.com/programmerByDay",
       "followers": 1864
     },
     "youtube": {
@@ -1991,5 +1972,55 @@
     },
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/programmerByDay.jpg",
     "created": "2024-11-20T14:30:18.829Z"
+  },
+  {
+    "name": "Mike Strives",
+    "description": "Daily insights in scaling saas two 7-figure saas with 1 exit offering a free SaaS masterclass.",
+    "twitter": {
+      "url": "https://x.com/mikestrives",
+      "followers": 23431
+    },
+    "youtube": {
+      "url": "https://www.youtube.com/@mikestrives",
+      "followers": 6930
+    },
+    "twitch": {
+      "url": ""
+    },
+    "github": {
+      "url": ""
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/mikestrives.bsky.social",
+      "followers": 121
+    },
+    "reddit": {
+      "url": ""
+    },
+    "producthunt": {
+      "url": "https://www.producthunt.com/@mikestrives",
+      "followers": 1469
+    },
+    "website": "https://www.mikestrives.com",
+    "newsletter": "https://sipthatmrr.com/subscribe",
+    "podcast": "https://saaspirates.com/podcast",
+    "tags": [
+      "saas",
+      "scaling",
+      "courses"
+    ],
+    "currentProject": {
+      "name": "Sip that MRR!",
+      "description": "Learn how to scale your SaaS business through systems.",
+      "link": "https://sipthatmrr.com",
+      "tags": [
+        "saas",
+        "scaling",
+        "learning"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/mike_strives_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/mikestrives.jpg",
+    "created": "2024-11-20T17:10:51.513Z"
   }
 ]
