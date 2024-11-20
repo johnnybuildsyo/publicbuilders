@@ -2022,5 +2022,147 @@
     },
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/mikestrives.jpg",
     "created": "2024-11-20T17:10:51.513Z"
+  },
+  {
+    "name": "Fernando Pessagno",
+    "description": "Solopreneur. Currently working on ResumeMaker AI Carousels",
+    "twitter": {
+      "url": "https://x.com/Fer_MOMENTO",
+      "followers": 2696
+    },
+    "youtube": {
+      "url": "https://www.youtube.com/@fer_MOMENTO",
+      "followers": 312
+    },
+    "twitch": {
+      "url": ""
+    },
+    "github": {
+      "url": ""
+    },
+    "bluesky": {
+      "url": ""
+    },
+    "reddit": {
+      "url": ""
+    },
+    "producthunt": {
+      "url": "https://www.producthunt.com/@fer_momento",
+      "followers": 230
+    },
+    "website": "https://fernandopessagno.medium.com/",
+    "writing": "https://fernandopessagno.medium.com/feed",
+    "tags": [
+      "solopreneur",
+      "ai",
+      "saas"
+    ],
+    "currentProject": {
+      "name": "AI Carousels",
+      "description": "The first AI Carousel Generator, the fastest way to create social media carousels",
+      "link": "https://aicarousels.com",
+      "tags": [
+        "social",
+        "ai",
+        "tools"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/fernando_pessagno_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/Fer_MOMENTO.jpg",
+    "created": "2024-11-20T17:44:18.346Z"
+  },
+  {
+    "name": "Navin Peiris",
+    "description": "Dad, Developer, Entrepreneur • Bootstrapping http://WallStRank.com with @amritrupa • Prev co-founder http://inkl.com • #buildinpublic #ElixirLang #nuxt",
+    "twitter": {
+      "url": "https://x.com/navinpeiris",
+      "followers": 2296
+    },
+    "youtube": {
+      "url": ""
+    },
+    "twitch": {
+      "url": ""
+    },
+    "github": {
+      "url": "https://github.com/navinpeiris",
+      "followers": 299
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/navinpeiris.com",
+      "followers": 98
+    },
+    "reddit": {
+      "url": ""
+    },
+    "producthunt": {
+      "url": "https://www.producthunt.com/@navinpeiris",
+      "followers": 1020
+    },
+    "website": "https://wallstrank.com",
+    "tags": [
+      "entrepreneur",
+      "bootstrapping",
+      "developer"
+    ],
+    "currentProject": {
+      "name": "Wall St. Rank",
+      "description": "Follow the smart money. Piggyback off insights from fund managers and research analysts. Investing trends from 10,000+ fund managers.",
+      "link": "https://wallstrank.com",
+      "tags": [
+        "finance",
+        "investing",
+        "data"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/navin_peiris_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/navinpeiris.jpg",
+    "created": "2024-11-20T18:02:10.691Z"
+  },
+  {
+    "name": "Robert Shaw 𝕏",
+    "description": "Indie maker building products & sharing journey in public.",
+    "twitter": {
+      "url": "https://x.com/robert_shaw_x",
+      "followers": 2609
+    },
+    "youtube": {
+      "url": ""
+    },
+    "twitch": {
+      "url": ""
+    },
+    "github": {
+      "url": ""
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/robertshaw.id",
+      "followers": 34
+    },
+    "reddit": {
+      "url": ""
+    },
+    "producthunt": {
+      "url": "https://www.producthunt.com/@xiaoluoboding",
+      "followers": 643
+    },
+    "website": "https://robertshaw.id",
+    "tags": [
+      "developer",
+      "maker"
+    ],
+    "currentProject": {
+      "name": "Side Space",
+      "description": "Take control of your web browsing with the Vertical Tabs Manager browser extension.",
+      "link": "https://www.sidespace.app",
+      "tags": [
+        "browsing",
+        "extension",
+        "tool"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/sidespace.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/robert_shaw_x.jpg",
+    "created": "2024-11-20T18:02:10.696Z"
   }
 ]
