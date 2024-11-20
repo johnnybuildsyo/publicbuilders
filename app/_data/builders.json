@@ -1903,5 +1903,46 @@
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/wilbertliu.jpg",
     "imageOffset": "35%",
     "created": "2024-11-20T03:35:42.435Z"
+  },
+  {
+    "name": "Liran Tal",
+    "description": "Award-winning software developer, security researcher, and open source champion in the JavaScript community.",
+    "twitter": {
+      "url": "https://x.com/liran_tal",
+      "followers": 12202
+    },
+    "github": {
+      "url": "https://github.com/lirantal",
+      "followers": 2100
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/lirantal.com",
+      "followers": 1400
+    },
+    "producthunt": {
+      "handle": "https://www.producthunt.com/@liran_tal",
+      "followers": 496
+    },
+    "newsletter": "https://www.nodejs-security.com/newsletter",
+    "writing": "https://www.nodejs-security.com/rss.xml",
+    "website": "https://lirantal.com",
+    "tags": [
+      "security",
+      "node",
+      "open source"
+    ],
+    "currentProject": {
+      "name": "Node.js Security",
+      "description": "Level up your server-side JavaScript skills to find & fix security issues.",
+      "link": "https://www.nodejs-security.com/",
+      "tags": [
+        "security",
+        "node",
+        "training"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/liran_tal_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/liran_tal.jpg",
+    "created": "2024-11-20T04:58:33.897Z"
   }
 ]
