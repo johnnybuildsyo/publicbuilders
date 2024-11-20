@@ -1863,5 +1863,45 @@
     },
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/imudayyyy.jpg",
     "created": "2024-11-19T13:49:01.693Z"
+  },
+  {
+    "name": "Wilbert Liu",
+    "description": "Coding, designing and marketing digital products.",
+    "twitter": {
+      "url": "https://x.com/wilbertliu",
+      "followers": 1663
+    },
+    "github": {
+      "url": "https://github.com/wilbertliu",
+      "followers": 206
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/wilbertliu.com",
+      "followers": 992
+    },
+    "producthunt": {
+      "handle": "https://www.producthunt.com/@wilbertliu",
+      "followers": 729
+    },
+    "website": "https://www.wilbertliu.com",
+    "tags": [
+      "bootstrapping",
+      "marketing",
+      "email"
+    ],
+    "currentProject": {
+      "name": "Lavish",
+      "description": "Easy to use email marketing that doesn’t break the bank.",
+      "link": "https://www.lavish.so/",
+      "tags": [
+        "email",
+        "marketing",
+        "easy"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/lavish.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/wilbertliu.jpg",
+    "imageOffset": "35%",
+    "created": "2024-11-20T03:35:42.435Z"
   }
 ]

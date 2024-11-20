@@ -81,8 +81,8 @@ export function BuilderCard({ builder, variant = "card" }: { builder: Builder; v
         <div className={cn("flex flex-col", variant === "page" && "gap-12")}>
           {builder.currentProject && (
             <Link
-              href={builder.currentProject.link}
-              target="_blank"
+              href={variant === "page" ? builder.currentProject.link : `/projects/${slugify(builder.currentProject.name, { lower: true })}`}
+              target={variant === "page" ? "_blank" : "_self"}
               className={cn("w-full max-w-2xl mx-auto bg-gradient-to-t from-foreground/5 to-background border-foreground/5 border rounded-lg", variant === "page" ? "px-4 pb-8" : "p-4")}
             >
               {variant === "page" && (

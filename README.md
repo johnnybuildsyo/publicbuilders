@@ -1,6 +1,6 @@
 # PUBLICBUILDERS
 
-A directory of who is who in #buildinpublic. Indie hackers, startup founders and ambitious makers.
+A [directory of people who build in public](https://publicbuilders.org). Indie hackers, startup founders and ambitious makers.
 
 ----
 
@@ -50,10 +50,9 @@ Watch me [iterate with ChatGPT](https://chatgpt.com/share/672e9d92-5d28-8009-a2b
 --
 
 **2024-11-18**  
-📸 Added current project website screenshots     
-📋 Added directory of projects list
-🛳️ Wrote publish script to run generator scripts, commit, push and deploy
-🌐 62 𝕏 54 🦋 117   
+📸 Added current project website screenshots  
+📋 Added new Projects Page which lists all current projects by builders in the directory  
+🛳️ Wrote publish script to run generator scripts, commit, push and deploy  
 
 --
 
