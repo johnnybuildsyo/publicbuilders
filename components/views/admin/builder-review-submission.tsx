@@ -7,6 +7,7 @@ import BuilderReviewForm from "./builder-review-form"
 import { useBuilderProfileSubmissionReviewSubmit } from "@/components/hooks/useBuilderProfileSubmissionReviewSubmit"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
+import { socialPlatforms } from "@/app/_types"
 
 export default function BuilderReviewSubmission() {
   const [submissions, setSubmissions] = useState<BuilderSubmission[]>([])
@@ -20,8 +21,6 @@ export default function BuilderReviewSubmission() {
         const data: BuilderSubmission[] = await response.json()
 
         const submissionsData = data.map((submission) => {
-          const socialPlatforms = ["twitter", "youtube", "twitch", "github", "bluesky"] as const
-
           socialPlatforms.forEach((platform) => {
             const platformData = submission[platform]
             if (platformData?.url && !platformData.handle) {

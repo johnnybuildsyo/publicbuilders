@@ -9,13 +9,13 @@ export const SHARE_IMAGE_RESOURCES = "https://publicbuilders.org/screenshot-reso
 
 // Social media URL mappings
 export const socialPlatforms: { platform: SocialMediaPlatform; urlPrefix: string }[] = [
-    { platform: "twitter", urlPrefix: "https://twitter.com/" },
-    { platform: "twitch", urlPrefix: "https://twitch.tv/" },
-    { platform: "youtube", urlPrefix: "https://youtube.com/@" },
-    { platform: "github", urlPrefix: "https://github.com/" },
-    { platform: "bluesky", urlPrefix: "https://bsky.app/profile/" },
-    { platform: "reddit", urlPrefix: "https://www.reddit.com/user/" },
-    { platform: "producthunt", urlPrefix: "https://www.producthunt.com/@" },
+  { platform: "twitter", urlPrefix: "https://twitter.com/" },
+  { platform: "twitch", urlPrefix: "https://twitch.tv/" },
+  { platform: "youtube", urlPrefix: "https://youtube.com/@" },
+  { platform: "github", urlPrefix: "https://github.com/" },
+  { platform: "bluesky", urlPrefix: "https://bsky.app/profile/" },
+  { platform: "reddit", urlPrefix: "https://www.reddit.com/user/" },
+  { platform: "producthunt", urlPrefix: "https://www.producthunt.com/@" },
 ]
 
 export const mapSocialMediaData = (data: FormData): SocialMediaFields => {

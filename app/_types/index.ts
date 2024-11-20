@@ -78,7 +78,7 @@ export const builderSchema = z.object({
   created: z.string().datetime().optional(),
 }).refine(
   (data) => {
-    const socialPlatforms = ["twitter", "youtube", "twitch", "github", "bluesky"] as const;
+    
     return socialPlatforms.every((platform) => {
       const account = data[platform];
       if (account?.handle && !account?.followers) return false;
@@ -100,3 +100,13 @@ export const formSchema = builderSchema;
 // Define FormData type based on formSchema
 export type FormData = z.infer<typeof formSchema>;
 export type SocialMediaPlatform = "twitter" | "twitch" | "youtube" | "github" | "bluesky" | "producthunt" | "reddit";
+
+export const socialPlatforms: SocialMediaPlatform[] = [
+  "twitter",
+  "twitch",
+  "youtube",
+  "github",
+  "bluesky",
+  "producthunt",
+  "reddit",
+] as const;

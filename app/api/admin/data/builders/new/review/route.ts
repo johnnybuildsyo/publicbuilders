@@ -1,6 +1,7 @@
 import fs from "fs";
 import { NextRequest, NextResponse } from "next/server";
 import path from "path";
+import { socialPlatforms } from "@/app/_types";
 
 export async function POST(req: NextRequest) {
   if (process.env.NODE_ENV !== "development") {
@@ -41,8 +42,17 @@ export async function POST(req: NextRequest) {
       const buildersFilePath = path.join(process.cwd(), "app/_data/builders.json");
       const buildersData = JSON.parse(fs.readFileSync(buildersFilePath, "utf8"));
 
+      const data = { ...submissionData.data };
+
+      // Adjust social platform data
+      socialPlatforms.forEach((platform) => {
+        if (data[platform]) {
+          data[platform] = { url: data[platform].url || data[platform].handle || "" }; // Keep only "url"
+        }
+      });
+
       // Add the submission data directly to the array without nesting
-      buildersData.push({ ...submissionData.data });
+      buildersData.push({ ...data });
 
       fs.writeFileSync(buildersFilePath, JSON.stringify(buildersData, null, 2));
 
