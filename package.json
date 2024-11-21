@@ -12,6 +12,7 @@
     "pic": "node ./scripts/uploadProfilePic.js",
     "pics": "node ./scripts/addProfilePics.js",
     "timestamps": "node ./scripts/addTimestamps.js",
+    "follows": "node ./scripts/updateFollowers.js",
     "screenshots": "node ./scripts/addProjectScreenshots.js",
     "process": "node ./scripts/addProfilePics.js && node ./scripts/addTimestamps.js && node ./scripts/addProjectScreenshots.js",
     "news": "node ./secretsauce/scripts/mockFetchNews.js",
