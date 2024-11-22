@@ -2393,7 +2393,55 @@
       "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/manoj_ahirwar_project_screenshot.png"
     },
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/manoj_ahi.jpg",
-
     "created": "2024-11-22T02:20:08.971Z"
+  },
+  {
+    "name": "Daniel Nguyen",
+    "description": "Building Products. 16 countries. 2x exit. Launching MVPs in 15 days.",
+    "twitter": {
+      "url": "https://x.com/daniel_nguyenx",
+      "followers": 48544
+    },
+    "youtube": {
+      "url": ""
+    },
+    "twitch": {
+      "url": ""
+    },
+    "github": {
+      "url": "https://github.com/longseespace",
+      "followers": 3400
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/danielnguyen.me",
+      "followers": 1400
+    },
+    "reddit": {
+      "url": "https://www.reddit.com/user/daniel_nguyenx/",
+      "followers": "5"
+    },
+    "producthunt": {
+      "url": ""
+    },
+    "website": "https://danielnguyen.me/",
+    "newsletter": "https://newsletter.danielnguyen.me/",
+    "tags": [
+      "developer",
+      "ai",
+      "solopreneur"
+    ],
+    "currentProject": {
+      "name": "BoltAI",
+      "description": "Switch between top AI services and local models. All from a single native app on your Mac.",
+      "link": "https://boltai.com",
+      "tags": [
+        "ai",
+        "app",
+        "mac"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/daniel_nguyen_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/daniel_nguyenx.jpg",
+    "created": "2024-11-22T18:35:28.567Z"
   }
 ]
