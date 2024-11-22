@@ -22,6 +22,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: todayUTC.toISOString(),
     },
     {
+      url: 'https://publicbuilders.org/projects',
+      lastModified: todayUTC.toISOString(),
+    },
+    {
       url: 'https://publicbuilders.org/twitter',
       lastModified: todayUTC.toISOString(),
     },

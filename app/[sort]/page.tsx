@@ -10,7 +10,7 @@ const description =
 export async function generateMetadata(props: { params: Promise<{ sort: string }> }) {
   const params = await props.params
   return {
-    title: `Public Builders – The Top Build in Public Founders and Creators on ${getTitleCaseSocial(params.sort)}`,
+    title: params.sort === "recent" ? `Public Builders Most Recently Added – Top Build in Public Founders and Creators` : `Public Builders – The Top Build in Public Founders and Creators`,
     description,
     openGraph: {
       images: SHARE_IMAGE,

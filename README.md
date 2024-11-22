@@ -215,17 +215,17 @@ PublicBuilders #buildinpublic Day 10
 ### Newsletter Plan
 
 Sections:
+- Trending Builders
+    - Most growth on Bluesky/X
 - Tip of the Week
     - Source and schedule
-- Builder of the Week
-    - Choose from your list
 - Launch of the Week
     - Source and choose
 - Interview of the Week
     - Source and choose
-- Post of the Week
+- Posts of the Week
     - Source and choose
-- New This Week
+- New Builders
     - Auto generate
 
 ----
