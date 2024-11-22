@@ -6,7 +6,7 @@ import { CheckIcon, CopyIcon } from "lucide-react"
 
 export default function CopyNotifyButton({ twitterHandle }: { twitterHandle: string }) {
   const [isCopied, setIsCopied] = useState(false)
-  const textToCopy = `Hey @${twitterHandle} I added you to my directory of people who build in public — hope that's cool! https://publicbuilders.org/recent`
+  const textToCopy = `Hey @${twitterHandle} I added you to my directory of people who build in public — hope that's ok? https://publicbuilders.org/recent`
 
   const copyToClipboard = async () => {
     try {

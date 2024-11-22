@@ -2160,5 +2160,240 @@
     },
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/robert_shaw_x.jpg",
     "created": "2024-11-20T18:02:10.696Z"
+  },
+  {
+    "name": "Arielle Phoenix",
+    "description": "Wife | Mother | Author | Homeschooler | Web Asset Creator | Undefeated Super Bomberman 2 (SNES) Champion | Founder | Growth",
+    "twitter": {
+      "url": "https://x.com/ArielleCPX",
+      "followers": 14100
+    },
+    "youtube": {
+      "url": "https://www.youtube.com/channel/UCGdOo5ARCSpxFQ-ssIsgi4Q",
+      "followers": 6940
+    },
+    "twitch": {
+      "url": ""
+    },
+    "github": {
+      "url": ""
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/ariellecpx.bsky.social",
+      "followers": 37
+    },
+    "reddit": {
+      "url": ""
+    },
+    "producthunt": {
+      "url": ""
+    },
+    "website": "https://ariellephoenix.com/",
+    "newsletter": "https://mailchi.mp/ariellephoenix/mailing-list",
+    "tags": [
+      "ai",
+      "marketing",
+      "founder"
+    ],
+    "currentProject": {
+      "name": "Bulk Publishing AI",
+      "description": "AI-Spreadsheet system helping bloggers and agencies scale content generation",
+      "link": "https://bulkpublishing.ai",
+      "tags": [
+        "ai",
+        "marketing",
+        "content"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/arielle_phoenix_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/ArielleCPX.jpg",
+    "imageOffset": "30%",
+    "created": "2024-11-22T02:20:08.967Z"
+  },
+  {
+    "name": "Sam Newby",
+    "description": "Building affordable hosting at Vizalo with PHP, Go, and Rust in my spare time",
+    "twitter": {
+      "url": "https://x.com/SamNewby_",
+      "followers": 1364
+    },
+    "youtube": {
+      "url": ""
+    },
+    "twitch": {
+      "url": ""
+    },
+    "github": {
+      "url": "https://github.com/NWBY",
+      "followers": 270
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/samnewby.bsky.social",
+      "followers": 140
+    },
+    "reddit": {
+      "url": ""
+    },
+    "producthunt": {
+      "url": ""
+    },
+    "website": "https://samnewby.dev",
+    "tags": [
+      "developer",
+      "hosting",
+      "cloud"
+    ],
+    "currentProject": {
+      "name": "VIzalo",
+      "description": "Multilocation affordable hosting built to make the path to production as easy as possible.",
+      "link": "https://vizalo.co",
+      "tags": [
+        "hosting",
+        "cloud"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/sam_newby_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/SamNewby_.jpg",
+    "imageOffset": "30%",
+    "created": "2024-11-22T02:20:08.971Z"
+  },
+  {
+    "name": "Sebastian Röhl",
+    "description": "Building a portfolio of apps in public. Sharing learnings about development, marketing and sales.",
+    "twitter": {
+      "url": "https://x.com/SebastianRoehl",
+      "followers": 14100
+    },
+    "youtube": {
+      "url": ""
+    },
+    "twitch": {
+      "url": ""
+    },
+    "github": {
+      "url": "https://github.com/sebroehl",
+      "followers": 69
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/roehl.dev",
+      "followers": 592
+    },
+    "reddit": {
+      "url": ""
+    },
+    "producthunt": {
+      "url": ""
+    },
+    "website": "https://sebastianroehl.substack.com",
+    "newsletter": "https://sebastianroehl.substack.com/",
+    "tags": [
+      "developer",
+      "marketing",
+      "sales"
+    ],
+    "currentProject": {
+      "name": "HabitKit",
+      "description": "Track your habits with ease and view your daily progress in a clear, intuitive way. Stay motivated and consistent as you work towards your goals.",
+      "link": "https://www.habitkit.app/",
+      "tags": [
+        "habit",
+        "motivation"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/sebastian_röhl_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/SebastianRoehl.jpg",
+    "created": "2024-11-22T02:20:08.971Z"
+  },
+  {
+    "name": "Bart Zagrodkski",
+    "description": "Software engineer building products to help people lead better lives.",
+    "twitter": {
+      "url": "https://x.com/bzagrodzki",
+      "followers": 3449
+    },
+    "youtube": {
+      "url": ""
+    },
+    "twitch": {
+      "url": ""
+    },
+    "github": {
+      "url": "https://github.com/bartek532",
+      "followers": 128
+    },
+    "bluesky": {
+      "url": ""
+    },
+    "reddit": {
+      "url": ""
+    },
+    "producthunt": {
+      "url": ""
+    },
+    "website": "https://zagrodzki.me",
+    "writing": "https://www.zagrodzki.me/feed",
+    "tags": [
+      "developer"
+    ],
+    "currentProject": {
+      "name": "TurboStarter",
+      "description": "Open source browser extension starter kit",
+      "link": "https://www.turbostarter.dev",
+      "tags": [
+        "starter",
+        "extension",
+        "opensource"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/bart_zagrodkski_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/bzagrodzki.jpg",
+    "imageOffset": "65%",
+    "created": "2024-11-22T02:20:08.971Z"
+  },
+  {
+    "name": "Manoj Ahirwar",
+    "description": "Building Products. 16 countries. 2x exit. Launching MVPs in 15 days.",
+    "twitter": {
+      "url": "https://x.com/manoj_ahi",
+      "followers": 10400
+    },
+    "youtube": {
+      "url": ""
+    },
+    "twitch": {
+      "url": ""
+    },
+    "github": {
+      "url": "https://github.com/manojahi",
+      "followers": 28
+    },
+    "bluesky": {
+      "url": ""
+    },
+    "reddit": {
+      "url": ""
+    },
+    "producthunt": {
+      "url": "https://www.producthunt.com/@manoj_ahirwar",
+      "followers": 356
+    },
+    "website": "https://manojahi.com",
+    "tags": [
+      "products"
+    ],
+    "currentProject": {
+      "name": "UniqueSide",
+      "description": "With a budget-friendly and fixed pricing, we'll craft, build and bring your idea to life within 15 days.",
+      "link": "https://www.uniqueside.io",
+      "tags": [
+        "mvp",
+        "agency",
+        "startups"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/manoj_ahirwar_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/manoj_ahi.jpg",
+
+    "created": "2024-11-22T02:20:08.971Z"
   }
 ]
