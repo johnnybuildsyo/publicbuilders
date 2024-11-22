@@ -172,7 +172,7 @@ export function BuilderCard({ builder, variant = "card" }: { builder: Builder; v
         </div>
         {variant === "page" && process.env.NODE_ENV === "development" && builder.twitter?.url && (
           <div className="flex justify-center">
-            <CopyNotifyButton twitterHandle={builder.twitter.url.split(".com/")[1]} />
+            <CopyNotifyButton />
           </div>
         )}
       </CardContent>
