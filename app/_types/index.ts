@@ -1,10 +1,16 @@
 import * as z from "zod";
 
+export const followerGrowthSchema = z.object({
+  date: z.string(),
+  count: z.number().min(0, "Follower count cannot be negative"),
+});
+
 // Define socialMediaSchema and infer the type
 export const socialMediaSchema = z.object({
   handle: z.string().optional(),
   url: z.string().url("Invalid URL").optional(),
   followers: z.number().optional(),
+  followerGrowth: z.array(followerGrowthSchema).optional(),
 });
 
 export type SocialMedia = z.infer<typeof socialMediaSchema>;
