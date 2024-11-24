@@ -36,6 +36,14 @@ async function main() {
 
     console.log(`Using followers file: ${recentFollowersFile}`);
 
+    // Extract the date from the filename (e.g., "2024-11-21.json" => "2024-11-21")
+    const dateMatch = recentFollowersFile.match(/(\d{4}-\d{2}-\d{2})/);
+    if (!dateMatch) {
+      console.error('Invalid followers file name format. Date not found.');
+      return;
+    }
+    const date = dateMatch[1];
+
     // Load data from builders.json
     const buildersData = fs.readFileSync(buildersFilePath, 'utf-8');
     const builders = JSON.parse(buildersData);
@@ -51,11 +59,43 @@ async function main() {
       if (followerInfo) {
         if (followerInfo.twitterFollowers !== null) {
           builder.twitter.followers = followerInfo.twitterFollowers;
+
+          // Ensure followerGrowth exists and update it
+          builder.twitter.followerGrowth = builder.twitter.followerGrowth || [];
+          const alreadyLogged = builder.twitter.followerGrowth.some(entry => entry.date === date);
+
+          if (!alreadyLogged) {
+            builder.twitter.followerGrowth.push({
+              date,
+              count: followerInfo.twitterFollowers,
+            });
+          }
+
+          if (builder.twitter.followerGrowth.length > 11) {
+            builder.twitter.followerGrowth = builder.twitter.followerGrowth.slice(-7);
+          }
+
           console.log(`Updated Twitter followers for ${builder.name}: ${followerInfo.twitterFollowers}`);
         }
 
         if (builder.bluesky && followerInfo.blueskyFollowers !== null) {
           builder.bluesky.followers = followerInfo.blueskyFollowers;
+
+          // Ensure followerGrowth exists and update it
+          builder.bluesky.followerGrowth = builder.bluesky.followerGrowth || [];
+          const alreadyLogged = builder.bluesky.followerGrowth.some(entry => entry.date === date);
+
+          if (!alreadyLogged) {
+            builder.bluesky.followerGrowth.push({
+              date,
+              count: followerInfo.blueskyFollowers,
+            });
+          }
+
+          if (builder.bluesky.followerGrowth.length > 11) {
+            builder.bluesky.followerGrowth = builder.bluesky.followerGrowth.slice(-7);
+          }
+
           console.log(`Updated Bluesky followers for ${builder.name}: ${followerInfo.blueskyFollowers}`);
         }
       }
@@ -63,7 +103,7 @@ async function main() {
 
     // Write the updated builders array back to builders.json
     fs.writeFileSync(buildersFilePath, JSON.stringify(builders, null, 2), 'utf-8');
-    console.log('builders.json has been updated with the latest followers.');
+    console.log('builders.json has been updated with the latest followers and follower growth.');
   } catch (error) {
     console.error('Error processing builders:', error);
   }

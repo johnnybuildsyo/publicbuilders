@@ -9,6 +9,7 @@ import SocialMediaLinks from "./social-media-links"
 import slugify from "slugify"
 import CopyNotifyButton from "../admin/copy-notify-button"
 import { cn } from "@/lib/utils"
+import { FollowerGrowthChart } from "./follower-growth-chart"
 
 export function BuilderCard({ builder, variant = "card" }: { builder: Builder; variant?: "card" | "page" }) {
   return (
@@ -69,6 +70,10 @@ export function BuilderCard({ builder, variant = "card" }: { builder: Builder; v
           <a href={builder.website} target="_blank" className="text-blue-700/80 hover:text-blue-600 text-xl line-clamp-1 py-4 transition-all ease-in-out duration-300">
             {builder.website.replace("https://", "").replace(/\/+$/, "")}
           </a>
+          <FollowerGrowthChart bskyFollowerGrowth={builder.bluesky?.followerGrowth} xFollowerGrowth={builder.twitter?.followerGrowth} />
+          <div className="pt-4">
+            <SocialMediaLinks builder={builder} />
+          </div>
           <div className={cn("flex flex-wrap justify-center gap-2 mt-4", variant === "page" ? "mb-6" : "mb-2")}>
             {builder.tags.map((tag) => (
               <Badge className={cn("", variant === "page" && "text-lg font-normal px-4 bg-foreground/10")} key={tag} variant="secondary">
@@ -76,7 +81,6 @@ export function BuilderCard({ builder, variant = "card" }: { builder: Builder; v
               </Badge>
             ))}
           </div>
-          <SocialMediaLinks builder={builder} />
         </div>
         <div className={cn("flex flex-col", variant === "page" && "gap-12")}>
           {builder.currentProject && (
