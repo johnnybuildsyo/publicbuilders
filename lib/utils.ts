@@ -2,6 +2,7 @@ import { clsx, type ClassValue } from "clsx"
 import { twMerge } from "tailwind-merge"
 import { capitalize } from "lodash"
 import seedrandom from "seedrandom"
+import { Builder } from "@/app/_types"
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs))
@@ -56,4 +57,30 @@ export function formatUrlFromHandle(platform: string, handle: string | undefined
   }
 
   return `${baseUrl}${handle}`;
+}
+
+export function calculateTotalGrowth(builder: Builder): number {
+  let twitterGrowth = 0;
+  if (
+    builder.twitter &&
+    builder.twitter.followerGrowth &&
+    builder.twitter.followerGrowth.length > 0
+  ) {
+    const growthData = builder.twitter.followerGrowth;
+    twitterGrowth =
+      growthData[growthData.length - 1].count - growthData[0].count;
+  }
+
+  let blueskyGrowth = 0;
+  if (
+    builder.bluesky &&
+    builder.bluesky.followerGrowth &&
+    builder.bluesky.followerGrowth.length > 0
+  ) {
+    const growthData = builder.bluesky.followerGrowth;
+    blueskyGrowth =
+      growthData[growthData.length - 1].count - growthData[0].count;
+  }
+
+  return twitterGrowth + blueskyGrowth;
 }

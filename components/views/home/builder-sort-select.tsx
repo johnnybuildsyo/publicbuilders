@@ -5,10 +5,13 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 export function BuilderSortSelect({ sort }: { sort?: string }) {
   const router = useRouter()
 
+  // Set "trending" as the default sort option
+  const currentSort = sort || "trending"
+
   return (
     <>
       <Select
-        value={sort}
+        value={currentSort}
         onValueChange={(sortOption) => {
           router.push(`/${sortOption}`, { scroll: false })
         }}
@@ -17,6 +20,7 @@ export function BuilderSortSelect({ sort }: { sort?: string }) {
           <SelectValue placeholder="Sort by" />
         </SelectTrigger>
         <SelectContent>
+          <SelectItem value="trending">Sort by Trending</SelectItem>
           <SelectItem value="name">Sort by First Name</SelectItem>
           <SelectItem value="lastName">Sort by Last Name</SelectItem>
           <SelectItem value="recent">Sort by Recently Added</SelectItem>

@@ -1,47 +1,60 @@
 import Main from "@/components/layout/main"
 import { builders } from "@/app/_data"
-import { shuffleWithDateSeed } from "@/lib/utils"
 import { Builder } from "@/app/_types"
 import { BuilderDirectory } from "./builder-directory"
+import { calculateTotalGrowth } from "@/lib/utils"
 
 const PER_PAGE = 24
 
 export default function Home({ sort, page = 1 }: { sort?: string; page?: number }) {
   let buildersToShow: Builder[] = builders
 
-  if (!sort) {
-    buildersToShow = shuffleWithDateSeed(builders)
+  // Default to "trending" if no sort is specified
+  const currentSort = sort || "trending"
+
+  if (currentSort === "trending") {
+    // Map builders to include total growth
+    buildersToShow = builders
+      .map((builder) => {
+        const totalGrowth = calculateTotalGrowth(builder)
+        return { ...builder, totalGrowth }
+      })
+      // Filter out builders with zero growth
+      .filter((builder) => builder.totalGrowth > 0)
+      // Sort by total growth descending
+      .sort((a, b) => b.totalGrowth - a.totalGrowth)
   } else {
-    if (sort === "twitter") {
+    // Existing sorting logic
+    if (currentSort === "twitter") {
       buildersToShow = builders.filter((b) => b.twitter?.followers)
-    } else if (sort === "github") {
+    } else if (currentSort === "github") {
       buildersToShow = builders.filter((b) => b.github?.followers)
-    } else if (sort === "youtube") {
+    } else if (currentSort === "youtube") {
       buildersToShow = builders.filter((b) => b.youtube?.followers)
-    } else if (sort === "twitch") {
+    } else if (currentSort === "twitch") {
       buildersToShow = builders.filter((b) => b.twitch?.followers)
-    } else if (sort === "bluesky") {
+    } else if (currentSort === "bluesky") {
       buildersToShow = builders.filter((b) => b.bluesky?.followers)
     }
 
     buildersToShow = buildersToShow.sort((a, b) => {
-      if (sort === "name") {
+      if (currentSort === "name") {
         return a.name.localeCompare(b.name)
-      } else if (sort === "lastName") {
+      } else if (currentSort === "lastName") {
         const aLastName = a.name.split(" ").slice(-1)[0]
         const bLastName = b.name.split(" ").slice(-1)[0]
         return aLastName.localeCompare(bLastName)
-      } else if (sort === "recent") {
+      } else if (currentSort === "recent") {
         return new Date(b.created || "").getTime() - new Date(a.created || "").getTime()
-      } else if (sort === "twitter") {
+      } else if (currentSort === "twitter") {
         return (b.twitter?.followers || 0) - (a.twitter?.followers || 0)
-      } else if (sort === "github") {
+      } else if (currentSort === "github") {
         return (b.github?.followers || 0) - (a.github?.followers || 0)
-      } else if (sort === "youtube") {
+      } else if (currentSort === "youtube") {
         return (b.youtube?.followers || 0) - (a.youtube?.followers || 0)
-      } else if (sort === "twitch") {
+      } else if (currentSort === "twitch") {
         return (b.twitch?.followers || 0) - (a.twitch?.followers || 0)
-      } else if (sort === "bluesky") {
+      } else if (currentSort === "bluesky") {
         return (b.bluesky?.followers || 0) - (a.bluesky?.followers || 0)
       } else {
         return 0
@@ -55,7 +68,7 @@ export default function Home({ sort, page = 1 }: { sort?: string; page?: number 
 
   return (
     <Main>
-      <BuilderDirectory builders={buildersToShow.slice(startIndex, endIndex)} page={page} sort={sort} numPages={numPages} />
+      <BuilderDirectory builders={buildersToShow.slice(startIndex, endIndex)} page={page} sort={currentSort} numPages={numPages} />
     </Main>
   )
 }

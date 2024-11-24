@@ -71,7 +71,7 @@ export function FollowerGrowthChart({ xFollowerGrowth, bskyFollowerGrowth }: Fol
                 {xFollowerGrowth && currentCounts.x != null && (
                   <div className="bg-background flex items-center space-x-2 rounded border px-2 py-1 text-sm">
                     <span className="scale-90">𝕏</span>
-                    <span className="font-semibold text-foreground/70">{currentCounts.x > 0 ? `+${currentCounts.x}` : currentCounts.x}</span>
+                    <span className="font-semibold text-foreground/70">{currentCounts.x > 0 ? `+${currentCounts.x}` : currentCounts.x === 0 ? "–" : currentCounts.x}</span>
                   </div>
                 )}
                 {bskyFollowerGrowth && currentCounts.bsky != null && (
