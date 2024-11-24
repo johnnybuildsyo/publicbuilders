@@ -1,0 +1,14 @@
+{
+  "title": "Vercel AI SDK",
+  "description": "The Vercel AI SDK is a versatile toolkit designed to simplify the integration of AI capabilities into web applications built with Next.js. It enables developers to easily stream API responses from various AI models, including those from OpenAI and Hugging Face, while supporting features like generative UI and real-time interactions. The SDK is open-source and continuously updated, making it a valuable resource for creating AI-powered chat interfaces and other innovative applications. For more information, visit [Vercel AI SDK](https://sdk.vercel.ai/).",
+  "url": "https://sdk.vercel.ai/",
+  "author": {
+    "name": "Vercel",
+    "twitterUrl": "https://twitter.com/ajaykrupalk",
+    "image": null,
+    "url": "https://x.com/vercel"
+  },
+  "isTool": true,
+  "created": "2024-11-24",
+  "usefulnessScore": 9
+}

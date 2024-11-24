@@ -110,3 +110,16 @@ export const socialPlatforms: SocialMediaPlatform[] = [
   "producthunt",
   "reddit",
 ] as const;
+
+export type BuildToolOrTip = {
+  title: string
+  description: string
+  url: string
+  author: {
+    name: string
+    twitterUrl: string
+    image?: string
+  }
+  isTool: boolean
+  created: string
+}

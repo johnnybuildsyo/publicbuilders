@@ -1,0 +1,13 @@
+{
+  "title": "CheckMySEO",
+  "description": "CheckMySEO is an upcoming tool designed to help users monitor competitors' backlinks, providing insights for improving search engine optimization strategies.",
+  "url": "https://www.checkmyseo.io",
+  "author": {
+    "name": "Alex Derocq",
+    "twitterUrl": "https://twitter.com/akaasten",
+    "image": null
+  },
+  "isTool": true,
+  "created": "2024-11-24",
+  "usefulnessScore": 8
+}

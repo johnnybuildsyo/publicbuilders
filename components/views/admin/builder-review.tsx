@@ -1,51 +1,17 @@
 "use client"
 
 import { BuilderSubmission } from "@/app/_types"
-import { useState, useEffect } from "react"
 import { Card, CardContent } from "@/components/ui/card"
 import BuilderReviewForm from "./builder-review-form"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { useBuilderProfileReviewSubmit } from "@/components/hooks/useBuilderProfileReviewSubmit"
-import { socialPlatforms } from "@/app/_types"
 
-export default function BuilderReview() {
-  const [submissions, setSubmissions] = useState<BuilderSubmission[]>([])
-  const [error, setError] = useState("")
-
-  useEffect(() => {
-    const loadSubmissions = async () => {
-      try {
-        const response = await fetch(`/api/admin/data/builders/new/load`)
-        if (!response.ok) throw new Error("Failed to load builder.")
-        const data: BuilderSubmission[] = await response.json()
-
-        const submissionsData = data.map((submission) => {
-          socialPlatforms.forEach((platform) => {
-            const platformData = submission[platform]
-            if (platformData?.url && !platformData.handle) {
-              platformData.handle = platformData.url
-            }
-          })
-
-          return submission
-        })
-
-        setSubmissions(submissionsData)
-      } catch (error: unknown) {
-        setError(error instanceof Error ? error.message : "An unknown error occurred.")
-        console.error(error)
-      }
-    }
-
-    loadSubmissions()
-  }, [])
-
+export default function BuilderReview({ submissions }: { submissions: BuilderSubmission[] }) {
   const { onSubmit, isLoading } = useBuilderProfileReviewSubmit()
 
   return (
     <>
-      {error && <p className="text-red-500 py-8">{error}</p>}
       {submissions.length === 0 ? (
         <>
           <p className="py-8">No submissions available.</p>

@@ -1,0 +1,11 @@
+{
+  "title": "Carousel-To-Video Tool",
+  "description": "The Carousel-To-Video Tool by aiCarousels.com allows users to convert carousel posts into video format, enhancing content engagement for platforms like X (formerly Twitter).",
+  "url": "https://www.aicarousels.com",
+  "author": {
+    "name": "Fernando Pessagno",
+    "url": "https://twitter.com/Fer_MOMENTO"
+  },
+  "isTool": true,
+  "created": "2024-11-23"
+}

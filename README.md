@@ -49,19 +49,21 @@ Watch me [iterate with ChatGPT](https://chatgpt.com/share/672e9d92-5d28-8009-a2b
 --
 
 **2024-11-21**  
-📰 Added posts pages to [johnnybuilds.com](https://johnnybuilds.com/posts)
+🚀 Launched on [Product Hunt](https://www.producthunt.com/posts/public-builders)  
+📰 Added posts pages to [johnnybuilds.com](https://johnnybuilds-com.vercel.app/posts/getting-started-building-in-public-on-x-and-bluesky-my-experience-as-a-new-user)  
+📊 Started tracking follower counts over time  
 
 --
 
 **2024-11-20**  
-📰 Added script to embed Medium feed data directly into project
-🦋 Published article on X vs Bluesky
+📰 Added script to embed Medium feed data directly into project when I deploy  
+🦋 Published [article](https://johnnybuilds-com.vercel.app/posts/getting-started-building-in-public-on-x-and-bluesky-my-experience-as-a-new-user) on X vs Bluesky  
 
 --
 
 **2024-11-19**  
-🚀 Scheduled Product Hunt Launch
-👥 Added more people to the directory and did outreach
+🚀 Scheduled Product Hunt Launch  
+👥 Added more people to the directory and did outreach  
 
 --
 

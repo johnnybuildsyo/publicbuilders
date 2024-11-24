@@ -1,0 +1,13 @@
+{
+  "title": "FLUX.1",
+  "description": "FLUX.1 is an AI tool designed to help users experiment with various hairstyles, clothing styles, and professional headshots. It utilizes LoRAs via fal.ai, enabling personalized visual transformations.",
+  "url": "https://flux1ai.com/",
+  "author": {
+    "name": "John",
+    "twitterUrl": "https://twitter.com/FI_investor",
+    "image": null
+  },
+  "isTool": true,
+  "created": "2024-11-24",
+  "usefulnessScore": 7
+}

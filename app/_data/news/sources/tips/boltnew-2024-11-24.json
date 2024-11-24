@@ -1,0 +1,13 @@
+{
+  "title": "Bolt.new",
+  "description": "StackBlitz's Bolt is a web development tool that enables users to quickly build and prototype internal applications. It offers a user-friendly interface for creating projects without the need for extensive setup, making it a convenient alternative for those looking to replace costly solutions.",
+  "url": "https://bolt.new",
+  "author": {
+    "name": "Dillon",
+    "twitterUrl": "https://twitter.com/un_dill",
+    "image": null
+  },
+  "isTool": true,
+  "created": "2024-11-24",
+  "usefulnessScore": 8
+}
