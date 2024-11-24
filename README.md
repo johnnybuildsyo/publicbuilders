@@ -219,7 +219,7 @@ PublicBuilders #buildinpublic Day 10
 Sections:
 - Trending Builders
     - Most growth on Bluesky/X
-- Tip of the Week
+- Tip/Tool of the Week
     - Source and schedule
 - Launch of the Week
     - Source and choose

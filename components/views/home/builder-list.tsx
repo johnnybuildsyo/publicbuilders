@@ -1,5 +1,6 @@
 "use client"
 import { useState } from "react"
+import { builders as allBuilders } from "@/app/_data"
 import { Input } from "@/components/ui/input"
 import { Search } from "lucide-react"
 import { Builder } from "@/app/_types"
@@ -11,7 +12,7 @@ import { cn } from "@/lib/utils"
 export function BuilderList({ builders, sort, page, numPages }: { builders: Builder[]; sort?: string; page: number; numPages: number }) {
   const [searchTerm, setSearchTerm] = useState("")
 
-  const filteredBuilders = builders.filter((builder) => {
+  const filteredBuilders = allBuilders.filter((builder) => {
     const fullNameIncludes = builder.name.toLowerCase().includes(searchTerm.toLowerCase())
     const tagIncludes = builder.tags.some((tag) => tag.toLowerCase().includes(searchTerm.toLowerCase()))
     const projectIncludes =
@@ -19,6 +20,8 @@ export function BuilderList({ builders, sort, page, numPages }: { builders: Buil
     const websiteIncludes = builder.website && builder.website.toLowerCase().includes(searchTerm.toLowerCase())
     return fullNameIncludes || tagIncludes || projectIncludes || websiteIncludes
   })
+
+  const paginatedBuilders = searchTerm ? filteredBuilders.slice((page - 1) * builders.length, page * builders.length) : builders
 
   return (
     <>
@@ -35,11 +38,11 @@ export function BuilderList({ builders, sort, page, numPages }: { builders: Buil
       <div
         className={cn(
           "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8",
-          filteredBuilders.length === 1 && "md:grid-cols-1 lg:grid-cols-1 max-w-[640px] mx-auto",
-          filteredBuilders.length === 2 && "md:grid-cols-2 lg:grid-cols-2"
+          paginatedBuilders.length === 1 && "md:grid-cols-1 lg:grid-cols-1 max-w-[640px] mx-auto",
+          paginatedBuilders.length === 2 && "md:grid-cols-2 lg:grid-cols-2"
         )}
       >
-        {filteredBuilders.map((builder, index) => (
+        {paginatedBuilders.map((builder, index) => (
           <BuilderCard builder={builder} key={builder.name + index} />
         ))}
       </div>

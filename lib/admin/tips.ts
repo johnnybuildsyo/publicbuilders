@@ -7,14 +7,11 @@ import { BuildToolOrTip } from "@/app/_types";
 
 export async function removeTip(filePath: string, index: number): Promise<BuildToolOrTip[]> {
   try {
-    // Read the file
     const fileData = JSON.parse(fs.readFileSync(filePath, "utf8")) as BuildToolOrTip[];
 
-    // Remove the tip at the given index
     const updatedData = [...fileData];
     updatedData.splice(index, 1);
 
-    // Write the updated data back to the file
     fs.writeFileSync(filePath, JSON.stringify(updatedData, null, 2), "utf8");
 
     return updatedData;
@@ -24,7 +21,7 @@ export async function removeTip(filePath: string, index: number): Promise<BuildT
   }
 }
 
-export async function approveTip(
+export async function addTip(
   tip: BuildToolOrTip,
   filePath: string,
   index: number
@@ -47,10 +44,15 @@ export async function approveTip(
     fs.writeFileSync(filePathToWrite, JSON.stringify(tip, null, 2), "utf8");
     console.log(`Tip approved and saved to: ${filePathToWrite}`);
 
-    // Remove the tip from the original file
-    const updatedData = await removeTip(filePath, index);
-
-    return updatedData;
+    // Handle existing or new tips
+    if (index === -1) {
+      console.log("Adding new tip from scratch.");
+      return JSON.parse(fs.readFileSync(filePath, "utf8")) as BuildToolOrTip[];
+    } else {
+      console.log("Approving existing tip.");
+      const updatedData = await removeTip(filePath, index);
+      return updatedData;
+    }
   } catch (error) {
     console.error("Error approving tip:", error);
     throw new Error("Failed to approve and save the tip.");

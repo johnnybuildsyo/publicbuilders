@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-export default function ApproveBuilderPage() {
+export default function AdminHomePage() {
   if (process.env.NODE_ENV !== "development") {
     return null // Return null if not in a local environment
   }
