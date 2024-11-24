@@ -36,8 +36,8 @@ const processData = (xFollowerGrowth?: FollowerGrowth, bskyFollowerGrowth?: Foll
     const bskyEntry = bskyData.find((entry) => entry.date === date)
     return {
       date,
-      x: xEntry?.change || 0,
-      bsky: bskyEntry?.change || 0,
+      x: xEntry?.change ?? null,
+      bsky: bskyEntry?.change ?? null,
     }
   })
 }
@@ -51,9 +51,12 @@ export function FollowerGrowthChart({ xFollowerGrowth, bskyFollowerGrowth }: Fol
   const data = processData(xFollowerGrowth, bskyFollowerGrowth)
 
   const currentCounts = {
-    x: data.length > 0 ? data[data.length - 1].x : 0,
-    bsky: data.length > 0 ? data[data.length - 1].bsky : 0,
+    x: data.length > 0 ? data[data.length - 1].x : null,
+    bsky: data.length > 0 ? data[data.length - 1].bsky : null,
   }
+
+  // Determine if there is any growth
+  const hasGrowth = (currentCounts.x != null && currentCounts.x !== 0) || (currentCounts.bsky != null && currentCounts.bsky !== 0)
 
   return (
     <Card className="w-full border-none p-0 bg-slate-50 shadow-none">
@@ -62,68 +65,76 @@ export function FollowerGrowthChart({ xFollowerGrowth, bskyFollowerGrowth }: Fol
       </CardHeader>
       <CardContent className="px-0 pb-2">
         <div>
-          <div className="flex justify-center gap-4 items-center relative -top-8 -mb-4 scale-90">
-            {xFollowerGrowth && (
-              <div className="bg-background flex items-center space-x-2 rounded border px-2 py-1 text-sm">
-                <span className="scale-90">𝕏</span>
-                <span className="font-semibold text-foreground/70">{currentCounts.x > 0 ? `+${currentCounts.x}` : currentCounts.x}</span>
-              </div>
-            )}
-            {bskyFollowerGrowth && (
-              <div className="bg-background flex items-center space-x-2 rounded border px-2 py-1 text-sm">
-                <span className="scale-90">🦋</span>
-                <span className="font-semibold text-foreground/70">{currentCounts.bsky > 0 ? `+${currentCounts.bsky}` : currentCounts.bsky}</span>
-              </div>
-            )}
-          </div>
-          <ChartContainer
-            config={{
-              x: {
-                label: "X",
-                color: "#64748b", // Hardcoded slate-700
-              },
-              bsky: {
-                label: "Bluesky",
-                color: "#3b82f6", // Hardcoded blue-500
-              },
-            }}
-            className="w-[108%] relative -left-[10%]"
-          >
-            <ResponsiveContainer width="100%" height="100%">
-              <LineChart data={data} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="date" />
-                <YAxis />
-                <ChartTooltip content={<ChartTooltipContent />} />
-                <Legend
-                  wrapperStyle={{
-                    position: "relative",
-                    left: "10%",
-                    top: "-10%",
-                  }}
-                  formatter={(value: string) => (value === "x" ? "𝕏" : "🦋")}
-                />
-                {xFollowerGrowth && (
-                  <Line
-                    type="monotone"
-                    dataKey="x"
-                    stroke="#64748b" // Hardcoded slate-500
-                    name="x"
-                    activeDot={{ r: 8 }}
-                  />
+          {hasGrowth ? (
+            <>
+              <div className="flex justify-center gap-4 items-center relative -top-8 -mb-4 scale-90">
+                {xFollowerGrowth && currentCounts.x != null && (
+                  <div className="bg-background flex items-center space-x-2 rounded border px-2 py-1 text-sm">
+                    <span className="scale-90">𝕏</span>
+                    <span className="font-semibold text-foreground/70">{currentCounts.x > 0 ? `+${currentCounts.x}` : currentCounts.x}</span>
+                  </div>
                 )}
-                {bskyFollowerGrowth && (
-                  <Line
-                    type="monotone"
-                    dataKey="bsky"
-                    stroke="#3b82f6" // Hardcoded blue-500
-                    name="bsky"
-                    activeDot={{ r: 8 }}
-                  />
+                {bskyFollowerGrowth && currentCounts.bsky != null && (
+                  <div className="bg-background flex items-center space-x-2 rounded border px-2 py-1 text-sm">
+                    <span className="scale-90">🦋</span>
+                    <span className="font-semibold text-foreground/70">{currentCounts.bsky > 0 ? `+${currentCounts.bsky}` : currentCounts.bsky}</span>
+                  </div>
                 )}
-              </LineChart>
-            </ResponsiveContainer>
-          </ChartContainer>
+              </div>
+              <ChartContainer
+                config={{
+                  x: {
+                    label: "X",
+                    color: "#64748b", // Hardcoded slate-700
+                  },
+                  bsky: {
+                    label: "Bluesky",
+                    color: "#3b82f6", // Hardcoded blue-500
+                  },
+                }}
+                className="w-[108%] relative -left-[10%]"
+              >
+                <ResponsiveContainer width="100%" height="100%">
+                  <LineChart data={data} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
+                    <CartesianGrid strokeDasharray="3 3" />
+                    <XAxis dataKey="date" />
+                    <YAxis />
+                    <ChartTooltip content={<ChartTooltipContent />} />
+                    <Legend
+                      wrapperStyle={{
+                        position: "relative",
+                        left: "10%",
+                        top: "-10%",
+                      }}
+                      formatter={(value: string) => (value === "x" ? "𝕏" : "🦋")}
+                    />
+                    {xFollowerGrowth && (
+                      <Line
+                        type="monotone"
+                        dataKey="x"
+                        stroke="#64748b" // Hardcoded slate-500
+                        name="x"
+                        activeDot={{ r: 8 }}
+                        isAnimationActive={false}
+                      />
+                    )}
+                    {bskyFollowerGrowth && (
+                      <Line
+                        type="monotone"
+                        dataKey="bsky"
+                        stroke="#3b82f6" // Hardcoded blue-500
+                        name="bsky"
+                        activeDot={{ r: 8 }}
+                        isAnimationActive={false}
+                      />
+                    )}
+                  </LineChart>
+                </ResponsiveContainer>
+              </ChartContainer>
+            </>
+          ) : (
+            <div className="aspect-video flex justify-center items-center text-center text-foreground/50 font-thin text-lg italic relative -top-8 -mb-4">No follower growth</div>
+          )}
         </div>
       </CardContent>
     </Card>
