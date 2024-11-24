@@ -1748,8 +1748,26 @@
     "description": "After years in web dev, I’m starting over, for fun, building in public documenting every step on the way.",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/johnnybuilds-banner.png",
     "twitter": {
-      "url": "https://twitter.com/johnnybuilds_",
-      "followers": 64
+      "url": "https://twitter.com/JohnnyBuilds_",
+      "followers": 57,
+      "followerGrowth": [
+        {
+          "date": "2024-11-21",
+          "count": 59
+        },
+        {
+          "date": "2024-11-22",
+          "count": 60
+        },
+        {
+          "date": "2024-11-23",
+          "count": 58
+        },
+        {
+          "date": "2024-11-24",
+          "count": 57
+        }
+      ]
     },
     "youtube": {
       "url": ""
