@@ -1,8 +1,8 @@
 import { WebPage, Person, WithContext } from "schema-dts"
 import { SHARE_IMAGE, builders } from "@/app/_data"
 import Profile from "@/components/views/profile"
-import { reverseSlugify } from "@/lib/utils"
 import slugify from "slugify"
+import { reverseSlugify } from "@/lib/utils"
 import { breadcrumbJsonLd as breadcrumb } from "@/app/_util"
 
 export async function generateMetadata(props: { params: Promise<{ slug: string }> }) {
@@ -26,8 +26,7 @@ export async function generateMetadata(props: { params: Promise<{ slug: string }
 
 export default async function ProfilePage(props: { params: Promise<{ slug: string }> }) {
   const { slug } = await props.params
-  const name = reverseSlugify(slug)
-  const builder = builders.find((builder) => builder.name === name)
+  const builder = builders.find((builder) => slugify(builder.name, { lower: true, strict: true }) === slug)
 
   let jsonLdPerson: WithContext<Person> | undefined
   let jsonLd: WithContext<WebPage> | undefined
