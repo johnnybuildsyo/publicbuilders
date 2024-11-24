@@ -48,6 +48,17 @@ Watch me [iterate with ChatGPT](https://chatgpt.com/share/672e9d92-5d28-8009-a2b
 
 --
 
+**2024-11-23**  
+🚀 Working on figuring out what I want to do for a newsletter
+ Added tracked follower counts over time to the UI
+
+--
+
+**2024-11-22**  
+🚀 Took the day off. Touched grass.
+
+--
+
 **2024-11-21**  
 🚀 Launched on [Product Hunt](https://www.producthunt.com/posts/public-builders)  
 📰 Added posts pages to [johnnybuilds.com](https://johnnybuilds-com.vercel.app/posts/getting-started-building-in-public-on-x-and-bluesky-my-experience-as-a-new-user)  

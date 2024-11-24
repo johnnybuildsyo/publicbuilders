@@ -16,17 +16,17 @@ const formatDate = (dateString: string) => {
   return `${month}/${day}`
 }
 
-const computeDifferences = (growth: FollowerGrowth) => {
-  return growth.map((entry, index) => {
-    if (index === 0) return { date: formatDate(entry.date), change: 0 } // First entry has no change
-    const previousCount = growth[index - 1].count
-    return { date: formatDate(entry.date), change: entry.count - previousCount }
+const computeCumulativeGrowth = (growth: FollowerGrowth) => {
+  const initialCount = growth[0].count
+  return growth.map((entry) => {
+    const change = entry.count - initialCount
+    return { date: formatDate(entry.date), change }
   })
 }
 
 const processData = (xFollowerGrowth?: FollowerGrowth, bskyFollowerGrowth?: FollowerGrowth) => {
-  const xData = xFollowerGrowth ? computeDifferences(xFollowerGrowth) : []
-  const bskyData = bskyFollowerGrowth ? computeDifferences(bskyFollowerGrowth) : []
+  const xData = xFollowerGrowth ? computeCumulativeGrowth(xFollowerGrowth) : []
+  const bskyData = bskyFollowerGrowth ? computeCumulativeGrowth(bskyFollowerGrowth) : []
 
   // Merge data and align by date
   const allDates = Array.from(new Set([...xData.map((d) => d.date), ...bskyData.map((d) => d.date)])).sort()
@@ -48,15 +48,11 @@ export function FollowerGrowthChart({ xFollowerGrowth, bskyFollowerGrowth }: Fol
     return null
   }
 
-  console.log(JSON.stringify({ xFollowerGrowth, bskyFollowerGrowth }, null, 2))
-
   const data = processData(xFollowerGrowth, bskyFollowerGrowth)
 
-  console.log(JSON.stringify({ data }, null, 2))
-
   const currentCounts = {
-    x: data.reduce((sum, entry) => sum + entry.x, 0),
-    bsky: data.reduce((sum, entry) => sum + entry.bsky, 0),
+    x: data.length > 0 ? data[data.length - 1].x : 0,
+    bsky: data.length > 0 ? data[data.length - 1].bsky : 0,
   }
 
   return (
@@ -99,7 +95,14 @@ export function FollowerGrowthChart({ xFollowerGrowth, bskyFollowerGrowth }: Fol
                 <XAxis dataKey="date" />
                 <YAxis />
                 <ChartTooltip content={<ChartTooltipContent />} />
-                <Legend wrapperStyle={{ position: "relative", left: "10%", top: "-10%" }} formatter={(value: string) => (value === "x" ? "𝕏" : "🦋")} />
+                <Legend
+                  wrapperStyle={{
+                    position: "relative",
+                    left: "10%",
+                    top: "-10%",
+                  }}
+                  formatter={(value: string) => (value === "x" ? "𝕏" : "🦋")}
+                />
                 {xFollowerGrowth && (
                   <Line
                     type="monotone"
