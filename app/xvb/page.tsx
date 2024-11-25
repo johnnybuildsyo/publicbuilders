@@ -19,10 +19,11 @@ export default function GrowthPage() {
   const growthRateRatio = totalTwitterGrowth > 0 ? (totalBlueskyGrowth / totalTwitterGrowth).toFixed(1) : "N/A"
 
   return (
-    <div className="py-8 sm:py-16 flex flex-col gap-8 items-center justify-center">
+    <div className="py-8 sm:py-16 flex flex-col gap-4 items-center justify-center">
+      <Heading>Follower Growth: 𝕏 vs 🦋</Heading>
       <div>
-        <Heading>Overall Follower Growth: Twitter vs. Bluesky</Heading>
-        <h3 className="text-xl text-center">Bluesky Growth Rate: {growthRateRatio}x vs. X/Twitter</h3>
+        <h3 className="text-xl text-center font-semibold">Bluesky Growth Rate: {growthRateRatio}x vs. X/Twitter</h3>
+        <p className="text-sm font-thin opacity-70 text-center">As measured by follower count tracking across the Public Builders directory</p>
       </div>
       <div className="w-full max-w-4xl mx-auto">
         <FollowerGrowthChart xFollowerGrowth={xFollowerGrowth} bskyFollowerGrowth={bskyFollowerGrowth} />
