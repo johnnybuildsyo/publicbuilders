@@ -74,6 +74,9 @@ dependencies:
   emblor:
     specifier: ^1.4.6
     version: 1.4.6(@types/react-dom@18.3.1)(@types/react@18.3.12)(postcss@8.4.49)(react-dom@19.0.0-rc-02c0e824-20241028)(react@19.0.0-rc-02c0e824-20241028)(typescript@5.7.2)
+  google:
+    specifier: link:@next/third-parties/google
+    version: link:@next/third-parties/google
   lodash:
     specifier: ^4.17.21
     version: 4.17.21
@@ -4126,7 +4129,7 @@ packages:
       react: 19.0.0-rc-02c0e824-20241028
       react-dom: 19.0.0-rc-02c0e824-20241028(react@19.0.0-rc-02c0e824-20241028)
       react-easy-sort: 1.6.0(react-dom@19.0.0-rc-02c0e824-20241028)(react@19.0.0-rc-02c0e824-20241028)
-      tailwind-merge: 2.5.4
+      tailwind-merge: 2.5.5
       tsup: 6.7.0(postcss@8.4.49)(typescript@5.7.2)
     transitivePeerDependencies:
       - '@swc/core'
@@ -6871,6 +6874,10 @@ packages:
 
   /tailwind-merge@2.5.4:
     resolution: {integrity: sha512-0q8cfZHMu9nuYP/b5Shb7Y7Sh1B7Nnl5GqNr1U+n2p6+mybvRtayrQ+0042Z5byvTA8ihjlP8Odo8/VnHbZu4Q==}
+    dev: false
+
+  /tailwind-merge@2.5.5:
+    resolution: {integrity: sha512-0LXunzzAZzo0tEPxV3I297ffKZPlKDrjj7NXphC8V5ak9yHC5zRmxnOe2m/Rd/7ivsOMJe3JZ2JVocoDdQTRBA==}
     dev: false
 
   /tailwindcss-animate@1.0.7(tailwindcss@3.4.15):
