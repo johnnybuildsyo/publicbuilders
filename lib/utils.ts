@@ -3,6 +3,7 @@ import { twMerge } from "tailwind-merge"
 import { capitalize } from "lodash"
 import seedrandom from "seedrandom"
 import { Builder } from "@/app/_types"
+type PlatformGrowth = { date: string; total: number }[];
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs))
@@ -83,4 +84,56 @@ export function calculateTotalGrowth(builder: Builder): number {
   }
 
   return twitterGrowth + blueskyGrowth;
+}
+
+export function calculatePlatformGrowth(builders: Builder[]): {
+  twitterGrowth: PlatformGrowth;
+  blueskyGrowth: PlatformGrowth;
+} {
+  // Store daily growth for each platform
+  const dailyGrowthMap: { [date: string]: { twitter: number; bluesky: number } } = {};
+
+  builders.forEach((builder) => {
+    const twitterGrowth = builder.twitter?.followerGrowth || [];
+    const blueskyGrowth = builder.bluesky?.followerGrowth || [];
+
+    // Calculate daily growth for Twitter
+    twitterGrowth.forEach(({ date, count }, index) => {
+      const prevCount = index > 0 ? twitterGrowth[index - 1].count : 0;
+      const growth = index === 0 ? 0 : count - prevCount; // First entry has no growth
+
+      if (!dailyGrowthMap[date]) dailyGrowthMap[date] = { twitter: 0, bluesky: 0 };
+      dailyGrowthMap[date].twitter += growth;
+    });
+
+    // Calculate daily growth for Bluesky
+    blueskyGrowth.forEach(({ date, count }, index) => {
+      const prevCount = index > 0 ? blueskyGrowth[index - 1].count : 0;
+      const growth = index === 0 ? 0 : count - prevCount; // First entry has no growth
+
+      if (!dailyGrowthMap[date]) dailyGrowthMap[date] = { twitter: 0, bluesky: 0 };
+      dailyGrowthMap[date].bluesky += growth;
+    });
+  });
+
+  // Convert the map to arrays and calculate cumulative totals
+  const sortedDates = Object.keys(dailyGrowthMap).sort();
+  let twitterCumulative = 0;
+  let blueskyCumulative = 0;
+
+  const twitterGrowth: PlatformGrowth = [];
+  const blueskyGrowth: PlatformGrowth = [];
+
+  sortedDates.forEach((date) => {
+    const dailyTwitterGrowth = dailyGrowthMap[date].twitter;
+    const dailyBlueskyGrowth = dailyGrowthMap[date].bluesky;
+
+    twitterCumulative += dailyTwitterGrowth;
+    blueskyCumulative += dailyBlueskyGrowth;
+
+    twitterGrowth.push({ date, total: twitterCumulative });
+    blueskyGrowth.push({ date, total: blueskyCumulative });
+  });
+
+  return { twitterGrowth, blueskyGrowth };
 }
