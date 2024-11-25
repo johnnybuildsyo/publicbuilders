@@ -36,6 +36,8 @@ export default function BuilderSocialMediaField({ field, icon, label, register, 
   const followerField = `${field}.followers` as FollowerField
   const handle = watch(handleField)
 
+  console.log({ field, label, handle, errors, followerField })
+
   // Initialize `isEditing` based on whether the handle is empty
   const [isEditing, setIsEditing] = useState<boolean>(true)
 

@@ -3989,5 +3989,49 @@
     },
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/daniel_nguyenx.jpg",
     "created": "2024-11-22T18:35:28.567Z"
+  },
+  {
+    "name": "Kostas Livieratos",
+    "description": "SRE building a SaaS holding co. Exited GitPause. Building Schedul. Tweeting about Next.js, AI and my SaaS side-projects",
+    "twitter": {
+      "url": "https://x.com/koslib",
+      "followers": 1646
+    },
+    "youtube": {
+      "url": ""
+    },
+    "twitch": {
+      "url": ""
+    },
+    "github": {
+      "url": "https://github.com/koslib",
+      "followers": 249
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/koslib.bsky.social",
+      "followers": 35
+    },
+    "reddit": {
+      "url": ""
+    },
+    "producthunt": {
+      "url": ""
+    },
+    "website": "https://koslib.com",
+    "tags": [
+      "saas",
+      "developer",
+      "ai"
+    ],
+    "currentProject": {
+      "name": "Schedul",
+      "description": "Easily schedule, plan and scale your content to boost your following and grow your brand on Threads.",
+      "link": "https://www.schedulthreads.com",
+      "tags": [
+        "social",
+        "tools",
+        "marketing"
+      ]
+    }
   }
 ]
