@@ -104,7 +104,7 @@ export function FollowerGrowthChart({ xFollowerGrowth, bskyFollowerGrowth }: Fol
                       wrapperStyle={{
                         position: "relative",
                         left: "10%",
-                        top: "-10%",
+                        top: "-20px",
                       }}
                       formatter={(value: string) => (value === "x" ? "𝕏" : "🦋")}
                     />

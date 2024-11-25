@@ -2,7 +2,6 @@ import { calculatePlatformGrowth } from "@/lib/utils"
 import { builders } from "@/app/_data"
 import { FollowerGrowthChart } from "@/components/views/home/follower-growth-chart"
 import Heading from "@/components/typography/heading"
-import Subhead from "@/components/typography/subhead"
 
 export default function GrowthPage() {
   const { twitterGrowth, blueskyGrowth } = calculatePlatformGrowth(builders)
