@@ -2120,7 +2120,8 @@
         "bluesky",
         "directory",
         "tools"
-      ]
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/mubashar_“mubs”_iqbal_project_screenshot.png"
     },
     "created": "2024-11-12T22:52:36.470Z"
   },
@@ -3800,6 +3801,7 @@
       "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/sebastian_röhl_project_screenshot.png"
     },
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/SebastianRoehl.jpg",
+    "imageOffset": "60%",
     "created": "2024-11-22T02:20:08.971Z"
   },
   {
@@ -4031,7 +4033,202 @@
         "social",
         "tools",
         "marketing"
-      ]
-    }
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/kostas_livieratos_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/koslib.jpg",
+    "created": "2024-11-25T04:00:48.949Z"
+  },
+  {
+    "name": "Andrei Hudovich",
+    "description": "Bootstrapping ListingCat.com to $1M revenue. Tweeting about indie hacking, marketing, and growth.",
+    "twitter": {
+      "url": "https://x.com/AndreiHudovich",
+      "followers": 1775
+    },
+    "youtube": {
+      "url": ""
+    },
+    "twitch": {
+      "url": ""
+    },
+    "github": {
+      "url": "https://github.com/AndreiHudovich",
+      "followers": 71
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/andrei.blue",
+      "followers": 1600
+    },
+    "reddit": {
+      "url": ""
+    },
+    "producthunt": {
+      "url": "https://www.producthunt.com/@andreihudovich",
+      "followers": 33
+    },
+    "website": "https://hudovich.dev",
+    "tags": [
+      "bootstrapper",
+      "marketing",
+      "startups"
+    ],
+    "currentProject": {
+      "name": "ListingCat",
+      "description": "Curating launch platforms, directories, marketplaces, newsletters, communities, and more, all in one place.",
+      "link": "https://listingcat.com/",
+      "tags": [
+        "directory",
+        "startups",
+        "tool"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/andrei_hudovich_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/AndreiHudovich.jpg",
+    "imageOffset": "70%",
+    "created": "2024-11-25T04:00:48.953Z"
+  },
+  {
+    "name": "Ayush",
+    "description": "Pursuing Freedom. Sharing what I learn. Building Independent micro businesses.",
+    "twitter": {
+      "url": "https://x.com/ayushtweetshere",
+      "followers": 9646
+    },
+    "youtube": {
+      "url": ""
+    },
+    "twitch": {
+      "url": ""
+    },
+    "github": {
+      "url": ""
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/ayushchat.bsky.social",
+      "followers": 1100
+    },
+    "reddit": {
+      "url": ""
+    },
+    "producthunt": {
+      "url": ""
+    },
+    "website": "https://x.com/ayushtweetshere/bio",
+    "newsletter": "https://superframeworks.com/join",
+    "tags": [
+      "saas",
+      "marketing",
+      "entrepreneur"
+    ],
+    "currentProject": {
+      "name": "Indie Masterminds",
+      "description": "Side Hustle to $5K MRR: With a Tight Knit Community of Indie Founders",
+      "link": "https://indiemasterminds.com/",
+      "tags": [
+        "founders",
+        "community",
+        "entrepreneurs"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/ayush_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/ayushtweetshere.jpg",
+    "imageOffset": "40%",
+    "created": "2024-11-25T04:00:48.953Z"
+  },
+  {
+    "name": "Lars",
+    "description": "A passionate Software and Systems Engineer specialized in DevOps, Systems Engineering, Python, JavaScript, Linux and Automation.",
+    "twitter": {
+      "url": "https://x.com/buildItN0w",
+      "followers": 841
+    },
+    "youtube": {
+      "url": ""
+    },
+    "twitch": {
+      "url": ""
+    },
+    "github": {
+      "url": "https://github.com/l4r-s",
+      "followers": 190
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/builditn0w.bsky.social",
+      "followers": 1300
+    },
+    "reddit": {
+      "url": ""
+    },
+    "producthunt": {
+      "url": ""
+    },
+    "website": "https://hilars.dev",
+    "tags": [
+      "developer"
+    ],
+    "currentProject": {
+      "name": "X Shot",
+      "description": "Effortlessly create high-quality screenshots of your X (Twitter) posts with just a click.",
+      "link": "https://xshot.me",
+      "tags": [
+        "x",
+        "tool",
+        "social"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/lars_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/buildItN0w.jpg",
+    "imageOffset": "60%",
+    "created": "2024-11-25T04:00:48.953Z"
+  },
+  {
+    "name": "Csaba Kissi",
+    "description": "Full-stack developer who loves crafting digital solutions bringing creative problem-solving and a user-centric approach to every project",
+    "twitter": {
+      "url": "https://x.com/csaba_kissi",
+      "followers": 233200
+    },
+    "youtube": {
+      "url": ""
+    },
+    "twitch": {
+      "url": ""
+    },
+    "github": {
+      "url": "https://github.com/ckissi/",
+      "followers": 186
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/csaba.bsky.social",
+      "followers": 1200
+    },
+    "reddit": {
+      "url": ""
+    },
+    "producthunt": {
+      "url": "https://www.producthunt.com/@csaba_kissi",
+      "followers": 5459
+    },
+    "website": "https://folll.io/csabakissi",
+    "tags": [
+      "solopreneur",
+      "developer",
+      "fullstack"
+    ],
+    "currentProject": {
+      "name": "Tweet Hook",
+      "description": "Create Viral Tweet Hooks with AI In Seconds",
+      "link": "https://tweethook.com",
+      "tags": [
+        "social",
+        "tool",
+        "ai"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/csaba_kissi_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/csaba_kissi.jpg",
+    "imageOffset": "80%",
+    "created": "2024-11-25T04:00:48.953Z"
   }
 ]
