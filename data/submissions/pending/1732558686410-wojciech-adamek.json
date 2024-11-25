@@ -1,0 +1,44 @@
+{
+  "name": "Wojciech Adamek",
+  "description": "Past software architect/tech lead. Working and building my own projects now. Sharing the journey and everything I've learned so far.",
+  "twitter": {
+    "handle": ""
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "url": "https://github.com/wadamek65",
+    "followers": 3
+  },
+  "bluesky": {
+    "url": "https://bsky.app/profile/wadamek.me",
+    "followers": 160
+  },
+  "reddit": {
+    "url": "https://www.reddit.com/user/wadamek65/",
+    "followers": 19
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://wadamek.me",
+  "newsletter": "https://wadamek.me",
+  "writing": "https://wadamek.me/rss.xml",
+  "tags": [
+    "softwarearchitecture",
+    "buildinpublic",
+    "webdev"
+  ],
+  "currentProject": {
+    "name": "QuickPin",
+    "description": "Desktop application to capture notes friction free. First-class integration with Notion.",
+    "link": "https://quickpin.dev/",
+    "tags": [
+      "notion"
+    ]
+  }
+}
