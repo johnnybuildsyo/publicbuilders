@@ -2,6 +2,7 @@ import { calculatePlatformGrowth } from "@/lib/utils"
 import { builders } from "@/app/_data"
 import { FollowerGrowthChart } from "@/components/views/home/follower-growth-chart"
 import Heading from "@/components/typography/heading"
+import Subhead from "@/components/typography/subhead"
 
 export default function GrowthPage() {
   const { twitterGrowth, blueskyGrowth } = calculatePlatformGrowth(builders)
@@ -10,9 +11,19 @@ export default function GrowthPage() {
   const xFollowerGrowth = twitterGrowth.map(({ date, total }) => ({ date, count: total }))
   const bskyFollowerGrowth = blueskyGrowth.map(({ date, total }) => ({ date, count: total }))
 
+  // Calculate total growth for the most recent date
+  const totalTwitterGrowth = twitterGrowth.length > 0 ? twitterGrowth[twitterGrowth.length - 1].total : 0
+  const totalBlueskyGrowth = blueskyGrowth.length > 0 ? blueskyGrowth[blueskyGrowth.length - 1].total : 0
+
+  // Calculate growth rate ratio
+  const growthRateRatio = totalTwitterGrowth > 0 ? (totalBlueskyGrowth / totalTwitterGrowth).toFixed(1) : "N/A"
+
   return (
     <div className="py-8 sm:py-16 flex flex-col gap-8 items-center justify-center">
-      <Heading>Overall Follower Growth: Twitter vs. Bluesky</Heading>
+      <div>
+        <Heading>Overall Follower Growth: Twitter vs. Bluesky</Heading>
+        <h3 className="text-xl text-center">Bluesky Growth Rate: {growthRateRatio}x vs. X/Twitter</h3>
+      </div>
       <div className="w-full max-w-4xl mx-auto">
         <FollowerGrowthChart xFollowerGrowth={xFollowerGrowth} bskyFollowerGrowth={bskyFollowerGrowth} />
       </div>
