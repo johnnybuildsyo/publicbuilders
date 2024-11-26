@@ -3,15 +3,19 @@ import Image from "next/image"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { ChevronsLeft, ExternalLink, UserIcon } from "lucide-react"
+import { ChevronsLeft, ExternalLink, UserIcon, TrendingUp } from "lucide-react"
 import { Builder } from "@/app/_types"
 import SocialMediaLinks from "./social-media-links"
 import slugify from "slugify"
 import CopyNotifyButton from "../admin/copy-notify-button"
 import { cn } from "@/lib/utils"
 import { FollowerGrowthChart } from "./follower-growth-chart"
+import { calculateGrowth } from "@/lib/utils"
 
 export function BuilderCard({ builder, variant = "card" }: { builder: Builder; variant?: "card" | "page" }) {
+  const { percentGrowth } = calculateGrowth(builder)
+  const showGrowth = percentGrowth >= 2
+
   return (
     <Card key={builder.name} className={cn("flex flex-col", variant === "page" && "rounded-none border-none shadow-none mb-24")}>
       <CardHeader className={cn("relative pb-2", variant === "page" && "flex items-center -mt-24")}>
@@ -51,8 +55,20 @@ export function BuilderCard({ builder, variant = "card" }: { builder: Builder; v
             </Link>
           </div>
         )}
+        {showGrowth && (
+          <div className="flex justify-center -mb-1">
+            <Badge variant="secondary" className="bg-green-100 text-green-800 text-sm font-semibold py-1 flex items-center gap-1">
+              <TrendingUp className="w-3 h-3" />
+              {percentGrowth.toFixed(1)}%
+            </Badge>
+          </div>
+        )}
         <CardTitle className={cn("text-center tracking-wide text-balance", variant === "card" ? "text-2xl font-extrabold" : "text-6xl font-black")}>
-          {variant === "card" ? <Link href={`/profile/${slugify(builder.name, { lower: true })}`}>{builder.name}</Link> : builder.name}
+          {variant === "card" ? (
+            <Link href={`/profile/${slugify(builder.name, { lower: true })}`}>{builder.name}</Link>
+          ) : (
+            builder.name
+          )}
         </CardTitle>
       </CardHeader>
       <CardContent className="space-y-4 flex-grow flex flex-col">

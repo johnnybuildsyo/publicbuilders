@@ -2,7 +2,7 @@ import Main from "@/components/layout/main"
 import { builders } from "@/app/_data"
 import { Builder } from "@/app/_types"
 import { BuilderDirectory } from "./builder-directory"
-import { calculateTotalGrowth } from "@/lib/utils"
+import { calculateWeightedGrowth } from "@/lib/utils"
 
 const PER_PAGE = 24
 
@@ -13,16 +13,15 @@ export default function Home({ sort, page = 1 }: { sort?: string; page?: number 
   const currentSort = sort || "trending"
 
   if (currentSort === "trending") {
-    // Map builders to include total growth
     buildersToShow = builders
       .map((builder) => {
-        const totalGrowth = calculateTotalGrowth(builder)
-        return { ...builder, totalGrowth }
+        const { totalGrowth, percentGrowth, weightedScore } = calculateWeightedGrowth(builder)
+        return { ...builder, totalGrowth, percentGrowth, weightedScore }
       })
       // Filter out builders with zero growth
-      .filter((builder) => builder.totalGrowth > 0)
-      // Sort by total growth descending
-      .sort((a, b) => b.totalGrowth - a.totalGrowth)
+      .filter((builder) => builder.weightedScore > 0)
+      // Sort by weighted score descending
+      .sort((a, b) => b.weightedScore - a.weightedScore)
   } else {
     // Existing sorting logic
     if (currentSort === "twitter") {

@@ -60,30 +60,36 @@ export function formatUrlFromHandle(platform: string, handle: string | undefined
   return `${baseUrl}${handle}`;
 }
 
-export function calculateTotalGrowth(builder: Builder): number {
+export function calculateGrowth(builder: Builder): { totalGrowth: number; percentGrowth: number } {
   let twitterGrowth = 0;
+  let twitterFollowers = 0;
   if (
     builder.twitter &&
     builder.twitter.followerGrowth &&
     builder.twitter.followerGrowth.length > 0
   ) {
     const growthData = builder.twitter.followerGrowth;
-    twitterGrowth =
-      growthData[growthData.length - 1].count - growthData[0].count;
+    twitterGrowth = growthData[growthData.length - 1].count - growthData[0].count;
+    twitterFollowers = growthData[0].count;
   }
 
   let blueskyGrowth = 0;
+  let blueskyFollowers = 0;
   if (
     builder.bluesky &&
     builder.bluesky.followerGrowth &&
     builder.bluesky.followerGrowth.length > 0
   ) {
     const growthData = builder.bluesky.followerGrowth;
-    blueskyGrowth =
-      growthData[growthData.length - 1].count - growthData[0].count;
+    blueskyGrowth = growthData[growthData.length - 1].count - growthData[0].count;
+    blueskyFollowers = growthData[0].count;
   }
 
-  return twitterGrowth + blueskyGrowth;
+  const totalGrowth = twitterGrowth + blueskyGrowth;
+  const initialFollowers = twitterFollowers + blueskyFollowers;
+  const percentGrowth = initialFollowers > 0 ? (totalGrowth / initialFollowers) * 100 : 0;
+
+  return { totalGrowth, percentGrowth };
 }
 
 export function calculatePlatformGrowth(builders: Builder[]): {
@@ -136,4 +142,27 @@ export function calculatePlatformGrowth(builders: Builder[]): {
   });
 
   return { twitterGrowth, blueskyGrowth };
+}
+
+export function calculateWeightedGrowth(builder: Builder): {
+  totalGrowth: number;
+  percentGrowth: number;
+  weightedScore: number;
+} {
+  const { totalGrowth, percentGrowth } = calculateGrowth(builder);
+
+  // Normalize the growth metrics to prevent either from dominating
+  // These weights can be adjusted to fine-tune the balance
+  const percentWeight = 0.5;  // 50% weight to percentage growth
+  const totalWeight = 0.5;    // 50% weight to total growth
+
+  // Calculate weighted score
+  // We use Math.log to prevent large numbers from dominating
+  // Add 1 to handle cases where growth is 0
+  const normalizedTotal = Math.log(Math.abs(totalGrowth) + 1);
+  const normalizedPercent = Math.log(percentGrowth + 1);
+
+  const weightedScore = (normalizedPercent * percentWeight) + (normalizedTotal * totalWeight);
+
+  return { totalGrowth, percentGrowth, weightedScore };
 }

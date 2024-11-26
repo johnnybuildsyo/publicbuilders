@@ -92,7 +92,7 @@ export function FollowerGrowthChart({ xFollowerGrowth, bskyFollowerGrowth }: Fol
                     color: "#3b82f6", // Hardcoded blue-500
                   },
                 }}
-                className="w-[108%] relative -left-[10%]"
+                className="w-[108%] relative -left-[6%]"
               >
                 <ResponsiveContainer width="100%" height="100%">
                   <LineChart data={data} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
