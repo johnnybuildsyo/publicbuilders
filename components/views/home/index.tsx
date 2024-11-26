@@ -12,16 +12,34 @@ export default function Home({ sort, page = 1 }: { sort?: string; page?: number 
   // Default to "trending" if no sort is specified
   const currentSort = sort || "trending"
 
-  if (currentSort === "trending") {
+  if (["trending", "percentGrowth", "totalGrowth"].includes(currentSort)) {
     buildersToShow = builders
       .map((builder) => {
         const { totalGrowth, percentGrowth, weightedScore } = calculateWeightedGrowth(builder)
         return { ...builder, totalGrowth, percentGrowth, weightedScore }
       })
       // Filter out builders with zero growth
-      .filter((builder) => builder.weightedScore > 0)
-      // Sort by weighted score descending
-      .sort((a, b) => b.weightedScore - a.weightedScore)
+      .filter((builder) => {
+        switch (currentSort) {
+          case "percentGrowth":
+            return builder.percentGrowth > 0
+          case "totalGrowth":
+            return builder.totalGrowth > 0
+          default: // trending
+            return builder.weightedScore > 0
+        }
+      })
+      // Sort by the appropriate metric
+      .sort((a, b) => {
+        switch (currentSort) {
+          case "percentGrowth":
+            return b.percentGrowth - a.percentGrowth
+          case "totalGrowth":
+            return b.totalGrowth - a.totalGrowth
+          default: // trending
+            return b.weightedScore - a.weightedScore
+        }
+      })
   } else {
     // Existing sorting logic
     if (currentSort === "twitter") {

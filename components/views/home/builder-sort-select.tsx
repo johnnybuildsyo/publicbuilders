@@ -21,6 +21,8 @@ export function BuilderSortSelect({ sort }: { sort?: string }) {
         </SelectTrigger>
         <SelectContent>
           <SelectItem value="trending">Sort by Trending</SelectItem>
+          <SelectItem value="percentGrowth">Sort by % Growth</SelectItem>
+          <SelectItem value="totalGrowth">Sort by Total Growth</SelectItem>
           <SelectItem value="name">Sort by First Name</SelectItem>
           <SelectItem value="lastName">Sort by Last Name</SelectItem>
           <SelectItem value="recent">Sort by Recently Added</SelectItem>
