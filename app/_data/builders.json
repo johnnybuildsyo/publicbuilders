@@ -6210,5 +6210,94 @@
     },
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/RomainSplmn.jpg",
     "created": "2024-11-27T22:30:31.698Z"
+  },
+  {
+    "name": "Alex",
+    "description": "Strategy and innovation consultant by day, tinkerer by night. Everything is interesting.",
+    "twitter": {
+      "url": "https://x.com/AlexejKirillov",
+      "followers": 1440
+    },
+    "youtube": {
+      "url": ""
+    },
+    "twitch": {
+      "url": ""
+    },
+    "github": {
+      "url": ""
+    },
+    "bluesky": {
+      "url": ""
+    },
+    "reddit": {
+      "url": ""
+    },
+    "producthunt": {
+      "url": ""
+    },
+    "website": "https://alexkirillov.com",
+    "tags": [
+      "data",
+      "strategy"
+    ],
+    "currentProject": {
+      "name": "DataAnalyst.com",
+      "description": "The #1 job board for data analysts",
+      "link": "https://www.dataanalyst.com",
+      "tags": [
+        "data",
+        "jobs",
+        "directory"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/alex_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/AlexejKirillov.jpg",
+    "created": "2024-11-27T23:08:52.883Z"
+  },
+  {
+    "name": "Michael Parrish",
+    "description": "Creator of BotEatBrain, Artificial Intelligence newsletter with 20,000+ subs",
+    "twitter": {
+      "url": "https://x.com/thequotedog",
+      "followers": 1683
+    },
+    "youtube": {
+      "url": ""
+    },
+    "twitch": {
+      "url": ""
+    },
+    "github": {
+      "url": ""
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/themichaelparrish.bsky.social",
+      "followers": 94
+    },
+    "reddit": {
+      "url": ""
+    },
+    "producthunt": {
+      "url": ""
+    },
+    "website": "https://www.boteatbrain.com/authors/a34772a6-be87-4388-ba66-35d14c7e2414",
+    "newsletter": "https://www.boteatbrain.com/",
+    "tags": [
+      "ai",
+      "newsletter"
+    ],
+    "currentProject": {
+      "name": "Bot Eat Brain",
+      "description": "AI is eating the world and your brain is on the menu. Join 20,000+ readers staying one step ahead of the bots with our daily AI newsletter.",
+      "link": "https://www.boteatbrain.com/",
+      "tags": [
+        "ai",
+        "newsletter"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/michael_parrish_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/thequotedog.jpg",
+    "created": "2024-11-27T23:08:52.886Z"
   }
 ]

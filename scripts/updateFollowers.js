@@ -27,6 +27,8 @@ function getMostRecentFileByDate(dir, ext) {
   return sortedFiles.length > 0 ? sortedFiles[0].file : null;
 }
 
+const MAX_ENTRIES = 30;
+
 // Main function to process builders
 async function main() {
   try {
@@ -91,9 +93,9 @@ async function main() {
           // Sort the followerGrowth array by date
           builder.twitter.followerGrowth.sort((a, b) => new Date(a.date) - new Date(b.date));
 
-          // Limit the array size to the last 7 entries
-          if (builder.twitter.followerGrowth.length > 7) {
-            builder.twitter.followerGrowth = builder.twitter.followerGrowth.slice(-7);
+          // Limit the array size to the last 30 entries
+          if (builder.twitter.followerGrowth.length > MAX_ENTRIES) {
+            builder.twitter.followerGrowth = builder.twitter.followerGrowth.slice(-MAX_ENTRIES);
           }
 
           // Update the followers count to the most recent count
