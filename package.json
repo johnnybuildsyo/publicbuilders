@@ -14,7 +14,7 @@
     "timestamps": "node ./scripts/addTimestamps.js",
     "follows": "node ./scripts/updateFollowers.js",
     "screenshots": "node ./scripts/addProjectScreenshots.js",
-    "process": "node ./scripts/addProfilePics.js && node ./scripts/addTimestamps.js && node ./scripts/addProjectScreenshots.js",
+    "process": "pnpm pics && pnpm timestamps && pnpm screenshots",
     "news": "node ./secretsauce/scripts/mockFetchNews.js",
     "fetchWeb": "node ./secretsauce/scripts/fetchWebsiteUpdates.js",
     "automate": "npx playwright test --ui",
