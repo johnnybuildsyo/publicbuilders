@@ -64,7 +64,7 @@ export function FollowerGrowthChart({ xFollowerGrowth, bskyFollowerGrowth, hideI
   }
 
   return (
-    <Card className="w-full border-none p-0 bg-slate-50 shadow-none">
+    <Card className="w-full border-none p-0 bg-slate-50 shadow-none max-w-2xl mx-auto">
       <CardHeader className="h-0">
         <CardTitle className="sr-only">Followers</CardTitle>
       </CardHeader>

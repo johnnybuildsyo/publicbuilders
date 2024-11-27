@@ -57,8 +57,8 @@ export function BuilderCard({ builder, variant = "card" }: { builder: Builder; v
             </Link>
           </div>
         )}
-        {variant === "card" && (showPercentGrowth || showTotalGrowth) && (
-          <div className="flex justify-center gap-2 -mb-1">
+        {(showPercentGrowth || showTotalGrowth) && (
+          <div className={cn("flex justify-center gap-2 -mb-1", variant === "page" && "py-4 scale-150")}>
             {showPercentGrowth && (
               <Tooltip>
                 <TooltipTrigger>
