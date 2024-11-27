@@ -6157,5 +6157,58 @@
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/busmark_w_nika.jpg",
     "imageOffset": "40%",
     "created": "2024-11-27T22:16:19.369Z"
+  },
+  {
+    "name": "Romain",
+    "description": "Indie app developer building mobile apps in public",
+    "twitter": {
+      "handle": "https://x.com/RomainSplmn",
+      "url": "https://x.com/RomainSplmn",
+      "followers": 107
+    },
+    "youtube": {
+      "handle": ""
+    },
+    "twitch": {
+      "handle": ""
+    },
+    "github": {
+      "handle": ""
+    },
+    "bluesky": {
+      "handle": "https://bsky.app/profile/romains.bsky.social",
+      "url": "https://bsky.app/profile/romains.bsky.social",
+      "followers": 209
+    },
+    "reddit": {
+      "handle": "https://www.reddit.com/u/sinoan",
+      "url": "https://www.reddit.com/u/sinoan",
+      "followers": 725
+    },
+    "producthunt": {
+      "handle": "https://www.producthunt.com/@sinoan",
+      "url": "https://www.producthunt.com/@sinoan",
+      "followers": 4
+    },
+    "website": "https://appshowca.se/romain",
+    "revenue": "https://appshowca.se/romain",
+    "tags": [
+      "apps",
+      "developer",
+      "mobile"
+    ],
+    "currentProject": {
+      "name": "App Showcase",
+      "description": "Showcase your mobile apps, share your app store revenue and downloads. Everything with one link to your page.",
+      "link": "https://appshowca.se",
+      "tags": [
+        "buildinpublic",
+        "showcase",
+        "mobile apps"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/romain_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/RomainSplmn.jpg",
+    "created": "2024-11-27T22:30:31.698Z"
   }
 ]
