@@ -110,7 +110,7 @@ export function BuilderCard({ builder, variant = "card" }: { builder: Builder; v
           <a href={builder.website} target="_blank" className="text-blue-700/80 hover:text-blue-600 text-xl line-clamp-1 py-4 transition-all ease-in-out duration-300">
             {builder.website.replace("https://", "").replace(/\/+$/, "")}
           </a>
-          <FollowerGrowthChart bskyFollowerGrowth={builder.bluesky?.followerGrowth} xFollowerGrowth={builder.twitter?.followerGrowth} />
+          <FollowerGrowthChart hideIfNoGrowth={variant === "page"} bskyFollowerGrowth={builder.bluesky?.followerGrowth} xFollowerGrowth={builder.twitter?.followerGrowth} />
           <div className="pt-4">
             <SocialMediaLinks builder={builder} />
           </div>

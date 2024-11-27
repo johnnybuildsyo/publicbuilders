@@ -9,6 +9,7 @@ type FollowerGrowth = { date: string; count: number }[]
 type FollowerGrowthChartProps = {
   xFollowerGrowth?: FollowerGrowth
   bskyFollowerGrowth?: FollowerGrowth
+  hideIfNoGrowth?: boolean
 }
 
 const formatDate = (dateString: string) => {
@@ -42,7 +43,7 @@ const processData = (xFollowerGrowth?: FollowerGrowth, bskyFollowerGrowth?: Foll
   })
 }
 
-export function FollowerGrowthChart({ xFollowerGrowth, bskyFollowerGrowth }: FollowerGrowthChartProps) {
+export function FollowerGrowthChart({ xFollowerGrowth, bskyFollowerGrowth, hideIfNoGrowth }: FollowerGrowthChartProps) {
   // Return null if both datasets are undefined
   if (!xFollowerGrowth && !bskyFollowerGrowth) {
     return null
@@ -57,6 +58,10 @@ export function FollowerGrowthChart({ xFollowerGrowth, bskyFollowerGrowth }: Fol
 
   // Determine if there is any growth
   const hasGrowth = (currentCounts.x != null && currentCounts.x !== 0) || (currentCounts.bsky != null && currentCounts.bsky !== 0)
+
+  if (hideIfNoGrowth && !hasGrowth) {
+    return null
+  }
 
   return (
     <Card className="w-full border-none p-0 bg-slate-50 shadow-none">
