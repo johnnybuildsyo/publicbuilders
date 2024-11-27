@@ -4735,5 +4735,49 @@
         "notes"
       ]
     }
+  },
+  {
+    "name": "Bryan Smith",
+    "description": "Co-Founder of Crafted Labs. Bootstrapping a AI-first SaaS portfolio company.",
+    "twitter": {
+      "handle": "https://x.com/OrionSeven",
+      "followers": 1185
+    },
+    "youtube": {
+      "handle": ""
+    },
+    "twitch": {
+      "handle": ""
+    },
+    "github": {
+      "handle": ""
+    },
+    "bluesky": {
+      "handle": "https://bsky.app/profile/bryansmith.io",
+      "url": "https://bsky.app/profile/bryansmith.io",
+      "followers": 1500
+    },
+    "reddit": {
+      "handle": ""
+    },
+    "producthunt": {
+      "handle": ""
+    },
+    "website": "https://bryansmith.io",
+    "newsletter": "https://productfoundry.co",
+    "tags": [
+      "bootstrapping",
+      "buildinpublic",
+      "ai"
+    ],
+    "currentProject": {
+      "name": "AskJack",
+      "description": "Get instant AI-answers to your work questions. Faster onboarding. Fewer repetitive questions. Less wasted time.\nAskJack unifies your company's knowledge to provide instant AI-powered answers for your employees.",
+      "link": "https://www.askjack.io",
+      "tags": [
+        "ai",
+        "rag"
+      ]
+    }
   }
 ]
