@@ -21,6 +21,7 @@
     "publish": "pnpm process && pnpm go"
   },
   "dependencies": {
+    "@atproto/api": "^0.13.18",
     "@aws-sdk/client-s3": "^3.685.0",
     "@hookform/resolvers": "^3.9.1",
     "@next/third-parties": "^15.0.3",
@@ -42,8 +43,10 @@
     "cheerio": "^1.0.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+    "dayjs": "^1.11.13",
     "dotenv": "^16.4.5",
     "emblor": "^1.4.6",
+    "fs": "0.0.1-security",
     "google": "link:@next/third-parties/google",
     "lodash": "^4.17.21",
     "lucide-react": "^0.454.0",

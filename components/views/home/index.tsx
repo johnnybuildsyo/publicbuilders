@@ -18,17 +18,6 @@ export default function Home({ sort, page = 1 }: { sort?: string; page?: number 
         const { totalGrowth, percentGrowth, weightedScore } = calculateWeightedGrowth(builder)
         return { ...builder, totalGrowth, percentGrowth, weightedScore }
       })
-      // Filter out builders with zero growth
-      .filter((builder) => {
-        switch (currentSort) {
-          case "percentGrowth":
-            return builder.percentGrowth > 0
-          case "totalGrowth":
-            return builder.totalGrowth > 0
-          default: // trending
-            return builder.weightedScore > 0
-        }
-      })
       // Sort by the appropriate metric
       .sort((a, b) => {
         switch (currentSort) {

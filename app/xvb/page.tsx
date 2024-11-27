@@ -22,7 +22,7 @@ export default function GrowthPage() {
       <Heading>Follower Growth: 𝕏 vs 🦋</Heading>
       <div>
         <h3 className="text-xl text-center font-semibold">Bluesky Growth Rate: {growthRateRatio}x vs. X/Twitter</h3>
-        <p className="text-sm font-thin opacity-70 text-center">As measured by follower count tracking across the Public Builders directory</p>
+        <p className="text-sm font-thin opacity-70 text-center">As measured by follower count tracking {builders.length} builders across the Public Builders directory</p>
       </div>
       <div className="w-full max-w-4xl mx-auto">
         <FollowerGrowthChart xFollowerGrowth={xFollowerGrowth} bskyFollowerGrowth={bskyFollowerGrowth} />

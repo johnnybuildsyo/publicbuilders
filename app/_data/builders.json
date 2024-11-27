@@ -4789,5 +4789,385 @@
     },
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/bryansmith.jpg",
     "created": "2024-11-27T01:41:24.389Z"
+  },
+  {
+    "name": "Dmytro Krasun",
+    "description": "Bootstrapping SaaS products and sharing lessons learned.",
+    "twitter": {
+      "url": "https://x.com/DmytroKrasun",
+      "followers": 19400
+    },
+    "youtube": {
+      "url": ""
+    },
+    "twitch": {
+      "url": ""
+    },
+    "github": {
+      "url": "https://github.com/krasun",
+      "followers": 127
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/dmytrokrasun.com",
+      "followers": 2300
+    },
+    "reddit": {
+      "url": ""
+    },
+    "producthunt": {
+      "url": "https://www.producthunt.com/@dmytro_krasun",
+      "followers": 1097
+    },
+    "website": "https://dmytrokrasun.com/",
+    "newsletter": "https://newsletter.dmytrokrasun.com/",
+    "tags": [
+      "saas",
+      "bootstrapper"
+    ],
+    "currentProject": {
+      "name": "Screenshot One",
+      "description": "The screenshot API for developers",
+      "link": "https://screenshotone.com",
+      "tags": [
+        "api",
+        "screenshots",
+        "automation"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/dmytro_krasun_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/DmytroKrasun.jpg",
+    "imageOffset": "60%",
+    "created": "2024-11-27T14:14:59.656Z"
+  },
+  {
+    "name": "Max Rohowsky",
+    "description": "Finance Ph.D. & Engineer writing about Indie Hacking next to a full-time job.",
+    "twitter": {
+      "url": "https://x.com/MaxRohowsky",
+      "followers": 854
+    },
+    "youtube": {
+      "url": "https://youtube.com/@maxrohowsky",
+      "followers": 14500
+    },
+    "twitch": {
+      "url": ""
+    },
+    "github": {
+      "url": "https://github.com/MaxRohowsky",
+      "followers": 96
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/maxrohowsky.bsky.social",
+      "followers": 1900
+    },
+    "reddit": {
+      "url": ""
+    },
+    "producthunt": {
+      "url": ""
+    },
+    "website": "https://max.rohowsky.net",
+    "tags": [
+      "indie",
+      "engineer"
+    ],
+    "currentProject": {
+      "name": "Outline HTML Elements",
+      "description": "Outline HTML elements with a colorful border without affecting the layout to inspect website structure.",
+      "link": "https://chromewebstore.google.com/detail/outline-html-elements/ihlgleabnhekkankfpfoafkobncbfcfo?pli=1",
+      "tags": [
+        "chrome",
+        "extension",
+        "devtools"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/max_rohowsky_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/MaxRohowsky.jpg",
+    "imageOffset": "63%",
+    "created": "2024-11-27T14:14:59.660Z"
+  },
+  {
+    "name": "Stuart Brent",
+    "description": "Making websites since 1995, in the startup world and now focused on building the best SaaS company database possible",
+    "twitter": {
+      "url": "https://x.com/WhoWorksThere",
+      "followers": 3138
+    },
+    "youtube": {
+      "url": ""
+    },
+    "twitch": {
+      "url": ""
+    },
+    "github": {
+      "url": ""
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/whoworksthere.bsky.social",
+      "followers": 1000
+    },
+    "reddit": {
+      "url": ""
+    },
+    "producthunt": {
+      "url": "https://www.producthunt.com/@vacord",
+      "followers": 249
+    },
+    "website": "https://saasydb.com",
+    "tags": [
+      "saas",
+      "startup",
+      "database"
+    ],
+    "currentProject": {
+      "name": "saasyDB",
+      "description": "Get the Leads of a Whole Company, One Credit at a Time ",
+      "link": "https://saasydb.com",
+      "tags": [
+        "saas",
+        "database",
+        "marketing"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/stuart_brent_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/WhoWorksThere.jpg",
+    "imageOffset": "70%",
+    "created": "2024-11-27T14:14:59.660Z"
+  },
+  {
+    "name": "Dan Zaitsev",
+    "description": "Solopreneur and digital nomad, building tech products while exploring the world. Starting a new #buildinpublic journey.\n\n http://getsend.pro\n http://liftmycv.com",
+    "twitter": {
+      "url": "https://x.com/dan_zaitsev",
+      "followers": 525
+    },
+    "youtube": {
+      "url": ""
+    },
+    "twitch": {
+      "url": ""
+    },
+    "github": {
+      "url": ""
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/danzaitsev.bsky.social",
+      "followers": 1000
+    },
+    "reddit": {
+      "url": ""
+    },
+    "producthunt": {
+      "url": ""
+    },
+    "website": "https://danzaitsev.com",
+    "tags": [
+      "solopreneur",
+      "nomad"
+    ],
+    "currentProject": {
+      "name": "Getsend",
+      "description": "Share files with your clients star and receive fast payments",
+      "link": "https://getsend.pro/",
+      "tags": [
+        "filesharing",
+        "payments",
+        "ecommerce"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/dan_zaitsev_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/dan_zaitsev.jpg",
+    "imageOffset": "60%",
+    "created": "2024-11-27T14:14:59.660Z"
+  },
+  {
+    "name": "Mark Bruderer",
+    "description": "AI Engineering for Directories.. Building a CMS for directories.",
+    "twitter": {
+      "url": "https://x.com/mark_bruderer",
+      "followers": 405
+    },
+    "youtube": {
+      "url": ""
+    },
+    "twitch": {
+      "url": ""
+    },
+    "github": {
+      "url": "https://github.com/masterkram",
+      "followers": 83
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/mark.speaker.blue",
+      "followers": 1300
+    },
+    "reddit": {
+      "url": ""
+    },
+    "producthunt": {
+      "url": ""
+    },
+    "website": "https://bruderer.ai",
+    "tags": [
+      "ai",
+      "engineer",
+      "cms"
+    ],
+    "currentProject": {
+      "name": "Minted CMS",
+      "description": "A specialized content management system for directory founders. Free up hours of your time invested into updating directories and build a portfolio of many directory websites.",
+      "link": "https://mintedcms.com",
+      "tags": [
+        "cms",
+        "directory"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/mark_bruderer_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/mark_bruderer.jpg",
+    "imageOffset": "66%",
+    "created": "2024-11-27T14:14:59.660Z"
+  },
+  {
+    "name": "John Champ",
+    "description": "Let's build beautiful, super modern web applications and marketing websites.",
+    "twitter": {
+      "url": "https://x.com/pixelcave_john",
+      "followers": 1621
+    },
+    "youtube": {
+      "url": ""
+    },
+    "twitch": {
+      "url": ""
+    },
+    "github": {
+      "url": ""
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/pixelcave-john.bsky.social",
+      "followers": 1000
+    },
+    "reddit": {
+      "url": ""
+    },
+    "producthunt": {
+      "url": ""
+    },
+    "website": "https://pixelcave.com",
+    "tags": [
+      "marketing",
+      "dashboard",
+      "ui"
+    ],
+    "currentProject": {
+      "name": "pixelcave",
+      "description": "Build great looking dashboards and websites in no time with a vast collection of carefully crafted UI components, templates and resources.",
+      "link": "https://pixelcave.com",
+      "tags": [
+        "ui",
+        "dashboard",
+        "templates"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/john_champ_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/pixelcave_john.jpg",
+    "created": "2024-11-27T14:14:59.660Z"
+  },
+  {
+    "name": "Pat Walls",
+    "description": "Founder of Starter Story. On a mission to help 1 billion people make money online.",
+    "twitter": {
+      "url": "https://x.com/thepatwalls",
+      "followers": 110300
+    },
+    "youtube": {
+      "url": "https://www.youtube.com/@starterstory",
+      "followers": 421000
+    },
+    "twitch": {
+      "url": ""
+    },
+    "github": {
+      "url": ""
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/patwalls.com",
+      "followers": 630
+    },
+    "reddit": {
+      "url": ""
+    },
+    "producthunt": {
+      "url": "https://www.youtube.com/@starterstory",
+      "followers": 5267
+    },
+    "website": "https://patwalls.com",
+    "tags": [
+      "community",
+      "founder"
+    ],
+    "currentProject": {
+      "name": "Starter Story",
+      "description": "Starter Story interviews successful entrepreneurs and shares the stories behind their businesses.",
+      "link": "https://www.starterstory.com",
+      "tags": [
+        "startups",
+        "interviews",
+        "community"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/pat_walls_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/thepatwalls.jpg",
+    "imageOffset": "20%",
+    "created": "2024-11-27T14:14:59.660Z"
+  },
+  {
+    "name": "Tibo",
+    "description": "Sharing weekly tips about building an audience, personal branding, acquisitions, productivity, and more.",
+    "twitter": {
+      "url": "https://x.com/tibo_maker",
+      "followers": 138000
+    },
+    "youtube": {
+      "url": ""
+    },
+    "twitch": {
+      "url": ""
+    },
+    "github": {
+      "url": ""
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/tmaker.io",
+      "followers": 2200
+    },
+    "reddit": {
+      "url": ""
+    },
+    "producthunt": {
+      "url": "https://www.producthunt.com/@thibaultll",
+      "followers": 5114
+    },
+    "website": "https://tmaker.io",
+    "newsletter": "https://www.tmaker.io/",
+    "writing": "https://www.tmaker.io/_feather/rss.xml",
+    "tags": [
+      ""
+    ],
+    "currentProject": {
+      "name": "Revid AI",
+      "description": "Turn your creative ideas into attention-grabbing TikTok, Instagram, and YouTube stories with just a few clicks. All you need is a story to tell - revid.ai handles the rest.",
+      "link": "https://www.revid.ai/",
+      "tags": [
+        "ai",
+        "video",
+        "social"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/tibo_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/tibo_maker.jpg",
+    "imageOffset": "40%",
+    "created": "2024-11-27T14:14:59.660Z"
   }
 ]
