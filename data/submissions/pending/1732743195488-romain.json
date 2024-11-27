@@ -1,0 +1,46 @@
+{
+  "name": "Romain",
+  "description": "Indie App Developer 📱\nBuilding mobile apps in public",
+  "twitter": {
+    "url": "https://x.com/RomainSplmn",
+    "followers": 107
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "url": "https://bsky.app/profile/romains.bsky.social",
+    "followers": 209
+  },
+  "reddit": {
+    "url": "https://www.reddit.com/u/sinoan",
+    "followers": 725
+  },
+  "producthunt": {
+    "url": "https://www.producthunt.com/@sinoan",
+    "followers": 4
+  },
+  "website": "https://appshowca.se",
+  "revenue": "https://appshowca.se/romain",
+  "tags": [
+    "apps",
+    "developer",
+    "mobile"
+  ],
+  "currentProject": {
+    "name": "App Showcase",
+    "description": "Showcase your mobile apps, share your app store revenue and downloads. Everything with one link to your page.",
+    "link": "https://appshowca.se",
+    "tags": [
+      "buildinpublic",
+      "showcase",
+      "mobile apps"
+    ]
+  }
+}
