@@ -24,7 +24,7 @@ export function ProjectCard({ builder, variant = "card" }: { builder: Builder; v
               {project.image ? (
                 <Image
                   fill={true}
-                  src={project.image}
+                  src={project.image.replace("publicbuilders.s3.us-east-2.amazonaws.com", "d11q8iqsbffqvr.cloudfront.net")}
                   style={{
                     objectPosition: `center 0%`,
                   }}
@@ -76,7 +76,7 @@ export function ProjectCard({ builder, variant = "card" }: { builder: Builder; v
                 <div className="flex items-center justify-center mt-2">
                   {builder.image ? (
                     <div className="relative w-24 h-24 rounded-full overflow-hidden border border-foreground/20 shadow">
-                      <Image src={builder.image} alt={`Profile picture of ${builder.name}`} fill={true} className="object-cover" />
+                      <Image src={builder.image.replace("publicbuilders.s3.us-east-2.amazonaws.com", "d11q8iqsbffqvr.cloudfront.net")} alt={`Profile picture of ${builder.name}`} fill={true} className="object-cover" />
                     </div>
                   ) : (
                     <div className="w-16 h-16 rounded-full bg-gray-200 flex items-center justify-center text-xl font-bold">

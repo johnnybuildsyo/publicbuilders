@@ -31,7 +31,7 @@ export function BuilderCard({ builder, variant = "card" }: { builder: Builder; v
             {builder.image ? (
               <Image
                 fill={true}
-                src={builder.image}
+                src={builder.image.replace("publicbuilders.s3.us-east-2.amazonaws.com", "d11q8iqsbffqvr.cloudfront.net")}
                 alt={`Profile picture of ${builder.name}`}
                 className="w-full h-full object-cover"
                 style={{
@@ -140,7 +140,7 @@ export function BuilderCard({ builder, variant = "card" }: { builder: Builder; v
               <div className="flex flex-col items-center mb-2">
                 {variant === "page" && builder.currentProject.image && (
                   <div className="relative w-3/4 my-2 aspect-video overflow-hidden rounded-lg border">
-                    <Image src={builder.currentProject.image} fill={true} alt={"Screenshot of " + builder.currentProject.name} className="w-full h-auto max-w-2xl rounded-lg" />
+                    <Image src={builder.currentProject.image.replace("publicbuilders.s3.us-east-2.amazonaws.com", "d11q8iqsbffqvr.cloudfront.net")} fill={true} alt={"Screenshot of " + builder.currentProject.name} className="w-full h-auto max-w-2xl rounded-lg" />
                   </div>
                 )}
                 <h3 className={cn("font-semibold text-center", variant === "page" && "font-normal text-2xl text-blue-700/80 hover:text-blue-600")}>{builder.currentProject.name}</h3>
