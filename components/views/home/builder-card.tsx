@@ -11,6 +11,7 @@ import CopyNotifyButton from "../admin/copy-notify-button"
 import { cn, formatNum } from "@/lib/utils"
 import { FollowerGrowthChart } from "./follower-growth-chart"
 import { calculateGrowth } from "@/lib/utils"
+import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip"
 
 export function BuilderCard({ builder, variant = "card" }: { builder: Builder; variant?: "card" | "page" }) {
   const { percentGrowth, totalGrowth } = calculateGrowth(builder)
@@ -59,16 +60,30 @@ export function BuilderCard({ builder, variant = "card" }: { builder: Builder; v
         {variant === "card" && (showPercentGrowth || showTotalGrowth) && (
           <div className="flex justify-center gap-2 -mb-1">
             {showPercentGrowth && (
-              <Badge variant="secondary" className="bg-green-100 text-green-700 text-xs font-normal flex items-center gap-1">
-                <TrendingUp className="w-3 h-3" />
-                {percentGrowth.toFixed(1)}%
-              </Badge>
+              <Tooltip>
+                <TooltipTrigger>
+                  <Badge variant="secondary" className="bg-green-100 text-green-700 text-xs font-normal flex items-center gap-1">
+                    <TrendingUp className="w-3 h-3" />
+                    {percentGrowth.toFixed(1)}%
+                  </Badge>
+                </TooltipTrigger>
+                <TooltipContent>
+                  Follower growth in the last 10 days
+                </TooltipContent>
+              </Tooltip>
             )}
             {showTotalGrowth && (
-              <Badge variant="secondary" className="bg-blue-100 text-blue-700 text-xs font-normal flex items-center gap-1">
-                <Users className="w-3 h-3" />
-                +{formatNum(totalGrowth)}
-              </Badge>
+              <Tooltip>
+                <TooltipTrigger>
+                  <Badge variant="secondary" className="bg-blue-100 text-blue-700 text-xs font-normal flex items-center gap-1">
+                    <Users className="w-3 h-3" />
+                    +{formatNum(totalGrowth)}
+                  </Badge>
+                </TooltipTrigger>
+                <TooltipContent>
+                  Total new followers in the last 10 days
+                </TooltipContent>
+              </Tooltip>
             )}
           </div>
         )}

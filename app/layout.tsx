@@ -6,6 +6,7 @@ import "./globals.css"
 import Header from "@/components/layout/header"
 import Footer from "@/components/layout/footer"
 import { APP_ICON, SHARE_IMAGE } from "./_data"
+import { TooltipProvider } from "@/components/ui/tooltip"
 
 const displayFont = Rethink_Sans({
   subsets: ["latin"],
@@ -46,11 +47,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} ${displayFont.variable} antialiased font-display`}>
-        <div className="min-h-screen flex flex-col font-display">
-          <Header />
-          <main className="flex flex-col grow gap-4 row-start-2 pt-16 sm:pt-0 justify-center items-center font-display">{children}</main>
-          <Footer />
-        </div>
+        <TooltipProvider>
+          <div className="min-h-screen flex flex-col font-display">
+            <Header />
+            <main className="flex flex-col grow gap-4 row-start-2 pt-16 sm:pt-0 justify-center items-center font-display">{children}</main>
+            <Footer />
+          </div>
+        </TooltipProvider>
       </body>
       {process.env.NEXT_PUBLIC_GA_ID && <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID} />}
     </html>
