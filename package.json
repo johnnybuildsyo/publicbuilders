@@ -18,7 +18,7 @@
     "news": "node ./secretsauce/scripts/mockFetchNews.js",
     "fetchWeb": "node ./secretsauce/scripts/fetchWebsiteUpdates.js",
     "automate": "npx playwright test --ui",
-    "ship": "pnpm process && pnpm go"
+    "ship": "pnpm process && pnpm follows && pnpm go"
   },
   "dependencies": {
     "@atproto/api": "^0.13.18",

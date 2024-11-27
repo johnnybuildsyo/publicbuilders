@@ -133,7 +133,7 @@ export function FollowerGrowthChart({ xFollowerGrowth, bskyFollowerGrowth }: Fol
               </ChartContainer>
             </>
           ) : (
-            <div className="aspect-video flex justify-center items-center text-center text-foreground/50 font-thin text-lg italic relative -top-8 -mb-4">No follower growth</div>
+            <div className="aspect-video flex justify-center items-center text-center text-foreground/50 font-thin text-lg italic relative -top-8 -mb-4">Still gathering follower data...</div>
           )}
         </div>
       </CardContent>
