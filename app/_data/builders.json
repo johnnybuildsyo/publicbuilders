@@ -6299,5 +6299,57 @@
     },
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/thequotedog.jpg",
     "created": "2024-11-27T23:08:52.886Z"
+  },
+  {
+    "name": "Jan Safka",
+    "description": "CEO of @atollon, CRM platform that helps founders quickly build all-in-one solutions in their verticals, saving them 100y+ development effort.",
+    "twitter": {
+      "handle": "https://twitter.com/jansafka",
+      "url": "https://twitter.com/jansafka",
+      "followers": 340
+    },
+    "youtube": {
+      "handle": "https://youtube.com/@jansafka",
+      "url": "https://youtube.com/@jansafka",
+      "followers": 30
+    },
+    "twitch": {
+      "handle": ""
+    },
+    "github": {
+      "handle": ""
+    },
+    "bluesky": {
+      "handle": "https://bsky.app/profile/safka.com",
+      "url": "https://bsky.app/profile/safka.com",
+      "followers": 660
+    },
+    "reddit": {
+      "handle": ""
+    },
+    "producthunt": {
+      "handle": ""
+    },
+    "website": "https://www.atollon.com",
+    "tags": [
+      "crm",
+      "ai",
+      "email",
+      "bi"
+    ],
+    "currentProject": {
+      "name": "Atollon",
+      "description": "CRM platform for crafting dream business process management solutions.",
+      "link": "https://www.atollon.com",
+      "tags": [
+        "crm",
+        "bi",
+        "ai",
+        "email"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/jan_safka_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/jansafka.jpg",
+    "created": "2024-11-27T23:13:00.075Z"
   }
 ]
