@@ -6108,5 +6108,54 @@
     },
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/notomarsol.jpg",
     "created": "2024-11-27T16:24:52.629Z"
+  },
+  {
+    "name": "Nika Kotláriková",
+    "description": "Posting to YouTube about entrepreneurship, marketing, social media, technology and more.",
+    "twitter": {
+      "url": "https://x.com/busmark_w_nika",
+      "followers": 1571
+    },
+    "youtube": {
+      "url": "https://www.youtube.com/@BusinessMarketingWithNika",
+      "followers": 490
+    },
+    "twitch": {
+      "url": ""
+    },
+    "github": {
+      "url": ""
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/businessmarketing.bsky.social",
+      "followers": 2500
+    },
+    "reddit": {
+      "url": ""
+    },
+    "producthunt": {
+      "url": ""
+    },
+    "website": "https://www.passionfroot.me/business-and-marketing-with-nika",
+    "newsletter": "https://businessandmarketing.substack.com",
+    "tags": [
+      "youtube",
+      "marketing",
+      "entrepreneur"
+    ],
+    "currentProject": {
+      "name": "Business & Marketing | Nika Kotláriková",
+      "description": "YouTube channel about Business, Marketing, Social Media, Technology, SaaS, and more.",
+      "link": "https://www.youtube.com/@businessmarketingwithnika",
+      "tags": [
+        "youtube",
+        "marketing",
+        "saas"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/nika_kotláriková_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/busmark_w_nika.jpg",
+    "imageOffset": "40%",
+    "created": "2024-11-27T22:16:19.369Z"
   }
 ]

@@ -107,7 +107,7 @@ export function BuilderCard({ builder, variant = "card" }: { builder: Builder; v
             </div>
           )}
           <p className={cn("text-sm text-center text-balance px-4 w-full max-w-5xl mx-auto", variant === "page" && "py-4 text-xl")}>{builder.description}</p>
-          <a href={builder.website} target="_blank" className="text-blue-700/80 hover:text-blue-600 text-xl line-clamp-1 py-4 transition-all ease-in-out duration-300">
+          <a href={builder.website} target="_blank" className="text-blue-700/80 hover:text-blue-600 text-xl line-clamp-1 py-4 transition-all ease-in-out duration-300 h-12 mb-4">
             {builder.website.replace("https://", "").replace(/\/+$/, "")}
           </a>
           <FollowerGrowthChart hideIfNoGrowth={variant === "page"} bskyFollowerGrowth={builder.bluesky?.followerGrowth} xFollowerGrowth={builder.twitter?.followerGrowth} />
