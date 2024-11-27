@@ -5169,5 +5169,50 @@
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/tibo_maker.jpg",
     "imageOffset": "40%",
     "created": "2024-11-27T14:14:59.660Z"
+  },
+  {
+    "name": "Omar",
+    "description": "Turn your ideas into successful online businesses without the stress.",
+    "twitter": {
+      "url": "https://x.com/notomarsol",
+      "followers": 2141
+    },
+    "youtube": {
+      "url": ""
+    },
+    "twitch": {
+      "url": ""
+    },
+    "github": {
+      "url": ""
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/bynapkin.com",
+      "followers": 1400
+    },
+    "reddit": {
+      "url": ""
+    },
+    "producthunt": {
+      "url": ""
+    },
+    "website": "https://bynapkin.com",
+    "tags": [
+      "marketing",
+      "design"
+    ],
+    "currentProject": {
+      "name": "Subreddit Traffic Tracker",
+      "description": "Tool for reaching maximum traffic on Reddit",
+      "link": "https://subreddittraffic.live",
+      "tags": [
+        "marketing",
+        "reddit",
+        "growth"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/omar_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/notomarsol.jpg",
+    "created": "2024-11-27T16:24:52.629Z"
   }
 ]
