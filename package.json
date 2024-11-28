@@ -7,6 +7,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "daily": "pnpm follows && git aacm 'update follower data' && git push origin main",
     "go": "git add . && aicommits && git push origin main",
     "lint": "next lint",
     "pic": "node ./scripts/uploadProfilePic.js",
