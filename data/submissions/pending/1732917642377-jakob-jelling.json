@@ -1,0 +1,55 @@
+{
+  "name": "Jakob Jelling",
+  "description": "I'm Jakob from Denmark. I run and grow the newsletter Fake Mayo and share my learnings on sociale media.",
+  "twitter": {
+    "url": "https://x.com/jakobjelling",
+    "followers": 1260
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "url": "https://bsky.app/profile/jakobjelling.bsky.social",
+    "followers": 1099
+  },
+  "reddit": {
+    "url": "https://www.reddit.com/user/jakobjelling/",
+    "followers": -1
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://www.fakemayo.com",
+  "newsletter": "https://www.fakemayo.com",
+  "tags": [
+    "newsletter",
+    "marketing",
+    "buildinpublic",
+    "entrepreneur",
+    "solopreneur",
+    "indie hacker",
+    "indie maker",
+    "promotion"
+  ],
+  "currentProject": {
+    "name": "Fake Mayo",
+    "description": "A newsletter/blog where entrepreneurs share how they got their first users or customers.",
+    "link": "https://www.fakemayo.com",
+    "tags": [
+      "fake mayo",
+      "entrepreneur",
+      "marketing",
+      "solopreneur",
+      "indie hacker",
+      "indie maker",
+      "startup",
+      "starter story"
+    ]
+  }
+}
