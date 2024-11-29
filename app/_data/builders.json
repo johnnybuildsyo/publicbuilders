@@ -7135,5 +7135,142 @@
     },
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/jansafka.jpg",
     "created": "2024-11-27T23:13:00.075Z"
+  },
+  {
+    "name": "Jérémie Campari",
+    "description": "Working as a team of 3 Makers with a goal to build 1 project a month.",
+    "twitter": {
+      "url": "https://x.com/Jeremieca",
+      "followers": 770
+    },
+    "youtube": {
+      "url": ""
+    },
+    "twitch": {
+      "url": ""
+    },
+    "github": {
+      "url": ""
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/jeremieca.bsky.social",
+      "followers": 233
+    },
+    "reddit": {
+      "url": ""
+    },
+    "producthunt": {
+      "url": ""
+    },
+    "website": "https://threemakers.io",
+    "tags": [
+      "product",
+      "engineer",
+      "saas"
+    ],
+    "currentProject": {
+      "name": "Uniqrate",
+      "description": "Analytics and reader feedback for blogs and docs",
+      "link": "https://uniqrate.com",
+      "tags": [
+        "analytics",
+        "marketing",
+        "tool"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/jérémie_campari_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/Jeremieca.jpg",
+    "created": "2024-11-29T17:17:15.363Z"
+  },
+  {
+    "name": "Krystian Zun",
+    "description": "Product designer building products.",
+    "twitter": {
+      "url": "https://x.com/krystianzun",
+      "followers": 439
+    },
+    "youtube": {
+      "url": ""
+    },
+    "twitch": {
+      "url": ""
+    },
+    "github": {
+      "url": "https://github.com/krystianzun",
+      "followers": 7
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/krystianzun.com",
+      "followers": 1300
+    },
+    "reddit": {
+      "url": ""
+    },
+    "producthunt": {
+      "url": ""
+    },
+    "website": "https://krystianzun.com",
+    "newsletter": "https://krystianzun.substack.com",
+    "tags": [
+      "designer",
+      "products"
+    ],
+    "currentProject": {
+      "name": "XR Jobs Board",
+      "description": "All XR jobs and opportunities in one place.",
+      "link": "https://www.xrjobsboard.com",
+      "tags": [
+        "jobs",
+        "ar",
+        "vr"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/krystian_zun_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/krystianzun.jpg",
+    "created": "2024-11-29T17:17:15.366Z"
+  },
+  {
+    "name": "Andrea Michalek",
+    "description": "Helping tech leaders launch products, build teams, and lead with confidence.",
+    "twitter": {
+      "url": "https://x.com/thatandream",
+      "followers": 3626
+    },
+    "youtube": {
+      "url": ""
+    },
+    "twitch": {
+      "url": ""
+    },
+    "github": {
+      "url": ""
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/thatandream.com",
+      "followers": 795
+    },
+    "reddit": {
+      "url": ""
+    },
+    "producthunt": {
+      "url": ""
+    },
+    "website": "https://leadershipadvantage.xyz",
+    "newsletter": "https://leadershipadvantage.xyz",
+    "tags": [
+      "consultant",
+      "coach"
+    ],
+    "currentProject": {
+      "name": "Leadership Advantage",
+      "description": "Vewsletter that helps tech leaders launch products, build teams, and lead with confidence.",
+      "link": "https://leadershipadvantage.xyz",
+      "tags": [
+        "newsletter"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/andrea_michalek_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/thatandream.jpg",
+    "created": "2024-11-29T17:17:15.366Z"
   }
 ]
