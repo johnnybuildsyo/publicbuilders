@@ -1,0 +1,45 @@
+{
+  "name": "Dustin Turner",
+  "description": "Currently building in public with projects focused on Bluesky and the AT Protocol.",
+  "twitter": {
+    "handle": ""
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "url": "https://bsky.app/profile/dustinturner.io",
+    "followers": 1100
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://dustinturner.io",
+  "tags": [
+    "bluesky",
+    "at protocol",
+    "nextjs"
+  ],
+  "currentProject": {
+    "name": "Bluesletter Social",
+    "description": "Analytics and research tooling that expands the Bluesky capabilities and simplifies the research process on the AT Protocol.",
+    "link": "https://bluesletter.social",
+    "tags": [
+      "bluesky",
+      "at protocol",
+      "social media",
+      "scheduling",
+      "analytics",
+      "academic research"
+    ]
+  }
+}
