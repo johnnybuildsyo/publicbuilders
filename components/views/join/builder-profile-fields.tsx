@@ -29,7 +29,6 @@ export default function BuilderProfileFields({ register, errors, setValue, watch
   const newsletter = watch("newsletter")
   const writing = watch("writing")
   const podcast = watch("podcast")
-  const revenue = watch("revenue")
   const currentProject = watch("currentProject")
 
   const pathname = usePathname()
@@ -125,17 +124,6 @@ export default function BuilderProfileFields({ register, errors, setValue, watch
         {podcast && (
           <a href={podcast} target="_blank" rel="noopener noreferrer" className="text-sm pl-1 -mt-2 text-blue-500 hover:underline">
             {podcast.replace("https://", "")}
-          </a>
-        )}
-      </div>
-      <div className="pt-4">
-        <Label htmlFor="revenue">
-          Do you share revenue data? <span className="text-xs font-normal">(provide url)</span>
-        </Label>
-        <Input id="revenue" {...register("revenue")} placeholder="Optional" className="mt-1" />
-        {revenue && (
-          <a href={revenue} target="_blank" rel="noopener noreferrer" className="text-sm pl-1 -mt-2 text-blue-500 hover:underline">
-            {revenue.replace("https://", "")}
           </a>
         )}
       </div>

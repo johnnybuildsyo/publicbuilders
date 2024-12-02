@@ -8440,5 +8440,154 @@
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/thatandream.jpg",
     "imageOffset": "55%",
     "created": "2024-11-29T17:17:15.366Z"
+  },
+  {
+    "name": "Sandra Djajic",
+    "description": "Marketing & Growth Lead at Chatbase and podcasting every Monday and Friday reading #buildinpublic posts",
+    "twitter": {
+      "url": "https://x.com/TakoTreba",
+      "followers": 9416
+    },
+    "youtube": {
+      "url": "https://www.youtube.com/@MorningMakerShow",
+      "followers": 859
+    },
+    "twitch": {
+      "url": ""
+    },
+    "github": {
+      "url": ""
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/takotreba.bsky.social",
+      "followers": 740
+    },
+    "reddit": {
+      "url": ""
+    },
+    "producthunt": {
+      "url": "https://www.producthunt.com/@sandradjajic",
+      "followers": 3026
+    },
+    "website": "https://morningmakershow.com",
+    "newsletter": "https://morningmakershow.com/newsletter",
+    "podcast": "https://morningmakershow.com",
+    "writing": "https://morningmakershow.com/all-articles",
+    "tags": [
+      "podcast",
+      "marketing",
+      "growth"
+    ],
+    "currentProject": {
+      "name": "Chatbase",
+      "description": "Build a custom GPT, embed it on your website and let it handle customer support, lead generation, engage with your users, and more.",
+      "link": "https://www.chatbase.co",
+      "tags": [
+        "ai",
+        "chat",
+        "support"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/sandra_djajic_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/TakoTreba.jpg",
+    "imageOffset": "25%",
+    "created": "2024-12-02T22:35:38.848Z"
+  },
+  {
+    "name": "Matthias Bohlen",
+    "description": "SW-engineer. Makes eliza.money, CustomerPing.ai and 2Quiet2Market.",
+    "twitter": {
+      "url": "https://x.com/bohlenlabs",
+      "followers": 2500
+    },
+    "youtube": {
+      "url": ""
+    },
+    "twitch": {
+      "url": ""
+    },
+    "github": {
+      "url": ""
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/bohlenlabs.com",
+      "followers": 1400
+    },
+    "reddit": {
+      "url": ""
+    },
+    "producthunt": {
+      "url": ""
+    },
+    "website": "https://bohlenlabs.com",
+    "tags": [
+      "marketing",
+      "engineer",
+      "ai"
+    ],
+    "currentProject": {
+      "name": "eliza.money",
+      "description": "The place on the Fediverse where you can discuss hot stocks with your friends, and with Eliza, the AI.",
+      "link": "https://eliza.money",
+      "tags": [
+        "fintech",
+        "ai",
+        "stocks",
+        "community"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/matthias_bohlen_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/bohlenlabs.jpg",
+    "imageOffset": "60%",
+    "created": "2024-12-02T22:35:38.853Z"
+  },
+  {
+    "name": "Pierro",
+    "description": "Award-winning engineer building products.",
+    "twitter": {
+      "url": "https://x.com/pierremouchan",
+      "followers": 2805
+    },
+    "youtube": {
+      "url": ""
+    },
+    "twitch": {
+      "url": ""
+    },
+    "github": {
+      "url": "https://github.com/pierremouchan",
+      "followers": 205
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/pierremouchan.com",
+      "followers": 1700
+    },
+    "reddit": {
+      "url": ""
+    },
+    "producthunt": {
+      "url": "https://www.producthunt.com/@pierremouchan",
+      "followers": 26
+    },
+    "website": "https://lead.dev/pierremouchan",
+    "tags": [
+      "engineer",
+      "saas",
+      "solopreneur"
+    ],
+    "currentProject": {
+      "name": "Keplair",
+      "description": "Send files instantly, no account required. Free, lightning-fast, and end-to-end encrypted file transfer service.",
+      "link": "https://www.keplair.com",
+      "tags": [
+        "filetransfer",
+        "saas",
+        "encrypted"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/pierro_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/pierremouchan.jpg",
+    "imageOffset": "66%",
+    "created": "2024-12-02T22:35:38.853Z"
   }
 ]

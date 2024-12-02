@@ -84,7 +84,7 @@ export const builderSchema = z.object({
   created: z.string().datetime().optional(),
 }).refine(
   (data) => {
-    
+
     return socialPlatforms.every((platform) => {
       const account = data[platform];
       if (account?.handle && !account?.followers) return false;
