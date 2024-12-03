@@ -17,19 +17,17 @@ const formatDate = (dateString: string) => {
   return `${month}/${day}`
 }
 
-const computeCumulativeGrowth = (growth: FollowerGrowth) => {
-  const initialCount = growth[0].count
-  return growth.map((entry) => {
-    const change = entry.count - initialCount
-    return { date: formatDate(entry.date), change }
-  })
-}
-
 const processData = (xFollowerGrowth?: FollowerGrowth, bskyFollowerGrowth?: FollowerGrowth) => {
-  const xData = xFollowerGrowth ? computeCumulativeGrowth(xFollowerGrowth) : []
-  const bskyData = bskyFollowerGrowth ? computeCumulativeGrowth(bskyFollowerGrowth) : []
+  const xData = xFollowerGrowth ? xFollowerGrowth.map(entry => ({
+    date: formatDate(entry.date),
+    count: entry.count
+  })) : []
 
-  // Merge data and align by date
+  const bskyData = bskyFollowerGrowth ? bskyFollowerGrowth.map(entry => ({
+    date: formatDate(entry.date),
+    count: entry.count
+  })) : []
+
   const allDates = Array.from(new Set([...xData.map((d) => d.date), ...bskyData.map((d) => d.date)])).sort()
 
   return allDates.map((date) => {
@@ -37,27 +35,34 @@ const processData = (xFollowerGrowth?: FollowerGrowth, bskyFollowerGrowth?: Foll
     const bskyEntry = bskyData.find((entry) => entry.date === date)
     return {
       date,
-      x: xEntry?.change ?? null,
-      bsky: bskyEntry?.change ?? null,
+      x: xEntry?.count ?? null,
+      bsky: bskyEntry?.count ?? null,
     }
   })
 }
 
 export function FollowerGrowthChart({ xFollowerGrowth, bskyFollowerGrowth, hideIfNoGrowth }: FollowerGrowthChartProps) {
-  // Return null if both datasets are undefined
   if (!xFollowerGrowth && !bskyFollowerGrowth) {
     return null
   }
 
   const data = processData(xFollowerGrowth, bskyFollowerGrowth)
 
-  const currentCounts = {
-    x: data.length > 0 ? data[data.length - 1].x : null,
-    bsky: data.length > 0 ? data[data.length - 1].bsky : null,
+  const getGrowth = (data: ReturnType<typeof processData>) => {
+    if (data.length < 2) return { x: null, bsky: null }
+    const first = data[0]
+    const last = data[data.length - 1]
+    return {
+      x: first.x !== null && last.x !== null ? last.x - first.x : null,
+      bsky: first.bsky !== null && last.bsky !== null ? last.bsky - first.bsky : null,
+    }
   }
 
-  // Determine if there is any growth
-  const hasGrowth = (currentCounts.x != null && currentCounts.x !== 0) || (currentCounts.bsky != null && currentCounts.bsky !== 0)
+  const currentCounts = getGrowth(data)
+  const hasGrowth = data.length > 0 && (
+    data.some(d => d.x !== null) ||
+    data.some(d => d.bsky !== null)
+  )
 
   if (hideIfNoGrowth && !hasGrowth) {
     return null
@@ -90,11 +95,11 @@ export function FollowerGrowthChart({ xFollowerGrowth, bskyFollowerGrowth, hideI
                 config={{
                   x: {
                     label: "X",
-                    color: "#64748b", // Hardcoded slate-700
+                    color: "#64748b",
                   },
                   bsky: {
                     label: "Bluesky",
-                    color: "#3b82f6", // Hardcoded blue-500
+                    color: "#3b82f6",
                   },
                 }}
                 className="w-[108%] relative -left-[6%]"
@@ -103,8 +108,26 @@ export function FollowerGrowthChart({ xFollowerGrowth, bskyFollowerGrowth, hideI
                   <LineChart data={data} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
                     <CartesianGrid strokeDasharray="3 3" />
                     <XAxis dataKey="date" />
-                    <YAxis />
-                    <ChartTooltip content={<ChartTooltipContent />} />
+                    <YAxis
+                      tickFormatter={(value) => value.toLocaleString()}
+                    />
+                    <ChartTooltip
+                      content={({ active, payload }) => {
+                        if (active && payload && payload.length) {
+                          return (
+                            <div className="bg-background border rounded p-2 text-sm">
+                              <p className="font-semibold">{payload[0].payload.date}</p>
+                              {payload.map((entry) => (
+                                <p key={entry.dataKey}>
+                                  {entry.dataKey === 'x' ? '𝕏' : '🦋'}: {entry.value?.toLocaleString() ?? '-'}
+                                </p>
+                              ))}
+                            </div>
+                          )
+                        }
+                        return null
+                      }}
+                    />
                     <Legend
                       wrapperStyle={{
                         position: "relative",
@@ -117,7 +140,7 @@ export function FollowerGrowthChart({ xFollowerGrowth, bskyFollowerGrowth, hideI
                       <Line
                         type="monotone"
                         dataKey="x"
-                        stroke="#64748b" // Hardcoded slate-500
+                        stroke="#64748b"
                         name="x"
                         activeDot={{ r: 8 }}
                         isAnimationActive={false}
@@ -127,7 +150,7 @@ export function FollowerGrowthChart({ xFollowerGrowth, bskyFollowerGrowth, hideI
                       <Line
                         type="monotone"
                         dataKey="bsky"
-                        stroke="#3b82f6" // Hardcoded blue-500
+                        stroke="#3b82f6"
                         name="bsky"
                         activeDot={{ r: 8 }}
                         isAnimationActive={false}
