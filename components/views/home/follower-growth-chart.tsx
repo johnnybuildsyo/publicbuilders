@@ -2,7 +2,7 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Legend, ResponsiveContainer } from "recharts"
-import { ChartContainer, ChartTooltip, ChartTooltipContent } from "@/components/ui/chart"
+import { ChartContainer, ChartTooltip } from "@/components/ui/chart"
 
 type FollowerGrowth = { date: string; count: number }[]
 
@@ -18,15 +18,19 @@ const formatDate = (dateString: string) => {
 }
 
 const processData = (xFollowerGrowth?: FollowerGrowth, bskyFollowerGrowth?: FollowerGrowth) => {
-  const xData = xFollowerGrowth ? xFollowerGrowth.map(entry => ({
-    date: formatDate(entry.date),
-    count: entry.count
-  })) : []
+  const xData = xFollowerGrowth
+    ? xFollowerGrowth.map((entry) => ({
+        date: formatDate(entry.date),
+        count: entry.count,
+      }))
+    : []
 
-  const bskyData = bskyFollowerGrowth ? bskyFollowerGrowth.map(entry => ({
-    date: formatDate(entry.date),
-    count: entry.count
-  })) : []
+  const bskyData = bskyFollowerGrowth
+    ? bskyFollowerGrowth.map((entry) => ({
+        date: formatDate(entry.date),
+        count: entry.count,
+      }))
+    : []
 
   const allDates = Array.from(new Set([...xData.map((d) => d.date), ...bskyData.map((d) => d.date)])).sort()
 
@@ -59,10 +63,7 @@ export function FollowerGrowthChart({ xFollowerGrowth, bskyFollowerGrowth, hideI
   }
 
   const currentCounts = getGrowth(data)
-  const hasGrowth = data.length > 0 && (
-    data.some(d => d.x !== null) ||
-    data.some(d => d.bsky !== null)
-  )
+  const hasGrowth = data.length > 0 && (data.some((d) => d.x !== null) || data.some((d) => d.bsky !== null))
 
   if (hideIfNoGrowth && !hasGrowth) {
     return null
@@ -108,9 +109,7 @@ export function FollowerGrowthChart({ xFollowerGrowth, bskyFollowerGrowth, hideI
                   <LineChart data={data} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
                     <CartesianGrid strokeDasharray="3 3" />
                     <XAxis dataKey="date" />
-                    <YAxis
-                      tickFormatter={(value) => value.toLocaleString()}
-                    />
+                    <YAxis tickFormatter={(value) => value.toLocaleString()} />
                     <ChartTooltip
                       content={({ active, payload }) => {
                         if (active && payload && payload.length) {
@@ -119,7 +118,7 @@ export function FollowerGrowthChart({ xFollowerGrowth, bskyFollowerGrowth, hideI
                               <p className="font-semibold">{payload[0].payload.date}</p>
                               {payload.map((entry) => (
                                 <p key={entry.dataKey}>
-                                  {entry.dataKey === 'x' ? '𝕏' : '🦋'}: {entry.value?.toLocaleString() ?? '-'}
+                                  {entry.dataKey === "x" ? "𝕏" : "🦋"}: {entry.value?.toLocaleString() ?? "-"}
                                 </p>
                               ))}
                             </div>
@@ -136,26 +135,8 @@ export function FollowerGrowthChart({ xFollowerGrowth, bskyFollowerGrowth, hideI
                       }}
                       formatter={(value: string) => (value === "x" ? "𝕏" : "🦋")}
                     />
-                    {xFollowerGrowth && (
-                      <Line
-                        type="monotone"
-                        dataKey="x"
-                        stroke="#64748b"
-                        name="x"
-                        activeDot={{ r: 8 }}
-                        isAnimationActive={false}
-                      />
-                    )}
-                    {bskyFollowerGrowth && (
-                      <Line
-                        type="monotone"
-                        dataKey="bsky"
-                        stroke="#3b82f6"
-                        name="bsky"
-                        activeDot={{ r: 8 }}
-                        isAnimationActive={false}
-                      />
-                    )}
+                    {xFollowerGrowth && <Line type="monotone" dataKey="x" stroke="#64748b" name="x" activeDot={{ r: 8 }} isAnimationActive={false} />}
+                    {bskyFollowerGrowth && <Line type="monotone" dataKey="bsky" stroke="#3b82f6" name="bsky" activeDot={{ r: 8 }} isAnimationActive={false} />}
                   </LineChart>
                 </ResponsiveContainer>
               </ChartContainer>
