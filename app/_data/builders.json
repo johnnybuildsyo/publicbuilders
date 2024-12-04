@@ -9349,5 +9349,51 @@
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/pierremouchan.jpg",
     "imageOffset": "66%",
     "created": "2024-12-02T22:35:38.853Z"
+  },
+  {
+    "name": "Bren Kinfa  SaaS AI Tools",
+    "description": "Curating SaaS & AI tools:\n\n http://SaaSAITools.com - #1 Product of the Day on Product Hunt\n http://SaaSBoilerplates.com - Directory of SaaS boilerplates",
+    "twitter": {
+      "url": "https://x.com/BrenKinfa",
+      "followers": 2866
+    },
+    "youtube": {
+      "url": ""
+    },
+    "twitch": {
+      "url": ""
+    },
+    "github": {
+      "url": ""
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/brenkinfa.com",
+      "followers": 42
+    },
+    "reddit": {
+      "url": ""
+    },
+    "producthunt": {
+      "url": "https://www.producthunt.com/@brenkinfa",
+      "followers": 4747
+    },
+    "website": "https://brenkinfa.com",
+    "tags": [
+      ""
+    ],
+    "currentProject": {
+      "name": "SaaS AI Tools",
+      "description": "Your source for new AI tools & daily AI news to help supercharge your creativity to the next level.",
+      "link": "https://saasaitools.com",
+      "tags": [
+        "ai",
+        "directory",
+        "saas"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/bren_kinfa_saas_ai_tools_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/BrenKinfa.jpg",
+    "imageOffset": "60%",
+    "created": "2024-12-04T22:38:49.320Z"
   }
 ]
