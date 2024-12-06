@@ -130,8 +130,8 @@ async function main() {
           builder.bluesky.followerGrowth.sort((a, b) => new Date(a.date) - new Date(b.date));
 
           // Limit the array size to the last 7 entries
-          if (builder.bluesky.followerGrowth.length > 7) {
-            builder.bluesky.followerGrowth = builder.bluesky.followerGrowth.slice(-7);
+          if (builder.bluesky.followerGrowth.length > MAX_ENTRIES) {
+            builder.bluesky.followerGrowth = builder.bluesky.followerGrowth.slice(-MAX_ENTRIES);
           }
 
           // Update the followers count to the most recent count
