@@ -9939,5 +9939,51 @@
     },
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/DamjanDabo.jpg",
     "created": "2024-12-06T13:01:37.959Z"
+  },
+  {
+    "name": "thee_frankie",
+    "description": "Product Designer designing Cleeve App for saving, organizing and finding links. Sharing what I can from designing & building",
+    "twitter": {
+      "url": "https://x.com/aa__frankie",
+      "followers": 3262
+    },
+    "youtube": {
+      "url": ""
+    },
+    "twitch": {
+      "url": ""
+    },
+    "github": {
+      "url": ""
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/aa-frankie.bsky.social",
+      "followers": 828
+    },
+    "reddit": {
+      "url": ""
+    },
+    "producthunt": {
+      "url": ""
+    },
+    "website": "https://cleeve.app",
+    "tags": [
+      "product",
+      "designer",
+      "marketing"
+    ],
+    "currentProject": {
+      "name": "Cleeve App",
+      "description": "Save, organize, share all your links!",
+      "link": "https://cleeve.app",
+      "tags": [
+        "links",
+        "app",
+        "sharing"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/thee_frankie_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/aa__frankie.jpg",
+    "created": "2024-12-06T13:14:12.946Z"
   }
 ]
