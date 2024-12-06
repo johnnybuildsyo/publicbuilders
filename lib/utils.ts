@@ -72,6 +72,9 @@ export function calculateGrowth(builder: Builder): { totalGrowth: number; percen
     twitterGrowth = growthData[growthData.length - 1].count - growthData[0].count;
     twitterFollowers = growthData[0].count;
   }
+  if (twitterFollowers === 0) {
+    twitterFollowers = builder.twitter?.followers || 0;
+  }
 
   let blueskyGrowth = 0;
   let blueskyFollowers = 0;
