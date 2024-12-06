@@ -9891,5 +9891,53 @@
     },
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/prsnlbrandexp.jpg",
     "created": "2024-12-06T12:43:43.101Z"
+  },
+  {
+    "name": "Damjan Dabo",
+    "description": "Indie iOS dev working on ItemlistApp. Previous experience projects for Philips, Porsche and BMW. Croatian living in Germany.",
+    "twitter": {
+      "url": "https://x.com/DamjanDabo",
+      "followers": 1398
+    },
+    "youtube": {
+      "url": ""
+    },
+    "twitch": {
+      "url": ""
+    },
+    "github": {
+      "url": "https://github.com/dabodamjan",
+      "followers": 95
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/damjandabo.bsky.social",
+      "followers": 1200
+    },
+    "reddit": {
+      "url": ""
+    },
+    "producthunt": {
+      "url": "https://www.producthunt.com/@damjandabo",
+      "followers": 30
+    },
+    "website": "https://bento.me/dabo",
+    "tags": [
+      "indie",
+      "engineer",
+      "ios"
+    ],
+    "currentProject": {
+      "name": "ItemList App",
+      "description": "Home and small business inventory app to easily organize, categorize, and locate items.",
+      "link": "https://www.getitemlist.app",
+      "tags": [
+        "ios",
+        "inventory",
+        "app"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/damjan_dabo_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/DamjanDabo.jpg",
+    "created": "2024-12-06T13:01:37.959Z"
   }
 ]
