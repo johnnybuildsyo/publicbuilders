@@ -9747,5 +9747,149 @@
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/BrenKinfa.jpg",
     "imageOffset": "60%",
     "created": "2024-12-04T22:38:49.320Z"
+  },
+  {
+    "name": "Jakob Jelling",
+    "description": "I'm Jakob from Denmark. I run and grow the newsletter Fake Mayo and share my learnings on sociale media.",
+    "twitter": {
+      "handle": "https://x.com/jakobjelling",
+      "url": "https://x.com/jakobjelling",
+      "followers": 1217
+    },
+    "youtube": {
+      "handle": ""
+    },
+    "twitch": {
+      "handle": ""
+    },
+    "github": {
+      "handle": ""
+    },
+    "bluesky": {
+      "handle": "https://bsky.app/profile/jakobjelling.bsky.social",
+      "url": "https://bsky.app/profile/jakobjelling.bsky.social",
+      "followers": 1398
+    },
+    "reddit": {
+      "handle": "https://www.reddit.com/user/jakobjelling/",
+      "url": "https://www.reddit.com/user/jakobjelling/",
+      "followers": 1
+    },
+    "producthunt": {
+      "handle": ""
+    },
+    "website": "https://www.fakemayo.com",
+    "newsletter": "https://www.fakemayo.com",
+    "tags": [
+      "newsletter",
+      "marketing",
+      "solopreneur"
+    ],
+    "currentProject": {
+      "name": "Fake Mayo",
+      "description": "A newsletter/blog where entrepreneurs share how they got their first users or customers.",
+      "link": "https://www.fakemayo.com",
+      "tags": [
+        "entrepreneur",
+        "marketing",
+        "newsletter"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/jakob_jelling_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/jakobjelling.jpg",
+    "created": "2024-12-06T12:43:43.098Z"
+  },
+  {
+    "name": "Dustin Turner",
+    "description": "Currently building in public with projects focused on Bluesky and the AT Protocol.",
+    "twitter": {
+      "handle": ""
+    },
+    "youtube": {
+      "handle": ""
+    },
+    "twitch": {
+      "handle": ""
+    },
+    "github": {
+      "handle": "https://github.com/dustinbturner",
+      "followers": 72
+    },
+    "bluesky": {
+      "handle": "https://bsky.app/profile/dustinturner.io",
+      "url": "https://bsky.app/profile/dustinturner.io",
+      "followers": 1100
+    },
+    "reddit": {
+      "handle": ""
+    },
+    "producthunt": {
+      "handle": ""
+    },
+    "website": "https://dustinturner.io",
+    "tags": [
+      "bluesky",
+      "atproto",
+      "nextjs"
+    ],
+    "currentProject": {
+      "name": "Bluesletter Social",
+      "description": "Analytics and research tooling that expands the Bluesky capabilities and simplifies the research process on the AT Protocol.",
+      "link": "https://bluesletter.social",
+      "tags": [
+        "bluesky",
+        "atproto",
+        "social media",
+        "analytics"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/dustin_turner_project_screenshot.png"
+    },
+    "created": "2024-12-06T12:43:43.101Z"
+  },
+  {
+    "name": "Neel Patel",
+    "description": "I make friends with founders, marketers and designers. A decade in tech. Building @syncsignature. The Branding and Building podcast. #SaaS #Producthunt #Podcast",
+    "twitter": {
+      "url": "https://x.com/prsnlbrandexp",
+      "followers": 2012
+    },
+    "youtube": {
+      "url": ""
+    },
+    "twitch": {
+      "url": ""
+    },
+    "github": {
+      "url": ""
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/prsnlbrandexp.bsky.social",
+      "followers": 1400
+    },
+    "reddit": {
+      "url": ""
+    },
+    "producthunt": {
+      "url": "https://www.producthunt.com/@neelptl2602",
+      "followers": 1344
+    },
+    "website": "https://syncsignature.com",
+    "podcast": "https://www.youtube.com/@thebrandingbuildingpodcast",
+    "tags": [
+      ""
+    ],
+    "currentProject": {
+      "name": "SyncSignature",
+      "description": "Turn your favorite photo into a professional headshot and a branded email signature for free.",
+      "link": "https://syncsignature.com",
+      "tags": [
+        "tool",
+        "branding",
+        "email"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/neel_patel_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/prsnlbrandexp.jpg",
+    "created": "2024-12-06T12:43:43.101Z"
   }
 ]
