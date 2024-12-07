@@ -10959,7 +10959,7 @@
     "created": "2024-11-27T22:30:31.698Z"
   },
   {
-    "name": "Alex",
+    "name": "Alexej Kirillov",
     "description": "Strategy and innovation consultant by day, tinkerer by night. Everything is interesting.",
     "twitter": {
       "url": "https://x.com/AlexejKirillov",
@@ -11807,7 +11807,7 @@
     "created": "2024-12-02T22:35:38.853Z"
   },
   {
-    "name": "Pierro",
+    "name": "Pierre Mouchan",
     "description": "Award-winning engineer building products.",
     "twitter": {
       "url": "https://x.com/pierremouchan",
@@ -11900,8 +11900,8 @@
     "created": "2024-12-02T22:35:38.853Z"
   },
   {
-    "name": "Bren Kinfa  SaaS AI Tools",
-    "description": "Curating SaaS & AI tools:\n\n http://SaaSAITools.com - #1 Product of the Day on Product Hunt\n http://SaaSBoilerplates.com - Directory of SaaS boilerplates",
+    "name": "Bren Kinfa",
+    "description": "Curating SaaS & AI tools and a directory of SaaS boilerplates",
     "twitter": {
       "url": "https://x.com/BrenKinfa",
       "followers": 2871,
@@ -12228,7 +12228,7 @@
     "created": "2024-12-06T13:01:37.959Z"
   },
   {
-    "name": "thee_frankie",
+    "name": "Frankie Amoha",
     "description": "Product Designer designing Cleeve App for saving, organizing and finding links. Sharing what I can from designing & building",
     "twitter": {
       "url": "https://x.com/aa__frankie",
@@ -12267,7 +12267,8 @@
       "url": ""
     },
     "producthunt": {
-      "url": ""
+      "url": "https://www.producthunt.com/@frankie_amoah",
+      "followers": 34
     },
     "website": "https://cleeve.app",
     "tags": [
@@ -12289,5 +12290,236 @@
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/aa__frankie.jpg",
     "imageOffset": "62%",
     "created": "2024-12-06T13:14:12.946Z"
+  },
+  {
+    "name": "Arthur Yuzbashew",
+    "description": "Software Engineer based in Spain, specializing in technical education through hands-on learning and building applications.",
+    "twitter": {
+      "url": "https://x.com/ArthurYuzbashew",
+      "followers": 149
+    },
+    "youtube": {
+      "url": ""
+    },
+    "twitch": {
+      "url": ""
+    },
+    "github": {
+      "url": ""
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/faxraddin.bsky.social",
+      "followers": 64
+    },
+    "reddit": {
+      "url": ""
+    },
+    "producthunt": {
+      "url": ""
+    },
+    "website": "https://faxraddin.com",
+    "tags": [
+      "engineer",
+      "saas",
+      "seo"
+    ],
+    "currentProject": {
+      "name": "ShipSeo",
+      "description": "The MERN + Next.js boilerplates with all you need to upgrade your SaaS, AI tool, or any other web app and make your first $ online fast.",
+      "link": "https://www.shipseo.lol",
+      "tags": [
+        "template",
+        "seo",
+        "saas"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/arthur_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/ArthurYuzbashew.jpg",
+    "created": "2024-12-07T16:51:29.129Z"
+  },
+  {
+    "name": "Teo Aevin",
+    "description": "Audiovisual wizardry & Solopreneurism",
+    "twitter": {
+      "url": "https://x.com/aevin_io",
+      "followers": 1977
+    },
+    "youtube": {
+      "url": ""
+    },
+    "twitch": {
+      "url": ""
+    },
+    "github": {
+      "url": ""
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/aevin.io",
+      "followers": 128
+    },
+    "reddit": {
+      "url": ""
+    },
+    "producthunt": {
+      "url": ""
+    },
+    "website": "https://aevin.io",
+    "tags": [
+      ""
+    ],
+    "currentProject": {
+      "name": "Cool Deeds",
+      "description": "Cool Deeds is an iOS app built around the idea that small, meaningful actions can create waves of positive change.",
+      "link": "https://cooldeeds.app",
+      "tags": [
+        ""
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/teo_aevin_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/aevin_io.jpg",
+    "imageOffset": "40%",
+    "created": "2024-12-07T16:51:29.132Z"
+  },
+  {
+    "name": "Tobias Arweiler",
+    "description": "Develops simple, intuitive and fast software products using modern web technologies like React, Next, Node, Sass and many more..",
+    "twitter": {
+      "url": "https://x.com/icebearlabs",
+      "followers": 1184
+    },
+    "youtube": {
+      "url": ""
+    },
+    "twitch": {
+      "url": ""
+    },
+    "github": {
+      "url": ""
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/icebearlabs.com",
+      "followers": 717
+    },
+    "reddit": {
+      "url": ""
+    },
+    "producthunt": {
+      "url": "https://www.producthunt.com/@tarweiler",
+      "followers": 44
+    },
+    "website": "https://www.icebearlabs.com/",
+    "podcast": "https://codeandconquer.fm",
+    "tags": [
+      "developer",
+      "studio",
+      "podcast"
+    ],
+    "currentProject": {
+      "name": "Repodcasted",
+      "description": "Turn your podcast audio into engaging content for your Twitter, Linkedin, Instagram, Newsletter and more.",
+      "link": "https://repodcasted.com",
+      "tags": [
+        "podcast",
+        "audio",
+        "social"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/tobias_arweiler_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/icebearlabs.jpg",
+    "created": "2024-12-07T16:51:29.132Z"
+  },
+  {
+    "name": "Robin Faraj",
+    "description": "Software Engineer on the journey of becoming an Entrepreneur & Indie Maker.",
+    "twitter": {
+      "url": "https://x.com/robin_faraj",
+      "followers": 1901
+    },
+    "youtube": {
+      "url": ""
+    },
+    "twitch": {
+      "url": ""
+    },
+    "github": {
+      "url": "https://github.com/robinsadeghpour",
+      "followers": 18
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/robinfaraj.bsky.social",
+      "followers": 1400
+    },
+    "reddit": {
+      "url": ""
+    },
+    "producthunt": {
+      "url": "https://www.producthunt.com/@robinfaraj",
+      "followers": 26
+    },
+    "website": "https://robinfaraj.me",
+    "tags": [
+      "startup",
+      "engineer"
+    ],
+    "currentProject": {
+      "name": "Native Express",
+      "description": "Everything you need to quickly build, launch, and monetize your React Native apps: boilerplate code, video tutorials, guides, and Figma templates.",
+      "link": "https://www.native.express",
+      "tags": [
+        "apps",
+        "template",
+        "tool"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/robin_faraj_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/robin_faraj.jpg",
+    "created": "2024-12-07T16:51:29.132Z"
+  },
+  {
+    "name": "Matt Litherland",
+    "description": "UK Design Engineer living in Bulgaria. Designing & developing for over 20 years.",
+    "twitter": {
+      "url": "https://x.com/uixmat",
+      "followers": 2140
+    },
+    "youtube": {
+      "url": ""
+    },
+    "twitch": {
+      "url": ""
+    },
+    "github": {
+      "url": "https://github.com/uixmat",
+      "followers": 109
+    },
+    "bluesky": {
+      "url": ""
+    },
+    "reddit": {
+      "url": ""
+    },
+    "producthunt": {
+      "url": ""
+    },
+    "website": "https://uixmat.dev",
+    "tags": [
+      "design",
+      "ui",
+      "ux"
+    ],
+    "currentProject": {
+      "name": "FIrestarta",
+      "description": "Open-source Next.js boilerplate/SaaS starter kit",
+      "link": "https://www.firestarta.dev",
+      "tags": [
+        "starter",
+        "template",
+        "saas"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/matt_litherland_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/uixmat.jpg",
+    "imageOffset": "25%",
+    "created": "2024-12-07T16:51:29.132Z"
   }
 ]
