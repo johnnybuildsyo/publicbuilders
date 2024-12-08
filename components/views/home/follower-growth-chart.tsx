@@ -15,6 +15,7 @@ type FollowerGrowthChartProps = {
   bskyFollowerGrowth?: FollowerGrowth
   hideIfNoGrowth?: boolean
   totalBuilders?: number
+  containerClassName?: string
 }
 
 const formatDate = (dateString: string) => {
@@ -50,7 +51,7 @@ const processData = (xFollowerGrowth?: FollowerGrowth, bskyFollowerGrowth?: Foll
   })
 }
 
-export function FollowerGrowthChart({ xFollowerGrowth, bskyFollowerGrowth, hideIfNoGrowth, totalBuilders }: FollowerGrowthChartProps) {
+export function FollowerGrowthChart({ xFollowerGrowth, bskyFollowerGrowth, hideIfNoGrowth, totalBuilders, containerClassName }: FollowerGrowthChartProps) {
   const [dateRange, setDateRange] = useState<DateRange>("14")
 
   if (!xFollowerGrowth && !bskyFollowerGrowth) {
@@ -164,7 +165,7 @@ export function FollowerGrowthChart({ xFollowerGrowth, bskyFollowerGrowth, hideI
                     </Select>
                   </div>
                 </div>
-                <div className="relative px-8">
+                <div className={containerClassName}>
                   <ChartContainer
                     config={{
                       x: {

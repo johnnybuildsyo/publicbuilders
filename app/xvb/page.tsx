@@ -16,7 +16,7 @@ export default function GrowthPage() {
         Follower Growth: <span className="whitespace-nowrap">𝕏 vs 🦋</span>
       </Heading>
       <div className="w-full max-w-4xl mx-auto">
-        <FollowerGrowthChart xFollowerGrowth={xFollowerGrowth} bskyFollowerGrowth={bskyFollowerGrowth} />
+        <FollowerGrowthChart containerClassName="relative px-8" xFollowerGrowth={xFollowerGrowth} bskyFollowerGrowth={bskyFollowerGrowth} />
       </div>
     </div>
   )
