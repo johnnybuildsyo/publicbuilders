@@ -16,6 +16,7 @@ type FollowerGrowthChartProps = {
   hideIfNoGrowth?: boolean
   totalBuilders?: number
   containerClassName?: string
+  showGrowthRate?: boolean
 }
 
 const formatDate = (dateString: string) => {
@@ -51,7 +52,7 @@ const processData = (xFollowerGrowth?: FollowerGrowth, bskyFollowerGrowth?: Foll
   })
 }
 
-export function FollowerGrowthChart({ xFollowerGrowth, bskyFollowerGrowth, hideIfNoGrowth, totalBuilders, containerClassName }: FollowerGrowthChartProps) {
+export function FollowerGrowthChart({ xFollowerGrowth, bskyFollowerGrowth, hideIfNoGrowth, totalBuilders, containerClassName, showGrowthRate }: FollowerGrowthChartProps) {
   const [dateRange, setDateRange] = useState<DateRange>("14")
 
   if (!xFollowerGrowth && !bskyFollowerGrowth) {
@@ -119,7 +120,7 @@ export function FollowerGrowthChart({ xFollowerGrowth, bskyFollowerGrowth, hideI
 
   return (
     <>
-      {growthRateRatio !== "N/A" && (
+      {growthRateRatio !== "N/A" && showGrowthRate && (
         <div className="mb-8 px-4">
           <h3 className="text-xl text-center font-semibold">Bluesky Growth Rate: {growthRateRatio}x vs. X/Twitter</h3>
           <p className="text-sm font-thin opacity-70 text-center text-balance">As measured by follower count tracking {totalBuilders} builders across the Public Builders directory</p>

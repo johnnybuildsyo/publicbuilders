@@ -13356,5 +13356,53 @@
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/thiswillblossom.jpg",
     "imageOffset": "60%",
     "created": "2024-12-07T17:35:25.050Z"
+  },
+  {
+    "name": "Pauline Clavelloux",
+    "description": "Indie hacker sharing her SaaS journey and tips to grow.",
+    "twitter": {
+      "url": "https://x.com/Pauline_Cx",
+      "followers": 22800
+    },
+    "youtube": {
+      "url": ""
+    },
+    "twitch": {
+      "url": ""
+    },
+    "github": {
+      "url": ""
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/pauline-cx.bsky.social",
+      "followers": 527
+    },
+    "reddit": {
+      "url": ""
+    },
+    "producthunt": {
+      "url": ""
+    },
+    "website": "https://paulinecx.beehiiv.com",
+    "newsletter": "https://paulinecx.beehiiv.com",
+    "tags": [
+      "saas",
+      "data",
+      "indiehacker"
+    ],
+    "currentProject": {
+      "name": "IACrea",
+      "description": "Virtual interior & exterior home staging.",
+      "link": "https://www.iacrea.com",
+      "tags": [
+        "ai",
+        "home",
+        "interiordesign"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/pauline_clavelloux_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/Pauline_Cx.jpg",
+    "imageOffset": "40%",
+    "created": "2024-12-08T17:03:08.616Z"
   }
 ]
