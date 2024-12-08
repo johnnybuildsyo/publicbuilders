@@ -51,7 +51,7 @@ const processData = (xFollowerGrowth?: FollowerGrowth, bskyFollowerGrowth?: Foll
 }
 
 export function FollowerGrowthChart({ xFollowerGrowth, bskyFollowerGrowth, hideIfNoGrowth, totalBuilders }: FollowerGrowthChartProps) {
-  const [dateRange, setDateRange] = useState<DateRange>("30")
+  const [dateRange, setDateRange] = useState<DateRange>("14")
 
   if (!xFollowerGrowth && !bskyFollowerGrowth) {
     return null
