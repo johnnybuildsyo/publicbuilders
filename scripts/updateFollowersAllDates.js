@@ -8,7 +8,7 @@ import slugify from 'slugify';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const MAX_ENTRIES = 30;
+const MAX_ENTRIES = 90;
 
 // Helper function to get all JSON files in a directory, sorted by date
 function getSortedFilesByDate(dir, ext) {

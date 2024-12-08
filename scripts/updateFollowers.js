@@ -27,7 +27,7 @@ function getMostRecentFileByDate(dir, ext) {
   return sortedFiles.length > 0 ? sortedFiles[0].file : null;
 }
 
-const MAX_ENTRIES = 30;
+const MAX_ENTRIES = 90;
 
 // Main function to process builders
 async function main() {
