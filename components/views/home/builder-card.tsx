@@ -14,7 +14,7 @@ import { calculateGrowth } from "@/lib/utils"
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip"
 
 export function BuilderCard({ builder, variant = "card" }: { builder: Builder; variant?: "card" | "page" }) {
-  const { percentGrowth, totalGrowth } = calculateGrowth(builder)
+  const { percentGrowth, totalGrowth } = calculateGrowth(builder, "14")
   const showPercentGrowth = percentGrowth >= 2
   const showTotalGrowth = totalGrowth >= 100
 
@@ -67,32 +67,23 @@ export function BuilderCard({ builder, variant = "card" }: { builder: Builder; v
                     {percentGrowth.toFixed(1)}%
                   </Badge>
                 </TooltipTrigger>
-                <TooltipContent>
-                  Follower growth in the last 10 days
-                </TooltipContent>
+                <TooltipContent>Follower growth in the last 10 days</TooltipContent>
               </Tooltip>
             )}
             {showTotalGrowth && (
               <Tooltip>
                 <TooltipTrigger>
                   <Badge variant="secondary" className="bg-blue-100 text-blue-700 text-xs font-normal flex items-center gap-1">
-                    <Users className="w-3 h-3" />
-                    +{formatNum(totalGrowth)}
+                    <Users className="w-3 h-3" />+{formatNum(totalGrowth)}
                   </Badge>
                 </TooltipTrigger>
-                <TooltipContent>
-                  Total new followers in the last 10 days
-                </TooltipContent>
+                <TooltipContent>Total new followers in the last 10 days</TooltipContent>
               </Tooltip>
             )}
           </div>
         )}
         <CardTitle className={cn("text-center tracking-wide text-balance", variant === "card" ? "text-2xl font-extrabold" : "text-6xl font-black")}>
-          {variant === "card" ? (
-            <Link href={`/profile/${slugify(builder.name, { lower: true })}`}>{builder.name}</Link>
-          ) : (
-            builder.name
-          )}
+          {variant === "card" ? <Link href={`/profile/${slugify(builder.name, { lower: true })}`}>{builder.name}</Link> : builder.name}
         </CardTitle>
       </CardHeader>
       <CardContent className="space-y-4 flex-grow flex flex-col">
@@ -140,7 +131,12 @@ export function BuilderCard({ builder, variant = "card" }: { builder: Builder; v
               <div className="flex flex-col items-center mb-2">
                 {variant === "page" && builder.currentProject.image && (
                   <div className="relative w-3/4 my-2 aspect-video overflow-hidden rounded-lg border">
-                    <Image src={builder.currentProject.image.replace("publicbuilders.s3.us-east-2.amazonaws.com", "d11q8iqsbffqvr.cloudfront.net")} fill={true} alt={"Screenshot of " + builder.currentProject.name} className="w-full h-auto max-w-2xl rounded-lg" />
+                    <Image
+                      src={builder.currentProject.image.replace("publicbuilders.s3.us-east-2.amazonaws.com", "d11q8iqsbffqvr.cloudfront.net")}
+                      fill={true}
+                      alt={"Screenshot of " + builder.currentProject.name}
+                      className="w-full h-auto max-w-2xl rounded-lg"
+                    />
                   </div>
                 )}
                 <h3 className={cn("font-semibold text-center", variant === "page" && "font-normal text-2xl text-blue-700/80 hover:text-blue-600")}>{builder.currentProject.name}</h3>

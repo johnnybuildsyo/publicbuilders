@@ -15,7 +15,7 @@ export default function Home({ sort, page = 1 }: { sort?: string; page?: number 
   if (["trending", "percentGrowth", "totalGrowth"].includes(currentSort)) {
     buildersToShow = builders
       .map((builder) => {
-        const { totalGrowth, percentGrowth, weightedScore } = calculateWeightedGrowth(builder)
+        const { totalGrowth, percentGrowth, weightedScore } = calculateWeightedGrowth(builder, "14")
         return { ...builder, totalGrowth, percentGrowth, weightedScore }
       })
       // Sort by the appropriate metric

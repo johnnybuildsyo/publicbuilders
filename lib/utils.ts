@@ -60,39 +60,54 @@ export function formatUrlFromHandle(platform: string, handle: string | undefined
   return `${baseUrl}${handle}`;
 }
 
-export function calculateGrowth(builder: Builder): { totalGrowth: number; percentGrowth: number } {
-  let twitterGrowth = 0;
-  let twitterFollowers = 0;
-  if (
-    builder.twitter &&
-    builder.twitter.followerGrowth &&
-    builder.twitter.followerGrowth.length > 0
-  ) {
-    const growthData = builder.twitter.followerGrowth;
-    twitterGrowth = growthData[growthData.length - 1].count - growthData[0].count;
-    twitterFollowers = growthData[0].count;
+export function calculateGrowth(
+  builder: Builder, 
+  range?: "3" | "7" | "14" | "30" | "all"
+): { totalGrowth: number; percentGrowth: number } {
+  const filterByRange = (growth: { date: string; count: number }[] | undefined) => {
+    if (!growth) return []
+    if (!range || range === "all") return growth
+    const daysAgo = parseInt(range)
+    const cutoffDate = new Date()
+    cutoffDate.setDate(cutoffDate.getDate() - daysAgo)
+
+    return growth.filter(entry => {
+      const [year, month, day] = entry.date.split("-")
+      const entryDate = new Date(parseInt(year), parseInt(month) - 1, parseInt(day))
+      return entryDate >= cutoffDate
+    })
+  }
+
+  let twitterGrowth = 0
+  let twitterFollowers = 0
+  const twitterGrowthData = builder.twitter?.followerGrowth
+  if (twitterGrowthData?.length) {
+    const filteredGrowth = filterByRange(twitterGrowthData)
+    if (filteredGrowth.length > 0) {
+      twitterGrowth = filteredGrowth[filteredGrowth.length - 1].count - filteredGrowth[0].count
+      twitterFollowers = filteredGrowth[0].count
+    }
   }
   if (twitterFollowers === 0) {
-    twitterFollowers = builder.twitter?.followers || 0;
+    twitterFollowers = builder.twitter?.followers || 0
   }
 
-  let blueskyGrowth = 0;
-  let blueskyFollowers = 0;
-  if (
-    builder.bluesky &&
-    builder.bluesky.followerGrowth &&
-    builder.bluesky.followerGrowth.length > 0
-  ) {
-    const growthData = builder.bluesky.followerGrowth;
-    blueskyGrowth = growthData[growthData.length - 1].count - growthData[0].count;
-    blueskyFollowers = growthData[0].count;
+  let blueskyGrowth = 0
+  let blueskyFollowers = 0
+  const blueskyGrowthData = builder.bluesky?.followerGrowth
+  if (blueskyGrowthData?.length) {
+    const filteredGrowth = filterByRange(blueskyGrowthData)
+    if (filteredGrowth.length > 0) {
+      blueskyGrowth = filteredGrowth[filteredGrowth.length - 1].count - filteredGrowth[0].count
+      blueskyFollowers = filteredGrowth[0].count
+    }
   }
 
-  const totalGrowth = twitterGrowth + blueskyGrowth;
-  const initialFollowers = twitterFollowers + blueskyFollowers;
-  const percentGrowth = initialFollowers > 0 ? (totalGrowth / initialFollowers) * 100 : 0;
+  const totalGrowth = twitterGrowth + blueskyGrowth
+  const initialFollowers = twitterFollowers + blueskyFollowers
+  const percentGrowth = initialFollowers > 0 ? (totalGrowth / initialFollowers) * 100 : 0
 
-  return { totalGrowth, percentGrowth };
+  return { totalGrowth, percentGrowth }
 }
 
 export function calculatePlatformGrowth(builders: Builder[]): {
@@ -147,21 +162,21 @@ export function calculatePlatformGrowth(builders: Builder[]): {
   return { twitterGrowth, blueskyGrowth };
 }
 
-export function calculateWeightedGrowth(builder: Builder): {
+export function calculateWeightedGrowth(
+  builder: Builder,
+  range?: "3" | "7" | "14" | "30" | "all"
+): {
   totalGrowth: number;
   percentGrowth: number;
   weightedScore: number;
 } {
-  const { totalGrowth, percentGrowth } = calculateGrowth(builder);
+  const { totalGrowth, percentGrowth } = calculateGrowth(builder, range);
 
   // Normalize the growth metrics to prevent either from dominating
-  // These weights can be adjusted to fine-tune the balance
-  const percentWeight = 0.5;  // 50% weight to percentage growth
-  const totalWeight = 0.5;    // 50% weight to total growth
+  const percentWeight = 0.6;  // 60% weight to percentage growth
+  const totalWeight = 0.4;    // 40% weight to total growth
 
   // Calculate weighted score
-  // We use Math.log to prevent large numbers from dominating
-  // Add 1 to handle cases where growth is 0
   const normalizedTotal = Math.log(Math.abs(totalGrowth) + 1);
   const normalizedPercent = Math.log(percentGrowth + 1);
 
