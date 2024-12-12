@@ -1,0 +1,48 @@
+{
+  "name": "Hwee-Boon Yar",
+  "description": "20+ yrs exp. Indie founder now. Building:\n\n* theblue.social\n* summarizevideo.ai\n* pingnow.net\n* and macOS apps\n\nhomepage:\n\n* hboon.com/about/\n\nPosts \n#buildinpublic\n for my indie products and related tech thoughts",
+  "twitter": {
+    "url": "https://twitter.com/hboon.com",
+    "followers": 549
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "url": "https://github.com/hboon",
+    "followers": 608
+  },
+  "bluesky": {
+    "url": "https://bsky.app/profile/hboon.com",
+    "followers": 1395
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "url": "https://www.producthunt.com/@hboon",
+    "followers": 275
+  },
+  "website": "https://hboon.com/about",
+  "newsletter": "https://docs.google.com/forms/d/11ya18vOtquC82s37Zd2GjqsNX8yM51GJDP23zIyXkaM/viewform?edit_requested=true",
+  "writing": "https://hboon.com/feed.xml",
+  "tags": [
+    "indie",
+    "saas",
+    "entrepreneur",
+    "webdev"
+  ],
+  "currentProject": {
+    "name": "TheBlue",
+    "description": "theblue.social offers tools for Bluesky users:\n\n* 1-click follow-back followers\n* Unfollow tool\n* Look for starter packs that include/don't include you\n",
+    "link": "https://theblue.social",
+    "tags": [
+      "bluesky",
+      "tools",
+      "starter packs"
+    ]
+  }
+}
