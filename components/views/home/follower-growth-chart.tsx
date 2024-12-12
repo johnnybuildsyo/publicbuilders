@@ -24,7 +24,21 @@ const formatDate = (dateString: string) => {
   return `${month}/${day}`
 }
 
-const processData = (xFollowerGrowth?: FollowerGrowth, bskyFollowerGrowth?: FollowerGrowth) => {
+const processData = (dateRange: DateRange, xFollowerGrowth?: FollowerGrowth, bskyFollowerGrowth?: FollowerGrowth) => {
+  const filterDataByRange = (data: { date: string; x: number | null; bsky: number | null }[]) => {
+    if (dateRange === "all") return data
+    const daysAgo = parseInt(dateRange)
+    const cutoffDate = new Date()
+    cutoffDate.setDate(cutoffDate.getDate() - daysAgo)
+
+    return data.filter((entry) => {
+      const [month, day] = entry.date.split("/")
+      const year = new Date().getFullYear()
+      const entryDate = new Date(year, parseInt(month) - 1, parseInt(day))
+      return entryDate >= cutoffDate
+    })
+  }
+
   const xData = xFollowerGrowth
     ? xFollowerGrowth.map((entry) => ({
         date: formatDate(entry.date),
@@ -41,15 +55,25 @@ const processData = (xFollowerGrowth?: FollowerGrowth, bskyFollowerGrowth?: Foll
 
   const allDates = Array.from(new Set([...xData.map((d) => d.date), ...bskyData.map((d) => d.date)])).sort()
 
-  return allDates.map((date) => {
-    const xEntry = xData.find((entry) => entry.date === date)
-    const bskyEntry = bskyData.find((entry) => entry.date === date)
-    return {
-      date,
-      x: xEntry?.count ?? null,
-      bsky: bskyEntry?.count ?? null,
-    }
-  })
+  // First create the combined data without normalization
+  const combinedData = allDates.map((date) => ({
+    date,
+    x: xData.find((entry) => entry.date === date)?.count ?? null,
+    bsky: bskyData.find((entry) => entry.date === date)?.count ?? null,
+  }))
+
+  // Filter the data by range first
+  const filteredData = filterDataByRange(combinedData)
+
+  // Then normalize from the filtered data's initial values
+  const xInitial = filteredData.find((d) => d.x !== null)?.x ?? 0
+  const bskyInitial = filteredData.find((d) => d.bsky !== null)?.bsky ?? 0
+
+  return filteredData.map((entry) => ({
+    date: entry.date,
+    x: entry.x !== null ? entry.x - xInitial : null,
+    bsky: entry.bsky !== null ? entry.bsky - bskyInitial : null,
+  }))
 }
 
 export function FollowerGrowthChart({ xFollowerGrowth, bskyFollowerGrowth, hideIfNoGrowth, totalBuilders, containerClassName, showGrowthRate }: FollowerGrowthChartProps) {
@@ -59,22 +83,7 @@ export function FollowerGrowthChart({ xFollowerGrowth, bskyFollowerGrowth, hideI
     return null
   }
 
-  const filterDataByRange = (data: ReturnType<typeof processData>) => {
-    if (dateRange === "all") return data
-    const daysAgo = parseInt(dateRange)
-    const cutoffDate = new Date()
-    cutoffDate.setDate(cutoffDate.getDate() - daysAgo)
-
-    return data.filter((entry) => {
-      const [month, day] = entry.date.split("/")
-      const year = new Date().getFullYear()
-      const entryDate = new Date(year, parseInt(month) - 1, parseInt(day))
-      return entryDate >= cutoffDate
-    })
-  }
-
-  const rawData = processData(xFollowerGrowth, bskyFollowerGrowth)
-  const data = filterDataByRange(rawData)
+  const data = processData(dateRange, xFollowerGrowth, bskyFollowerGrowth)
 
   const calculateRangeGrowth = (growth?: FollowerGrowth) => {
     if (!growth || growth.length === 0) return 0
@@ -101,7 +110,7 @@ export function FollowerGrowthChart({ xFollowerGrowth, bskyFollowerGrowth, hideI
   // Calculate growth rate ratio based on selected range
   const growthRateRatio = rangeTwitterGrowth > 0 ? (rangeBlueskyGrowth / rangeTwitterGrowth).toFixed(1) : "N/A"
 
-  const getGrowth = (data: ReturnType<typeof processData>) => {
+  const getGrowth = (data: { date: string; x: number | null; bsky: number | null }[]) => {
     if (data.length < 2) return { x: null, bsky: null }
     const first = data[0]
     const last = data[data.length - 1]
