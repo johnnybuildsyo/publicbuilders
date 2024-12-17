@@ -202,7 +202,7 @@ export function FollowerGrowthChart({ xFollowerGrowth, bskyFollowerGrowth, hideI
                                   <p className="font-semibold">{payload[0].payload.date}</p>
                                   {payload.map((entry) => (
                                     <p key={entry.dataKey}>
-                                      {entry.dataKey === "x" ? "𝕏" : "🦋"}: {entry.value?.toLocaleString() ?? "-"}
+                                      {entry.dataKey === "x" ? "𝕏" : "🦋"}: {typeof entry.value === "number" ? Math.round(entry.value).toLocaleString() : "-"}
                                     </p>
                                   ))}
                                 </div>
