@@ -18205,7 +18205,17 @@
     "description": "Solopreneur from sunny Singapore, building multiple bootstrapped startups.",
     "twitter": {
       "url": "https://x.com/imgyf",
-      "followers": 9651
+      "followers": 9651,
+      "followerGrowth": [
+        {
+          "date": "2024-12-09",
+          "count": 9651
+        },
+        {
+          "date": "2024-12-17",
+          "count": 10445
+        }
+      ]
     },
     "youtube": {
       "url": ""
@@ -18274,12 +18284,13 @@
       "bootstrapper"
     ],
     "currentProject": {
-      "name": "10000square.com",
-      "description": "Digital real estate platform where you can rent virtual squares for your online presence.",
-      "link": "https://www.10000square.com",
+      "name": "BizLeadsFinder",
+      "description": "Access comprehensive business information including contact details, addresses, and operating hours - all in one place.",
+      "link": "https://www.bizleadsfinder.com/",
       "tags": [
-        "advertising",
-        "links"
+        "leadgen",
+        "leads",
+        "marketing"
       ],
       "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/yifan_goh_project_screenshot.png"
     },
@@ -18487,5 +18498,49 @@
     },
     "created": "2024-12-12T12:27:19.363Z",
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/hboon.jpg"
+  },
+  {
+    "name": "Eric",
+    "description": "Building the HackerNews for IndieHackers",
+    "twitter": {
+      "url": "https://x.com/ericbn09",
+      "followers": 329
+    },
+    "youtube": {
+      "url": ""
+    },
+    "twitch": {
+      "url": ""
+    },
+    "github": {
+      "url": ""
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/ericbn09.bsky.social",
+      "followers": 247
+    },
+    "reddit": {
+      "url": ""
+    },
+    "producthunt": {
+      "url": ""
+    },
+    "website": "https://dailypings.com/",
+    "tags": [
+      "hacker"
+    ],
+    "currentProject": {
+      "name": "Daily Pings",
+      "description": "Platform that celebrates transparency and sharing in project development.",
+      "link": "https://dailypings.com/",
+      "tags": [
+        "buildinpublic",
+        "community",
+        "indiehackers"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/eric_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/ericbn09.jpg",
+    "created": "2024-12-18T01:21:02.554Z"
   }
 ]
