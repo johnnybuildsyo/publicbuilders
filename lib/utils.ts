@@ -173,8 +173,8 @@ export function calculateWeightedGrowth(
   const { totalGrowth, percentGrowth } = calculateGrowth(builder, range);
 
   // Normalize the growth metrics to prevent either from dominating
-  const percentWeight = 0.6666666666666666;  // 60% weight to percentage growth
-  const totalWeight = 0.3333333333333333;    // 40% weight to total growth
+  const percentWeight = 0.6666666666666666;  // 2/3 weight to percentage growth
+  const totalWeight = 0.3333333333333333;    // 1/3 weight to total growth
 
   // Calculate weighted score
   const normalizedTotal = Math.log(Math.abs(totalGrowth) + 1);
