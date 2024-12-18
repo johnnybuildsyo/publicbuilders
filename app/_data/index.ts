@@ -1,7 +1,23 @@
 import { Builder, FormData, SocialMediaPlatform, SocialMediaFields } from "../_types";
 import buildersJSON from './builders.json' with { type: 'json' };
 
-export const builders: Builder[] = buildersJSON;
+export const builders = (buildersJSON as Builder[]).map(builder => ({
+  ...builder,
+  twitter: builder.twitter && {
+    ...builder.twitter,
+    followerGrowth: builder.twitter.followerGrowth?.map(g => ({
+      date: g.date,
+      count: Number(g.count)
+    }))
+  },
+  bluesky: builder.bluesky && {
+    ...builder.bluesky,
+    followerGrowth: builder.bluesky.followerGrowth?.map(g => ({
+      date: g.date,
+      count: Number(g.count)
+    }))
+  }
+}));
 
 export const APP_ICON = "/icon.svg";
 export const SHARE_IMAGE = "https://publicbuilders.org/screenshot.png"
