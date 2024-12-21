@@ -6,7 +6,7 @@
     "imageOffset": "60%",
     "twitter": {
       "url": "https://x.com/johnrushx",
-      "followers": 58400,
+      "followers": 58600,
       "followerGrowth": [
         {
           "date": "2024-11-21",
@@ -123,6 +123,10 @@
         {
           "date": "2024-12-20",
           "count": 58400
+        },
+        {
+          "date": "2024-12-21",
+          "count": 58600
         }
       ]
     },
@@ -284,9 +288,13 @@
         {
           "date": "2024-12-20",
           "count": 1601
+        },
+        {
+          "date": "2024-12-21",
+          "count": 1605
         }
       ],
-      "followers": 1601
+      "followers": 1605
     },
     "website": "https://macmartine.com/",
     "tags": [
@@ -314,7 +322,7 @@
     "imageOffset": "",
     "twitter": {
       "url": "https://x.com/T_Zahil",
-      "followers": 12800,
+      "followers": 12900,
       "followerGrowth": [
         {
           "date": "2024-11-21",
@@ -431,6 +439,10 @@
         {
           "date": "2024-12-20",
           "count": 12800
+        },
+        {
+          "date": "2024-12-21",
+          "count": 12900
         }
       ]
     },
@@ -556,9 +568,13 @@
         {
           "date": "2024-12-20",
           "count": 3900
+        },
+        {
+          "date": "2024-12-21",
+          "count": 3926
         }
       ],
-      "followers": 3900
+      "followers": 3926
     },
     "website": "https://www.thomas-sanlis.com/",
     "tags": [
@@ -703,6 +719,10 @@
         {
           "date": "2024-12-20",
           "count": 16800
+        },
+        {
+          "date": "2024-12-21",
+          "count": 16800
         }
       ]
     },
@@ -828,9 +848,13 @@
         {
           "date": "2024-12-20",
           "count": 4158
+        },
+        {
+          "date": "2024-12-21",
+          "count": 4176
         }
       ],
-      "followers": 4158
+      "followers": 4176
     },
     "website": "https://www.theweeklybuild.com/",
     "podcast": "https://www.theweeklybuild.com/",
@@ -859,7 +883,7 @@
     "imageOffset": "20%",
     "twitter": {
       "url": "https://x.com/itsjustamar",
-      "followers": 3657,
+      "followers": 3651,
       "followerGrowth": [
         {
           "date": "2024-11-21",
@@ -976,6 +1000,10 @@
         {
           "date": "2024-12-20",
           "count": 3657
+        },
+        {
+          "date": "2024-12-21",
+          "count": 3651
         }
       ]
     },
@@ -1101,9 +1129,13 @@
         {
           "date": "2024-12-20",
           "count": 1044
+        },
+        {
+          "date": "2024-12-21",
+          "count": 1045
         }
       ],
-      "followers": 1044
+      "followers": 1045
     },
     "website": "https://www.theamaricandream.com",
     "tags": [
@@ -1131,7 +1163,7 @@
     "imageOffset": "",
     "bluesky": {
       "url": "https://bsky.app/profile/robertlin.bsky.social",
-      "followers": 2568,
+      "followers": 2586,
       "followerGrowth": [
         {
           "date": "2024-12-18",
@@ -1144,6 +1176,10 @@
         {
           "date": "2024-12-20",
           "count": 2568
+        },
+        {
+          "date": "2024-12-21",
+          "count": 2586
         }
       ]
     },
@@ -1297,6 +1333,10 @@
         {
           "date": "2024-12-20",
           "count": 22500
+        },
+        {
+          "date": "2024-12-21",
+          "count": 22500
         }
       ]
     },
@@ -1418,9 +1458,13 @@
         {
           "date": "2024-12-20",
           "count": 1947
+        },
+        {
+          "date": "2024-12-21",
+          "count": 1949
         }
       ],
-      "followers": 1947
+      "followers": 1949
     },
     "website": "https://leavemealone.com/",
     "tags": [
@@ -1456,7 +1500,7 @@
     },
     "twitter": {
       "url": "https://x.com/petecodes",
-      "followers": 9336,
+      "followers": 9332,
       "followerGrowth": [
         {
           "date": "2024-11-21",
@@ -1573,6 +1617,10 @@
         {
           "date": "2024-12-20",
           "count": 9336
+        },
+        {
+          "date": "2024-12-21",
+          "count": 9332
         }
       ]
     },
@@ -1694,9 +1742,13 @@
         {
           "date": "2024-12-20",
           "count": 3923
+        },
+        {
+          "date": "2024-12-21",
+          "count": 3936
         }
       ],
-      "followers": 3923
+      "followers": 3936
     },
     "youtube": {
       "url": "https://www.youtube.com/channel/UCofmuxnMWDBDcDkHN8P2GsQ",
@@ -1729,7 +1781,7 @@
     "imageOffset": "",
     "twitter": {
       "url": "https://x.com/benrobertsonio",
-      "followers": 1742,
+      "followers": 1745,
       "followerGrowth": [
         {
           "date": "2024-11-21",
@@ -1846,6 +1898,10 @@
         {
           "date": "2024-12-20",
           "count": 1742
+        },
+        {
+          "date": "2024-12-21",
+          "count": 1745
         }
       ]
     },
@@ -1967,9 +2023,13 @@
         {
           "date": "2024-12-20",
           "count": 2552
+        },
+        {
+          "date": "2024-12-21",
+          "count": 2568
         }
       ],
-      "followers": 2552
+      "followers": 2568
     },
     "github": {
       "url": "https://github.com/benrobertsonio",
@@ -2000,7 +2060,7 @@
     "imageOffset": "",
     "twitter": {
       "url": "https://x.com/kirstenrpomales",
-      "followers": 2800,
+      "followers": 2801,
       "followerGrowth": [
         {
           "date": "2024-11-21",
@@ -2117,6 +2177,10 @@
         {
           "date": "2024-12-20",
           "count": 2800
+        },
+        {
+          "date": "2024-12-21",
+          "count": 2801
         }
       ]
     },
@@ -2263,6 +2327,10 @@
         },
         {
           "date": "2024-12-20",
+          "count": 151100
+        },
+        {
+          "date": "2024-12-21",
           "count": 151100
         }
       ]
@@ -2413,6 +2481,10 @@
         {
           "date": "2024-12-20",
           "count": 158100
+        },
+        {
+          "date": "2024-12-21",
+          "count": 158100
         }
       ]
     },
@@ -2534,9 +2606,13 @@
         {
           "date": "2024-12-20",
           "count": 7392
+        },
+        {
+          "date": "2024-12-21",
+          "count": 7432
         }
       ],
-      "followers": 7392
+      "followers": 7432
     },
     "reddit": {
       "url": "https://www.reddit.com/user/arvidkahl/",
@@ -2582,7 +2658,7 @@
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/levelsio.jpg",
     "twitter": {
       "url": "https://twitter.com/levelsio",
-      "followers": 591100,
+      "followers": 591800,
       "followerGrowth": [
         {
           "date": "2024-11-21",
@@ -2699,6 +2775,10 @@
         {
           "date": "2024-12-20",
           "count": 591100
+        },
+        {
+          "date": "2024-12-21",
+          "count": 591800
         }
       ]
     },
@@ -2820,9 +2900,13 @@
         {
           "date": "2024-12-20",
           "count": 8289
+        },
+        {
+          "date": "2024-12-21",
+          "count": 8339
         }
       ],
-      "followers": 8289
+      "followers": 8339
     },
     "youtube": {
       "url": "https://www.youtube.com/levelsio",
@@ -2857,7 +2941,7 @@
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/kentcdodds.jpg",
     "twitter": {
       "url": "https://twitter.com/kentcdodds",
-      "followers": 275000,
+      "followers": 275100,
       "followerGrowth": [
         {
           "date": "2024-11-21",
@@ -2974,6 +3058,10 @@
         {
           "date": "2024-12-20",
           "count": 275000
+        },
+        {
+          "date": "2024-12-21",
+          "count": 275100
         }
       ]
     },
@@ -3083,9 +3171,13 @@
         {
           "date": "2024-12-20",
           "count": 15665
+        },
+        {
+          "date": "2024-12-21",
+          "count": 15687
         }
       ],
-      "followers": 15665
+      "followers": 15687
     },
     "github": {
       "url": "https://github.com/kentcdodds",
@@ -3127,7 +3219,7 @@
     "imageOffset": "10%",
     "twitter": {
       "url": "https://twitter.com/eddiejaoude",
-      "followers": 183700,
+      "followers": 183800,
       "followerGrowth": [
         {
           "date": "2024-11-21",
@@ -3244,6 +3336,10 @@
         {
           "date": "2024-12-20",
           "count": 183700
+        },
+        {
+          "date": "2024-12-21",
+          "count": 183800
         }
       ]
     },
@@ -3369,9 +3465,13 @@
         {
           "date": "2024-12-20",
           "count": 1329
+        },
+        {
+          "date": "2024-12-21",
+          "count": 1330
         }
       ],
-      "followers": 1329
+      "followers": 1330
     },
     "github": {
       "url": "https://github.com/eddiejaoude",
@@ -3408,7 +3508,7 @@
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/yongfook.jpg",
     "twitter": {
       "url": "https://twitter.com/yongfook",
-      "followers": 116100,
+      "followers": 116200,
       "followerGrowth": [
         {
           "date": "2024-11-21",
@@ -3525,6 +3625,10 @@
         {
           "date": "2024-12-20",
           "count": 116100
+        },
+        {
+          "date": "2024-12-21",
+          "count": 116200
         }
       ]
     },
@@ -3703,9 +3807,13 @@
         {
           "date": "2024-12-20",
           "count": 9496
+        },
+        {
+          "date": "2024-12-21",
+          "count": 9542
         }
       ],
-      "followers": 9496
+      "followers": 9542
     },
     "youtube": {
       "url": "https://www.youtube.com/justinjackson",
@@ -3860,6 +3968,10 @@
         {
           "date": "2024-12-20",
           "count": 344100
+        },
+        {
+          "date": "2024-12-21",
+          "count": 344100
         }
       ]
     },
@@ -3977,9 +4089,13 @@
         {
           "date": "2024-12-20",
           "count": 1053
+        },
+        {
+          "date": "2024-12-21",
+          "count": 1056
         }
       ],
-      "followers": 1053
+      "followers": 1056
     },
     "youtube": {
       "url": "https://www.youtube.com/@sahil_lavingia",
@@ -4014,7 +4130,7 @@
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/marckohlbrugge.jpg",
     "twitter": {
       "url": "https://twitter.com/marckohlbrugge",
-      "followers": 64099.99999999999,
+      "followers": 64200,
       "followerGrowth": [
         {
           "date": "2024-11-21",
@@ -4131,6 +4247,10 @@
         {
           "date": "2024-12-20",
           "count": 64099.99999999999
+        },
+        {
+          "date": "2024-12-21",
+          "count": 64200
         }
       ]
     },
@@ -4236,9 +4356,13 @@
         {
           "date": "2024-12-20",
           "count": 3330
+        },
+        {
+          "date": "2024-12-21",
+          "count": 3344
         }
       ],
-      "followers": 3330
+      "followers": 3344
     },
     "github": {
       "url": "https://github.com/marckohlbrugge",
@@ -4398,9 +4522,13 @@
         {
           "date": "2024-12-20",
           "count": 5252
+        },
+        {
+          "date": "2024-12-21",
+          "count": 5262
         }
       ],
-      "followers": 5252
+      "followers": 5262
     },
     "website": "https://rosie.land",
     "newsletter": "https://rosie.land/tag/newsletter/",
@@ -4427,7 +4555,7 @@
     "name": "Ben Tossell",
     "twitter": {
       "url": "https://twitter.com/bentossell",
-      "followers": 147700,
+      "followers": 147800,
       "followerGrowth": [
         {
           "date": "2024-11-21",
@@ -4544,6 +4672,10 @@
         {
           "date": "2024-12-20",
           "count": 147700
+        },
+        {
+          "date": "2024-12-21",
+          "count": 147800
         }
       ]
     },
@@ -4698,6 +4830,10 @@
         {
           "date": "2024-12-20",
           "count": 47000
+        },
+        {
+          "date": "2024-12-21",
+          "count": 47000
         }
       ]
     },
@@ -4819,9 +4955,13 @@
         {
           "date": "2024-12-20",
           "count": 2944
+        },
+        {
+          "date": "2024-12-21",
+          "count": 2955
         }
       ],
-      "followers": 2944
+      "followers": 2955
     },
     "producthunt": {
       "url": "https://www.producthunt.com/@shpigford",
@@ -4972,6 +5112,10 @@
         },
         {
           "date": "2024-12-20",
+          "count": 63400
+        },
+        {
+          "date": "2024-12-21",
           "count": 63400
         }
       ]
@@ -5126,6 +5270,10 @@
         {
           "date": "2024-12-20",
           "count": 276100
+        },
+        {
+          "date": "2024-12-21",
+          "count": 276100
         }
       ]
     },
@@ -5163,7 +5311,7 @@
     "name": "Peter Suhm",
     "twitter": {
       "url": "https://twitter.com/petersuhm",
-      "followers": 4657,
+      "followers": 4658,
       "followerGrowth": [
         {
           "date": "2024-11-21",
@@ -5280,6 +5428,10 @@
         {
           "date": "2024-12-20",
           "count": 4657
+        },
+        {
+          "date": "2024-12-21",
+          "count": 4658
         }
       ]
     },
@@ -5405,9 +5557,13 @@
         {
           "date": "2024-12-20",
           "count": 2229
+        },
+        {
+          "date": "2024-12-21",
+          "count": 2236
         }
       ],
-      "followers": 2229
+      "followers": 2236
     },
     "website": "https://petersuhm.com",
     "description": "Co-founder of Branch and Founder of Reform.",
@@ -5584,6 +5740,10 @@
         {
           "date": "2024-12-20",
           "count": 136500
+        },
+        {
+          "date": "2024-12-21",
+          "count": 136500
         }
       ]
     },
@@ -5740,6 +5900,10 @@
         {
           "date": "2024-12-20",
           "count": 22
+        },
+        {
+          "date": "2024-12-21",
+          "count": 22
         }
       ]
     },
@@ -5871,9 +6035,13 @@
         {
           "date": "2024-12-20",
           "count": 474
+        },
+        {
+          "date": "2024-12-21",
+          "count": 473
         }
       ],
-      "followers": 474
+      "followers": 473
     },
     "website": "https://johnnybuilds.com",
     "tags": [
@@ -5901,7 +6069,7 @@
     "imageOffset": "60%",
     "twitter": {
       "url": "https://twitter.com/marc_louvion",
-      "followers": 144200,
+      "followers": 144300,
       "followerGrowth": [
         {
           "date": "2024-11-21",
@@ -6018,6 +6186,10 @@
         {
           "date": "2024-12-20",
           "count": 144200
+        },
+        {
+          "date": "2024-12-21",
+          "count": 144300
         }
       ]
     },
@@ -6059,7 +6231,7 @@
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/_knolan.jpg",
     "twitter": {
       "url": "https://x.com/_knolan",
-      "followers": 5000,
+      "followers": 4997,
       "followerGrowth": [
         {
           "date": "2024-11-21",
@@ -6176,6 +6348,10 @@
         {
           "date": "2024-12-20",
           "count": 5000
+        },
+        {
+          "date": "2024-12-21",
+          "count": 4997
         }
       ]
     },
@@ -6326,6 +6502,10 @@
         {
           "date": "2024-12-20",
           "count": 54900
+        },
+        {
+          "date": "2024-12-21",
+          "count": 54900
         }
       ]
     },
@@ -6363,7 +6543,7 @@
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/fekdaoui.jpg",
     "twitter": {
       "url": "https://x.com/fekdaoui",
-      "followers": 7432,
+      "followers": 7438,
       "followerGrowth": [
         {
           "date": "2024-11-21",
@@ -6480,6 +6660,10 @@
         {
           "date": "2024-12-20",
           "count": 7432
+        },
+        {
+          "date": "2024-12-21",
+          "count": 7438
         }
       ]
     },
@@ -6581,9 +6765,13 @@
         {
           "date": "2024-12-20",
           "count": 2470
+        },
+        {
+          "date": "2024-12-21",
+          "count": 2484
         }
       ],
-      "followers": 2470
+      "followers": 2484
     },
     "website": "https://www.indielogs.com/fekdaoui",
     "tags": [
@@ -6727,6 +6915,10 @@
         {
           "date": "2024-12-20",
           "count": 17400
+        },
+        {
+          "date": "2024-12-21",
+          "count": 17400
         }
       ]
     },
@@ -6852,9 +7044,13 @@
         {
           "date": "2024-12-20",
           "count": 8468
+        },
+        {
+          "date": "2024-12-21",
+          "count": 8509
         }
       ],
-      "followers": 8468
+      "followers": 8509
     },
     "github": {
       "url": "https://github.com/mubashariqbal",
@@ -7003,6 +7199,10 @@
         {
           "date": "2024-12-20",
           "count": 85700
+        },
+        {
+          "date": "2024-12-21",
+          "count": 85700
         }
       ]
     },
@@ -7120,9 +7320,13 @@
         {
           "date": "2024-12-20",
           "count": 1002
+        },
+        {
+          "date": "2024-12-21",
+          "count": 1003
         }
       ],
-      "followers": 1002
+      "followers": 1003
     },
     "github": {
       "url": "https://github.com/nutlope",
@@ -7153,7 +7357,7 @@
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/BallerIndustry.jpg",
     "twitter": {
       "url": "https://x.com/BallerIndustry",
-      "followers": 4084,
+      "followers": 4089,
       "followerGrowth": [
         {
           "date": "2024-11-21",
@@ -7270,6 +7474,10 @@
         {
           "date": "2024-12-20",
           "count": 4084
+        },
+        {
+          "date": "2024-12-21",
+          "count": 4089
         }
       ]
     },
@@ -7301,7 +7509,7 @@
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/lizengco.jpg",
     "twitter": {
       "url": "https://x.com/lizengco",
-      "followers": 8416,
+      "followers": 8439,
       "followerGrowth": [
         {
           "date": "2024-11-21",
@@ -7418,6 +7626,10 @@
         {
           "date": "2024-12-20",
           "count": 8416
+        },
+        {
+          "date": "2024-12-21",
+          "count": 8439
         }
       ]
     },
@@ -7447,7 +7659,7 @@
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/mayakyler.jpg",
     "twitter": {
       "url": "https://x.com/mayakyler",
-      "followers": 4341,
+      "followers": 4340,
       "followerGrowth": [
         {
           "date": "2024-11-21",
@@ -7564,6 +7776,10 @@
         {
           "date": "2024-12-20",
           "count": 4341
+        },
+        {
+          "date": "2024-12-21",
+          "count": 4340
         }
       ]
     },
@@ -7712,6 +7928,10 @@
         {
           "date": "2024-12-20",
           "count": 73
+        },
+        {
+          "date": "2024-12-21",
+          "count": 73
         }
       ]
     },
@@ -7840,6 +8060,10 @@
         {
           "date": "2024-12-20",
           "count": 263
+        },
+        {
+          "date": "2024-12-21",
+          "count": 263
         }
       ],
       "followers": 263
@@ -7874,7 +8098,7 @@
     "description": " Software Engineer building in publicon a journey to build and launch my first app",
     "twitter": {
       "url": "https://twitter.com/bencraftscode",
-      "followers": 25,
+      "followers": 24,
       "followerGrowth": [
         {
           "date": "2024-11-21",
@@ -7991,6 +8215,10 @@
         {
           "date": "2024-12-20",
           "count": 25
+        },
+        {
+          "date": "2024-12-21",
+          "count": 24
         }
       ]
     },
@@ -8163,6 +8391,10 @@
         {
           "date": "2024-12-20",
           "count": 951
+        },
+        {
+          "date": "2024-12-21",
+          "count": 951
         }
       ]
     },
@@ -8216,7 +8448,7 @@
     "description": "Developer @ carenote.app | prayetic.com | directee.app | mobilize.dev | Building tools for care, connection, and advocacy | Biking 🚴🏾‍♂️ | Coding 👨🏾‍💻 | Pastor | SaaS innovator",
     "twitter": {
       "url": "https://twitter.com/donnell",
-      "followers": 1186,
+      "followers": 1185,
       "followerGrowth": [
         {
           "date": "2024-11-21",
@@ -8333,6 +8565,10 @@
         {
           "date": "2024-12-20",
           "count": 1186
+        },
+        {
+          "date": "2024-12-21",
+          "count": 1185
         }
       ]
     },
@@ -8465,9 +8701,13 @@
         {
           "date": "2024-12-20",
           "count": 2230
+        },
+        {
+          "date": "2024-12-21",
+          "count": 2238
         }
       ],
-      "followers": 2230
+      "followers": 2238
     },
     "reddit": {
       "url": ""
@@ -8502,7 +8742,7 @@
     "description": "Digital product entrepreneur building in public and sharing the learnings, ups and downs.",
     "twitter": {
       "url": "https://x.com/romaindewolff",
-      "followers": 4177,
+      "followers": 4178,
       "followerGrowth": [
         {
           "date": "2024-11-21",
@@ -8619,6 +8859,10 @@
         {
           "date": "2024-12-20",
           "count": 4177
+        },
+        {
+          "date": "2024-12-21",
+          "count": 4178
         }
       ]
     },
@@ -8669,7 +8913,7 @@
     "description": "Non-tech guy with 8 Micro Exits in the SaaS World as side projects.",
     "twitter": {
       "url": "https://x.com/DG_9_6",
-      "followers": 3888,
+      "followers": 3895,
       "followerGrowth": [
         {
           "date": "2024-11-21",
@@ -8786,6 +9030,10 @@
         {
           "date": "2024-12-20",
           "count": 3888
+        },
+        {
+          "date": "2024-12-21",
+          "count": 3895
         }
       ]
     },
@@ -8838,7 +9086,7 @@
     "description": "Designer launching multiple projects obsessed with crafting beautiful experiences.",
     "twitter": {
       "url": "https://x.com/JamiePeak",
-      "followers": 6804,
+      "followers": 6805,
       "followerGrowth": [
         {
           "date": "2024-11-21",
@@ -8955,6 +9203,10 @@
         {
           "date": "2024-12-20",
           "count": 6804
+        },
+        {
+          "date": "2024-12-21",
+          "count": 6805
         }
       ]
     },
@@ -9007,7 +9259,7 @@
     "description": "Creative UI & UX Designer/developer running a one-design agency and design inspiration tool side project.",
     "twitter": {
       "url": "https://x.com/MiranoDesigns",
-      "followers": 3963,
+      "followers": 3960,
       "followerGrowth": [
         {
           "date": "2024-11-21",
@@ -9120,6 +9372,10 @@
         {
           "date": "2024-12-20",
           "count": 3963
+        },
+        {
+          "date": "2024-12-21",
+          "count": 3960
         }
       ]
     },
@@ -9173,7 +9429,7 @@
     "description": "Solopreneur on the side of a 9-5 job building 2 Saas side projects as an indie hacker.",
     "twitter": {
       "url": "https://x.com/hirvesh",
-      "followers": 1151,
+      "followers": 1153,
       "followerGrowth": [
         {
           "date": "2024-11-21",
@@ -9290,6 +9546,10 @@
         {
           "date": "2024-12-20",
           "count": 1151
+        },
+        {
+          "date": "2024-12-21",
+          "count": 1153
         }
       ]
     },
@@ -9344,7 +9604,7 @@
     "description": "Helping startups in crafting creative designs and setting up automated processes powered by AI",
     "twitter": {
       "url": "https://x.com/imudayyyy",
-      "followers": 768,
+      "followers": 767,
       "followerGrowth": [
         {
           "date": "2024-11-21",
@@ -9461,6 +9721,10 @@
         {
           "date": "2024-12-20",
           "count": 768
+        },
+        {
+          "date": "2024-12-21",
+          "count": 767
         }
       ]
     },
@@ -9514,7 +9778,7 @@
     "description": "Coding, designing and marketing digital products.",
     "twitter": {
       "url": "https://x.com/wilbertliu",
-      "followers": 1625,
+      "followers": 1624,
       "followerGrowth": [
         {
           "date": "2024-11-21",
@@ -9631,6 +9895,10 @@
         {
           "date": "2024-12-20",
           "count": 1625
+        },
+        {
+          "date": "2024-12-21",
+          "count": 1624
         }
       ]
     },
@@ -9756,9 +10024,13 @@
         {
           "date": "2024-12-20",
           "count": 2871
+        },
+        {
+          "date": "2024-12-21",
+          "count": 2885
         }
       ],
-      "followers": 2871
+      "followers": 2885
     },
     "producthunt": {
       "url": "https://www.producthunt.com/@wilbertliu",
@@ -9907,6 +10179,10 @@
         {
           "date": "2024-12-20",
           "count": 12200
+        },
+        {
+          "date": "2024-12-21",
+          "count": 12200
         }
       ]
     },
@@ -10032,9 +10308,13 @@
         {
           "date": "2024-12-20",
           "count": 3140
+        },
+        {
+          "date": "2024-12-21",
+          "count": 3154
         }
       ],
-      "followers": 3140
+      "followers": 3154
     },
     "producthunt": {
       "url": "https://www.producthunt.com/@liran_tal",
@@ -10067,7 +10347,7 @@
     "description": "Sr. Software Engineer coding for 15+ years sharing experiences and practical insights, tutorials, case studies and thought pieces.",
     "twitter": {
       "url": "https://x.com/programmerByDay",
-      "followers": 1752,
+      "followers": 1755,
       "followerGrowth": [
         {
           "date": "2024-11-21",
@@ -10184,6 +10464,10 @@
         {
           "date": "2024-12-20",
           "count": 1752
+        },
+        {
+          "date": "2024-12-21",
+          "count": 1755
         }
       ]
     },
@@ -10314,6 +10598,10 @@
         },
         {
           "date": "2024-12-20",
+          "count": 1135
+        },
+        {
+          "date": "2024-12-21",
           "count": 1135
         }
       ],
@@ -10467,6 +10755,10 @@
         {
           "date": "2024-12-20",
           "count": 23800
+        },
+        {
+          "date": "2024-12-21",
+          "count": 23800
         }
       ]
     },
@@ -10590,9 +10882,13 @@
         {
           "date": "2024-12-20",
           "count": 447
+        },
+        {
+          "date": "2024-12-21",
+          "count": 449
         }
       ],
-      "followers": 447
+      "followers": 449
     },
     "reddit": {
       "url": ""
@@ -10628,7 +10924,7 @@
     "description": "Solopreneur. Currently working on ResumeMaker AI Carousels",
     "twitter": {
       "url": "https://x.com/Fer_MOMENTO",
-      "followers": 2970,
+      "followers": 2979,
       "followerGrowth": [
         {
           "date": "2024-11-21",
@@ -10745,6 +11041,10 @@
         {
           "date": "2024-12-20",
           "count": 2970
+        },
+        {
+          "date": "2024-12-21",
+          "count": 2979
         }
       ]
     },
@@ -10799,7 +11099,7 @@
     "description": "Dad, Developer, Entrepreneur • Bootstrapping http://WallStRank.com with @amritrupa • Prev co-founder http://inkl.com • #buildinpublic #ElixirLang #nuxt",
     "twitter": {
       "url": "https://x.com/navinpeiris",
-      "followers": 2285,
+      "followers": 2281,
       "followerGrowth": [
         {
           "date": "2024-11-21",
@@ -10916,6 +11216,10 @@
         {
           "date": "2024-12-20",
           "count": 2285
+        },
+        {
+          "date": "2024-12-21",
+          "count": 2281
         }
       ]
     },
@@ -11047,9 +11351,13 @@
         {
           "date": "2024-12-20",
           "count": 2423
+        },
+        {
+          "date": "2024-12-21",
+          "count": 2431
         }
       ],
-      "followers": 2423
+      "followers": 2431
     },
     "reddit": {
       "url": ""
@@ -11083,7 +11391,7 @@
     "description": "Indie maker building products & sharing journey in public.",
     "twitter": {
       "url": "https://x.com/robert_shaw_x",
-      "followers": 2608,
+      "followers": 2605,
       "followerGrowth": [
         {
           "date": "2024-11-21",
@@ -11200,6 +11508,10 @@
         {
           "date": "2024-12-20",
           "count": 2608
+        },
+        {
+          "date": "2024-12-21",
+          "count": 2605
         }
       ]
     },
@@ -11330,9 +11642,13 @@
         {
           "date": "2024-12-20",
           "count": 1123
+        },
+        {
+          "date": "2024-12-21",
+          "count": 1126
         }
       ],
-      "followers": 1123
+      "followers": 1126
     },
     "reddit": {
       "url": ""
@@ -11365,7 +11681,7 @@
     "description": "Wife | Mother | Author | Homeschooler | Web Asset Creator | Undefeated Super Bomberman 2 (SNES) Champion | Founder | Growth",
     "twitter": {
       "url": "https://x.com/ArielleCPX",
-      "followers": 14200,
+      "followers": 14100,
       "followerGrowth": [
         {
           "date": "2024-11-22",
@@ -11478,6 +11794,10 @@
         {
           "date": "2024-12-20",
           "count": 14200
+        },
+        {
+          "date": "2024-12-21",
+          "count": 14100
         }
       ]
     },
@@ -11605,6 +11925,10 @@
         {
           "date": "2024-12-20",
           "count": 72
+        },
+        {
+          "date": "2024-12-21",
+          "count": 72
         }
       ],
       "followers": 72
@@ -11642,7 +11966,7 @@
     "description": "Building affordable hosting at Vizalo with PHP, Go, and Rust in my spare time",
     "twitter": {
       "url": "https://x.com/SamNewby_",
-      "followers": 1351,
+      "followers": 1354,
       "followerGrowth": [
         {
           "date": "2024-11-22",
@@ -11755,6 +12079,10 @@
         {
           "date": "2024-12-20",
           "count": 1351
+        },
+        {
+          "date": "2024-12-21",
+          "count": 1354
         }
       ]
     },
@@ -11882,9 +12210,13 @@
         {
           "date": "2024-12-20",
           "count": 567
+        },
+        {
+          "date": "2024-12-21",
+          "count": 568
         }
       ],
-      "followers": 567
+      "followers": 568
     },
     "reddit": {
       "url": ""
@@ -12030,6 +12362,10 @@
         {
           "date": "2024-12-20",
           "count": 14600
+        },
+        {
+          "date": "2024-12-21",
+          "count": 14600
         }
       ]
     },
@@ -12157,9 +12493,13 @@
         {
           "date": "2024-12-20",
           "count": 1571
+        },
+        {
+          "date": "2024-12-21",
+          "count": 1576
         }
       ],
-      "followers": 1571
+      "followers": 1576
     },
     "reddit": {
       "url": ""
@@ -12193,7 +12533,7 @@
     "description": "Software engineer building products to help people lead better lives.",
     "twitter": {
       "url": "https://x.com/bzagrodzki",
-      "followers": 3810,
+      "followers": 3816,
       "followerGrowth": [
         {
           "date": "2024-11-22",
@@ -12306,6 +12646,10 @@
         {
           "date": "2024-12-20",
           "count": 3810
+        },
+        {
+          "date": "2024-12-21",
+          "count": 3816
         }
       ]
     },
@@ -12471,6 +12815,10 @@
         {
           "date": "2024-12-20",
           "count": 10500
+        },
+        {
+          "date": "2024-12-21",
+          "count": 10500
         }
       ]
     },
@@ -12522,7 +12870,7 @@
     "description": "Building Products. 16 countries. 2x exit. Launching MVPs in 15 days.",
     "twitter": {
       "url": "https://x.com/daniel_nguyenx",
-      "followers": 49400,
+      "followers": 49500,
       "followerGrowth": [
         {
           "date": "2024-11-23",
@@ -12627,6 +12975,10 @@
         {
           "date": "2024-12-20",
           "count": 49400
+        },
+        {
+          "date": "2024-12-21",
+          "count": 49500
         }
       ]
     },
@@ -12746,9 +13098,13 @@
         {
           "date": "2024-12-20",
           "count": 4387
+        },
+        {
+          "date": "2024-12-21",
+          "count": 4408
         }
       ],
-      "followers": 4387
+      "followers": 4408
     },
     "reddit": {
       "url": "https://www.reddit.com/user/daniel_nguyenx/",
@@ -12783,7 +13139,7 @@
     "description": "SRE building a SaaS holding co. Exited GitPause. Building Schedul. Tweeting about Next.js, AI and my SaaS side-projects",
     "twitter": {
       "url": "https://x.com/koslib",
-      "followers": 1599,
+      "followers": 1600,
       "followerGrowth": [
         {
           "date": "2024-11-25",
@@ -12884,6 +13240,10 @@
         {
           "date": "2024-12-20",
           "count": 1599
+        },
+        {
+          "date": "2024-12-21",
+          "count": 1600
         }
       ]
     },
@@ -13022,7 +13382,7 @@
     "description": "Bootstrapping ListingCat.com to $1M revenue. Tweeting about indie hacking, marketing, and growth.",
     "twitter": {
       "url": "https://x.com/AndreiHudovich",
-      "followers": 2030,
+      "followers": 2037,
       "followerGrowth": [
         {
           "date": "2024-11-25",
@@ -13123,6 +13483,10 @@
         {
           "date": "2024-12-20",
           "count": 2030
+        },
+        {
+          "date": "2024-12-21",
+          "count": 2037
         }
       ]
     },
@@ -13238,9 +13602,13 @@
         {
           "date": "2024-12-20",
           "count": 3798
+        },
+        {
+          "date": "2024-12-21",
+          "count": 3827
         }
       ],
-      "followers": 3798
+      "followers": 3827
     },
     "reddit": {
       "url": ""
@@ -13275,7 +13643,7 @@
     "description": "Pursuing Freedom. Sharing what I learn. Building Independent micro businesses.",
     "twitter": {
       "url": "https://x.com/ayushtweetshere",
-      "followers": 9670,
+      "followers": 9668,
       "followerGrowth": [
         {
           "date": "2024-11-25",
@@ -13376,6 +13744,10 @@
         {
           "date": "2024-12-20",
           "count": 9670
+        },
+        {
+          "date": "2024-12-21",
+          "count": 9668
         }
       ]
     },
@@ -13486,9 +13858,13 @@
         {
           "date": "2024-12-20",
           "count": 2788
+        },
+        {
+          "date": "2024-12-21",
+          "count": 2812
         }
       ],
-      "followers": 2788
+      "followers": 2812
     },
     "reddit": {
       "url": ""
@@ -13523,7 +13899,7 @@
     "description": "A passionate Software and Systems Engineer specialized in DevOps, Systems Engineering, Python, JavaScript, Linux and Automation.",
     "twitter": {
       "url": "https://x.com/buildItN0w",
-      "followers": 855,
+      "followers": 862,
       "followerGrowth": [
         {
           "date": "2024-11-25",
@@ -13624,6 +14000,10 @@
         {
           "date": "2024-12-20",
           "count": 855
+        },
+        {
+          "date": "2024-12-21",
+          "count": 862
         }
       ]
     },
@@ -13739,9 +14119,13 @@
         {
           "date": "2024-12-20",
           "count": 2824
+        },
+        {
+          "date": "2024-12-21",
+          "count": 2845
         }
       ],
-      "followers": 2824
+      "followers": 2845
     },
     "reddit": {
       "url": ""
@@ -13773,7 +14157,7 @@
     "description": "Full-stack developer who loves crafting digital solutions bringing creative problem-solving and a user-centric approach to every project",
     "twitter": {
       "url": "https://x.com/csaba_kissi",
-      "followers": 234100,
+      "followers": 234200,
       "followerGrowth": [
         {
           "date": "2024-11-25",
@@ -13874,6 +14258,10 @@
         {
           "date": "2024-12-20",
           "count": 234100
+        },
+        {
+          "date": "2024-12-21",
+          "count": 234200
         }
       ]
     },
@@ -13989,9 +14377,13 @@
         {
           "date": "2024-12-20",
           "count": 2427
+        },
+        {
+          "date": "2024-12-21",
+          "count": 2433
         }
       ],
-      "followers": 2427
+      "followers": 2433
     },
     "reddit": {
       "url": ""
@@ -14027,7 +14419,7 @@
     "twitter": {
       "handle": "https://x.com/YogendraManawat",
       "url": "https://x.com/YogendraManawat",
-      "followers": 210,
+      "followers": 208,
       "followerGrowth": [
         {
           "date": "2024-11-27",
@@ -14120,6 +14512,10 @@
         {
           "date": "2024-12-20",
           "count": 210
+        },
+        {
+          "date": "2024-12-21",
+          "count": 208
         }
       ]
     },
@@ -14188,7 +14584,7 @@
     "bluesky": {
       "handle": "https://bsky.app/profile/wadamek.me",
       "url": "https://bsky.app/profile/wadamek.me",
-      "followers": 391,
+      "followers": 399,
       "followerGrowth": [
         {
           "date": "2024-12-18",
@@ -14201,6 +14597,10 @@
         {
           "date": "2024-12-20",
           "count": 391
+        },
+        {
+          "date": "2024-12-21",
+          "count": 399
         }
       ]
     },
@@ -14253,7 +14653,7 @@
     "bluesky": {
       "handle": "https://bsky.app/profile/bryansmith.io",
       "url": "https://bsky.app/profile/bryansmith.io",
-      "followers": 2172,
+      "followers": 2182,
       "followerGrowth": [
         {
           "date": "2024-12-18",
@@ -14266,6 +14666,10 @@
         {
           "date": "2024-12-20",
           "count": 2172
+        },
+        {
+          "date": "2024-12-21",
+          "count": 2182
         }
       ]
     },
@@ -14300,7 +14704,7 @@
     "description": "Bootstrapping SaaS products and sharing lessons learned.",
     "twitter": {
       "url": "https://x.com/DmytroKrasun",
-      "followers": 19900,
+      "followers": 20000,
       "followerGrowth": [
         {
           "date": "2024-11-27",
@@ -14393,6 +14797,10 @@
         {
           "date": "2024-12-20",
           "count": 19900
+        },
+        {
+          "date": "2024-12-21",
+          "count": 20000
         }
       ]
     },
@@ -14496,9 +14904,13 @@
         {
           "date": "2024-12-20",
           "count": 3487
+        },
+        {
+          "date": "2024-12-21",
+          "count": 3502
         }
       ],
-      "followers": 3487
+      "followers": 3502
     },
     "reddit": {
       "url": ""
@@ -14626,6 +15038,10 @@
         {
           "date": "2024-12-20",
           "count": 849
+        },
+        {
+          "date": "2024-12-21",
+          "count": 849
         }
       ]
     },
@@ -14734,9 +15150,13 @@
         {
           "date": "2024-12-20",
           "count": 2677
+        },
+        {
+          "date": "2024-12-21",
+          "count": 2680
         }
       ],
-      "followers": 2677
+      "followers": 2680
     },
     "reddit": {
       "url": ""
@@ -14769,7 +15189,7 @@
     "description": "Making websites since 1995, in the startup world and now focused on building the best SaaS company database possible",
     "twitter": {
       "url": "https://x.com/WhoWorksThere",
-      "followers": 3038,
+      "followers": 3042,
       "followerGrowth": [
         {
           "date": "2024-11-27",
@@ -14862,6 +15282,10 @@
         {
           "date": "2024-12-20",
           "count": 3038
+        },
+        {
+          "date": "2024-12-21",
+          "count": 3042
         }
       ]
     },
@@ -14968,9 +15392,13 @@
         {
           "date": "2024-12-20",
           "count": 1854
+        },
+        {
+          "date": "2024-12-21",
+          "count": 1870
         }
       ],
-      "followers": 1854
+      "followers": 1870
     },
     "reddit": {
       "url": ""
@@ -15098,6 +15526,10 @@
         {
           "date": "2024-12-20",
           "count": 523
+        },
+        {
+          "date": "2024-12-21",
+          "count": 523
         }
       ]
     },
@@ -15204,9 +15636,13 @@
         {
           "date": "2024-12-20",
           "count": 1634
+        },
+        {
+          "date": "2024-12-21",
+          "count": 1646
         }
       ],
-      "followers": 1634
+      "followers": 1646
     },
     "reddit": {
       "url": ""
@@ -15239,7 +15675,7 @@
     "description": "AI Engineering for Directories.. Building a CMS for directories.",
     "twitter": {
       "url": "https://x.com/mark_bruderer",
-      "followers": 398,
+      "followers": 399,
       "followerGrowth": [
         {
           "date": "2024-11-27",
@@ -15332,6 +15768,10 @@
         {
           "date": "2024-12-20",
           "count": 398
+        },
+        {
+          "date": "2024-12-21",
+          "count": 399
         }
       ]
     },
@@ -15431,9 +15871,13 @@
         {
           "date": "2024-12-20",
           "count": 1871
+        },
+        {
+          "date": "2024-12-21",
+          "count": 1875
         }
       ],
-      "followers": 1871
+      "followers": 1875
     },
     "reddit": {
       "url": ""
@@ -15466,7 +15910,7 @@
     "description": "Let's build beautiful, super modern web applications and marketing websites.",
     "twitter": {
       "url": "https://x.com/pixelcave_john",
-      "followers": 1636,
+      "followers": 1635,
       "followerGrowth": [
         {
           "date": "2024-11-27",
@@ -15559,6 +16003,10 @@
         {
           "date": "2024-12-20",
           "count": 1636
+        },
+        {
+          "date": "2024-12-21",
+          "count": 1635
         }
       ]
     },
@@ -15661,9 +16109,13 @@
         {
           "date": "2024-12-20",
           "count": 1276
+        },
+        {
+          "date": "2024-12-21",
+          "count": 1278
         }
       ],
-      "followers": 1276
+      "followers": 1278
     },
     "reddit": {
       "url": ""
@@ -15696,7 +16148,7 @@
     "description": "Founder of Starter Story. On a mission to help 1 billion people make money online.",
     "twitter": {
       "url": "https://x.com/thepatwalls",
-      "followers": 111800,
+      "followers": 111900,
       "followerGrowth": [
         {
           "date": "2024-11-27",
@@ -15789,6 +16241,10 @@
         {
           "date": "2024-12-20",
           "count": 111800
+        },
+        {
+          "date": "2024-12-21",
+          "count": 111900
         }
       ]
     },
@@ -15892,9 +16348,13 @@
         {
           "date": "2024-12-20",
           "count": 948
+        },
+        {
+          "date": "2024-12-21",
+          "count": 956
         }
       ],
-      "followers": 948
+      "followers": 956
     },
     "reddit": {
       "url": ""
@@ -15928,7 +16388,7 @@
     "description": "Sharing weekly tips about building an audience, personal branding, acquisitions, productivity, and more.",
     "twitter": {
       "url": "https://x.com/tibo_maker",
-      "followers": 139400,
+      "followers": 139500,
       "followerGrowth": [
         {
           "date": "2024-11-27",
@@ -16021,6 +16481,10 @@
         {
           "date": "2024-12-20",
           "count": 139400
+        },
+        {
+          "date": "2024-12-21",
+          "count": 139500
         }
       ]
     },
@@ -16127,9 +16591,13 @@
         {
           "date": "2024-12-20",
           "count": 3133
+        },
+        {
+          "date": "2024-12-21",
+          "count": 3141
         }
       ],
-      "followers": 3133
+      "followers": 3141
     },
     "reddit": {
       "url": ""
@@ -16164,7 +16632,7 @@
     "description": "Turn your ideas into successful online businesses without the stress.",
     "twitter": {
       "url": "https://x.com/notomarsol",
-      "followers": 2566,
+      "followers": 2569,
       "followerGrowth": [
         {
           "date": "2024-11-27",
@@ -16257,6 +16725,10 @@
         {
           "date": "2024-12-20",
           "count": 2566
+        },
+        {
+          "date": "2024-12-21",
+          "count": 2569
         }
       ]
     },
@@ -16363,9 +16835,13 @@
         {
           "date": "2024-12-20",
           "count": 1977
+        },
+        {
+          "date": "2024-12-21",
+          "count": 1985
         }
       ],
-      "followers": 1977
+      "followers": 1985
     },
     "reddit": {
       "url": ""
@@ -16499,9 +16975,13 @@
         {
           "date": "2024-12-20",
           "count": 3937
+        },
+        {
+          "date": "2024-12-21",
+          "count": 3965
         }
       ],
-      "followers": 3937
+      "followers": 3965
     },
     "reddit": {
       "url": ""
@@ -16626,6 +17106,10 @@
         {
           "date": "2024-12-20",
           "count": 95
+        },
+        {
+          "date": "2024-12-21",
+          "count": 95
         }
       ]
     },
@@ -16729,9 +17213,13 @@
         {
           "date": "2024-12-20",
           "count": 410
+        },
+        {
+          "date": "2024-12-21",
+          "count": 417
         }
       ],
-      "followers": 410
+      "followers": 417
     },
     "reddit": {
       "handle": "https://www.reddit.com/u/sinoan",
@@ -16769,7 +17257,7 @@
     "description": "Strategy and innovation consultant by day, tinkerer by night. Everything is interesting.",
     "twitter": {
       "url": "https://x.com/AlexejKirillov",
-      "followers": 1444,
+      "followers": 1445,
       "followerGrowth": [
         {
           "date": "2024-11-28",
@@ -16858,6 +17346,10 @@
         {
           "date": "2024-12-20",
           "count": 1444
+        },
+        {
+          "date": "2024-12-21",
+          "count": 1445
         }
       ]
     },
@@ -16908,7 +17400,7 @@
     "description": "Creator of BotEatBrain, Artificial Intelligence newsletter with 20,000+ subs",
     "twitter": {
       "url": "https://x.com/thequotedog",
-      "followers": 1507,
+      "followers": 1501,
       "followerGrowth": [
         {
           "date": "2024-11-28",
@@ -16997,6 +17489,10 @@
         {
           "date": "2024-12-20",
           "count": 1507
+        },
+        {
+          "date": "2024-12-21",
+          "count": 1501
         }
       ]
     },
@@ -17098,6 +17594,10 @@
         },
         {
           "date": "2024-12-20",
+          "count": 298
+        },
+        {
+          "date": "2024-12-21",
           "count": 298
         }
       ],
@@ -17223,6 +17723,10 @@
         {
           "date": "2024-12-20",
           "count": 247
+        },
+        {
+          "date": "2024-12-21",
+          "count": 247
         }
       ]
     },
@@ -17328,9 +17832,13 @@
         {
           "date": "2024-12-20",
           "count": 1183
+        },
+        {
+          "date": "2024-12-21",
+          "count": 1199
         }
       ],
-      "followers": 1183
+      "followers": 1199
     },
     "reddit": {
       "handle": ""
@@ -17365,7 +17873,7 @@
     "description": "Working as a team of 3 Makers with a goal to build 1 project a month.",
     "twitter": {
       "url": "https://x.com/Jeremieca",
-      "followers": 755,
+      "followers": 757,
       "followerGrowth": [
         {
           "date": "2024-11-30",
@@ -17446,6 +17954,10 @@
         {
           "date": "2024-12-20",
           "count": 755
+        },
+        {
+          "date": "2024-12-21",
+          "count": 757
         }
       ]
     },
@@ -17540,9 +18052,13 @@
         {
           "date": "2024-12-20",
           "count": 522
+        },
+        {
+          "date": "2024-12-21",
+          "count": 517
         }
       ],
-      "followers": 522
+      "followers": 517
     },
     "reddit": {
       "url": ""
@@ -17575,7 +18091,7 @@
     "description": "Product designer building products.",
     "twitter": {
       "url": "https://x.com/krystianzun",
-      "followers": 477,
+      "followers": 479,
       "followerGrowth": [
         {
           "date": "2024-11-30",
@@ -17656,6 +18172,10 @@
         {
           "date": "2024-12-20",
           "count": 477
+        },
+        {
+          "date": "2024-12-21",
+          "count": 479
         }
       ]
     },
@@ -17751,9 +18271,13 @@
         {
           "date": "2024-12-20",
           "count": 2103
+        },
+        {
+          "date": "2024-12-21",
+          "count": 2116
         }
       ],
-      "followers": 2103
+      "followers": 2116
     },
     "reddit": {
       "url": ""
@@ -17880,9 +18404,13 @@
         {
           "date": "2024-12-20",
           "count": 1550
+        },
+        {
+          "date": "2024-12-21",
+          "count": 1562
         }
       ],
-      "followers": 1550
+      "followers": 1562
     },
     "reddit": {
       "url": ""
@@ -17914,7 +18442,7 @@
     "description": "Marketing & Growth Lead at Chatbase and podcasting every Monday and Friday reading #buildinpublic posts",
     "twitter": {
       "url": "https://x.com/TakoTreba",
-      "followers": 9607,
+      "followers": 9702,
       "followerGrowth": [
         {
           "date": "2024-12-03",
@@ -17983,6 +18511,10 @@
         {
           "date": "2024-12-20",
           "count": 9607
+        },
+        {
+          "date": "2024-12-21",
+          "count": 9702
         }
       ]
     },
@@ -18066,9 +18598,13 @@
         {
           "date": "2024-12-20",
           "count": 902
+        },
+        {
+          "date": "2024-12-21",
+          "count": 904
         }
       ],
-      "followers": 902
+      "followers": 904
     },
     "reddit": {
       "url": ""
@@ -18106,7 +18642,7 @@
     "description": "SW-engineer. Makes eliza.money, CustomerPing.ai and 2Quiet2Market.",
     "twitter": {
       "url": "https://x.com/bohlenlabs",
-      "followers": 2486,
+      "followers": 2483,
       "followerGrowth": [
         {
           "date": "2024-12-03",
@@ -18175,6 +18711,10 @@
         {
           "date": "2024-12-20",
           "count": 2486
+        },
+        {
+          "date": "2024-12-21",
+          "count": 2483
         }
       ]
     },
@@ -18257,9 +18797,13 @@
         {
           "date": "2024-12-20",
           "count": 1553
+        },
+        {
+          "date": "2024-12-21",
+          "count": 1558
         }
       ],
-      "followers": 1553
+      "followers": 1558
     },
     "reddit": {
       "url": ""
@@ -18294,7 +18838,7 @@
     "description": "Award-winning engineer building products.",
     "twitter": {
       "url": "https://x.com/pierremouchan",
-      "followers": 2762,
+      "followers": 2759,
       "followerGrowth": [
         {
           "date": "2024-12-03",
@@ -18363,6 +18907,10 @@
         {
           "date": "2024-12-20",
           "count": 2762
+        },
+        {
+          "date": "2024-12-21",
+          "count": 2759
         }
       ]
     },
@@ -18442,6 +18990,10 @@
         {
           "date": "2024-12-20",
           "count": 1953
+        },
+        {
+          "date": "2024-12-21",
+          "count": 1953
         }
       ],
       "followers": 1953
@@ -18479,7 +19031,7 @@
     "description": "Curating SaaS & AI tools and a directory of SaaS boilerplates",
     "twitter": {
       "url": "https://x.com/BrenKinfa",
-      "followers": 2904,
+      "followers": 2899,
       "followerGrowth": [
         {
           "date": "2024-12-05",
@@ -18540,6 +19092,10 @@
         {
           "date": "2024-12-20",
           "count": 2904
+        },
+        {
+          "date": "2024-12-21",
+          "count": 2899
         }
       ]
     },
@@ -18614,6 +19170,10 @@
         {
           "date": "2024-12-20",
           "count": 56
+        },
+        {
+          "date": "2024-12-21",
+          "count": 56
         }
       ],
       "followers": 56
@@ -18650,7 +19210,7 @@
     "twitter": {
       "handle": "https://x.com/jakobjelling",
       "url": "https://x.com/jakobjelling",
-      "followers": 1225,
+      "followers": 1223,
       "followerGrowth": [
         {
           "date": "2024-12-06",
@@ -18707,6 +19267,10 @@
         {
           "date": "2024-12-20",
           "count": 1225
+        },
+        {
+          "date": "2024-12-21",
+          "count": 1223
         }
       ]
     },
@@ -18778,9 +19342,13 @@
         {
           "date": "2024-12-20",
           "count": 1710
+        },
+        {
+          "date": "2024-12-21",
+          "count": 1724
         }
       ],
-      "followers": 1710
+      "followers": 1724
     },
     "reddit": {
       "handle": "https://www.reddit.com/user/jakobjelling/",
@@ -18830,7 +19398,7 @@
     "bluesky": {
       "handle": "https://bsky.app/profile/dustinturner.io",
       "url": "https://bsky.app/profile/dustinturner.io",
-      "followers": 1495,
+      "followers": 1502,
       "followerGrowth": [
         {
           "date": "2024-12-18",
@@ -18843,6 +19411,10 @@
         {
           "date": "2024-12-20",
           "count": 1495
+        },
+        {
+          "date": "2024-12-21",
+          "count": 1502
         }
       ]
     },
@@ -18879,7 +19451,7 @@
     "description": "I make friends with founders, marketers and designers. A decade in tech. Building @syncsignature. The Branding and Building podcast. #SaaS #Producthunt #Podcast",
     "twitter": {
       "url": "https://x.com/prsnlbrandexp",
-      "followers": 1979,
+      "followers": 1977,
       "followerGrowth": [
         {
           "date": "2024-12-06",
@@ -18936,6 +19508,10 @@
         {
           "date": "2024-12-20",
           "count": 1979
+        },
+        {
+          "date": "2024-12-21",
+          "count": 1977
         }
       ]
     },
@@ -19006,9 +19582,13 @@
         {
           "date": "2024-12-20",
           "count": 1663
+        },
+        {
+          "date": "2024-12-21",
+          "count": 1668
         }
       ],
-      "followers": 1663
+      "followers": 1668
     },
     "reddit": {
       "url": ""
@@ -19041,7 +19621,7 @@
     "description": "Indie iOS dev working on ItemlistApp. Previous experience projects for Philips, Porsche and BMW. Croatian living in Germany.",
     "twitter": {
       "url": "https://x.com/DamjanDabo",
-      "followers": 1418,
+      "followers": 1420,
       "followerGrowth": [
         {
           "date": "2024-12-06",
@@ -19098,6 +19678,10 @@
         {
           "date": "2024-12-20",
           "count": 1418
+        },
+        {
+          "date": "2024-12-21",
+          "count": 1420
         }
       ]
     },
@@ -19165,9 +19749,13 @@
         {
           "date": "2024-12-20",
           "count": 1375
+        },
+        {
+          "date": "2024-12-21",
+          "count": 1386
         }
       ],
-      "followers": 1375
+      "followers": 1386
     },
     "reddit": {
       "url": ""
@@ -19201,7 +19789,7 @@
     "description": "Product Designer designing Cleeve App for saving, organizing and finding links. Sharing what I can from designing & building",
     "twitter": {
       "url": "https://x.com/aa__frankie",
-      "followers": 3254,
+      "followers": 3253,
       "followerGrowth": [
         {
           "date": "2024-12-06",
@@ -19258,6 +19846,10 @@
         {
           "date": "2024-12-20",
           "count": 3254
+        },
+        {
+          "date": "2024-12-21",
+          "count": 3253
         }
       ]
     },
@@ -19328,9 +19920,13 @@
         {
           "date": "2024-12-20",
           "count": 871
+        },
+        {
+          "date": "2024-12-21",
+          "count": 872
         }
       ],
-      "followers": 871
+      "followers": 872
     },
     "reddit": {
       "url": ""
@@ -19476,9 +20072,13 @@
         {
           "date": "2024-12-20",
           "count": 107
+        },
+        {
+          "date": "2024-12-21",
+          "count": 109
         }
       ],
-      "followers": 107
+      "followers": 109
     },
     "reddit": {
       "url": ""
@@ -19564,6 +20164,10 @@
         {
           "date": "2024-12-20",
           "count": 1977
+        },
+        {
+          "date": "2024-12-21",
+          "count": 1977
         }
       ]
     },
@@ -19630,6 +20234,10 @@
         {
           "date": "2024-12-20",
           "count": 156
+        },
+        {
+          "date": "2024-12-21",
+          "count": 156
         }
       ],
       "followers": 156
@@ -19666,7 +20274,7 @@
     "description": "Develops simple, intuitive and fast software products using modern web technologies like React, Next, Node, Sass and many more..",
     "twitter": {
       "url": "https://x.com/icebearlabs",
-      "followers": 1178,
+      "followers": 1182,
       "followerGrowth": [
         {
           "date": "2024-12-07",
@@ -19719,6 +20327,10 @@
         {
           "date": "2024-12-20",
           "count": 1178
+        },
+        {
+          "date": "2024-12-21",
+          "count": 1182
         }
       ]
     },
@@ -19785,9 +20397,13 @@
         {
           "date": "2024-12-20",
           "count": 755
+        },
+        {
+          "date": "2024-12-21",
+          "count": 756
         }
       ],
-      "followers": 755
+      "followers": 756
     },
     "reddit": {
       "url": ""
@@ -19822,7 +20438,7 @@
     "description": "Software Engineer on the journey of becoming an Entrepreneur & Indie Maker.",
     "twitter": {
       "url": "https://x.com/robin_faraj",
-      "followers": 1961,
+      "followers": 1970,
       "followerGrowth": [
         {
           "date": "2024-12-07",
@@ -19875,6 +20491,10 @@
         {
           "date": "2024-12-20",
           "count": 1961
+        },
+        {
+          "date": "2024-12-21",
+          "count": 1970
         }
       ]
     },
@@ -19938,9 +20558,13 @@
         {
           "date": "2024-12-20",
           "count": 1530
+        },
+        {
+          "date": "2024-12-21",
+          "count": 1537
         }
       ],
-      "followers": 1530
+      "followers": 1537
     },
     "reddit": {
       "url": ""
@@ -19973,7 +20597,7 @@
     "description": "UK Design Engineer living in Bulgaria. Designing & developing for over 20 years.",
     "twitter": {
       "url": "https://x.com/uixmat",
-      "followers": 2142,
+      "followers": 2145,
       "followerGrowth": [
         {
           "date": "2024-12-07",
@@ -20026,6 +20650,10 @@
         {
           "date": "2024-12-20",
           "count": 2142
+        },
+        {
+          "date": "2024-12-21",
+          "count": 2145
         }
       ]
     },
@@ -20079,7 +20707,7 @@
     "description": "Innovative SEO expert and the co-founder of Swiftbrief",
     "twitter": {
       "url": "https://x.com/NafetsWirth",
-      "followers": 6975,
+      "followers": 6982,
       "followerGrowth": [
         {
           "date": "2024-12-18",
@@ -20092,6 +20720,10 @@
         {
           "date": "2024-12-20",
           "count": 6975
+        },
+        {
+          "date": "2024-12-21",
+          "count": 6982
         }
       ]
     },
@@ -20156,9 +20788,13 @@
         {
           "date": "2024-12-20",
           "count": 365
+        },
+        {
+          "date": "2024-12-21",
+          "count": 363
         }
       ],
-      "followers": 365
+      "followers": 363
     },
     "reddit": {
       "url": ""
@@ -20193,7 +20829,7 @@
     "description": "Solopreneur from sunny Singapore, building multiple bootstrapped startups.",
     "twitter": {
       "url": "https://x.com/imgyf",
-      "followers": 10400,
+      "followers": 10500,
       "followerGrowth": [
         {
           "date": "2024-12-09",
@@ -20214,6 +20850,10 @@
         {
           "date": "2024-12-20",
           "count": 10400
+        },
+        {
+          "date": "2024-12-21",
+          "count": 10500
         }
       ]
     },
@@ -20277,6 +20917,10 @@
         {
           "date": "2024-12-20",
           "count": 8
+        },
+        {
+          "date": "2024-12-21",
+          "count": 8
         }
       ],
       "followers": 8
@@ -20315,7 +20959,7 @@
     "description": "Making dope videos for dope creators and entrepreneurs and growing Clipwing",
     "twitter": {
       "url": "https://x.com/thiswillblossom",
-      "followers": 3905,
+      "followers": 3904,
       "followerGrowth": [
         {
           "date": "2024-12-18",
@@ -20328,6 +20972,10 @@
         {
           "date": "2024-12-20",
           "count": 3905
+        },
+        {
+          "date": "2024-12-21",
+          "count": 3904
         }
       ]
     },
@@ -20393,6 +21041,10 @@
         {
           "date": "2024-12-20",
           "count": 22900
+        },
+        {
+          "date": "2024-12-21",
+          "count": 22900
         }
       ]
     },
@@ -20451,9 +21103,13 @@
         {
           "date": "2024-12-20",
           "count": 557
+        },
+        {
+          "date": "2024-12-21",
+          "count": 558
         }
       ],
-      "followers": 557
+      "followers": 558
     },
     "reddit": {
       "url": ""
@@ -20502,6 +21158,10 @@
         {
           "date": "2024-12-20",
           "count": 545
+        },
+        {
+          "date": "2024-12-21",
+          "count": 545
         }
       ]
     },
@@ -20547,9 +21207,13 @@
         {
           "date": "2024-12-20",
           "count": 1501
+        },
+        {
+          "date": "2024-12-21",
+          "count": 1513
         }
       ],
-      "followers": 1501
+      "followers": 1513
     },
     "reddit": {
       "handle": ""
@@ -20612,9 +21276,13 @@
         {
           "date": "2024-12-20",
           "count": 250
+        },
+        {
+          "date": "2024-12-21",
+          "count": 248
         }
       ],
-      "followers": 250
+      "followers": 248
     },
     "reddit": {
       "url": ""
