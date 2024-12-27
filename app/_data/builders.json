@@ -23352,5 +23352,52 @@
     },
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/kimelnick.jpg",
     "created": "2024-12-23T16:36:48.072Z"
+  },
+  {
+    "name": "Joschua Builds",
+    "description": "Indie Hacker Building in Public and Reddit Marketing Master",
+    "twitter": {
+      "url": "https://x.com/JoschuaBuilds",
+      "followers": 2849
+    },
+    "youtube": {
+      "url": ""
+    },
+    "twitch": {
+      "url": ""
+    },
+    "github": {
+      "url": ""
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/joschuabuilds.bsky.social",
+      "followers": 292
+    },
+    "reddit": {
+      "url": "https://www.reddit.com/user/JoschuaBuilds/",
+      "followers": 680
+    },
+    "producthunt": {
+      "url": ""
+    },
+    "website": "https://lifeistooshort.today",
+    "tags": [
+      "marketing",
+      "reddit",
+      "engineer"
+    ],
+    "currentProject": {
+      "name": "Postcroco",
+      "description": "The Indie Hackers blueprint for Reddit success",
+      "link": "https://www.postcroco.com",
+      "tags": [
+        "reddit",
+        "marketing",
+        "templates"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/joschua_builds_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/JoschuaBuilds.jpg",
+    "created": "2024-12-27T17:28:59.364Z"
   }
 ]

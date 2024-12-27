@@ -15,7 +15,6 @@ import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip
 
 export function BuilderCard({ builder, variant = "card" }: { builder: Builder; variant?: "card" | "page" }) {
   const { percentGrowth, totalGrowth } = calculateGrowth(builder, "14")
-  console.log({ percentGrowth, totalGrowth })
   const showPercentGrowth = percentGrowth > 0
   const showTotalGrowth = totalGrowth >= 100
 
