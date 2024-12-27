@@ -32,8 +32,6 @@ export default function BuilderReviewForm({ isLoading, onSubmit, defaultValues, 
     defaultValues,
   })
 
-  console.log(JSON.stringify({ defaultValues }, null, 2))
-
   const handleApprove = handleSubmit((data) => onSubmit(data, "approve", submissionId))
   const handleReject = async () => {
     if (rejectReason || !isSubmission) {

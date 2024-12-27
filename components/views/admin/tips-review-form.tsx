@@ -61,7 +61,6 @@ export default function TipsReviewForm({ data, filePath, isCreatingNewTip }: Tip
   }
 
   const handleSaveNewTip = async () => {
-    console.log("Saving new tip:", currentTip)
     try {
       const updatedTips = await addTip(currentTip, filePath, -1)
       setTips(updatedTips)

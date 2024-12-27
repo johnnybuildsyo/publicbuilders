@@ -10,8 +10,6 @@ import { useBuilderProfileReviewSubmit } from "@/components/hooks/useBuilderProf
 export default function BuilderReview({ submissions }: { submissions: BuilderSubmission[] }) {
   const { onSubmit, isLoading } = useBuilderProfileReviewSubmit()
 
-  console.log({ submission: submissions[0] })
-
   return (
     <>
       {submissions.length === 0 ? (

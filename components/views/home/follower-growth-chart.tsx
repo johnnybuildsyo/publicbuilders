@@ -39,18 +39,55 @@ const processData = (dateRange: DateRange, xFollowerGrowth?: FollowerGrowth, bsk
     })
   }
 
+  const interpolateMissingDates = (data: { date: string; count: number }[]) => {
+    if (data.length < 2) return data
+    const result: { date: string; count: number }[] = []
+
+    for (let i = 0; i < data.length - 1; i++) {
+      const current = data[i]
+      const next = data[i + 1]
+      result.push(current)
+
+      // Get dates between current and next
+      const currentDate = new Date(new Date().getFullYear(), parseInt(current.date.split("/")[0]) - 1, parseInt(current.date.split("/")[1]))
+      const nextDate = new Date(new Date().getFullYear(), parseInt(next.date.split("/")[0]) - 1, parseInt(next.date.split("/")[1]))
+      const daysDiff = Math.floor((nextDate.getTime() - currentDate.getTime()) / (1000 * 60 * 60 * 24))
+
+      if (daysDiff > 1) {
+        const countDiff = next.count - current.count
+        const dailyIncrease = countDiff / daysDiff
+
+        // Add interpolated points
+        for (let day = 1; day < daysDiff; day++) {
+          const interpolatedDate = new Date(currentDate)
+          interpolatedDate.setDate(currentDate.getDate() + day)
+          result.push({
+            date: `${interpolatedDate.getMonth() + 1}/${interpolatedDate.getDate()}`,
+            count: Math.round(current.count + dailyIncrease * day),
+          })
+        }
+      }
+    }
+    result.push(data[data.length - 1]) // Add last point
+    return result
+  }
+
   const xData = xFollowerGrowth
-    ? xFollowerGrowth.map((entry) => ({
-        date: formatDate(entry.date),
-        count: entry.count,
-      }))
+    ? interpolateMissingDates(
+        xFollowerGrowth.map((entry) => ({
+          date: formatDate(entry.date),
+          count: entry.count,
+        }))
+      )
     : []
 
   const bskyData = bskyFollowerGrowth
-    ? bskyFollowerGrowth.map((entry) => ({
-        date: formatDate(entry.date),
-        count: entry.count,
-      }))
+    ? interpolateMissingDates(
+        bskyFollowerGrowth.map((entry) => ({
+          date: formatDate(entry.date),
+          count: entry.count,
+        }))
+      )
     : []
 
   const allDates = Array.from(new Set([...xData.map((d) => d.date), ...bskyData.map((d) => d.date)])).sort()
