@@ -20,8 +20,11 @@ type FollowerGrowthChartProps = {
 }
 
 const formatDate = (dateString: string) => {
-  const [, month, day] = dateString.split("-")
-  return `${month}/${day}`
+  const [year, month, day] = dateString.split("-")
+  return {
+    sort: `${year}-${month}-${day}`,
+    display: `${month}/${day}`,
+  }
 }
 
 const processData = (dateRange: DateRange, xFollowerGrowth?: FollowerGrowth, bskyFollowerGrowth?: FollowerGrowth) => {
@@ -48,9 +51,12 @@ const processData = (dateRange: DateRange, xFollowerGrowth?: FollowerGrowth, bsk
       const next = data[i + 1]
       result.push(current)
 
-      // Get dates between current and next
-      const currentDate = new Date(new Date().getFullYear(), parseInt(current.date.split("/")[0]) - 1, parseInt(current.date.split("/")[1]))
-      const nextDate = new Date(new Date().getFullYear(), parseInt(next.date.split("/")[0]) - 1, parseInt(next.date.split("/")[1]))
+      // Parse dates with year included
+      const [month, day, year] = current.date.split("/")
+      const [nextMonth, nextDay, nextYear] = next.date.split("/")
+      const currentDate = new Date(2000 + parseInt(year), parseInt(month) - 1, parseInt(day))
+      const nextDate = new Date(2000 + parseInt(nextYear), parseInt(nextMonth) - 1, parseInt(nextDay))
+
       const daysDiff = Math.floor((nextDate.getTime() - currentDate.getTime()) / (1000 * 60 * 60 * 24))
 
       if (daysDiff > 1) {
@@ -68,29 +74,42 @@ const processData = (dateRange: DateRange, xFollowerGrowth?: FollowerGrowth, bsk
         }
       }
     }
-    result.push(data[data.length - 1]) // Add last point
+    result.push(data[data.length - 1])
     return result
   }
 
   const xData = xFollowerGrowth
-    ? interpolateMissingDates(
-        xFollowerGrowth.map((entry) => ({
-          date: formatDate(entry.date),
-          count: entry.count,
-        }))
-      )
+    ? xFollowerGrowth
+        .map((entry) => {
+          const date = formatDate(entry.date)
+          return {
+            sortDate: date.sort,
+            date: date.display,
+            count: entry.count,
+          }
+        })
+        .sort((a, b) => a.sortDate.localeCompare(b.sortDate))
     : []
 
   const bskyData = bskyFollowerGrowth
-    ? interpolateMissingDates(
-        bskyFollowerGrowth.map((entry) => ({
-          date: formatDate(entry.date),
-          count: entry.count,
-        }))
-      )
+    ? bskyFollowerGrowth
+        .map((entry) => {
+          const date = formatDate(entry.date)
+          return {
+            sortDate: date.sort,
+            date: date.display,
+            count: entry.count,
+          }
+        })
+        .sort((a, b) => a.sortDate.localeCompare(b.sortDate))
     : []
 
-  const allDates = Array.from(new Set([...xData.map((d) => d.date), ...bskyData.map((d) => d.date)])).sort()
+  const allDates = Array.from(new Set([...xData.map((d) => d.sortDate), ...bskyData.map((d) => d.sortDate)]))
+    .sort()
+    .map((sortDate) => {
+      const entry = xData.find((d) => d.sortDate === sortDate) || bskyData.find((d) => d.sortDate === sortDate)
+      return entry!.date
+    })
 
   // First create the combined data without normalization
   const combinedData = allDates.map((date) => ({
