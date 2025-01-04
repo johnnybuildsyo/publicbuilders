@@ -26111,5 +26111,97 @@
     },
     "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/JoschuaBuilds.jpg",
     "created": "2024-12-27T17:28:59.364Z"
+  },
+  {
+    "name": "Janu Lingeswaran",
+    "description": "Scaled my MVP agency alongside my day job and then quit",
+    "twitter": {
+      "url": "https://x.com/JanuBuilds",
+      "followers": 4223
+    },
+    "youtube": {
+      "url": "https://www.youtube.com/@janubuilds",
+      "followers": 48
+    },
+    "twitch": {
+      "url": ""
+    },
+    "github": {
+      "url": "https://github.com/EinGuterWaran",
+      "followers": 139
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/janu.lol",
+      "followers": 2700
+    },
+    "reddit": {
+      "url": ""
+    },
+    "producthunt": {
+      "url": "https://bsky.app/profile/janu.lol",
+      "followers": 147
+    },
+    "website": "https://bento.me/janu",
+    "tags": [
+      "agency",
+      "indiehacker"
+    ],
+    "currentProject": {
+      "name": "Feather Flow",
+      "description": "MVP Agency with a 21-day turnaround.",
+      "link": "https://feather-flow.com/",
+      "tags": [
+        "agency",
+        "mvp"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/janu_lingeswaran_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/JanuBuilds.jpg",
+    "created": "2025-01-04T17:02:49.380Z"
+  },
+  {
+    "name": "Justin",
+    "description": "Just a dad helping growing professionals with straightforward software",
+    "twitter": {
+      "url": "https://x.com/crashtestjustin",
+      "followers": 930
+    },
+    "youtube": {
+      "url": ""
+    },
+    "twitch": {
+      "url": ""
+    },
+    "github": {
+      "url": ""
+    },
+    "bluesky": {
+      "url": "https://bsky.app/profile/jde.blue",
+      "followers": 645
+    },
+    "reddit": {
+      "url": ""
+    },
+    "producthunt": {
+      "url": ""
+    },
+    "website": "https://bento.me/crashtestjustin",
+    "tags": [
+      "tools",
+      "ios"
+    ],
+    "currentProject": {
+      "name": "Sheet Shifter",
+      "description": "Migrate your CSV data without opening a single file",
+      "link": "https://www.sheet-shifter.com/",
+      "tags": [
+        "csv",
+        "data",
+        "tool"
+      ],
+      "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/project-screenshots/justin_project_screenshot.png"
+    },
+    "image": "https://publicbuilders.s3.us-east-2.amazonaws.com/profile-pics/crashtestjustin.jpg",
+    "created": "2025-01-04T17:02:49.383Z"
   }
 ]
