@@ -172,6 +172,11 @@ export function calculateWeightedGrowth(
 } {
   const { totalGrowth, percentGrowth } = calculateGrowth(builder, range);
 
+  // Get current follower counts
+  const twitterFollowers = builder.twitter?.followers || 0;
+  const blueskyFollowers = builder.bluesky?.followers || 0;
+  const totalFollowers = twitterFollowers + blueskyFollowers;
+
   // Normalize the growth metrics to prevent either from dominating
   const percentWeight = 0.6666666666666666;  // 2/3 weight to percentage growth
   const totalWeight = 0.3333333333333333;    // 1/3 weight to total growth
@@ -179,8 +184,11 @@ export function calculateWeightedGrowth(
   // Calculate weighted score
   const normalizedTotal = Math.log(Math.abs(totalGrowth) + 1);
   const normalizedPercent = Math.log(percentGrowth + 1);
+  const baseScore = (normalizedPercent * percentWeight) + (normalizedTotal * totalWeight);
 
-  const weightedScore = (normalizedPercent * percentWeight) + (normalizedTotal * totalWeight);
+  // Apply follower count penalty for accounts with less than 100 followers
+  const followerPenalty = totalFollowers < 200 ? 0.5 : 1;
+  const weightedScore = baseScore * followerPenalty;
 
   return { totalGrowth, percentGrowth, weightedScore };
 }

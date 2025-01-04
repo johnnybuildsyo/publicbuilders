@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Legend, ResponsiveContainer } from "recharts"
 import { ChartContainer, ChartTooltip } from "@/components/ui/chart"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { useState } from "react"
+import { useState, useMemo } from "react"
 
 type FollowerGrowth = { date: string; count: number }[]
 
@@ -28,35 +28,33 @@ const formatDate = (dateString: string) => {
 }
 
 const processData = (dateRange: DateRange, xFollowerGrowth?: FollowerGrowth, bskyFollowerGrowth?: FollowerGrowth) => {
-  const filterDataByRange = (data: { date: string; x: number | null; bsky: number | null }[]) => {
+  const filterDataByRange = (data: { date: string; x: number | null; bsky: number | null }[], allDates: string[]) => {
     if (dateRange === "all") return data
     const daysAgo = parseInt(dateRange)
     const cutoffDate = new Date()
     cutoffDate.setDate(cutoffDate.getDate() - daysAgo)
 
+    const cutoffSortDate = cutoffDate.toISOString().split("T")[0]
+    const validDates = allDates.filter((d) => d >= cutoffSortDate)
+
     return data.filter((entry) => {
-      const [month, day] = entry.date.split("/")
-      const year = new Date().getFullYear()
-      const entryDate = new Date(year, parseInt(month) - 1, parseInt(day))
-      return entryDate >= cutoffDate
+      const sortDate = allDates[allDates.findIndex((d) => d.split("-").slice(1).join("/") === entry.date)]
+      return validDates.includes(sortDate)
     })
   }
 
-  const interpolateMissingDates = (data: { date: string; count: number }[]) => {
+  const interpolateMissingDates = (data: { sortDate: string; date: string; count: number }[]) => {
     if (data.length < 2) return data
-    const result: { date: string; count: number }[] = []
+    const result: { sortDate: string; date: string; count: number }[] = []
 
     for (let i = 0; i < data.length - 1; i++) {
       const current = data[i]
       const next = data[i + 1]
       result.push(current)
 
-      // Parse dates with year included
-      const [month, day, year] = current.date.split("/")
-      const [nextMonth, nextDay, nextYear] = next.date.split("/")
-      const currentDate = new Date(2000 + parseInt(year), parseInt(month) - 1, parseInt(day))
-      const nextDate = new Date(2000 + parseInt(nextYear), parseInt(nextMonth) - 1, parseInt(nextDay))
-
+      // Parse dates using sortDate (YYYY-MM-DD format)
+      const currentDate = new Date(current.sortDate)
+      const nextDate = new Date(next.sortDate)
       const daysDiff = Math.floor((nextDate.getTime() - currentDate.getTime()) / (1000 * 60 * 60 * 24))
 
       if (daysDiff > 1) {
@@ -68,6 +66,7 @@ const processData = (dateRange: DateRange, xFollowerGrowth?: FollowerGrowth, bsk
           const interpolatedDate = new Date(currentDate)
           interpolatedDate.setDate(currentDate.getDate() + day)
           result.push({
+            sortDate: interpolatedDate.toISOString().split("T")[0],
             date: `${interpolatedDate.getMonth() + 1}/${interpolatedDate.getDate()}`,
             count: Math.round(current.count + dailyIncrease * day),
           })
@@ -79,47 +78,52 @@ const processData = (dateRange: DateRange, xFollowerGrowth?: FollowerGrowth, bsk
   }
 
   const xData = xFollowerGrowth
-    ? xFollowerGrowth
-        .map((entry) => {
-          const date = formatDate(entry.date)
-          return {
-            sortDate: date.sort,
-            date: date.display,
-            count: entry.count,
-          }
-        })
-        .sort((a, b) => a.sortDate.localeCompare(b.sortDate))
+    ? interpolateMissingDates(
+        xFollowerGrowth
+          .map((entry) => {
+            const date = formatDate(entry.date)
+            return {
+              sortDate: date.sort,
+              date: date.display,
+              count: entry.count,
+            }
+          })
+          .sort((a, b) => a.sortDate.localeCompare(b.sortDate))
+      )
     : []
 
   const bskyData = bskyFollowerGrowth
-    ? bskyFollowerGrowth
-        .map((entry) => {
-          const date = formatDate(entry.date)
-          return {
-            sortDate: date.sort,
-            date: date.display,
-            count: entry.count,
-          }
-        })
-        .sort((a, b) => a.sortDate.localeCompare(b.sortDate))
+    ? interpolateMissingDates(
+        bskyFollowerGrowth
+          .map((entry) => {
+            const date = formatDate(entry.date)
+            return {
+              sortDate: date.sort,
+              date: date.display,
+              count: entry.count,
+            }
+          })
+          .sort((a, b) => a.sortDate.localeCompare(b.sortDate))
+      )
     : []
 
-  const allDates = Array.from(new Set([...xData.map((d) => d.sortDate), ...bskyData.map((d) => d.sortDate)]))
-    .sort()
-    .map((sortDate) => {
-      const entry = xData.find((d) => d.sortDate === sortDate) || bskyData.find((d) => d.sortDate === sortDate)
-      return entry!.date
-    })
+  const allDates = Array.from(new Set([...xData.map((d) => d.sortDate), ...bskyData.map((d) => d.sortDate)])).sort()
 
   // First create the combined data without normalization
-  const combinedData = allDates.map((date) => ({
-    date,
-    x: xData.find((entry) => entry.date === date)?.count ?? null,
-    bsky: bskyData.find((entry) => entry.date === date)?.count ?? null,
-  }))
+  const combinedData = allDates.map((sortDate) => {
+    const xEntry = xData.find((d) => d.sortDate === sortDate)
+    const bskyEntry = bskyData.find((d) => d.sortDate === sortDate)
+    const displayDate = xEntry?.date || bskyEntry?.date || sortDate.split("-").slice(1).join("/")
+
+    return {
+      date: displayDate,
+      x: xEntry?.count ?? null,
+      bsky: bskyEntry?.count ?? null,
+    }
+  })
 
   // Filter the data by range first
-  const filteredData = filterDataByRange(combinedData)
+  const filteredData = filterDataByRange(combinedData, allDates)
 
   // Then normalize from the filtered data's initial values
   const xInitial = filteredData.find((d) => d.x !== null)?.x ?? 0
@@ -135,11 +139,11 @@ const processData = (dateRange: DateRange, xFollowerGrowth?: FollowerGrowth, bsk
 export function FollowerGrowthChart({ xFollowerGrowth, bskyFollowerGrowth, hideIfNoGrowth, totalBuilders, containerClassName, showGrowthRate }: FollowerGrowthChartProps) {
   const [dateRange, setDateRange] = useState<DateRange>("14")
 
+  const data = useMemo(() => processData(dateRange, xFollowerGrowth, bskyFollowerGrowth), [dateRange, xFollowerGrowth, bskyFollowerGrowth])
+
   if (!xFollowerGrowth && !bskyFollowerGrowth) {
     return null
   }
-
-  const data = processData(dateRange, xFollowerGrowth, bskyFollowerGrowth)
 
   const calculateRangeGrowth = (growth?: FollowerGrowth) => {
     if (!growth || growth.length === 0) return 0
