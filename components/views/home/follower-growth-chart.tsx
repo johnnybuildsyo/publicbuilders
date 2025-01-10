@@ -17,6 +17,7 @@ type FollowerGrowthChartProps = {
   totalBuilders?: number
   containerClassName?: string
   showGrowthRate?: boolean
+  defaultToPercent?: boolean
 }
 
 const formatDate = (dateString: string) => {
@@ -27,7 +28,7 @@ const formatDate = (dateString: string) => {
   }
 }
 
-const processData = (dateRange: DateRange, xFollowerGrowth?: FollowerGrowth, bskyFollowerGrowth?: FollowerGrowth) => {
+const processData = (dateRange: DateRange, xFollowerGrowth?: FollowerGrowth, bskyFollowerGrowth?: FollowerGrowth, isPercent = false) => {
   const filterDataByRange = (data: { date: string; x: number | null; bsky: number | null }[], allDates: string[]) => {
     if (dateRange === "all") return data
     const daysAgo = parseInt(dateRange)
@@ -125,21 +126,47 @@ const processData = (dateRange: DateRange, xFollowerGrowth?: FollowerGrowth, bsk
   // Filter the data by range first
   const filteredData = filterDataByRange(combinedData, allDates)
 
-  // Then normalize from the filtered data's initial values
-  const xInitial = filteredData.find((d) => d.x !== null)?.x ?? 0
-  const bskyInitial = filteredData.find((d) => d.bsky !== null)?.bsky ?? 0
+  if (!isPercent) {
+    // For absolute growth, normalize from initial values
+    const xInitial = filteredData.find((d) => d.x !== null)?.x ?? 0
+    const bskyInitial = filteredData.find((d) => d.bsky !== null)?.bsky ?? 0
 
+    return filteredData.map((entry) => ({
+      date: entry.date,
+      x: entry.x !== null ? entry.x - xInitial : null,
+      bsky: entry.bsky !== null ? entry.bsky - bskyInitial : null,
+    }))
+  }
+
+  // For percentage, use raw values to calculate percent change
   return filteredData.map((entry) => ({
     date: entry.date,
-    x: entry.x !== null ? entry.x - xInitial : null,
-    bsky: entry.bsky !== null ? entry.bsky - bskyInitial : null,
+    x: entry.x,
+    bsky: entry.bsky,
   }))
 }
 
-export function FollowerGrowthChart({ xFollowerGrowth, bskyFollowerGrowth, hideIfNoGrowth, totalBuilders, containerClassName, showGrowthRate }: FollowerGrowthChartProps) {
+export function FollowerGrowthChart({ xFollowerGrowth, bskyFollowerGrowth, hideIfNoGrowth, totalBuilders, containerClassName, showGrowthRate, defaultToPercent = false }: FollowerGrowthChartProps) {
   const [dateRange, setDateRange] = useState<DateRange>("14")
+  const [showPercent, setShowPercent] = useState(defaultToPercent)
 
-  const data = useMemo(() => processData(dateRange, xFollowerGrowth, bskyFollowerGrowth), [dateRange, xFollowerGrowth, bskyFollowerGrowth])
+  const data = useMemo(() => {
+    const rawData = processData(dateRange, xFollowerGrowth, bskyFollowerGrowth, showPercent)
+    if (!showPercent) return rawData
+
+    // Calculate percentage change from initial values
+    const firstX = rawData[0]?.x ?? 0
+    const firstBsky = rawData[0]?.bsky ?? 0
+
+    return rawData.map((entry) => ({
+      date: entry.date,
+      x: entry.x !== null && firstX ? ((entry.x - firstX) / firstX) * 100 : null,
+      bsky: entry.bsky !== null && firstBsky ? ((entry.bsky - firstBsky) / firstBsky) * 100 : null,
+    }))
+  }, [dateRange, xFollowerGrowth, bskyFollowerGrowth, showPercent])
+
+  // Simplify hasGrowth check
+  const hasGrowth = data.length > 0 && data.some((d) => d.x !== null || d.bsky !== null)
 
   if (!xFollowerGrowth && !bskyFollowerGrowth) {
     return null
@@ -181,7 +208,6 @@ export function FollowerGrowthChart({ xFollowerGrowth, bskyFollowerGrowth, hideI
   }
 
   const currentCounts = getGrowth(data)
-  const hasGrowth = data.length > 0 && (data.some((d) => d.x !== null) || data.some((d) => d.bsky !== null))
 
   if (hideIfNoGrowth && !hasGrowth) {
     return null
@@ -209,18 +235,32 @@ export function FollowerGrowthChart({ xFollowerGrowth, bskyFollowerGrowth, hideI
                     {xFollowerGrowth && currentCounts.x != null && (
                       <div className="bg-background flex items-center space-x-2 rounded border px-2 py-1 text-sm">
                         <span className="scale-90">𝕏</span>
-                        <span className="font-semibold text-foreground/70">{currentCounts.x > 0 ? `+${Math.round(currentCounts.x)}` : currentCounts.x === 0 ? "–" : Math.round(currentCounts.x)}</span>
+                        <span className="font-semibold text-foreground/70">
+                          {showPercent ? `${currentCounts.x.toFixed(1)}%` : currentCounts.x > 0 ? `+${Math.round(currentCounts.x)}` : currentCounts.x === 0 ? "–" : Math.round(currentCounts.x)}
+                        </span>
                       </div>
                     )}
                     {bskyFollowerGrowth && currentCounts.bsky != null && (
                       <div className="bg-background flex items-center space-x-2 rounded border px-2 py-1 text-sm">
                         <span className="scale-90">🦋</span>
-                        <span className="font-semibold text-foreground/70">{currentCounts.bsky > 0 ? `+${Math.round(currentCounts.bsky)}` : Math.round(currentCounts.bsky)}</span>
+                        <span className="font-semibold text-foreground/70">
+                          {showPercent ? `${currentCounts.bsky.toFixed(1)}%` : currentCounts.bsky > 0 ? `+${Math.round(currentCounts.bsky)}` : Math.round(currentCounts.bsky)}
+                        </span>
                       </div>
                     )}
                   </div>
 
-                  <div className="scale-90">
+                  <div className="flex items-center gap-4 scale-90">
+                    <Select value={showPercent ? "percent" : "absolute"} onValueChange={(value) => setShowPercent(value === "percent")}>
+                      <SelectTrigger className="w-[120px]">
+                        <SelectValue />
+                      </SelectTrigger>
+                      <SelectContent>
+                        <SelectItem value="absolute">Growth (#)</SelectItem>
+                        <SelectItem value="percent">Growth (%)</SelectItem>
+                      </SelectContent>
+                    </Select>
+
                     <Select value={dateRange} onValueChange={(value: DateRange) => setDateRange(value)}>
                       <SelectTrigger className="w-[120px]">
                         <SelectValue />
@@ -253,7 +293,7 @@ export function FollowerGrowthChart({ xFollowerGrowth, bskyFollowerGrowth, hideI
                       <LineChart data={data} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
                         <CartesianGrid strokeDasharray="3 3" />
                         <XAxis dataKey="date" />
-                        <YAxis tickFormatter={(value) => value.toLocaleString()} />
+                        <YAxis tickFormatter={(value) => (showPercent ? `${value.toFixed(1)}%` : value.toLocaleString())} />
                         <ChartTooltip
                           content={({ active, payload }) => {
                             if (active && payload && payload.length) {
@@ -262,7 +302,8 @@ export function FollowerGrowthChart({ xFollowerGrowth, bskyFollowerGrowth, hideI
                                   <p className="font-semibold">{payload[0].payload.date}</p>
                                   {payload.map((entry) => (
                                     <p key={entry.dataKey}>
-                                      {entry.dataKey === "x" ? "𝕏" : "🦋"}: {typeof entry.value === "number" ? Math.round(entry.value).toLocaleString() : "-"}
+                                      {entry.dataKey === "x" ? "𝕏" : "🦋"}:{" "}
+                                      {typeof entry.value === "number" ? (showPercent ? `${entry.value.toFixed(1)}%` : Math.round(entry.value).toLocaleString()) : "-"}
                                     </p>
                                   ))}
                                 </div>

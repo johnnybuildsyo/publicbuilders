@@ -26,7 +26,14 @@ export default function GrowthPage() {
         Follower Growth: <span className="whitespace-nowrap">𝕏 vs 🦋</span>
       </Heading>
       <div className="w-full max-w-4xl mx-auto">
-        <FollowerGrowthChart containerClassName="relative px-8" xFollowerGrowth={xFollowerGrowth} bskyFollowerGrowth={bskyFollowerGrowth} showGrowthRate={true} totalBuilders={builders.length} />
+        <FollowerGrowthChart
+          containerClassName="relative px-8"
+          xFollowerGrowth={xFollowerGrowth}
+          bskyFollowerGrowth={bskyFollowerGrowth}
+          showGrowthRate={true}
+          totalBuilders={builders.length}
+          hidePercentOption={true}
+        />
       </div>
 
       <div className="mt-16">
@@ -41,6 +48,7 @@ export default function GrowthPage() {
           bskyFollowerGrowth={smallBskyFollowerGrowth}
           showGrowthRate={true}
           totalBuilders={builders.filter((b) => (b.twitter?.followers || 0) < 5000 && (b.bluesky?.followers || 0) < 5000).length}
+          hidePercentOption={true}
         />
       </div>
     </div>
