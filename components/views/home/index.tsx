@@ -18,6 +18,15 @@ export default function Home({ sort, page = 1 }: { sort?: string; page?: number 
         const { totalGrowth, percentGrowth, weightedScore } = calculateWeightedGrowth(builder, "14")
         return { ...builder, totalGrowth, percentGrowth, weightedScore }
       })
+      // Filter out builders with fewer than 200 followers for percentGrowth sorting
+      .filter((builder) => {
+        if (currentSort === "percentGrowth") {
+          const totalFollowers =
+            (builder.twitter?.followers || 0) + (builder.github?.followers || 0) + (builder.youtube?.followers || 0) + (builder.twitch?.followers || 0) + (builder.bluesky?.followers || 0)
+          return totalFollowers >= 500
+        }
+        return true
+      })
       // Sort by the appropriate metric
       .sort((a, b) => {
         switch (currentSort) {
