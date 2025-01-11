@@ -18,6 +18,7 @@ type FollowerGrowthChartProps = {
   containerClassName?: string
   showGrowthRate?: boolean
   defaultToPercent?: boolean
+  hidePercentOption?: boolean
 }
 
 const formatDate = (dateString: string) => {
@@ -146,7 +147,16 @@ const processData = (dateRange: DateRange, xFollowerGrowth?: FollowerGrowth, bsk
   }))
 }
 
-export function FollowerGrowthChart({ xFollowerGrowth, bskyFollowerGrowth, hideIfNoGrowth, totalBuilders, containerClassName, showGrowthRate, defaultToPercent = false }: FollowerGrowthChartProps) {
+export function FollowerGrowthChart({
+  xFollowerGrowth,
+  bskyFollowerGrowth,
+  hideIfNoGrowth,
+  totalBuilders,
+  containerClassName,
+  showGrowthRate,
+  defaultToPercent = false,
+  hidePercentOption = false,
+}: FollowerGrowthChartProps) {
   const [dateRange, setDateRange] = useState<DateRange>("14")
   const [showPercent, setShowPercent] = useState(defaultToPercent)
 
@@ -251,15 +261,17 @@ export function FollowerGrowthChart({ xFollowerGrowth, bskyFollowerGrowth, hideI
                   </div>
 
                   <div className="flex items-center gap-4 scale-90">
-                    <Select value={showPercent ? "percent" : "absolute"} onValueChange={(value) => setShowPercent(value === "percent")}>
-                      <SelectTrigger className="w-[120px]">
-                        <SelectValue />
-                      </SelectTrigger>
-                      <SelectContent>
-                        <SelectItem value="absolute">Growth (#)</SelectItem>
-                        <SelectItem value="percent">Growth (%)</SelectItem>
-                      </SelectContent>
-                    </Select>
+                    {!hidePercentOption && (
+                      <Select value={showPercent ? "percent" : "absolute"} onValueChange={(value) => setShowPercent(value === "percent")}>
+                        <SelectTrigger className="w-[120px]">
+                          <SelectValue />
+                        </SelectTrigger>
+                        <SelectContent>
+                          <SelectItem value="absolute">Growth (#)</SelectItem>
+                          <SelectItem value="percent">Growth (%)</SelectItem>
+                        </SelectContent>
+                      </Select>
+                    )}
 
                     <Select value={dateRange} onValueChange={(value: DateRange) => setDateRange(value)}>
                       <SelectTrigger className="w-[120px]">
