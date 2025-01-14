@@ -1,0 +1,41 @@
+{
+  "name": "Coloring Pages",
+  "description": "Coloring Pages AI is an innovative AI-powered coloring page generator that lets you create personalized designs for kids, teens, and adults. From animals and flowers to seasonal themes like Christmas, enjoy free, customizable coloring pages perfect for creativity and relaxation.",
+  "twitter": {
+    "handle": ""
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://coloring-pages.ai/",
+  "tags": [
+    "coloring",
+    "generator",
+    "ai"
+  ],
+  "currentProject": {
+    "name": "Coloring Pages",
+    "description": "Coloring Pages AI is an innovative AI-powered coloring page generator that lets you create personalized designs for kids, teens, and adults. From animals and flowers to seasonal themes like Christmas, enjoy free, customizable coloring pages perfect for creativity and relaxation.",
+    "link": "https://coloring-pages.ai/",
+    "tags": [
+      "coloring",
+      "generator",
+      "ai"
+    ]
+  }
+}
