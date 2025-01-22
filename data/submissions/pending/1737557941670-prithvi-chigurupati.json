@@ -1,0 +1,43 @@
+{
+  "name": "prithvi chigurupati",
+  "description": "I launch micro projects and share my 10 years of startup journey which includes multiple failures and few successes",
+  "twitter": {
+    "url": "https://x.com/therealprineur",
+    "followers": 302
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://superailist.com",
+  "tags": [
+    "ai",
+    "tools",
+    "agents",
+    "startups"
+  ],
+  "currentProject": {
+    "name": "superailist",
+    "description": "A curated list of the top ai tools and agents ",
+    "link": "https://www.superailist.com/",
+    "tags": [
+      "ai tools",
+      "ai agents",
+      "ai"
+    ]
+  }
+}
