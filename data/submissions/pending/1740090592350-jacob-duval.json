@@ -1,0 +1,41 @@
+{
+  "name": "Jacob Duval",
+  "description": "I post daily vlogs on bluesky, and weekly updates on linkedin",
+  "twitter": {
+    "handle": ""
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "url": "https://bsky.app/profile/rough.app",
+    "followers": 400
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://rough.app",
+  "tags": [
+    "productivity",
+    "b2b"
+  ],
+  "currentProject": {
+    "name": "Rough.app",
+    "description": "Rough is where teams discuss and plan upcoming work.",
+    "link": "https://rough.app",
+    "tags": [
+      "productivity",
+      "b2b",
+      "product management"
+    ]
+  }
+}
