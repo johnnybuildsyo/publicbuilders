@@ -1,0 +1,46 @@
+{
+  "name": "Matikiri",
+  "description": "KPop Music Streaming ",
+  "twitter": {
+    "url": "https://twitter.com/matikiri_net",
+    "followers": 1000
+  },
+  "youtube": {
+    "url": "https://youtube.com/@matikirinet",
+    "followers": 1000
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://matikiri.net",
+  "newsletter": "https://matikiri.net",
+  "podcast": "https://matikiri.net",
+  "writing": "https://matikiri.net/sitemap.xml",
+  "tags": [
+    "kpop",
+    "music",
+    "streaming"
+  ],
+  "currentProject": {
+    "name": "Matikiri",
+    "description": "KPop Music Streaming ",
+    "link": "https://matikiri.net",
+    "tags": [
+      "music",
+      "streaming",
+      "entertainment"
+    ]
+  }
+}
