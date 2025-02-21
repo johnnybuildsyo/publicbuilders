@@ -1,0 +1,38 @@
+{
+  "name": "Umar Alfaruq",
+  "description": "Blogger",
+  "twitter": {
+    "url": "https://twitter.com/matikiri.net",
+    "followers": 91
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://matikiri.net",
+  "tags": [
+    "blogger"
+  ],
+  "currentProject": {
+    "name": "Matikiri",
+    "description": "Blogger",
+    "link": "https://onee.page/matikiri",
+    "tags": [
+      "blogger"
+    ]
+  }
+}
