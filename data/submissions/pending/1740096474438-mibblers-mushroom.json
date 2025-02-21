@@ -1,0 +1,38 @@
+{
+  "name": "Mibblers mushroom",
+  "description": "magic mushroom chocolate online",
+  "twitter": {
+    "handle": ""
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://mibblersmushroom.org",
+  "tags": [
+    "magic mushroom chocolate"
+  ],
+  "currentProject": {
+    "name": "Mibblers ",
+    "description": "mushroom chocolate for sale at a very affordable price",
+    "link": "https://mibblersmushroom.org",
+    "tags": [
+      "mibblers",
+      "mibblers mushroom"
+    ]
+  }
+}
