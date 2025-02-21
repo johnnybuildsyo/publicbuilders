@@ -1,0 +1,42 @@
+{
+  "name": "leo",
+  "description": "Indie developer by night/weekends.",
+  "twitter": {
+    "handle": ""
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "url": "https://bsky.app/profile/laiew.bsky.social",
+    "followers": 2500
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://www.bskyinfo.com",
+  "tags": [
+    "bluskey",
+    "directory",
+    "social",
+    "development"
+  ],
+  "currentProject": {
+    "name": "Bskyinfo",
+    "description": "The Most\nComprehensive\nBluesky Tools Directory",
+    "link": "https://www.bskyinfo.com/",
+    "tags": [
+      "social media",
+      "bluesky"
+    ]
+  }
+}
