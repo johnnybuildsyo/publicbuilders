@@ -1,0 +1,41 @@
+{
+  "name": "pnghq",
+  "description": "Download free transparent png images",
+  "twitter": {
+    "handle": ""
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://pnghq.com",
+  "tags": [
+    "png",
+    "image",
+    "transparent png"
+  ],
+  "currentProject": {
+    "name": "pnghq",
+    "description": "Download free transparent png images",
+    "link": "https://pnghq.com",
+    "tags": [
+      "png",
+      "image",
+      "transparent png"
+    ]
+  }
+}
