@@ -1,0 +1,38 @@
+{
+  "name": "aircooler",
+  "description": "AirCoolerFactory delivers professional-grade industrial air cooling solutions in medium to extra-large capacities. Our cooling systems are specifically designed for various commercial and industrial applications, including manufacturing facilities, factory floors, outdoor venues, retail spaces, and parking structures.",
+  "twitter": {
+    "handle": ""
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://www.aircoolerfactory.com",
+  "tags": [
+    "evvaporative cooling",
+    "swamp cooler"
+  ],
+  "currentProject": {
+    "name": "industrial air cooler",
+    "description": "medium, large, and extra-large industrial air coolers, perfect for workshops, factories, outdoor spaces, commercial centers, and parking facilities.",
+    "link": "https://www.aircoolerfactory.com/products/industrial-air-cooler",
+    "tags": [
+      "industrial cooler"
+    ]
+  }
+}
