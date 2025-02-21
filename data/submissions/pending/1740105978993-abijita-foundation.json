@@ -1,0 +1,44 @@
+{
+  "name": "Abijita Foundation",
+  "description": "Abijita.com is a premier destination for cybersecurity news, analysis, vulnerabilities, exploits, internet defense, breaking news and events.\n",
+  "twitter": {
+    "url": "https://twitter.com/OfficialAbijita",
+    "followers": 3223
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://www.abijita.com",
+  "newsletter": "https://www.abijita.com/feed/gn",
+  "podcast": "https://www.abijita.com/feed/gn",
+  "writing": "https://www.abijita.com/feed/gn",
+  "tags": [
+    "abijita",
+    "cybersecurity",
+    "news",
+    "updates"
+  ],
+  "currentProject": {
+    "name": "Abijita Foundation",
+    "description": "Abijita.com is a premier destination for cybersecurity news, analysis, vulnerabilities, exploits, internet defense, breaking news and events.",
+    "link": "https://www.abijita.com",
+    "tags": [
+      "cybersecurity"
+    ]
+  }
+}
