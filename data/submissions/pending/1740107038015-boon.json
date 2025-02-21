@@ -1,0 +1,48 @@
+{
+  "name": "Boon",
+  "description": "20+ yrs exp. Indie founder now, again. Posts #buildinpublic for my indie products and related tech thoughts",
+  "twitter": {
+    "url": "https://twitter.com/hboon",
+    "followers": 560
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "url": "https://github.com/hboon",
+    "followers": 700
+  },
+  "bluesky": {
+    "url": "https://bsky.app/profile/hboon.com",
+    "followers": 1920
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://hboon.com/",
+  "newsletter": "https://docs.google.com/forms/d/e/1FAIpQLSfH3A_gOfb7ebHUx_-dYyYxAT6ciRXDfv68MW7FQvgyC2lIsQ/viewform?usp=sf_link",
+  "writing": "https://hboon.com/feed.xml",
+  "tags": [
+    "indie",
+    "developer",
+    "typescript",
+    "web"
+  ],
+  "currentProject": {
+    "name": "TheBlue.social",
+    "description": "Tools for Bluesky",
+    "link": "https://theblue.social",
+    "tags": [
+      "analytics",
+      "post scheduling",
+      "following management",
+      "starter packs"
+    ]
+  }
+}
