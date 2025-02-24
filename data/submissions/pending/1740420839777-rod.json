@@ -1,0 +1,41 @@
+{
+  "name": "Rod",
+  "description": "I'm Rod, building a collection of startups in public but my main focus is JobBoardSearch.com which passed $60K in revenue",
+  "twitter": {
+    "url": "https://twitter.com/rrmdp",
+    "followers": 9300
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "url": "https://jobboardsearch.eo.page/jobboardfounders",
+    "followers": 1550
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://jobboardsearch.com/",
+  "newsletter": "https://jobboardsearch.eo.page/jobboardfounders",
+  "tags": [
+    "job board owners"
+  ],
+  "currentProject": {
+    "name": "JobBoardSearch 🔎",
+    "description": "Meta directory of job boards",
+    "link": "https://jobboardsearch.com/",
+    "tags": [
+      "job boards",
+      "directory"
+    ]
+  }
+}
