@@ -1,0 +1,45 @@
+{
+  "name": "markhoma",
+  "description": "Independent developer. Founder of placecard.us. Creating digital tools to simplify event planning. Passionate about solving real-world problems through technology.",
+  "twitter": {
+    "url": "https://twitter.com/mark_homaa",
+    "followers": 300
+  },
+  "youtube": {
+    "url": "https://youtube.com/@placecard_us",
+    "followers": 5
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "url": "https://github.com/placecardus",
+    "followers": 100
+  },
+  "bluesky": {
+    "handle": "",
+    "followers": 3
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://placecard.us",
+  "tags": [
+    "place card template",
+    "place card maker",
+    "printable place card templates"
+  ],
+  "currentProject": {
+    "name": "Place Card Maker",
+    "description": "A fast, easy and free printable place card maker,Design beautiful place cards in minutes with our free, user-friendly maker. Choose from 100+ customizable place cards templates, including options for meal choices. Perfect for weddings, holidays, and special events. Compatible with Microsoft Word for easy editing and printing.",
+    "link": "https://placecard.us",
+    "tags": [
+      "place card template",
+      "place card maker",
+      "printable place card templates"
+    ]
+  }
+}
