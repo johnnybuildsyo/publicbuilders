@@ -1,0 +1,42 @@
+{
+  "name": "Sven",
+  "description": "We publish our development plans on this website https://swads.app/en/roadmap",
+  "twitter": {
+    "url": "https://twitter.com/shensven2016",
+    "followers": 99
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "url": "https://github.com/shensven",
+    "followers": 193
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://github.com/shensven",
+  "tags": [
+    "software engineer"
+  ],
+  "currentProject": {
+    "name": "Swads",
+    "description": "Synology Download Station Client, modern, native, and intuitively redesign.",
+    "link": "https://swads.app",
+    "tags": [
+      "ios",
+      "macos",
+      "download station",
+      "native app"
+    ]
+  }
+}
