@@ -1,0 +1,49 @@
+{
+  "name": "Andreas Christodoulou",
+  "description": "Entrepreneur",
+  "twitter": {
+    "url": "https://x.com/_andreascy",
+    "followers": 2212
+  },
+  "youtube": {
+    "url": "https://www.youtube.com/AndreasChristodoulou",
+    "followers": 45
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "url": "https://github.com/andreaschristodoulou",
+    "followers": 1812
+  },
+  "bluesky": {
+    "url": "https://bsky.app/profile/andreascy.bsky.social",
+    "followers": 22
+  },
+  "reddit": {
+    "url": "https://www.reddit.com/user/andreascy",
+    "followers": 1
+  },
+  "producthunt": {
+    "url": "https://www.producthunt.com/@andreascy",
+    "followers": 600
+  },
+  "website": "http://www.andreascy.com",
+  "newsletter": "https://eepurl.com/irVwk",
+  "podcast": "https://www.podchaser.com/creators/andreas-christodoulou-107tjUxHoi",
+  "writing": "https://feeder.co/discover/51d420b31c/officialandreascy-blogspot-com",
+  "tags": [
+    "business",
+    "tech",
+    "digital marketing"
+  ],
+  "currentProject": {
+    "name": "THE OFFICIAL ANDREASCY",
+    "description": "Your gateway to news that matter from across the globe. Be in the know.",
+    "link": "https://officialandreascy.blogspot.com",
+    "tags": [
+      "news",
+      "media"
+    ]
+  }
+}
