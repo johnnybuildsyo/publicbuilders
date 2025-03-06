@@ -1,0 +1,43 @@
+{
+  "name": "BuildPC",
+  "description": "Building a PC can be exciting, but it also comes with challenges—choosing compatible parts, avoiding bottlenecks, and staying within budget. That’s where BuildPC comes in. Whether you're assembling a high-end gaming rig, a workstation for professional tasks, or a simple home office setup, BuildPC makes the process effortless.\n\n",
+  "twitter": {
+    "handle": ""
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://buildpc.net/",
+  "tags": [
+    "pc",
+    "tech",
+    "parts",
+    "gaming"
+  ],
+  "currentProject": {
+    "name": "BuildPC",
+    "description": "Building a PC can be exciting, but it also comes with challenges—choosing compatible parts, avoiding bottlenecks, and staying within budget. That’s where BuildPC comes in. Whether you're assembling a high-end gaming rig, a workstation for professional tasks, or a simple home office setup, BuildPC makes the process effortless.\n\n",
+    "link": "https://buildpc.net/",
+    "tags": [
+      "pc",
+      "tech",
+      "parts",
+      "gaming"
+    ]
+  }
+}
