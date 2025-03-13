@@ -1,0 +1,39 @@
+{
+  "name": "Tom",
+  "description": "Aspiring successfully unemployed, sharing learnings with all ",
+  "twitter": {
+    "handle": "",
+    "followers": 0
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "url": "https://bsky.app/profile/tommallett",
+    "followers": 20
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://www.runstronga.com",
+  "tags": [
+    "designer"
+  ],
+  "currentProject": {
+    "name": "Nearest Oyster",
+    "description": "Find your nearest oyster to your city",
+    "link": "https://www.nearestoyster.com",
+    "tags": [
+      "directory"
+    ]
+  }
+}
