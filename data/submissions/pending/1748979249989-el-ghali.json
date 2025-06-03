@@ -1,0 +1,44 @@
+{
+  "name": "El Ghali",
+  "description": "I use my own tool, which I developed to automate and share my journey directly from GitHub.",
+  "twitter": {
+    "url": "https://x.com/ghali_elboukili",
+    "followers": 6
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://builtpublic.com",
+  "tags": [
+    "saas",
+    "engineer",
+    "indiehacker"
+  ],
+  "currentProject": {
+    "name": "BuiltPublic",
+    "description": "BuiltPublic automatically turns GitHub commits into platform-optimized social media posts, helping founders share their progress and grow their audience without much effort.",
+    "link": "https://builtpublic.com",
+    "tags": [
+      "ai",
+      "buildinpublic",
+      "saas",
+      "socialmedia",
+      "github"
+    ]
+  }
+}
