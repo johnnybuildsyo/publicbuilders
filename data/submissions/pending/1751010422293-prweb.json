@@ -1,0 +1,58 @@
+{
+  "name": "PRWeb",
+  "description": "Increase your press release visibility with a reliable network that connects you to media outlets, journalists, and influencers. Submit press release at an affordable price on PRWeb.in for more exposure and better engagement.",
+  "twitter": {
+    "url": "https://x.com/PRWebin",
+    "followers": 7
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "url": "https://bsky.app/profile/niharikajain.bsky.social",
+    "followers": 4
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://www.prweb.in/",
+  "writing": "https://app.prweb.in/rss/latest/",
+  "tags": [
+    "press releases",
+    "pr distribution",
+    "media outreach",
+    "startup marketing",
+    "digital pr",
+    "brand visibility",
+    "public relations",
+    "content marketing",
+    "pr tools",
+    "india startups"
+  ],
+  "currentProject": {
+    "name": "PRWeb",
+    "description": "Increase your press release visibility with a reliable network that connects you to media outlets, journalists, and influencers. Submit press release at an affordable price on PRWeb.in for more exposure and better engagement.",
+    "link": "https://www.prweb.in/",
+    "tags": [
+      "press releases",
+      "pr distribution",
+      "media outreach",
+      "startup marketing",
+      "digital pr",
+      "brand visibility",
+      "public relations",
+      "content marketing",
+      "pr tools",
+      "india startups"
+    ]
+  }
+}
