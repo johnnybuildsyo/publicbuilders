@@ -1,0 +1,40 @@
+{
+  "name": "IconGen",
+  "description": "asdfasd fasdf asdf as",
+  "twitter": {
+    "handle": ""
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://www.icongen.io/",
+  "newsletter": "https://www.icongen.io/",
+  "tags": [
+    "asdf",
+    "asdf asd"
+  ],
+  "currentProject": {
+    "name": "IcongenIO",
+    "description": "f afasdf asdf asdf asd",
+    "link": "https://www.icongen.io/",
+    "tags": [
+      "asdf asd",
+      "asd fasd"
+    ]
+  }
+}
