@@ -1,0 +1,42 @@
+{
+  "name": "Marlon",
+  "description": "...",
+  "twitter": {
+    "url": "https://twitter.com/@marlonmakera",
+    "followers": 1
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://submitsaas.com",
+  "tags": [
+    "AI",
+    "SEO",
+    "Directory Submissions"
+  ],
+  "currentProject": {
+    "name": "SubmitSaaS",
+    "description": "Increase your SaaS visibility by submitting to 100+ directories. Save time, gain high-quality backlinks, and grow your reach with minimal effort.",
+    "link": "https://submitsaas.com",
+    "tags": [
+      "AI",
+      "SEO",
+      "Directory Submissions"
+    ]
+  }
+}
