@@ -1,0 +1,40 @@
+{
+  "name": "Frederik",
+  "description": "...",
+  "twitter": {
+    "url": "https://twitter.com/@allforms_",
+    "followers": 1
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://allforms.io",
+  "tags": [
+    "Collaboration",
+    "workflow"
+  ],
+  "currentProject": {
+    "name": "AllForms",
+    "description": "17 SaaS tools for the price of 1.",
+    "link": "https://allforms.io",
+    "tags": [
+      "Collaboration",
+      "workflow"
+    ]
+  }
+}
