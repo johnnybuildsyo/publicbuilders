@@ -1,0 +1,43 @@
+{
+  "name": "Krzysztof Cichy",
+  "description": "Working on http://launchdirectories.com 🚀\nSharing the journey of building something small but helpful 💡",
+  "twitter": {
+    "url": "https://twitter.com/cichykrzysztof",
+    "followers": 400
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://launchdirectories.com",
+  "tags": [
+    "buildinpublic"
+  ],
+  "currentProject": {
+    "name": "LaunchDirectories.com",
+    "description": "LaunchDirectories is a curated platform listing 80+ startup launch directories, providing key SEO metrics to help founders find the best places to submit their startups. It also offers a paid service to handle submissions, saving time and boosting startup visibility.",
+    "link": "https://launchdirectories.com/",
+    "tags": [
+      "startups",
+      "products",
+      "marketing",
+      "seo",
+      "directories",
+      "backlinks"
+    ]
+  }
+}
