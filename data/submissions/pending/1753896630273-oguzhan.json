@@ -1,0 +1,44 @@
+{
+  "name": "Oguzhan",
+  "description": "ChatMatch is an online video chat platform that allows users to chat with strangers through text or video, without needing to sign up or create a profile. It launched in 2025 and quickly gained attention for its unique idea, connecting two random users in a live, one-on-one conversation. Whether it was through anonymous messaging or webcam based interaction, ChatMatch gave people a way to talk to someone new from anywhere in the world, instantly.",
+  "twitter": {
+    "url": "https://twitter.com/oguzhanbicerr",
+    "followers": 180
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://www.chatmatch.app/",
+  "writing": "https://www.eniyisibudur.com/",
+  "tags": [
+    "video chat",
+    "social networks",
+    "social media",
+    "chat"
+  ],
+  "currentProject": {
+    "name": "ChatMatch",
+    "description": "ChatMatch is an online video chat platform that allows users to chat with strangers through text or video, without needing to sign up or create a profile. It launched in 2025 and quickly gained attention for its unique idea, connecting two random users in a live, one-on-one conversation. Whether it was through anonymous messaging or webcam based interaction, ChatMatch gave people a way to talk to someone new from anywhere in the world, instantly.",
+    "link": "https://www.chatmatch.app/",
+    "tags": [
+      "video chat",
+      "social networks",
+      "social media"
+    ]
+  }
+}
