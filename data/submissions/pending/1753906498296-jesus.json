@@ -1,0 +1,44 @@
+{
+  "name": "Jesus",
+  "description": "...",
+  "twitter": {
+    "url": "https://twitter.com/@submitmatic",
+    "followers": 1
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://appsytools.com/",
+  "tags": [
+    "SaaS",
+    "SaaS Directory",
+    "Productivity Tools",
+    "Productivity"
+  ],
+  "currentProject": {
+    "name": "Appsy Tools",
+    "description": "Appsy Tools offers a variety of software solutions to maximize efficiency.",
+    "link": "https://appsytools.com/",
+    "tags": [
+      "SaaS",
+      "SaaS Directory",
+      "Productivity Tools",
+      "Productivity"
+    ]
+  }
+}
