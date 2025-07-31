@@ -1,0 +1,39 @@
+{
+  "name": "randomchat.today/flingster",
+  "description": "Flingster on RandomChat Today offers an easy way to jump into 1v1 chat and video call sessions with strangers from around the world. No registration is needed. You simply visit, allow camera access if you want, and start chatting instantly. The platform is designed for adults who want spontaneous and unfiltered interactions without complicated settings. Whether you're after a quick conversation or a deeper connection, Flingster-style chatting keeps things simple and exciting.",
+  "twitter": {
+    "handle": ""
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://www.randomchat.today/flingster",
+  "newsletter": "https://www.randomchat.today/1v1",
+  "writing": "https://www.randomchat.today/xmegle",
+  "tags": [
+    "socialmedia"
+  ],
+  "currentProject": {
+    "name": "edwardaintly",
+    "description": "Joingy on RandomChat Today is a simple yet effective platform that connects users in real time through 1v1 chat and video call features. Without needing to sign up or download any apps, you can instantly match with strangers from around the world and enjoy spontaneous conversations. Whether you're looking to make new friends, practice a language, or just break the boredom, Joingy offers an easy way to dive into random video chats. The interface is fast and clean, making each connection smooth and enjoyable. Ideal for those who value privacy, variety, and simplicity in their social interactions.",
+    "link": "https://www.randomchat.today/joingy",
+    "tags": [
+      "socialmedia"
+    ]
+  }
+}
