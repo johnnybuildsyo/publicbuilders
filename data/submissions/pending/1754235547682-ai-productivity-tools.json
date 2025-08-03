@@ -1,0 +1,39 @@
+{
+  "name": "AI Productivity Tools",
+  "description": "A comprehensive directory of AI-powered tools designed to enhance productivity, streamline workflows, and foster creativity.",
+  "twitter": {
+    "handle": ""
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://www.kdjingpai.com/",
+  "tags": [
+    "ai tools",
+    "productivity",
+    "artificial intel"
+  ],
+  "currentProject": {
+    "name": "yang fan",
+    "description": "A curated directory of AIGC tools, featuring the world's best AI art, writing, video, and music generators to unleash creator potential.",
+    "link": "https://aigcsoft.site/",
+    "tags": [
+      "ai tool"
+    ]
+  }
+}
