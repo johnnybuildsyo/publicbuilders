@@ -1,0 +1,38 @@
+{
+  "name": "apis",
+  "description": "I build app and some code :D",
+  "twitter": {
+    "handle": ""
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://discordz.com",
+  "tags": [
+    "nextjs"
+  ],
+  "currentProject": {
+    "name": "Discordz",
+    "description": "Discover, join, and grow with the best Discord servers on our advanced Discord server list. As a top leading Discord server listing platform, Discordz offers powerful features for both users and server owners to connect, engage, and thrive in the Discord community.",
+    "link": "https://discrodz.com",
+    "tags": [
+      "discord server list",
+      "discord server directory"
+    ]
+  }
+}
