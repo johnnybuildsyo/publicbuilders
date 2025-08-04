@@ -1,0 +1,44 @@
+{
+  "name": "ikdream",
+  "description": "nothing!",
+  "twitter": {
+    "handle": ""
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://steal-a-brainrot.org",
+  "tags": [
+    "next.js",
+    "wiki",
+    "guides"
+  ],
+  "currentProject": {
+    "name": "Steal a Brainrot Fan",
+    "description": "Steal a Brainrot Fan serves as a comprehensive, community-driven resource hub for players of the Roblox game \"Steal a Brainrot.\" Its primary purpose is to provide guides, secrets, scripts, and community information in a well-structured, user-friendly, and SEO-optimized format.",
+    "link": "https://steal-a-brainrot.org",
+    "tags": [
+      "wiki",
+      "roblox",
+      "gaming",
+      "community",
+      "guides",
+      "next.js"
+    ]
+  }
+}
