@@ -1,0 +1,43 @@
+{
+  "name": "peter chan",
+  "description": "To become the go-to calculator and strategy platform for \"Grow a Garden\" players, offering precise crop value calculations, pet age analysis, crop comparisons, market insights, and optimization strategies to maximize farming efficiency and crop values.",
+  "twitter": {
+    "handle": ""
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://growagardencalculator.work",
+  "tags": [
+    "next.js",
+    "wiki",
+    "guides"
+  ],
+  "currentProject": {
+    "name": "Grow a Garden Calculator new",
+    "description": "Grow a Garden Calculator new is a comprehensive, professional calculator platform for the Roblox game \"Grow a Garden.\" The site provides advanced crop value calculation tools, pet age analysis, batch comparison features, market analysis, and farming strategy optimization. It is designed to help players maximize their crop values and optimize their farming operations through data-driven decision making and strategic planning.",
+    "link": "https://growagardencalculator.work",
+    "tags": [
+      "calculator",
+      "gaming",
+      "guides",
+      "roblox",
+      "next.js"
+    ]
+  }
+}
