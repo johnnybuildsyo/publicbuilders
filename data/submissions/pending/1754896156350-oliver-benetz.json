@@ -1,0 +1,40 @@
+{
+  "name": "oliver benetz",
+  "description": "Founder",
+  "twitter": {
+    "url": "https://twitter.com/OliverBennettAI",
+    "followers": 6
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://veo3flow.ai/",
+  "tags": [
+    "ai",
+    "ai video generator"
+  ],
+  "currentProject": {
+    "name": "Veo 3 Flow",
+    "description": "Ultimate AI Video Generation Platform\nCreate cinematic films, viral short videos, and professional business content with ease. Harness the power of Veo 3 AI technology to transform any idea into stunning 8K videos.\n\nKey Features:\n\nAI Video Extension – Seamlessly extend existing AI-generated videos to create longer, continuous sequences.\n\nImage-to-Video Animation – Smoothly animate from a start image to an end image, bringing static visuals to life.\n\nWhether you're producing high-end cinematic works, trending social media clips, or engaging business presentations, our platform delivers unmatched quality and creativity.",
+    "link": "https://veo3flow.ai/",
+    "tags": [
+      "ai",
+      "ai video generator"
+    ]
+  }
+}
