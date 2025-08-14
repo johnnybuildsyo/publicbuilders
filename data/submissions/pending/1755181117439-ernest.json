@@ -1,0 +1,37 @@
+{
+  "name": "Ernest",
+  "description": "Ultimate AI Media Generation Platform. WaveSpeedAI accelerates AI Image and Video generation for you to build, create, and scale faster.",
+  "twitter": {
+    "handle": ""
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://wavespeed.ai/",
+  "tags": [
+    "ai"
+  ],
+  "currentProject": {
+    "name": "WavespeedAI",
+    "description": "Ultimate AI Media Generation Platform. WaveSpeedAI accelerates AI Image and Video generation for you to build, create, and scale faster.",
+    "link": "https://wavespeed.ai/",
+    "tags": [
+      "ai"
+    ]
+  }
+}
