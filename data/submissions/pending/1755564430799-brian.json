@@ -1,0 +1,76 @@
+{
+  "name": "Brian",
+  "description": "...",
+  "twitter": {
+    "url": "https://twitter.com/@xbriangi",
+    "followers": 1
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://remakecv.com",
+  "tags": [
+    "AI CV",
+    "resume formatting",
+    "CV formatting",
+    "CV automation",
+    "recruiter tools",
+    "recruitment software",
+    "resume automation",
+    "AI resume",
+    "CV templates",
+    "resume templates",
+    "CV builder",
+    "resume builder",
+    "recruiter software",
+    "CV reformatter",
+    "resume reformatter",
+    "CV standardization",
+    "resume beautifier",
+    "recruitment automation",
+    "job application tools",
+    "ATS integration"
+  ],
+  "currentProject": {
+    "name": "RemakeCV",
+    "description": "RemakeCV is an AI-powered CV formatting tool for recruitment agencies, instantly turning raw resumes into consistent, client-ready templates with zero",
+    "link": "https://remakecv.com",
+    "tags": [
+      "AI CV",
+      "resume formatting",
+      "CV formatting",
+      "CV automation",
+      "recruiter tools",
+      "recruitment software",
+      "resume automation",
+      "AI resume",
+      "CV templates",
+      "resume templates",
+      "CV builder",
+      "resume builder",
+      "recruiter software",
+      "CV reformatter",
+      "resume reformatter",
+      "CV standardization",
+      "resume beautifier",
+      "recruitment automation",
+      "job application tools",
+      "ATS integration"
+    ]
+  }
+}
