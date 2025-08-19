@@ -1,0 +1,60 @@
+{
+  "name": "Dmitri",
+  "description": "...",
+  "twitter": {
+    "url": "https://twitter.com/@damirakyan",
+    "followers": 1
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://www.usecreed.com",
+  "tags": [
+    "AI",
+    "Bible",
+    "Bible Chat",
+    "Bible Reader",
+    "Christian",
+    "Scripture",
+    "Faith",
+    "Prayer",
+    "Spiritual Growth",
+    "Reflection",
+    "Community",
+    "Companion"
+  ],
+  "currentProject": {
+    "name": "Creed: Bible Companion",
+    "description": "Your Christian companion. Anchored in the bible. Built to bring you closer to God and your community instead of into your phone.",
+    "link": "https://www.usecreed.com",
+    "tags": [
+      "AI",
+      "Bible",
+      "Bible Chat",
+      "Bible Reader",
+      "Christian",
+      "Scripture",
+      "Faith",
+      "Prayer",
+      "Spiritual Growth",
+      "Reflection",
+      "Community",
+      "Companion"
+    ]
+  }
+}
