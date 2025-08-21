@@ -1,0 +1,42 @@
+{
+  "name": "Timo",
+  "description": "...",
+  "twitter": {
+    "handle": "",
+    "followers": 1
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://securememo.app",
+  "tags": [
+    "Security",
+    "privacy",
+    "memos"
+  ],
+  "currentProject": {
+    "name": "securememo.app",
+    "description": "Securememo.app is open source memo service with client side encryption/decryption. No accounts, no tracking. Zero password knowledge.",
+    "link": "https://securememo.app",
+    "tags": [
+      "Security",
+      "privacy",
+      "memos"
+    ]
+  }
+}
