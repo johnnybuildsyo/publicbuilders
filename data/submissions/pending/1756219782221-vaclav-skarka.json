@@ -1,0 +1,43 @@
+{
+  "name": "Vaclav Skarka",
+  "description": "Biohacker Builder\nBuilding apps to optimize health, sharing the biohacking experiments and learnings on the way, as well as sharing the experiences, wins and fails of building and distributing products in public.",
+  "twitter": {
+    "url": "https://twitter.com/@ysquanir",
+    "followers": 718
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://www.vaclavskarka.blog",
+  "tags": [
+    "biohacking",
+    "health",
+    "build in public"
+  ],
+  "currentProject": {
+    "name": "Health3",
+    "description": "Turn biomarker lab results into actionable insights.",
+    "link": "https://health3.app",
+    "tags": [
+      "health",
+      "mobile app",
+      "lab results",
+      "biomarkers"
+    ]
+  }
+}
