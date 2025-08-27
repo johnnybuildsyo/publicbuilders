@@ -1,0 +1,39 @@
+{
+  "name": "Dazui",
+  "description": "My boss disappeared with 28 months of unpaid salary.\nSo I started working for myself — building AI-powered tools based on metaphysics.\n👇",
+  "twitter": {
+    "url": "https://twitter.com/incubus",
+    "followers": 1559
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "url": "https://github.com/imdazui",
+    "followers": -2
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://jiangxin.info/",
+  "tags": [
+    "vibe coding"
+  ],
+  "currentProject": {
+    "name": "AI Hexagram",
+    "description": "Integrating the wisdom of the I Ching 64 Hexagrams and modern AI technology, providing deep insights for your decisions.",
+    "link": "https://gua.time.actor",
+    "tags": [
+      "i ching"
+    ]
+  }
+}
