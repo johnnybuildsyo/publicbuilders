@@ -1,0 +1,83 @@
+{
+  "name": "DeepTap",
+  "description": "DeepTap — Professional Deep‑Linking Simplified\nDeepTap helps developers create seamless deep linking experiences  in mobile applications. With easy setup, smart routing, and enterprise-grade reliability, it ensures users land exactly where they should—boosting engagement, reducing drop-offs, supporting advanced analytics, and custom domains.\n\n",
+  "twitter": {
+    "handle": ""
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://deeptap.io",
+  "tags": [
+    "deep linking'",
+    "'universal links'",
+    "'app links'",
+    "'ios universal links'",
+    "'android app links'",
+    "'mobile deep linking'",
+    "'app-to-web linking'",
+    "'deep link analytics'",
+    "'mobile app integration'",
+    "'custom url schemes'",
+    "'app store optimization'",
+    "'mobile marketing'",
+    "'user acquisition'",
+    "'app engagement'",
+    "'cross-platform linking'",
+    "'mobile attribution'",
+    "'link tracking'",
+    "'app install attribution'",
+    "'seamless user experience'",
+    "'mobile app development'",
+    "'deep link platform'",
+    "'mobile analytics'",
+    "'app performance'",
+    "'user retention'"
+  ],
+  "currentProject": {
+    "name": "Dmitry Koubek",
+    "description": "DeepTap — Professional Deep‑Linking Simplified\nDeepTap helps developers create seamless deep linking experiences  in mobile applications. With easy setup, smart routing, and enterprise-grade reliability, it ensures users land exactly where they should—boosting engagement, reducing drop-offs, supporting advanced analytics, and custom domains.\n\n",
+    "link": "https://deeptap.io",
+    "tags": [
+      "deep linking'",
+      "'universal links'",
+      "'app links'",
+      "'ios universal links'",
+      "'android app links'",
+      "'mobile deep linking'",
+      "'app-to-web linking'",
+      "'deep link analytics'",
+      "'mobile app integration'",
+      "'custom url schemes'",
+      "'app store optimization'",
+      "'mobile marketing'",
+      "'user acquisition'",
+      "'app engagement'",
+      "'cross-platform linking'",
+      "'mobile attribution'",
+      "'link tracking'",
+      "'app install attribution'",
+      "'seamless user experience'",
+      "'mobile app development'",
+      "'deep link platform'",
+      "'mobile analytics'",
+      "'app performance'",
+      "'user retention'"
+    ]
+  }
+}
