@@ -1,0 +1,49 @@
+{
+  "name": "Frame0",
+  "description": "Do you have big ideas but don’t want to wrestle with clunky wireframing software? Frame0 is a sleek Balsamiq-alternative wireframing tool for modern apps, built for speed and simplicity,\n that lets you sketch app prototypes in minutes with a crisp, hand-drawn look.\n\n",
+  "twitter": {
+    "handle": ""
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://frame0.app/",
+  "tags": [
+    "wireframe",
+    "balsamiq",
+    "design",
+    "ux",
+    "ui",
+    "prototype",
+    "figma"
+  ],
+  "currentProject": {
+    "name": "Minkyu Lee",
+    "description": "Do you have big ideas but don’t want to wrestle with clunky wireframing software? Frame0 is a sleek Balsamiq-alternative wireframing tool for modern apps, built for speed and simplicity,\n that lets you sketch app prototypes in minutes with a crisp, hand-drawn look.\n\n",
+    "link": "https://frame0.app/",
+    "tags": [
+      "wireframe",
+      "balsamiq",
+      "design",
+      "ux",
+      "ui",
+      "prototype",
+      "figma"
+    ]
+  }
+}
