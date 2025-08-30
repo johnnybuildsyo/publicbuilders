@@ -1,0 +1,43 @@
+{
+  "name": "X-Faces",
+  "description": "X-faces is an AI platform for identity verification, fraud prevention, and behavioural analytics purpose-built for the iGaming industry.\nWe combine KYC, anti-fraud tools, and real-time behavioural scoring in a single, fully integrated solution. Designed for speed, flexibility, \nand ease of use, X-faces enables online platforms to onboard users faster, detect fraud more effectively, and gain deeper insight into player behaviour.\nDeveloped in response to operator feedback around high costs and limited functionality, X-faces offers a faster, smarter, and more adaptable alternative.\n",
+  "twitter": {
+    "handle": ""
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://x-faces.org/",
+  "tags": [
+    "kyc",
+    "fraud",
+    "user verification",
+    "gambling verification tool"
+  ],
+  "currentProject": {
+    "name": "Aleksey Armach",
+    "description": "X-faces is an AI platform for identity verification, fraud prevention, and behavioural analytics purpose-built for the iGaming industry.\nWe combine KYC, anti-fraud tools, and real-time behavioural scoring in a single, fully integrated solution. Designed for speed, flexibility, \nand ease of use, X-faces enables online platforms to onboard users faster, detect fraud more effectively, and gain deeper insight into player behaviour.\nDeveloped in response to operator feedback around high costs and limited functionality, X-faces offers a faster, smarter, and more adaptable alternative.\n",
+    "link": "https://x-faces.org/",
+    "tags": [
+      "kyc",
+      "fraud",
+      "user verification",
+      "gambling verification tool"
+    ]
+  }
+}
