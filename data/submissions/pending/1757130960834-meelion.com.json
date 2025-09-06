@@ -1,0 +1,45 @@
+{
+  "name": "Meelion.com",
+  "description": "Meelion is a Brazilian technology financial market place \ndesigned to help users compare fixed income investments with transparency\n and ease. By aggregating net return data from various banks and financial institutions, Meelion enables investors to see where their money earns the most, optimizing their investment decisions. The platform focuses on providing clear, comparative insights into the profitability of different fixed income products, empowering users to maximize their earnings. With a user-friendly interface and real-time data updates, Meelion simplifies the complex landscape of fixed income investments, making it accessible for both novice and experienced investors. Its core value lies in enhancing financial literacy and helping users make informed choices based on net returns rather than just nominal rates, ensuring a more accurate understanding of investment profitability.\n",
+  "twitter": {
+    "handle": ""
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://www.meelion.com",
+  "tags": [
+    "fintech",
+    "wealthtech",
+    "financial",
+    "startup",
+    "fixed incomed"
+  ],
+  "currentProject": {
+    "name": "Meelion.com",
+    "description": "Meelion is a Brazilian technology financial market place \ndesigned to help users compare fixed income investments with transparency\n and ease. By aggregating net return data from various banks and financial institutions, Meelion enables investors to see where their money earns the most, optimizing their investment decisions. The platform focuses on providing clear, comparative insights into the profitability of different fixed income products, empowering users to maximize their earnings. With a user-friendly interface and real-time data updates, Meelion simplifies the complex landscape of fixed income investments, making it accessible for both novice and experienced investors. Its core value lies in enhancing financial literacy and helping users make informed choices based on net returns rather than just nominal rates, ensuring a more accurate understanding of investment profitability.\n",
+    "link": "https://www.meelion.com",
+    "tags": [
+      "fintech",
+      "wealthtech",
+      "financial",
+      "startup",
+      "fixed incomed"
+    ]
+  }
+}
