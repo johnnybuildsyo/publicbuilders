@@ -1,0 +1,85 @@
+{
+  "name": "Trust Vault",
+  "description": "Trust Vault is a modern, open-source solution for securing your most sensitive data. It allows individuals and teams to encrypt, store, and share files inside secure containers, ensuring that private information always remains under your control.\nBuilt on AES-256 encryption, HMAC integrity checks, and Shamir’s Secret Sharing, Trust Vault combines proven cryptography with a simple user experience. Whether you want to protect personal files, business documents, or collaborative projects, the app gives you a reliable layer of security without unnecessary complexity.\nKey advantages:\n • Military-grade encryption (AES-256) for all stored data\n • Cross-platform support (Windows, macOS, Linux, with mobile planned)\n • Open-source transparency – the code is public and auditable by the community\n • Flexible access – unlock vaults with a password, master token, or shared secret keys\n • Privacy-first design – no hidden data collection, your files never leave your device unless you decide to share them\n • Future-proof roadmap – plugins, Obsidian integration, and a coming cloud version with subscription support\nWith Trust Vault, you no longer have to choose between security and usability. It’s designed to be as easy as a regular file manager, but with the full power of enterprise-grade cryptography behind the scenes.\nWhether you are an individual who wants peace of mind, or a startup looking for a reliable data protection tool, Trust Vault makes strong encryption accessible to everyone.\n",
+  "twitter": {
+    "handle": ""
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://tvault.app/",
+  "tags": [
+    "encryption",
+    "file security",
+    "data protection",
+    "privacy",
+    "open source",
+    "aes-256",
+    "secure storage",
+    "cross platform",
+    "secure file sharing",
+    "zero knowledge",
+    "data privacy",
+    "productivity",
+    "cybersecurity",
+    "passwordless access",
+    "secret sharing",
+    "file vault",
+    "secure cloud",
+    "information security",
+    "end-to-end encryption",
+    "secure collaboration",
+    "shamir",
+    "crypto",
+    "sss",
+    "security container",
+    "decryption"
+  ],
+  "currentProject": {
+    "name": "Trust Vault",
+    "description": "Trust Vault is a modern, open-source solution for securing your most sensitive data. It allows individuals and teams to encrypt, store, and share files inside secure containers, ensuring that private information always remains under your control.\nBuilt on AES-256 encryption, HMAC integrity checks, and Shamir’s Secret Sharing, Trust Vault combines proven cryptography with a simple user experience. Whether you want to protect personal files, business documents, or collaborative projects, the app gives you a reliable layer of security without unnecessary complexity.\nKey advantages:\n • Military-grade encryption (AES-256) for all stored data\n • Cross-platform support (Windows, macOS, Linux, with mobile planned)\n • Open-source transparency – the code is public and auditable by the community\n • Flexible access – unlock vaults with a password, master token, or shared secret keys\n • Privacy-first design – no hidden data collection, your files never leave your device unless you decide to share them\n • Future-proof roadmap – plugins, Obsidian integration, and a coming cloud version with subscription support\nWith Trust Vault, you no longer have to choose between security and usability. It’s designed to be as easy as a regular file manager, but with the full power of enterprise-grade cryptography behind the scenes.\nWhether you are an individual who wants peace of mind, or a startup looking for a reliable data protection tool, Trust Vault makes strong encryption accessible to everyone.\n",
+    "link": "https://tvault.app/",
+    "tags": [
+      "encryption",
+      "file security",
+      "data protection",
+      "privacy",
+      "open source",
+      "aes-256",
+      "secure storage",
+      "cross platform",
+      "secure file sharing",
+      "zero knowledge",
+      "data privacy",
+      "productivity",
+      "cybersecurity",
+      "passwordless access",
+      "secret sharing",
+      "file vault",
+      "secure cloud",
+      "information security",
+      "end-to-end encryption",
+      "secure collaboration",
+      "shamir",
+      "crypto",
+      "sss",
+      "security container",
+      "decryption"
+    ]
+  }
+}
