@@ -1,0 +1,57 @@
+{
+  "name": "PrompTessor",
+  "description": "PrompTessor is an AI prompt analysis and optimization tool designed to help users unlock the full potential of AI. It provides smart prompt analysis, expert feedback, and prompt improvements to enhance AI outputs. The platform evaluates, improves, and optimizes AI prompts, offering actionable feedback and optimized suggestions to craft better prompts for various AI systems, including ChatGPT and LLMs.\n",
+  "twitter": {
+    "handle": ""
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://promptessor.com",
+  "tags": [
+    "ai prompt optimization",
+    "prompts",
+    "llm prompts",
+    "prompt engineering",
+    "ai prompt analyzer",
+    "ai optimization",
+    "chatgpt prompts",
+    "ai tools",
+    "prompt analysis",
+    "prompt optimization",
+    "prompt quality"
+  ],
+  "currentProject": {
+    "name": "PrompTessor",
+    "description": "PrompTessor is an AI prompt analysis and optimization tool designed to help users unlock the full potential of AI. It provides smart prompt analysis, expert feedback, and prompt improvements to enhance AI outputs. The platform evaluates, improves, and optimizes AI prompts, offering actionable feedback and optimized suggestions to craft better prompts for various AI systems, including ChatGPT and LLMs.\n",
+    "link": "https://promptessor.com",
+    "tags": [
+      "ai prompt optimization",
+      "prompts",
+      "llm prompts",
+      "prompt engineering",
+      "ai prompt analyzer",
+      "ai optimization",
+      "chatgpt prompts",
+      "ai tools",
+      "prompt analysis",
+      "prompt optimization",
+      "prompt quality"
+    ]
+  }
+}
