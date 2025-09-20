@@ -1,0 +1,43 @@
+{
+  "name": "Bearconnect ",
+  "description": "Bearconnect is a top-tier LinkedIn automation tool ideal for sales teams and agencies. Automate connection requests, follow-ups, drip campaigns, and content scheduling to streamline your outreach and grow your network effortlessly in one unified dashboard.",
+  "twitter": {
+    "url": "https://x.com/Bearconnectio",
+    "followers": 200
+  },
+  "youtube": {
+    "url": "https://www.youtube.com/@Bearconnect/",
+    "followers": 200
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "url": "https://github.com/bearconnect-io",
+    "followers": 10
+  },
+  "bluesky": {
+    "url": "https://bsky.app/profile/bearconnect.bsky.social",
+    "followers": 10
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://bearconnect.io/",
+  "tags": [
+    "linkedin automation tool",
+    "sales automation tool",
+    "ai linkedin automation tool"
+  ],
+  "currentProject": {
+    "name": "Bearconnect",
+    "description": "Bearconnect is a top-tier LinkedIn automation tool ideal for sales teams and agencies. Automate connection requests, follow-ups, drip campaigns, and content scheduling to streamline your outreach and grow your network effortlessly in one unified dashboard.",
+    "link": "https://bearconnect.io/",
+    "tags": [
+      "linkedin automation tool"
+    ]
+  }
+}
