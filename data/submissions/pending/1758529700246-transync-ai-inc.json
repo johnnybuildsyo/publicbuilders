@@ -1,0 +1,43 @@
+{
+  "name": "Transync AI Inc",
+  "description": "Transync AI – Seamless Dual-Screen Translation for Cross-Language Communication\nPowered by cutting-edge end-to-end speech AI models,",
+  "twitter": {
+    "handle": ""
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://www.transyncai.com",
+  "tags": [
+    "translation",
+    "real-time translation",
+    "voice translator",
+    "ai translator",
+    "english",
+    "chinese",
+    "japanese"
+  ],
+  "currentProject": {
+    "name": "Ziyi Gong",
+    "description": "Transync AI – Seamless Dual-Screen Translation for Cross-Language Communication\nPowered by cutting-edge end-to-end speech AI models,",
+    "link": "https://www.transyncai.com",
+    "tags": [
+      "ai app"
+    ]
+  }
+}
