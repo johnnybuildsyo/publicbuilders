@@ -1,0 +1,51 @@
+{
+  "name": "Interactive Avatar",
+  "description": "Interactive Avatar is a freemium platform for interacting with customizable virtual avatars. Key features include: * AI-Powered Expressions: Avatars respond to voice/text input with facial expressions and lip-syncing abilities. * Context-Driven Gestures: Avatars use appropriate gestures based on the context. * ReadyPlayerMe, PlayerZero and Avaturn avatar integration. * Support for full-body animations using Mixamo files. * Customizable script providing access to all options, methods and events.",
+  "twitter": {
+    "handle": ""
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://interactiveavatar.co.uk/",
+  "tags": [
+    "3d avatars",
+    "readyplayerme",
+    "avaturn",
+    "playerzero",
+    "interactive avatars",
+    "ai chat",
+    "virtual characters",
+    "metaverse"
+  ],
+  "currentProject": {
+    "name": "Paul Wilson",
+    "description": "Interactive Avatar is a freemium platform for interacting with customizable virtual avatars. Key features include: * AI-Powered Expressions: Avatars respond to voice/text input with facial expressions and lip-syncing abilities. * Context-Driven Gestures: Avatars use appropriate gestures based on the context. * ReadyPlayerMe, PlayerZero and Avaturn avatar integration. * Support for full-body animations using Mixamo files. * Customizable script providing access to all options, methods and events.",
+    "link": "https://interactiveavatar.co.uk/",
+    "tags": [
+      "3d avatars",
+      "readyplayerme",
+      "avaturn",
+      "playerzero",
+      "interactive avatars",
+      "ai chat",
+      "virtual characters",
+      "metaverse"
+    ]
+  }
+}
