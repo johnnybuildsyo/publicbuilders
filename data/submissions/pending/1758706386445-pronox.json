@@ -1,0 +1,49 @@
+{
+  "name": "Pronox",
+  "description": "Pronox is a free betting game for earn real money.\n\nYou complete 1X2 grids and exact score grids.\n\nIf you won all correct fixtures you won jackpot.",
+  "twitter": {
+    "handle": ""
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://play.google.com/store/apps/details?id=com.pronox.apk",
+  "tags": [
+    "soccer",
+    "betting",
+    "sport",
+    "casino",
+    "game",
+    "bet",
+    "football"
+  ],
+  "currentProject": {
+    "name": "Pronox",
+    "description": "Pronox is a free betting game for earn real money.\n\nYou complete 1X2 grids and exact score grids.\n\nIf you won all correct fixtures you won jackpot.",
+    "link": "https://play.google.com/store/apps/details?id=com.pronox.apk",
+    "tags": [
+      "soccer",
+      "betting",
+      "sport",
+      "casino",
+      "game",
+      "bet",
+      "football"
+    ]
+  }
+}
