@@ -1,0 +1,50 @@
+{
+  "name": "Verse Technology",
+  "description": "Fito is a gamified fitness tracker and your workout buddy, in the form of a cute little bear.\n• Set exercise goals (like working out 3 days a week or running 100km a month), and Fito will automatically track your streak. If you encounter situations like your period, illness, or travel, you can use the Streak Shield to protect it.\n• Record your workouts in 3 ways: 1. Automatically sync data from Apple Watch and other fitness trackers. 2. Use Fito to record over 80 types of exercises. 3. If you forget to log a workout or your watch has a low battery, you can manually add entries in Fito.\n• Supports GPS tracking for cycling and running, and generates 3D route videos.\n• Supports over 300 gym routines to help you view and record your exercises.",
+  "twitter": {
+    "handle": ""
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://getfitoapp.com",
+  "tags": [
+    "fitness",
+    "workout",
+    "gym",
+    "exercise",
+    "tracker",
+    "streak",
+    "widgets",
+    "home screen"
+  ],
+  "currentProject": {
+    "name": "Yingteng Liu",
+    "description": "Fito is a gamified fitness tracker and your workout buddy, in the form of a cute little bear.\n• Set exercise goals (like working out 3 days a week or running 100km a month), and Fito will automatically track your streak. If you encounter situations like your period, illness, or travel, you can use the Streak Shield to protect it.\n• Record your workouts in 3 ways: 1. Automatically sync data from Apple Watch and other fitness trackers. 2. Use Fito to record over 80 types of exercises. 3. If you forget to log a workout or your watch has a low battery, you can manually add entries in Fito.\n• Supports GPS tracking for cycling and running, and generates 3D route videos.\n• Supports over 300 gym routines to help you view and record your exercises.",
+    "link": "https://getfitoapp.com",
+    "tags": [
+      "fitness",
+      "workout",
+      "gym",
+      "exercise",
+      "tracker",
+      "streak",
+      "widgets"
+    ]
+  }
+}
