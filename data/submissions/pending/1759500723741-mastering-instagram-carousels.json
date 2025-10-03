@@ -1,0 +1,38 @@
+{
+  "name": "mastering instagram carousels",
+  "description": "Mastering Instagram Carousels is your go-to guide for creating swipe-worthy content that captures attention, drives engagement, and boosts growth. In a feed full of noise, carousels stand out as one of the most powerful formats to tell stories, educate, and convert. This resource breaks down the strategy behind high-performing carousel posts—from hook design and slide sequencing to captions, call-to-actions, and visual flow. Whether you're a creator, brand, or marketer, you'll learn how to turn simple ideas into scroll-stopping content that keeps your audience swiping—and coming back for more.",
+  "twitter": {
+    "handle": ""
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://postunreel.com/blog/instagram-carousel",
+  "tags": [
+    "instagramcarouselscontentcreationsocialmediatipsinstagrammarketing."
+  ],
+  "currentProject": {
+    "name": "postunreel",
+    "description": "Postunreel is an AI tool that helps you easily create customized carousel posts for social media. Simply input a topic, and it generates on-brand designs with engaging visuals and copy. No design skills needed! You can personalize carousels, download them in PDF or PNG, and get support via email or live chat. Currently free during beta.",
+    "link": "https://postunreel.com/",
+    "tags": [
+      "ai",
+      "aitool"
+    ]
+  }
+}
