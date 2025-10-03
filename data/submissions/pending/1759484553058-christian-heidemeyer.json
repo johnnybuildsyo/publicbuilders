@@ -1,0 +1,51 @@
+{
+  "name": "Christian Heidemeyer",
+  "description": "Echometer is an online retrospective software tool and One-on-One Meeting software. It is the smartest way for busy IT Team Leads & Engineering Managers to improve their team’s delivery via interactive psychology-based retrospectives, 1:1 meetings, Health Checks and action tracking on autopilot.",
+  "twitter": {
+    "handle": ""
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://echometerapp.com",
+  "tags": [
+    "#retrospective",
+    "#scrum",
+    "#agile",
+    "#continuousimprovement #retrospectivesoftware",
+    "#retrospectivetool",
+    "#1on1meetingsoftware",
+    "#peopledevelopmentsoftware",
+    "#employeecoachingsoftware"
+  ],
+  "currentProject": {
+    "name": "Echometer",
+    "description": "Echometer is an online retrospective software tool and One-on-One Meeting software. It is the smartest way for busy IT Team Leads & Engineering Managers to improve their team’s delivery via interactive psychology-based retrospectives, 1:1 meetings, Health Checks and action tracking on autopilot.",
+    "link": "https://echometerapp.com",
+    "tags": [
+      "#retrospective",
+      "#scrum",
+      "#agile",
+      "#continuousimprovement #retrospectivesoftware",
+      "#retrospectivetool",
+      "#1on1meetingsoftware",
+      "#peopledevelopmentsoftware",
+      "#employeecoachingsoftware"
+    ]
+  }
+}
