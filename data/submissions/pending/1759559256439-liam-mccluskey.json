@@ -1,0 +1,45 @@
+{
+  "name": "Liam Mccluskey",
+  "description": "Code Jabba is a job board for software engineers. For candidates, it provides 10+ job search filters including coding language, skill/framework, salary and more. It also provides notifications for updates to job application statuses.\nFor recruiters, Code Jabba offers unlimited job posts with a seamless application review pipeline including the ability to send instant notifications to candidates about application status updates.",
+  "twitter": {
+    "handle": ""
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://codejabba.com",
+  "tags": [
+    "software engineering jobs",
+    "developer job board",
+    "tech recruitment platform",
+    "find coding jobs",
+    "hire software engineers"
+  ],
+  "currentProject": {
+    "name": "Liam Mccluskey",
+    "description": "Code Jabba is a job board for software engineers. For candidates, it provides 10+ job search filters including coding language, skill/framework, salary and more. It also provides notifications for updates to job application statuses.\nFor recruiters, Code Jabba offers unlimited job posts with a seamless application review pipeline including the ability to send instant notifications to candidates about application status updates.",
+    "link": "https://codejabba.com",
+    "tags": [
+      "software engineering jobs",
+      "developer job board",
+      "tech recruitment platform",
+      "find coding jobs",
+      "hire software engineers"
+    ]
+  }
+}
