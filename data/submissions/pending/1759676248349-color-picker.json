@@ -1,0 +1,50 @@
+{
+  "name": "Color Picker",
+  "description": "An intuitive color picker for selecting colors, shades from any image or screen, creating smooth gradients, and generating HEX, RGB, and HSL color codes.",
+  "twitter": {
+    "handle": ""
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://colorspicker.net",
+  "tags": [
+    "color picker",
+    "image color picker",
+    "color palette",
+    "color palette generator",
+    "html color codes",
+    "hex color",
+    "rgb to hex",
+    "color wheel",
+    "color combinations",
+    "color converter"
+  ],
+  "currentProject": {
+    "name": "Color Picker",
+    "description": "An intuitive color picker for selecting colors, shades from any image or screen, creating smooth gradients, and generating HEX, RGB, and HSL color codes.",
+    "link": "https://colorspicker.net",
+    "tags": [
+      "color picker",
+      "image color picker",
+      "color palette",
+      "color palette generator",
+      "html color"
+    ]
+  }
+}
