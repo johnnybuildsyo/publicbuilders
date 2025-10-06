@@ -1,0 +1,44 @@
+{
+  "name": "ayet.online",
+  "description": "Discover the timeless wisdom of the Qur’an through translations, recitations, and reflections anytime, anywhere.",
+  "twitter": {
+    "url": "https://x.com/Ayetonline",
+    "followers": 10
+  },
+  "youtube": {
+    "url": "https://www.youtube.com/@ayetonline",
+    "followers": 230
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://www.ayet.online/",
+  "podcast": "https://open.spotify.com/episode/64qAUo1Um8eH9LFJBsL39x?si=L8yLgyAfRvm__6C3Xq-aXQ",
+  "tags": [
+    "religion",
+    "spirituality",
+    "web platform"
+  ],
+  "currentProject": {
+    "name": "ayet.online",
+    "description": "A modern digital platform that brings the timeless wisdom of the Qur’an closer to everyone, everywhere.",
+    "link": "https://www.ayet.online/",
+    "tags": [
+      "religion",
+      "faith",
+      "web site"
+    ]
+  }
+}
