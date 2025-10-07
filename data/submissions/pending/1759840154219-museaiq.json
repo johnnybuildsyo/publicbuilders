@@ -1,0 +1,46 @@
+{
+  "name": "MuseAIQ",
+  "description": "AI-generated image library offering free, royalty-free stock photos and digital art for creators, marketers, and designers.",
+  "twitter": {
+    "handle": ""
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://museaiq.com/",
+  "tags": [
+    "ai",
+    "ai art",
+    "ai image generator",
+    "stock photos"
+  ],
+  "currentProject": {
+    "name": "Alex Morgan",
+    "description": "MuseAIQ is an AI-powered image library that generates and curates high-quality, royalty-free stock photos and digital art. Our platform gives creators, designers, and marketers instant access to unique visuals that stand out from traditional stock sites. Whether you need images for a website, ad campaign, or creative project, MuseAIQ provides unlimited downloads, fast search, and stunning AI-generated results. All free to use for personal and commercial projects.",
+    "link": "https://museaiq.com/",
+    "tags": [
+      "ai",
+      "ai art",
+      "ai image generator",
+      "stock photos",
+      "free stock images",
+      "royalty free photos",
+      "digital art"
+    ]
+  }
+}
