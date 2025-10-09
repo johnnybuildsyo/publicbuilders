@@ -1,0 +1,69 @@
+{
+  "name": "Legalfina Inc",
+  "description": "We have built the \"TurboTax\" equivalent for filling out divorce, child custody and child support complicated court paperwork.",
+  "twitter": {
+    "handle": ""
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://www.legalfina.com/",
+  "tags": [
+    "divorce",
+    "separation",
+    "child support",
+    "child custody",
+    "legaltech",
+    "legal tech",
+    "legal",
+    "law",
+    "child safety",
+    "legal justice",
+    "justice",
+    "paternity",
+    "community property",
+    "summons",
+    "lawyer",
+    "attorney",
+    "division of assets"
+  ],
+  "currentProject": {
+    "name": "Farshad",
+    "description": "We have built the \"TurboTax\" equivalent for filling out divorce, child custody and child support complicated court paperwork.",
+    "link": "https://www.legalfina.com/",
+    "tags": [
+      "divorce",
+      "separation",
+      "child support",
+      "child custody",
+      "legaltech",
+      "legal tech",
+      "legal",
+      "law",
+      "child safety",
+      "legal justice",
+      "justice",
+      "paternity",
+      "community property",
+      "summons",
+      "lawyer",
+      "attorney",
+      "division of assets"
+    ]
+  }
+}
