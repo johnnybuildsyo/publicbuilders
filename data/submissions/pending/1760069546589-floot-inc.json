@@ -1,0 +1,45 @@
+{
+  "name": "Floot Inc",
+  "description": "Floot is a vibe coding platform for non-coders and entrepreneurs to build serious web apps with AI (no coding required). Designed to be super easy to use and powerful, the entire tech stack (backend, database, auth, hosting, etc) is built-in so non-coders can build, host, and scale production-grade apps all in one place.",
+  "twitter": {
+    "handle": ""
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://floot.com",
+  "tags": [
+    "vibecoding",
+    "vibe coding",
+    "no code",
+    "ai app builder",
+    "website builder"
+  ],
+  "currentProject": {
+    "name": "Floot",
+    "description": "The easiest and most powerful vibe coding platform for non-coders to build serious apps with AI.",
+    "link": "https://floot.com",
+    "tags": [
+      "vibecoding",
+      "vibe coding",
+      "no code",
+      "ai app builder",
+      "website builder"
+    ]
+  }
+}
