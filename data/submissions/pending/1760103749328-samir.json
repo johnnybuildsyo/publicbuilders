@@ -1,0 +1,40 @@
+{
+  "name": "Samir",
+  "description": "Sharing posts on linkedin, twitter ",
+  "twitter": {
+    "url": "https://twitter.com/samirbelabbes",
+    "followers": 10
+  },
+  "youtube": {
+    "url": "https://www.youtube.com/@Pageradar",
+    "followers": 13
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "url": "https://github.com/Sambel",
+    "followers": -3
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://pageradar.io/",
+  "tags": [
+    "indie hacking"
+  ],
+  "currentProject": {
+    "name": "Pageradar",
+    "description": "Track website performance, SEO, Core Web Vitals & affiliate links",
+    "link": "https://pageradar.io/",
+    "tags": [
+      "seo"
+    ]
+  }
+}
