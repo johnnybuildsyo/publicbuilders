@@ -1,0 +1,38 @@
+{
+  "name": "oliver benetz",
+  "description": "Flow Veo 3 - AI Video Generate Platform",
+  "twitter": {
+    "handle": ""
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://flowveo3.com",
+  "tags": [
+    "ai"
+  ],
+  "currentProject": {
+    "name": "Flow Veo 3",
+    "description": "Revolutionary AI video synthesis platform engineered for cinematic excellence. Elevate your storytelling with next-generation artificial intelligence that crafts breathtaking visual narratives.",
+    "link": "https://flowveo3.com",
+    "tags": [
+      "ai",
+      "ai video generator"
+    ]
+  }
+}
