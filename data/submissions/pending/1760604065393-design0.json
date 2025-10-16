@@ -1,0 +1,43 @@
+{
+  "name": "Design0",
+  "description": "Design0 is an AI-powered design tool that turns text into images, provides smart image editing, and has a built-in asset library. It simplifies complex workflows, helping you bring your creative ideas to life with ease.",
+  "twitter": {
+    "handle": ""
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://design0.ai",
+  "tags": [
+    "generative ai",
+    "visual content creation",
+    "creative productivity",
+    "ai image toolkit"
+  ],
+  "currentProject": {
+    "name": "Hantian Pang",
+    "description": "Design0 is an AI-powered design tool that turns text into images, provides smart image editing, and has a built-in asset library. It simplifies complex workflows, helping you bring your creative ideas to life with ease.",
+    "link": "https://design0.ai",
+    "tags": [
+      "generative ai",
+      "visual content creation",
+      "creative productivity",
+      "ai image toolkit"
+    ]
+  }
+}
