@@ -1,0 +1,41 @@
+{
+  "name": "Shawn Cao",
+  "description": "Create interactive chart apps and securely share them with your clients allowing them to freely explore the data under your control. \nIt will significantly enhance the trust in your business relationship with your clients while you hold the full control of the shared data.",
+  "twitter": {
+    "handle": ""
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://rechart.app",
+  "tags": [
+    "sharing-data",
+    "data-app",
+    "interactive-chart",
+    "analysis",
+    "live-data"
+  ],
+  "currentProject": {
+    "name": "Rechart",
+    "description": "Create interactive chart apps and securely share them with your clients allowing them to freely explore the data under your control. \nIt will significantly enhance the trust in your business relationship with your clients while you hold the full control of the shared data.",
+    "link": "https://rechart.app",
+    "tags": [
+      "strengthen business relationships by giving clients interactive data apps to explore."
+    ]
+  }
+}
