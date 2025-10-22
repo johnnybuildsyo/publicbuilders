@@ -1,0 +1,41 @@
+{
+  "name": "Tangens Inc",
+  "description": "ShortMotion: Motion Graphics on iPhone",
+  "twitter": {
+    "handle": ""
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://www.tangensinc.com",
+  "tags": [
+    "motion graphics",
+    "video editing",
+    "animation"
+  ],
+  "currentProject": {
+    "name": "Amritpal Singh Sandhu",
+    "description": "Animate your videos and add motion graphics with easy drag and drop actions.\nShortMotion makes it easy to animate text, pictures, or videos. Just add an action into the timeline and you are all set. No complicated timelines or keyframes. This isn’t just another video editor — it’s motion graphics made simple.\nGOODBYE KEYFRAMES. HELLO ACTIONS.\nTake actions: use the pre-set animations that can easily be added, removed, or extended in your timeline. There are dozens of actions to choose from: move, spin, slide, wipe, mask etc.",
+    "link": "https://www.tangensinc.com",
+    "tags": [
+      "motion graphics",
+      "video editing",
+      "animation"
+    ]
+  }
+}
