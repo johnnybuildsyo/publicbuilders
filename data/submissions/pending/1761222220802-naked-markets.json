@@ -1,0 +1,51 @@
+{
+  "name": "Naked-Markets",
+  "description": "Naked-Markets is a very innovative backtesting software helping traders and investors to build and test their strategies on the financial historical data.",
+  "twitter": {
+    "handle": ""
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://www.naked-markets.com/",
+  "tags": [
+    "trading",
+    "backtest",
+    "finance",
+    "personal finance",
+    "fintech",
+    "market simulator",
+    "tradingview",
+    "historical data"
+  ],
+  "currentProject": {
+    "name": "Naked-Markets",
+    "description": "Naked-Markets is aimed to help people build and test investment strategies without losing real money on the markets. \nBy assessing an investment strategy simulated historical markets, the users can see if it's reliable or not.\nIt provides more than 1000+ assets to trade with very accurate data, tick-accuracy and historical spread.\nNaked-Markets has a very unique system to build a 100% automated trading system without coding skills, very easily.\nLot of statistics are available to assess the strength of your investment strategy.\nThe web version is 100% free for swing traders.",
+    "link": "https://www.naked-markets.com/",
+    "tags": [
+      "trading",
+      "backtest",
+      "finance",
+      "personal finance",
+      "fintech",
+      "market simulator",
+      "tradingview",
+      "historical data"
+    ]
+  }
+}
