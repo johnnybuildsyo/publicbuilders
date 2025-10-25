@@ -1,0 +1,46 @@
+{
+  "name": "Juan Chaher Lo Bianco",
+  "description": "Stellar is a lightweight, no-code A/B testing platform that allows you to test any website for free. It is loved by CRO marketers due to its intuitive UI and lightning fast script load time. Its AI powered insights are another valued feature as well.\nWhat makes Stellar different:\n✨ Ridiculously easy to use: clean, clutter-free interface.\n🌐 Works with any site: our AI-first visual editor lets you make changes just by describing them in plain English.\n⚡️ Blazing fast: a 5.4kb script served from a CDN.\n🆓 Free forever tier — no credit card needed.",
+  "twitter": {
+    "handle": ""
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://www.gostellar.app/",
+  "tags": [
+    "ab testing",
+    "marketing",
+    "growth hacking",
+    "analytics"
+  ],
+  "currentProject": {
+    "name": "Stellar",
+    "description": "A lightweight, no-code A/B testing tool for websites, free.",
+    "link": "https://www.gostellar.app/",
+    "tags": [
+      "ab testing",
+      "marketing",
+      "growth hacking",
+      "analytics",
+      "performance marketing",
+      "conversion rate optimization",
+      "cro"
+    ]
+  }
+}
