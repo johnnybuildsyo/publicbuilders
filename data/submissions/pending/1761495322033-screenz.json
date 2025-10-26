@@ -1,0 +1,42 @@
+{
+  "name": "Screenz",
+  "description": "Screenz is a HR Tool that allows you to automate interviews using a dynamic 1-1 live interviews and cut hiring time in half.",
+  "twitter": {
+    "handle": ""
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://screenz.ai",
+  "tags": [
+    "ai interviews",
+    "interview automation tool",
+    "ai recruiter"
+  ],
+  "currentProject": {
+    "name": "Rob Griesmeyer",
+    "description": "Your 24/7 AI interviewer for first-round candidate screening. Conduct dynamic 1-1 live interviews in 74 languages, auto-score responses, and eliminate bias. Sleep while AI qualifies top talent and delivers ranked results to your dashboard.",
+    "link": "https://screenz.ai",
+    "tags": [
+      "ai interviews",
+      "interview automation tool",
+      "ai recruiter interviews",
+      "ai recruiter"
+    ]
+  }
+}
