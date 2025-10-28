@@ -1,0 +1,50 @@
+{
+  "name": "Caffeine Clock",
+  "description": "Best caffeine tracker to improve your sleep.",
+  "twitter": {
+    "handle": ""
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://www.caffeineclock.app/",
+  "tags": [
+    "caffeine",
+    "tracker",
+    "caffeine tracker",
+    "sleep",
+    "better sleep",
+    "coffee",
+    "tea",
+    "energy"
+  ],
+  "currentProject": {
+    "name": "Antonín Wingender",
+    "description": "Best caffeine tracker to improve your sleep.",
+    "link": "https://www.caffeineclock.app/",
+    "tags": [
+      "caffeine",
+      "tracker",
+      "caffeine tracker",
+      "sleep",
+      "better sleep",
+      "coffee",
+      "tea"
+    ]
+  }
+}
