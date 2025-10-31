@@ -1,0 +1,92 @@
+{
+  "name": "Scofield",
+  "description": "...",
+  "twitter": {
+    "url": "https://twitter.com/@scofieldfee",
+    "followers": 1
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://www.fluxkontext.biz",
+  "tags": [
+    "AI Watermark Remover",
+    "AI Background Remover",
+    "AI Headshot Generator",
+    "AI Hairstyle Changer",
+    "AI Magic Eraser",
+    "AI Quality Enhancer",
+    "AI Noise Reduction",
+    "AI Color Correction",
+    "AI Lighting Fix",
+    "Ghibli Style",
+    "Anime Portrait",
+    "Cartoon Style",
+    "Pencil Sketch",
+    "Watercolor",
+    "Oil Painting",
+    "Pixel Art",
+    "Cyberpunk",
+    "Vaporwave",
+    "Vintage Photo",
+    "Black & White",
+    "Landscape",
+    "Digital Art",
+    "Creative Tools",
+    "Design",
+    "Image Editing",
+    "Visual Creation",
+    "AI Technology",
+    "Flux Kontext"
+  ],
+  "currentProject": {
+    "name": "Flux Kontext AI",
+    "description": "Flux Kontext is an AI image generation and editing platform that lets you create and refine visuals with natural language precision.",
+    "link": "https://www.fluxkontext.biz",
+    "tags": [
+      "AI Watermark Remover",
+      "AI Background Remover",
+      "AI Headshot Generator",
+      "AI Hairstyle Changer",
+      "AI Magic Eraser",
+      "AI Quality Enhancer",
+      "AI Noise Reduction",
+      "AI Color Correction",
+      "AI Lighting Fix",
+      "Ghibli Style",
+      "Anime Portrait",
+      "Cartoon Style",
+      "Pencil Sketch",
+      "Watercolor",
+      "Oil Painting",
+      "Pixel Art",
+      "Cyberpunk",
+      "Vaporwave",
+      "Vintage Photo",
+      "Black & White",
+      "Landscape",
+      "Digital Art",
+      "Creative Tools",
+      "Design",
+      "Image Editing",
+      "Visual Creation",
+      "AI Technology",
+      "Flux Kontext"
+    ]
+  }
+}
