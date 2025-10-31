@@ -1,0 +1,45 @@
+{
+  "name": "Paul de Brabander",
+  "description": "Automate your data transformations and other repetitive tasks. ScriptoMate runs on desktops and servers running..",
+  "twitter": {
+    "handle": ""
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://scriptomate.com",
+  "tags": [
+    "productivity",
+    "low code",
+    "no code",
+    "data transformations",
+    "repetative tasks"
+  ],
+  "currentProject": {
+    "name": "ScriptoMate",
+    "description": "ScriptoMate is designed for productivity and performance.\nAutomate your data transformations and other repetitive tasks. ScriptoMate © runs on desktops and servers running the MS-Windows © operating system, and is designed for productivity and performance. It has more than 300 predefined actions and more than 240 predefined functions. It supports all common file formats (CSV, fixed length, Excel, Xml, Json, and Html) and databases (Sqlite, Odbc, OleDb, and SqlServer). Use the Visual Designer to compose and run scenarios within minutes.\nScriptoMate is intended for End Users and Citizen developers, so no programming skills are required.",
+    "link": "https://scriptomate.com",
+    "tags": [
+      "productivity",
+      "low code",
+      "no code",
+      "data transformations",
+      "repetative tasks"
+    ]
+  }
+}
