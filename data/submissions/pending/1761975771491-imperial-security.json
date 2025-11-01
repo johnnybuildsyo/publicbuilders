@@ -1,0 +1,41 @@
+{
+  "name": "Imperial Security",
+  "description": "Hire SIA Licensed, Insured & Vetted Security Guards. Security guard services for all business sectors like Event security & corporate security & door supervisors",
+  "twitter": {
+    "handle": ""
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://imperialsecurity.agency",
+  "newsletter": "https://imperialsecurity.agency/security-articles/",
+  "writing": "https://imperialsecurity.agency/security-articles/feed/",
+  "tags": [
+    "security guard services",
+    "door supervisor"
+  ],
+  "currentProject": {
+    "name": "Imperial Security",
+    "description": "Hire SIA licensed security guards for UK businesses across all sectors providing professional manned guarding, asset protection, 24/7 site security",
+    "link": "https://imperialsecurity.agency",
+    "tags": [
+      "security guard services",
+      "door supervisor"
+    ]
+  }
+}
