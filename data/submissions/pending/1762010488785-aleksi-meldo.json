@@ -1,0 +1,43 @@
+{
+  "name": "Aleksi Meldo",
+  "description": "See how your brand shows up in AI answers every day. Geosaur runs prompts across generative engines, reveals the sources behind them, and gives you the insights to stay visible and relevant in the new era of search.",
+  "twitter": {
+    "handle": ""
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://www.geosaur.com",
+  "tags": [
+    "seo",
+    "geo",
+    "search analytics",
+    "ai analytics"
+  ],
+  "currentProject": {
+    "name": "Geosaur",
+    "description": "AI search analytics for the future of search.",
+    "link": "https://www.geosaur.com",
+    "tags": [
+      "seo",
+      "geo",
+      "search analytics",
+      "ai analytics"
+    ]
+  }
+}
