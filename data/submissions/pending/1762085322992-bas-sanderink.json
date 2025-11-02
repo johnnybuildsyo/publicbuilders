@@ -1,0 +1,45 @@
+{
+  "name": "Bas Sanderink",
+  "description": "Real-time alerts on competitor ads",
+  "twitter": {
+    "handle": ""
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://adpeekr.com/",
+  "tags": [
+    "digitalmarketing",
+    "ecommarketing",
+    "online marketing software",
+    "online marketing tool",
+    "online marketing tools"
+  ],
+  "currentProject": {
+    "name": "AdPeekr",
+    "description": "AdPeekr is a smart tool that tracks your competitors’ paid ads in real time. The moment a competitor launches a new ad on platforms like Instagram Ads or Google Ads you get an instant alert.\nPerfect for anyone running paid ads who wants to stay ahead, react faster, and outsmart the competition.\n",
+    "link": "https://adpeekr.com/",
+    "tags": [
+      "digitalmarketing",
+      "ecommarketing",
+      "online marketing software",
+      "online marketing tool",
+      "online marketing tools"
+    ]
+  }
+}
