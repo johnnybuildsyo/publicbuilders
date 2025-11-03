@@ -1,0 +1,49 @@
+{
+  "name": "Love Horoscope Daily",
+  "description": "Love Horoscope Daily is a gentle and comforting astrology website made to stay by your side.",
+  "twitter": {
+    "url": "https://x.com/LoveHoroscopeD",
+    "followers": 7
+  },
+  "youtube": {
+    "url": "https://www.youtube.com/@LoveHoroscopeDaily",
+    "followers": 1
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://www.lovehoroscopedaily.com",
+  "tags": [
+    "love horoscope",
+    "love horoscope daily",
+    "daily horoscope",
+    "tarot",
+    "love tarot",
+    "love calculator"
+  ],
+  "currentProject": {
+    "name": "Love Horoscope Daily",
+    "description": "At Love Horoscope Daily, we help you navigate romantic feelings, answer difficult emotional questions, and explore real compatibility, through free daily love horoscopes, accurate tarot spreads, and insightful astrology based love tests. Whether you're in a relationship, waiting for one, or healing from the last, we are here to help you feel seen and supported.",
+    "link": "https://www.lovehoroscopedaily.com/",
+    "tags": [
+      "love horoscope",
+      "love horoscope daily",
+      "daily horoscope",
+      "tarot",
+      "love tarot",
+      "love calculator"
+    ]
+  }
+}
