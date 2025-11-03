@@ -1,0 +1,45 @@
+{
+  "name": "Arthur Yuzbashev",
+  "description": "Organic Reddit Marketing without getting suspended",
+  "twitter": {
+    "handle": ""
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://www.mediafa.st/",
+  "tags": [
+    "reddit-marketing",
+    "startup-growth",
+    "indiehacker",
+    "saas"
+  ],
+  "currentProject": {
+    "name": "MediaFast",
+    "description": "MediaFa.st helps founders grow their startups organically on Reddit.\nWe create 30-day custom growth roadmaps — showing exactly what to post, where to comment, and how to build trust without getting banned.\n✅ Platform-specific roadmaps (Reddit, X, LinkedIn, Bluesky)\n✅ Daily post & comment plan for a full month\n✅ Subreddit suggestions tailored to your niche\n✅ Real-time analytics & performance tracking\nBuilt for makers, SaaS founders, and agencies who want real attention — not ads.\nGrow smarter, one authentic post at a time.",
+    "link": "https://www.mediafa.st/",
+    "tags": [
+      "reddit-marketing",
+      "startup-growth",
+      "indiehacker",
+      "saas",
+      "organic-marketing",
+      "founder-story"
+    ]
+  }
+}
