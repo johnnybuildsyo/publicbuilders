@@ -1,0 +1,43 @@
+{
+  "name": "Andrew Petrovics",
+  "description": "Convert videos into awesome blog posts.",
+  "twitter": {
+    "handle": ""
+  },
+  "youtube": {
+    "handle": ""
+  },
+  "twitch": {
+    "handle": ""
+  },
+  "github": {
+    "handle": ""
+  },
+  "bluesky": {
+    "handle": ""
+  },
+  "reddit": {
+    "handle": ""
+  },
+  "producthunt": {
+    "handle": ""
+  },
+  "website": "https://www.videoToBlog.ai",
+  "tags": [
+    "content marketing",
+    "ai tools",
+    "ai writing",
+    "content repurposing"
+  ],
+  "currentProject": {
+    "name": "Video To Blog",
+    "description": "Instantly convert videos into SEO optimized blog posts using AI. Simple paste in a YouTube link (or upload a video) and get an awesome, SEO-optimized blog article. Automatically include relevant video screenshots, internal/external links, FAQs, and more. Customize the tone/structure by uploading writing samples or supplying custom instructions. Export posts directly to your website using one of our many integrations (Wordpress, Shopify, Blogger, Medium, Zapier, and more). Automate your workflow by setting up an automation to automatically create blog posts any time a new video is released on a particular YouTube channel.",
+    "link": "https://www.videoToBlog.ai",
+    "tags": [
+      "content marketing",
+      "ai tools",
+      "ai writing",
+      "content repurposing"
+    ]
+  }
+}
